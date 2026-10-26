@@ -43,8 +43,8 @@ export function renderPlace(root, id) {
       ${p.precision === "area" ? `<p class="warn">The pin shows the area only; check the address before you go.</p>` : ""}
       ${here != null ? `<p class="fromyou">${formatDistance(here)} from you${here < 2.5 ? ` · about ${walkMinutes(here)} min walk` : ""}</p>` : ""}
       <div class="actions">
-        ${p.main.url ? `<a class="btn primary" href="${esc(p.main.url)}" target="_blank" rel="noopener">${isInstagram(p.main.url) ? "Instagram" : "Website"} ↗</a>` : ""}
-        <a class="btn${p.main.url ? "" : " primary"}" href="${esc(directionsUrl(p) || p.main.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
+        ${p.main.url ? `<a class="btn primary" href="${esc(p.main.url)}" target="_blank" rel="noopener">${isInstagram(p.main.url) ? "Instagram" : "Website"} ↗</a>` : `<a class="btn primary" href="${esc(p.main.mapUrl)}" target="_blank" rel="noopener">Maps ↗</a>`}
+        <a class="btn" href="${esc(directionsUrl(p) || p.main.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
         ${p.lat != null ? `<a class="btn" href="#/map/${p.id}">Show on map</a>` : ""}
       </div>
       ${tagLinks ? `<div class="taglist"><h3>Tags</h3>${tagLinks}</div>` : ""}

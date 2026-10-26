@@ -50,6 +50,12 @@ def main():
     if len(original) != len(rebuilt):
         errors.append(f"entry count: original {len(original)}, rebuilt {len(rebuilt)}")
     for i, (o, r) in enumerate(zip(original, rebuilt)):
+        # A name that had no link in the source may gain one in the data; that is an
+        # addition, not a change, so compare it unwrapped. A source link that changed
+        # or vanished still shows up as a difference.
+        if not re.match(r'<article class="e"><h4><a ', o):
+            r = re.sub(r'^<article class="e"><h4><a [^>]*>(.*?) <span class="arr">↗</span></a></h4>',
+                       r'<article class="e"><h4>\1</h4>', r)
         if o != r:
             errors.append(f"entry {i} differs:\n  original: {o[:300]}\n  rebuilt:  {r[:300]}")
     for pid, n in used.items():
@@ -125,7 +131,7 @@ def main():
         print("FAIL")
         print("\n".join(errors[:40]))
         sys.exit(1)
-    print(f"OK: {len(rebuilt)} entries rebuilt byte for byte ({len(places)} places, {n_listings} listings), "
+    print(f"OK: {len(rebuilt)} entries rebuilt byte for byte apart from new name links ({len(places)} places, {n_listings} listings), "
           f"{len(figs)} images identical, no unaccounted text")
 
 
