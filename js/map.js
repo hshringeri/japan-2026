@@ -56,7 +56,8 @@ function build() {
   drawStays();
   drawPlaces(false);
   drawDay();
-  frame();
+  // The first framing must not animate, or its animation can land after a jump to a place and undo it
+  frame(false);
   drawHere();
   // Ask for location when the map first opens; the browser remembers the answer
   startLocation();
@@ -104,19 +105,19 @@ function drawDay() {
   }
 }
 
-function frame() {
+function frame(animate = true) {
   if (app.date) {
     const day = app.data.trip.dayByDate[app.date];
     const pts = day.items.filter((i) => i.lat != null).map((i) => [i.lat, i.lng]);
     const a = dayAnchor(app.data.trip, app.date);
     if (a) pts.push([a.lat, a.lng]);
-    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 15 });
+    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 15, animate });
     toast(`Looking ahead to ${formatDay(app.date)}${a ? ` around ${a.label}` : ""}`);
   } else if (hereInJapan()) {
-    map.setView([app.here.lat, app.here.lng], 15);
+    map.setView([app.here.lat, app.here.lng], 15, { animate });
   } else {
     const pts = app.data.places.filter((p) => p.lat != null && matches(p));
-    if (pts.length) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16 });
+    if (pts.length) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16, animate });
   }
 }
 
@@ -162,7 +163,7 @@ function distLine(p) {
   return `<span class="dist">${formatDistance(km)} away${km < 2.5 ? ` · ${walkMinutes(km)} min walk` : ""}</span>`;
 }
 
-export function openPlace(p, item) {
+export function openPlace(p, item, pan = true) {
   const l = p.main;
   sheet.innerHTML = `
     <button type="button" class="close" aria-label="Close">×</button>
@@ -180,7 +181,7 @@ export function openPlace(p, item) {
       <a class="btn" href="${esc(directionsUrl(p) || l.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
     </div>`;
   sheet.hidden = false;
-  map.panTo([p.lat, p.lng], { animate: true });
+  if (pan) map.panTo([p.lat, p.lng], { animate: true });
 }
 
 function openStay(s) {
@@ -216,6 +217,7 @@ function closeSheet() { sheet.hidden = true; }
 
 export function focusPlace(p) {
   showMap();
-  map.setView([p.lat, p.lng], 17);
-  openPlace(p);
+  // Jump without animating: a long animated zoom can be cut short by the map's first layout
+  map.setView([p.lat, p.lng], 16, { animate: false });
+  openPlace(p, null, false);
 }
