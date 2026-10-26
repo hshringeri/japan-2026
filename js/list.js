@@ -48,8 +48,8 @@ function row(p) {
   const flags = (p.tags?.flags || []).filter((f) => f !== "Walk-in").slice(0, 3);
   const detail = [...(p.tags?.cuisine || []), ...(p.tags?.genre || []), ...(p.tags?.style || [])].slice(0, 3);
   const dist = p.dist != null ? `<span class="dist">${formatDistance(p.dist)}${p.dist < 2.5 ? `<small>${walkMinutes(p.dist)} min walk</small>` : ""}</span>` : "";
-  return `<li><a class="row${p.photo ? " hasthumb" : ""}" href="#/place/${p.id}">
-    ${p.photo ? `<img class="thumb" src="${esc(p.photo.src)}" alt="" loading="lazy" decoding="async">` : `<span class="dot" style="--c:${p.color}"></span>`}
+  return `<li><a class="row" href="#/place/${p.id}">
+    <span class="dot" style="--c:${p.color}"></span>
     <span class="body">
       <span class="name">${esc(p.name)}</span>
       <span class="sub">${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>

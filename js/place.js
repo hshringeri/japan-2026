@@ -29,7 +29,6 @@ export function renderPlace(root, id) {
         ${p.neighbourhood && p.neighbourhood !== p.area ? ` › <span>${esc(p.neighbourhood)}</span>` : ""}
       </p>
       <h1>${esc(p.name)}</h1>
-      ${p.photo ? `<figure class="pphoto"><img src="${esc(p.photo.src)}" alt="${esc(p.name)}" loading="lazy" decoding="async"><figcaption>Photo: ${esc(p.photo.credit)} · ${esc(p.photo.lic)}</figcaption></figure>` : ""}
       <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${esc(kindName[k])}</button>`).join("")}</p>
       ${planned.map(({ d, i }) => `<p class="planned">On the plan: ${esc(formatDay(d.date))}${i.time ? ` at ${esc(i.time)}` : ""}${i.notes ? ` · ${esc(i.notes)}` : ""}</p>`).join("")}
       ${p.listings.map((l) => `
