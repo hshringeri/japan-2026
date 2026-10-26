@@ -74,11 +74,9 @@ button { font: inherit; color: inherit; }
 .row:active { background: #ebe4d7; }
 /* Hover (desktop) lights the row; .lit is its pin lit from the map */
 .row.lit, .row:hover { background: #ebe4d7; }
+/* The pin the list is pointing at jumps out */
 .pin.lit span { transform: scale(1.6); border-color: var(--ink); box-shadow: 0 0 0 3px var(--paper), 0 1px 6px rgba(0, 0, 0, .5); }
 .pin span { transition: transform .12s ease-out, border-color .12s, box-shadow .12s; }
-/* Ring around the pin the list is pointing at; also shows over a cluster */
-.pinhalo { border: 3px solid var(--ink); border-radius: 50%; box-shadow: 0 0 0 3px var(--paper), 0 2px 8px rgba(0, 0, 0, .4); animation: halo .6s ease-out; }
-@keyframes halo { from { transform: scale(.4); opacity: .4; } }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-top: 5px; display: inline-block; flex: none; }
 .row .body { display: grid; gap: 2px; min-width: 0; }
 .row .name { font: 800 16px/1.2 var(--sans); }

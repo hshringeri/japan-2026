@@ -3,6 +3,7 @@ import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay 
 import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan } from "./state.js";
+import { KIND_EMOJI, isInstagram } from "./data.js";
 
 let mini;
 
@@ -29,7 +30,7 @@ export function renderPlace(root, id) {
         ${p.neighbourhood && p.neighbourhood !== p.area ? ` › <span>${esc(p.neighbourhood)}</span>` : ""}
       </p>
       <h1>${esc(p.name)}</h1>
-      <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${esc(kindName[k])}</button>`).join("")}</p>
+      <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${KIND_EMOJI[k] || ""} ${esc(kindName[k])}</button>`).join("")}</p>
       ${planned.map(({ d, i }) => `<p class="planned">On the plan: ${esc(formatDay(d.date))}${i.time ? ` at ${esc(i.time)}` : ""}${i.notes ? ` · ${esc(i.notes)}` : ""}</p>`).join("")}
       ${p.listings.map((l) => `
         <section class="listing">
@@ -42,7 +43,7 @@ export function renderPlace(root, id) {
       ${p.precision === "area" ? `<p class="warn">The pin shows the area only; check the address before you go.</p>` : ""}
       ${here != null ? `<p class="fromyou">${formatDistance(here)} from you${here < 2.5 ? ` · about ${walkMinutes(here)} min walk` : ""}</p>` : ""}
       <div class="actions">
-        ${p.main.url ? `<a class="btn primary" href="${esc(p.main.url)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+        ${p.main.url ? `<a class="btn primary" href="${esc(p.main.url)}" target="_blank" rel="noopener">${isInstagram(p.main.url) ? "Instagram" : "Website"} ↗</a>` : ""}
         <a class="btn${p.main.url ? "" : " primary"}" href="${esc(directionsUrl(p) || p.main.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
         ${p.lat != null ? `<a class="btn" href="#/map/${p.id}">Show on map</a>` : ""}
       </div>

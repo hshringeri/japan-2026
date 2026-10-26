@@ -14,6 +14,24 @@ export const KIND_COLORS = {
   play: "#2b6cb0", unwind: "#0e7490", cars: "#4a5568",
 };
 
+// Emoji per category, the kind's mark as the fallback
+export const KIND_EMOJI = { shop: "👕", music: "🎷", drink: "🍸", eat: "🍜", play: "🎮", unwind: "♨️", cars: "🚗" };
+export const CATEGORY_EMOJI = {
+  "Streetwear & Vintage": "👕", "Archive & Designer Vintage": "👗", "Watches & Vintage Hobby": "⌚",
+  "Gorpcore & Snow": "🏔️", "Vintage Nintendo": "🍄",
+  "Underground Music": "🎸", "Electronic & Clubs": "🎛️", "Jazz Bars": "🎷", "Vinyl Bars": "💿",
+  "Beer & Whisky": "🥃", "Cool Bars": "🍸", "After Dark": "🌙",
+  Izakaya: "🍺", Omakase: "🍣", Indian: "🍛", Brunch: "🥞", "Good Food": "🍜",
+  "Board Game Bars": "🎲", "Pool Bars": "🎱", "Golf & Driving Range": "⛳", "Bowling Alleys": "🎳",
+  "Gaming Cafes": "🎮", "Maid Cafes": "☕",
+  "Onsen & Sento": "♨️", "Hidden Temples & Shrines": "⛩️",
+  "JDM Culture": "🚗",
+};
+export const catEmoji = (p) => CATEGORY_EMOJI[p.categories[0]] || KIND_EMOJI[p.kind] || "•";
+export function isInstagram(url) {
+  try { return !!url && /(^|\.)instagram\.com$/.test(new URL(url).hostname); } catch { return false; }
+}
+
 export async function loadData() {
   const [places, guide, taxonomy, trip] = await Promise.all([
     json("data/places.json"), json("data/guide.json"), json("data/taxonomy.json"), json("data/trip.json", true),

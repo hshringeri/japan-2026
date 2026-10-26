@@ -2,6 +2,7 @@ import { esc, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.j
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
+import { catEmoji } from "./data.js";
 import { highlightPlace } from "./map.js";
 
 export function mountList(root) {
@@ -70,7 +71,7 @@ function row(p) {
     <span class="dot" style="--c:${p.color}"></span>
     <span class="body">
       <span class="name">${esc(p.name)}</span>
-      <span class="sub">${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
+      <span class="sub">${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
       <span class="desc">${esc(p.main.desc)}</span>
       ${detail.length || flags.length ? `<span class="tags">${[...detail, ...flags].map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
     </span>${dist}</a></li>`;

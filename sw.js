@@ -1,6 +1,6 @@
 // Offline support. The app's own files go network first so updates land straight away,
 // with the cache as a fallback underground. Map tiles and CDN libraries go cache first.
-const APP = "app-v4";
+const APP = "app-v5";
 const TILES = "tiles-v1";
 const MAX_TILES = 1500;
 

@@ -4,7 +4,7 @@ import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
-import { dayAnchor } from "./data.js";
+import { dayAnchor, catEmoji, isInstagram } from "./data.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
 let map, cluster, dayLayer, stayLayer, hereMarker, hereRing, sheet, root;
@@ -81,25 +81,12 @@ function pin(p) {
 }
 
 // Light a pin from the list side (or any view that knows the place).
-// The halo is a separate marker so it shows even when the pin is inside a cluster.
-let halo;
 export function highlightPlace(id, on) {
-  const p = id && app.data.byId[id];
-  if (on && p && p.lat != null) {
-    if (halo) halo.remove();
-    halo = L.marker([p.lat, p.lng], {
-      icon: L.divIcon({ className: "pinhalo", iconSize: [34, 34] }), interactive: false, zIndexOffset: 1500,
-    }).addTo(map);
-  } else if (!on && halo) {
-    halo.remove();
-    halo = null;
-  }
   const m = markers.get(id);
-  if (m) {
-    const el = m.getElement();
-    el?.classList.toggle("lit", on);
-    m.setZIndexOffset(on ? 600 : 0);
-  }
+  if (!m) return;
+  const el = m.getElement();
+  el?.classList.toggle("lit", on);
+  m.setZIndexOffset(on ? 600 : 0);
 }
 
 // Keep one pin lit until something else takes over (the open sheet, a place page)
@@ -115,7 +102,6 @@ function drawPlaces(refit) {
   markers.clear();
   cluster.addLayers(pts.map(pin));
   if (stickyPin && markers.has(stickyPin)) highlightPlace(stickyPin, true);
-  else if (halo) { halo.remove(); halo = null; }
   if (refit && pts.length && !app.date) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16 });
 }
 
@@ -212,7 +198,7 @@ export function openPlace(p, item, pan = true) {
   const l = p.main;
   sheet.innerHTML = `
     <button type="button" class="close" aria-label="Close">×</button>
-    <p class="kicker"><span class="dot" style="--c:${p.color}"></span>${esc(p.area)} · ${esc(p.categories.join(", "))}</p>
+    <p class="kicker"><span class="dot" style="--c:${p.color}"></span>${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}</p>
     <h2>${esc(p.name)}</h2>
     ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
     <p class="desc">${esc(l.desc)}</p>
@@ -222,7 +208,7 @@ export function openPlace(p, item, pan = true) {
     ${distLine(p)}
     <div class="actions">
       <a class="btn primary" href="#/place/${p.id}">Details</a>
-      ${l.url ? `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+      ${l.url ? `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${isInstagram(l.url) ? "Instagram" : "Website"} ↗</a>` : ""}
       <a class="btn" href="${esc(directionsUrl(p) || l.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
     </div>`;
   sheet.hidden = false;
