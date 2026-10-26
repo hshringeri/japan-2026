@@ -15,8 +15,9 @@ export const KIND_COLORS = {
 };
 
 export async function loadData() {
-  const [places, guide, taxonomy, trip] = await Promise.all([
+  const [places, guide, taxonomy, trip, photos] = await Promise.all([
     json("data/places.json"), json("data/guide.json"), json("data/taxonomy.json"), json("data/trip.json", true),
+    json("data/photos.json", true),
   ]);
 
   const kindName = Object.fromEntries(taxonomy.kinds.map((k) => [k.id, k.name]));
@@ -29,6 +30,7 @@ export async function loadData() {
     p.area = p.area || p.hood || cityName[p.city];
     p.kind = p.kinds[0];
     p.color = KIND_COLORS[p.kind];
+    p.photo = photos?.[p.id] || null;
     p.cityName = cityName[p.city];
     p.allTags = Object.values(p.tags || {}).flat();
     p.search = fold([

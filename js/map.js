@@ -1,5 +1,5 @@
 /* global L */
-import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl } from "./util.js";
+import { esc, photoImg, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, startLocation, hereInJapan, setDate } from "./state.js";
@@ -170,6 +170,7 @@ export function openPlace(p, item, pan = true) {
   const l = p.main;
   sheet.innerHTML = `
     <button type="button" class="close" aria-label="Close">×</button>
+    ${photoImg(p, "sheetphoto")}
     <p class="kicker"><span class="dot" style="--c:${p.color}"></span>${esc(p.area)} · ${esc(p.categories.join(", "))}</p>
     <h2>${esc(p.name)}</h2>
     ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}

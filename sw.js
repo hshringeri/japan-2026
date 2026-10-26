@@ -3,12 +3,13 @@
 const APP = "app-v2";
 const TILES = "tiles-v1";
 const MAX_TILES = 1500;
+const PHOTOS = "photos-v1";
 
 const SHELL = [
   "./", "index.html", "app.css", "guide.css", "manifest.webmanifest",
   "js/app.js", "js/data.js", "js/filter.js", "js/filterbar.js", "js/guide.js", "js/list.js",
   "js/map.js", "js/basemap.js", "js/place.js", "js/plan.js", "js/state.js", "js/util.js",
-  "data/places.json", "data/guide.json", "data/taxonomy.json", "data/trip.json",
+  "data/places.json", "data/photos.json", "data/guide.json", "data/taxonomy.json", "data/trip.json",
   "img/icon.svg", "img/icon-192.png",
 ];
 
@@ -17,7 +18,7 @@ self.addEventListener("install", (e) => {
 });
 
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== APP && k !== TILES).map((k) => caches.delete(k))))
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => ![APP, TILES, PHOTOS].includes(k)).map((k) => caches.delete(k))))
     .then(() => self.clients.claim()));
 });
 
@@ -37,6 +38,18 @@ self.addEventListener("fetch", (e) => {
       if (hit) return hit;
       const res = await fetch(e.request);
       if (res.ok || res.type === "opaque") { c.put(e.request, res.clone()); trimTiles(); }
+      return res;
+    }));
+    return;
+  }
+
+  // Place photos live on other sites; keep each one once seen so they show offline
+  if (url.origin !== location.origin && e.request.destination === "image") {
+    e.respondWith(caches.open(PHOTOS).then(async (c) => {
+      const hit = await c.match(e.request);
+      if (hit) return hit;
+      const res = await fetch(e.request);
+      if (res.ok || res.type === "opaque") c.put(e.request, res.clone());
       return res;
     }));
     return;

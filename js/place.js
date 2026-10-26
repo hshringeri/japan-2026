@@ -1,5 +1,5 @@
 /* global L */
-import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay } from "./util.js";
+import { esc, photoFigure, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan } from "./state.js";
@@ -23,6 +23,7 @@ export function renderPlace(root, id) {
   root.innerHTML = `
     <header class="viewhead"><button type="button" class="back">‹ Back</button></header>
     <article class="place">
+      ${photoFigure(p)}
       <p class="crumbs">
         <button type="button" data-set='{"city":"${p.city}"}'>${esc(p.cityName)}</button> ›
         <button type="button" data-set='${esc(JSON.stringify({ city: p.city, area: p.area }))}'>${esc(p.area)}</button>

@@ -4,6 +4,18 @@ export const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#x27;" };
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ESC[c]);
 
+// A place's photo. Ones from Wikimedia found by location show the street, not the place itself.
+export function photoImg(p, cls = "") {
+  if (!p.photo) return "";
+  return `<img class="${cls}" src="${esc(p.photo.src)}" alt="" title="Photo: ${esc(p.photo.credit)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">`;
+}
+export function photoFigure(p) {
+  if (!p.photo) return "";
+  const { link, credit, source } = p.photo;
+  const note = source === "site" ? "Photo from" : source === "commons-name" ? "Photo:" : "Nearby, not the place itself ·";
+  return `<figure class="photo">${photoImg(p)}<figcaption>${note} <a href="${esc(link)}" target="_blank" rel="noopener">${esc(credit)}</a></figcaption></figure>`;
+}
+
 // Lowercase, strip accents and punctuation so "Shimo-kita" finds "Shimokitazawa"
 export const fold = (s) =>
   String(s ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9぀-鿿]+/g, "");
