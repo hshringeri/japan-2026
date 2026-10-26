@@ -1,4 +1,4 @@
-import { fold } from "./util.js";
+import { fold, distanceKm } from "./util.js";
 
 async function json(path, optional = false) {
   const res = await fetch(path, { cache: "no-cache" });
@@ -63,6 +63,27 @@ function prepareTrip(trip, byId) {
 
 // Everywhere you'll be on a trip day: that night's stay plus the day's stops.
 // Places are ranked by distance to the nearest of these points.
+// The guide areas a day's stops fall in, in the order you reach them. Each stop takes the area
+// its nearest guide places point to, closer ones counting for more; stops with no guide place
+// close by add none.
+export function dayAreas(data, date) {
+  const day = data.trip?.dayByDate[date];
+  if (!day) return [];
+  const inCity = data.places.filter((p) => p.city === day.city && p.lat != null);
+  const stops = day.items.filter((i) => i.lat != null);
+  if (day.stayObj?.lat != null) stops.unshift(day.stayObj);
+  const out = [];
+  for (const s of stops) {
+    const near = inCity.map((p) => [distanceKm(s, p), p]).filter(([d]) => d < 1.5).sort((a, b) => a[0] - b[0]).slice(0, 5);
+    if (!near.length) continue;
+    const votes = new Map();
+    for (const [d, p] of near) votes.set(p.area, (votes.get(p.area) || 0) + 1 / Math.max(d, 0.05));
+    const area = [...votes].sort((a, b) => b[1] - a[1])[0][0];
+    if (!out.includes(area)) out.push(area);
+  }
+  return out;
+}
+
 export function dayAnchor(trip, date) {
   const day = trip?.dayByDate[date];
   if (!day) return null;

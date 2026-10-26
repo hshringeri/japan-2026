@@ -2,17 +2,20 @@ import { fold, storage } from "./util.js";
 
 // One filter shared by the list and the map. Levels drill down in this order:
 // city → area → kind → category → detail tags (cuisine, genre, style) → practical flags.
-const EMPTY = { city: null, area: null, kind: null, category: null, tags: [], q: "" };
+// Area holds a list: a day that covers Shibuya and Shinjuku picks both.
+const EMPTY = { city: null, area: [], kind: null, category: null, tags: [], q: "" };
+const areas = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
 
 const listeners = new Set();
 const preset = new URLSearchParams(location.search).get("f");
 export const filter = { ...EMPTY, ...(preset ? JSON.parse(preset) : storage.get("filter", {})) };
+filter.area = areas(filter.area);
 
 export function setFilter(patch) {
   Object.assign(filter, patch);
-  // Dropping a level clears the levels that only make sense beneath it
-  if ("city" in patch && !patch.city) filter.area = null;
-  if ("city" in patch && patch.city && filter.area && !patch.area) filter.area = null;
+  if ("area" in patch) filter.area = areas(patch.area);
+  // Changing city clears the areas that belonged to the old one
+  else if ("city" in patch) filter.area = [];
   if ("kind" in patch && patch.kind !== undefined) {
     filter.category = null;
     filter.tags = filter.tags.filter((t) => t.startsWith("flags:"));
@@ -30,7 +33,7 @@ export function toggleTag(tag) {
 
 export function matches(p, f = filter) {
   if (f.city && p.city !== f.city) return false;
-  if (f.area && p.area !== f.area) return false;
+  if (f.area.length && !f.area.includes(p.area)) return false;
   if (f.kind && !p.kinds.includes(f.kind)) return false;
   if (f.category && !p.categories.includes(f.category)) return false;
   const byFacet = {};
@@ -74,7 +77,11 @@ export function suggestions(places, data, f = filter) {
 
   const place = () => {
     if (!f.city) add("city", "City", counts(results, (p) => [p.city]), { name: (v) => data.cityName[v], min: 0 });
-    else if (!f.area) add("area", "Area", counts(results, (p) => [p.area]));
+    else {
+      // Other areas you could add, counted as if no area were picked
+      const all = places.filter((p) => matches(p, { ...f, area: [] }));
+      add("area", "Area", counts(all, (p) => [p.area]).filter(([v]) => !f.area.includes(v)), { min: f.area.length ? 0 : 1 });
+    }
   };
   const what = () => {
     if (!f.kind) add("kind", "What", kindsHere, { name: (v) => data.kindName[v] });
@@ -87,9 +94,9 @@ export function suggestions(places, data, f = filter) {
       add(facet, null, counts(results, (p) => p.tags?.[facet] || []).filter(([v]) => !f.tags.includes(`${facet}:${v}`)), { narrowOnly: true, min: 0 });
     }
   };
-  // Once you've said what you want (Eat), its types and cuisines come before more places
-  if (f.kind) { what(); place(); } else { place(); what(); }
-  if (f.category || f.area || results.length <= 60) {
+  // Once you've said where or what (Shibuya, Eat), the next step down comes before more places
+  if (f.kind || f.area.length) { what(); place(); } else { place(); what(); }
+  if (f.category || f.area.length || results.length <= 60) {
     add("flags", null, counts(results, (p) => p.tags?.flags || []).filter(([v]) => !f.tags.includes(`flags:${v}`)), { narrowOnly: true, min: 0 });
   }
   return { results, groups };
@@ -99,7 +106,7 @@ export function suggestions(places, data, f = filter) {
 export function picked(data, f = filter) {
   const out = [];
   if (f.city) out.push({ key: "city", label: data.cityName[f.city] });
-  if (f.area) out.push({ key: "area", label: f.area });
+  for (const a of f.area) out.push({ key: "area", value: a, label: a });
   if (f.kind) out.push({ key: "kind", label: data.kindName[f.kind] });
   if (f.category) out.push({ key: "category", label: f.category });
   for (const t of f.tags) out.push({ key: "tag", value: t, label: t.split(/:(.*)/s)[1] });
@@ -107,11 +114,13 @@ export function picked(data, f = filter) {
 }
 
 export function applyChip(key, value) {
-  if (key === "city" || key === "area" || key === "kind" || key === "category") setFilter({ [key]: value });
+  if (key === "area") setFilter({ area: [...filter.area, value] });
+  else if (key === "city" || key === "kind" || key === "category") setFilter({ [key]: value });
   else toggleTag(`${key}:${value}`);
 }
 
 export function removePicked(item) {
   if (item.key === "tag") toggleTag(item.value);
+  else if (item.key === "area") setFilter({ area: filter.area.filter((a) => a !== item.value) });
   else setFilter({ [item.key]: null });
 }
