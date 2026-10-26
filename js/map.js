@@ -1,5 +1,6 @@
 /* global L */
-import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, TILES } from "./util.js";
+import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl } from "./util.js";
+import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
@@ -36,12 +37,9 @@ export function showMap() {
 
 function build() {
   started = true;
-  map = L.map("map", { zoomControl: false, attributionControl: true, maxBounds: JAPAN.pad(1.5), minZoom: 5, tap: true })
+  map = L.map("map", { zoomControl: false, attributionControl: true, maxBounds: JAPAN.pad(1.5), minZoom: 5, maxZoom: 19, tap: true })
     .fitBounds(JAPAN);
-  L.tileLayer(TILES, {
-    maxZoom: 19, maxNativeZoom: 18, minZoom: 5,
-    attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル</a>',
-  }).addTo(map);
+  addBasemap(map);
   cluster = L.markerClusterGroup({
     showCoverageOnHover: false, maxClusterRadius: 44, disableClusteringAtZoom: 16, spiderfyOnMaxZoom: true,
     iconCreateFunction: (c) => L.divIcon({ html: `<span>${c.getChildCount()}</span>`, className: "cluster", iconSize: [34, 34] }),
@@ -79,13 +77,18 @@ function drawPlaces(refit) {
   if (refit && pts.length && !app.date) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16 });
 }
 
+const STAY_ICON = {
+  airbnb: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 4l9 7v9h-6v-6H9v6H3z"/></svg>`,
+  hotel: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 19V6h2v8h7V9h8a3 3 0 0 1 3 3v7h-2v-3H4v3z"/><circle cx="7.5" cy="11" r="2"/></svg>`,
+};
+
 function drawStays() {
   stayLayer.clearLayers();
   for (const s of app.data.trip?.stays || []) {
     if (s.lat == null) continue;
     L.marker([s.lat, s.lng], {
-      icon: L.divIcon({ className: "stay", html: `<svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9h-6v-6H9v6H3z"/></svg>`, iconSize: [30, 30] }),
-      zIndexOffset: 1000, title: s.name,
+      icon: L.divIcon({ className: `stay ${s.type || ""}`, html: `${STAY_ICON[s.type] || STAY_ICON.airbnb}<b>${esc(s.name)}</b>`, iconSize: [34, 34], iconAnchor: [17, 17] }),
+      zIndexOffset: 1000, title: s.name, keyboard: true,
     }).on("click", (e) => { L.DomEvent.stopPropagation(e); openStay(s); }).addTo(stayLayer);
   }
 }

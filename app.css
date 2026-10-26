@@ -108,8 +108,11 @@ button { font: inherit; color: inherit; }
 .pin.approx span { opacity: .55; border-style: dashed; }
 .pin.big span { width: 24px; height: 24px; }
 .cluster { background: var(--ink); color: #fff; border-radius: 50%; border: 2.5px solid #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, .4); display: grid; place-items: center; font: 800 13px var(--sans); }
-.stay { background: var(--accent); border-radius: 8px; border: 2.5px solid #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, .45); display: grid; place-items: center; }
-.stay svg { width: 18px; height: 18px; fill: #fff; }
+/* Where we sleep: a square badge, unlike the round place pins, with the stay's name under it */
+.stay { background: var(--ink); border-radius: 9px; border: 2.5px solid #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, .45); display: grid; place-items: center; }
+.stay.airbnb { background: #ff385c; }
+.stay svg { width: 20px; height: 20px; fill: #fff; }
+.stay b { position: absolute; top: 36px; left: 50%; transform: translateX(-50%); white-space: nowrap; font: 800 11px var(--sans); color: var(--ink); background: rgba(255, 255, 255, .92); padding: 1px 5px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, .2); }
 .stop { background: #fff; color: var(--accent); border: 3px solid var(--accent); border-radius: 50%; display: grid; place-items: center; font: 900 13px var(--sans); box-shadow: 0 1px 6px rgba(0, 0, 0, .35); }
 .here { background: #1a73e8; border: 3px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px rgba(26, 115, 232, .35), 0 1px 4px rgba(0, 0, 0, .4); }
 .here-ring { fill: #1a73e8; fill-opacity: .12; stroke: #1a73e8; stroke-opacity: .3; stroke-width: 1; }
@@ -208,9 +211,6 @@ button { font: inherit; color: inherit; }
   .viewhead { padding-top: 12px; }
   body[data-view="guide"] .tabbar { display: none; }
 }
-
-/* Quieten the busy national basemap so pins carry the colour */
-.leaflet-tile-pane { filter: saturate(.55) contrast(.92) brightness(1.03); }
 .geonote { font: 13px/1.45 var(--sans); background: #fff6d6; border-left: 4px solid #b7791f; padding: 6px 10px; margin: 8px 0; color: #5b4310; }
 .earlier { margin: 8px 16px 0; }
 .earlier summary { font: 800 12px var(--sans); text-transform: uppercase; letter-spacing: .1em; cursor: pointer; padding: 8px 0; }

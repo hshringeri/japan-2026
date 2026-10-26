@@ -17,7 +17,8 @@
    "lng": null,
    "url": "https://www.airbnb.com/rooms/1183630871035082218?adults=5&check_in=2026-11-15&check_out=2026-11-18&guests=5",
    "precision": "none",
-   "precisionNote": "Address not added yet"
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
   },
   {
    "id": "kyoto",
@@ -29,7 +30,8 @@
    "lng": null,
    "url": "https://www.airbnb.com/l/nTZD9VxK",
    "precision": "none",
-   "precisionNote": "Address not added yet"
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
   },
   {
    "id": "osaka",
@@ -41,7 +43,8 @@
    "lng": null,
    "url": "https://www.airbnb.com/trips/v1/1760680450375926976/ro/RESERVATION2_CHECKIN/HMHTZX3P59",
    "precision": "none",
-   "precisionNote": "Address not added yet"
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
   },
   {
    "id": "fuji",
@@ -53,7 +56,8 @@
    "lng": 138.62268,
    "address": "1306 Fujigane, Fujikawaguchiko, Yamanashi",
    "precision": "exact",
-   "notes": "Booked by Hardhi. About 25 min by taxi from Kawaguchiko Station."
+   "notes": "Booked by Hardhi. About 25 min by taxi from Kawaguchiko Station.",
+   "type": "hotel"
   },
   {
    "id": "tokyo-2",
@@ -66,7 +70,8 @@
    "url": "https://www.airbnb.com/properties/1715242135235065210?anchor_room_id=1280000126296256014",
    "precision": "none",
    "precisionNote": "Address not added yet",
-   "notes": "Booked by Aman."
+   "notes": "Booked by Aman.",
+   "type": "airbnb"
   }
  ],
  "days": [

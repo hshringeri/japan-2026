@@ -1,5 +1,6 @@
 /* global L */
-import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay, TILES } from "./util.js";
+import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay } from "./util.js";
+import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan } from "./state.js";
 
@@ -67,9 +68,9 @@ export function renderPlace(root, id) {
   if (p.lat != null) {
     const el = root.querySelector(".minimap");
     mini?.remove();
-    mini = L.map(el, { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false })
+    mini = L.map(el, { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false, maxZoom: 19 })
       .setView([p.lat, p.lng], 16);
-    L.tileLayer(TILES, { maxNativeZoom: 18 }).addTo(mini);
+    addBasemap(mini, { interactive: false });
     L.marker([p.lat, p.lng], { icon: L.divIcon({ className: "pin big", html: `<span style="--c:${p.color}"></span>`, iconSize: [28, 28] }) }).addTo(mini);
     el.addEventListener("click", () => (location.hash = `#/map/${p.id}`));
   }
