@@ -68,9 +68,14 @@ export function mountDateStrip(root) {
         <b>Now</b><small>${trip.dayByDate[today] ? "today" : "live"}</small></button>` +
       trip.days.map((d) => `<button type="button" class="${app.date === d.date ? "on" : ""}${d.date === today ? " today" : ""}" data-date="${d.date}" title="${esc(formatDay(d.date))}">
         <small>${weekday(d.date)}</small><b>${dayNumber(d.date)}</b><small class="c">${esc(d.short || d.city)}</small></button>`).join("");
-    const on = root.querySelector(".on");
-    if (on && app.date) on.scrollIntoView({ inline: "center", block: "nearest" });
+    centre();
   }
+  // Scroll the strip itself (not the page) so the picked day sits in the middle
+  function centre() {
+    const on = root.querySelector(".on");
+    if (on) root.scrollLeft = on.offsetLeft - root.clientWidth / 2 + on.clientWidth / 2;
+  }
+  onApp("route", () => requestAnimationFrame(centre));
   onApp("date", render);
   onApp("data", render);
   render();

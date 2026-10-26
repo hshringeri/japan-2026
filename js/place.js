@@ -37,6 +37,7 @@ export function renderPlace(root, id) {
           <p class="meta"><a href="${esc(l.mapUrl)}" target="_blank" rel="noopener">⌖ ${esc(l.address)}</a>${l.info ? ` · ${esc(l.info)}` : ""}</p>
         </section>`).join("")}
       ${p.addressJa ? `<p class="ja" lang="ja">${esc(p.addressJa)} <button type="button" class="copy" data-copy="${esc(p.addressJa)}">Copy</button></p>` : ""}
+      ${p.geoNote ? `<p class="geonote">${esc(p.geoNote)}</p>` : ""}
       ${p.precision === "area" ? `<p class="warn">The pin shows the area only; check the address before you go.</p>` : ""}
       ${here != null ? `<p class="fromyou">${formatDistance(here)} from you${here < 2.5 ? ` · about ${walkMinutes(here)} min walk` : ""}</p>` : ""}
       <div class="actions">

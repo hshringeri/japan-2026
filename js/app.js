@@ -1,6 +1,6 @@
 import { $, $$ } from "./util.js";
 import { loadData } from "./data.js";
-import { app, emit, startLocation, locationWasAllowed } from "./state.js";
+import { app, emit, startLocation, locationWasAllowed, setDate } from "./state.js";
 import { mountList } from "./list.js";
 import { mountMap, showMap, focusPlace } from "./map.js";
 import { mountPlan, showPlan, hidePlan } from "./plan.js";
@@ -31,6 +31,7 @@ function route() {
   if (name === "place") renderPlace($("#view-place"), arg);
   if (name === "guide") renderGuide($("#view-guide"), arg);
   if (["list", "map", "plan"].includes(name)) lastTab = name;
+  emit("route", name);
 }
 let lastTab = "map";
 
@@ -46,6 +47,9 @@ async function start() {
   mountMap($("#view-map"));
   mountPlan($("#view-plan"));
   emit("data");
+  // ?day=2026-11-24 opens straight onto that trip day
+  const day = new URLSearchParams(location.search).get("day");
+  if (day && app.data.trip?.dayByDate[day]) setDate(day);
   if (locationWasAllowed()) startLocation();
   if (!location.hash) history.replaceState(null, "", wide.matches ? "#/list" : "#/map");
   addEventListener("hashchange", route);

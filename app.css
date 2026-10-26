@@ -55,7 +55,7 @@ button { font: inherit; color: inherit; }
 .sep { flex: none; width: 1px; height: 22px; background: var(--rule); }
 
 /* Date strip: look ahead to a trip day */
-.datestrip { display: flex; gap: 4px; overflow-x: auto; padding: 0 16px 8px; scrollbar-width: none; }
+.datestrip { position: relative; display: flex; gap: 4px; overflow-x: auto; padding: 0 16px 8px; scrollbar-width: none; }
 .datestrip::-webkit-scrollbar { display: none; }
 .datestrip button { flex: none; display: grid; justify-items: center; min-width: 44px; padding: 4px 6px; border: 1.5px solid transparent; background: none; cursor: pointer; border-radius: 10px; }
 .datestrip b { font: 800 17px/1.1 var(--sans); }
@@ -211,3 +211,7 @@ button { font: inherit; color: inherit; }
 
 /* Quieten the busy national basemap so pins carry the colour */
 .leaflet-tile-pane { filter: saturate(.55) contrast(.92) brightness(1.03); }
+.geonote { font: 13px/1.45 var(--sans); background: #fff6d6; border-left: 4px solid #b7791f; padding: 6px 10px; margin: 8px 0; color: #5b4310; }
+.earlier { margin: 8px 16px 0; }
+.earlier summary { font: 800 12px var(--sans); text-transform: uppercase; letter-spacing: .1em; cursor: pointer; padding: 8px 0; }
+.earlier .days .day { margin-left: 0; margin-right: 0; }

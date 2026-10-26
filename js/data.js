@@ -61,18 +61,17 @@ function prepareTrip(trip, byId) {
   trip.dayByDate = Object.fromEntries(trip.days.map((d) => [d.date, d]));
 }
 
-// Where a given trip day is centred: the stay you sleep at that night, or the
-// one you leave that morning on the last day
+// Everywhere you'll be on a trip day: that night's stay plus the day's stops.
+// Places are ranked by distance to the nearest of these points.
 export function dayAnchor(trip, date) {
   const day = trip?.dayByDate[date];
   if (!day) return null;
   const s = day.stayObj;
-  if (s && s.lat != null) return { lat: s.lat, lng: s.lng, label: s.name, city: s.city };
-  const pts = day.items.filter((i) => i.lat != null);
-  if (!pts.length) return null;
+  const points = day.items.filter((i) => i.lat != null).map((i) => ({ lat: i.lat, lng: i.lng }));
+  if (s && s.lat != null) points.unshift({ lat: s.lat, lng: s.lng });
+  if (!points.length) return null;
   return {
-    lat: pts.reduce((a, i) => a + i.lat, 0) / pts.length,
-    lng: pts.reduce((a, i) => a + i.lng, 0) / pts.length,
-    label: day.title, city: day.city,
+    points, lat: points[0].lat, lng: points[0].lng, city: day.city,
+    label: s && s.lat != null && points.length === 1 ? s.name : "that day's stops",
   };
 }

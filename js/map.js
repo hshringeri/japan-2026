@@ -171,6 +171,7 @@ export function openPlace(p, item) {
     ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
     <p class="desc">${esc(l.desc)}</p>
     <p class="meta">${esc(l.address)}${l.info ? ` · ${esc(l.info)}` : ""}</p>
+    ${p.geoNote ? `<p class="meta geonote">${esc(p.geoNote)}</p>` : ""}
     ${p.precision === "area" ? `<p class="meta warn">Pin shows the area only; check the address before you go.</p>` : ""}
     ${distLine(p)}
     <div class="actions">

@@ -3131,7 +3131,8 @@
   "addressJa": "東京都杉並区今川4-28-20 ハイツハルキチ寿館101",
   "neighbourhood": "Imagawa",
   "ward": "Suginami",
-  "area": "Kichijoji & Nishi-Ogikubo"
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "It's at Imagawa 4-28-20, about 1.5 km north of Nishi-Ogikubo station: a 14-minute walk from Kami-Igusa, or a bus from Nishi-Ogikubo."
  },
  {
   "id": "tokyo-olgou",
@@ -5908,7 +5909,8 @@
   "addressJa": "大阪府大阪市西区南堀江3-6-1 西大阪ビルB1F",
   "neighbourhood": "Minami-Horie",
   "ward": "Nishi",
-  "area": "Horie"
+  "area": "Horie",
+  "geoNote": "The guide's address is Hokage's building. The pin uses the venue's own address: Nishi-Osaka Bldg B1F, 3-6-1 Minami-Horie, near Sakuragawa station."
  },
  {
   "id": "osaka-hokage",
@@ -7741,7 +7743,8 @@
   "addressJa": "大阪府大阪市西区南堀江1-19-7 シエロ南堀江1F",
   "neighbourhood": "Minami-Horie",
   "ward": "Nishi",
-  "area": "Horie"
+  "area": "Horie",
+  "geoNote": "This address matches REICHI STORE / R COFFEE's press release exactly, so check which shop is there now."
  },
  {
   "id": "osaka-reichi-store-r-coffee",
@@ -8591,7 +8594,8 @@
   "addressJa": "京都府京都市中京区三条通寺町東入石橋町5-1 イシズミ二条ビル",
   "neighbourhood": "Sanjo-Teramachi",
   "ward": "Nakagyo",
-  "area": "Downtown"
+  "area": "Downtown",
+  "geoNote": "The shop's own listing puts it at Sanjo-Teramachi (Sanjo-dori Teramachi-higashi-iru), which is where the pin is."
  },
  {
   "id": "kyoto-grass",
@@ -9757,7 +9761,8 @@
   "addressJa": "京都府京都市左京区岡崎 (平安神宮の東、徒歩約5分)",
   "neighbourhood": "Okazaki",
   "ward": "Sakyo",
-  "area": "Demachiyanagi & Sakyo"
+  "area": "Demachiyanagi & Sakyo",
+  "geoNote": "Mostly opens for booked events, and the address comes with the booking. The pin only marks the area east of Heian Shrine."
  },
  {
   "id": "kyoto-p-m-sounds-kyoto",
@@ -9791,7 +9796,8 @@
   "addressJa": "京都府京都市中京区大黒町71-21 CT・BEACH山口ビルB1 (河原町通三条下る, 〒604-8031)",
   "neighbourhood": "Kawaramachi-Sanjo",
   "ward": "Nakagyo",
-  "area": "Downtown"
+  "area": "Downtown",
+  "geoNote": "This looks like the same venue as P.M.SOUNDS. Its Instagram is @pmsounds.kyoto."
  },
  {
   "id": "kyoto-kyoto-brewing-co-taproom",
@@ -10316,7 +10322,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.93225,
+  "lng": 135.75972,
+  "precision": "block",
+  "addressJa": "京都府京都市伏見区納屋町129",
+  "neighbourhood": "Fushimi",
+  "ward": "Fushimi",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-boardgame-bed-bokuyado",
@@ -10339,7 +10352,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.99368,
+  "lng": 135.75507,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区西側町490",
+  "neighbourhood": "Rokujo",
+  "ward": "Shimogyo",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-sharif",
@@ -10366,7 +10386,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00786,
+  "lng": 135.77015,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区大黒町71 木屋町BEST B.L.D 5F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-shozan-golf-club",
@@ -10393,7 +10420,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 35.04784,
+  "lng": 135.72345,
+  "precision": "building",
+  "addressJa": "京都府京都市北区大北山長谷町2",
+  "neighbourhood": "Kinkakuji",
+  "ward": "Kita",
+  "area": "Kita (north)"
  },
  {
   "id": "kyoto-yamashina-golf-garden",
@@ -10420,7 +10454,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.99851,
+  "lng": 135.83914,
+  "precision": "block",
+  "addressJa": "滋賀県大津市稲葉台1-16",
+  "neighbourhood": "Inabadai",
+  "ward": "Otsu",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "kyoto-katsura-golf-club",
@@ -10447,7 +10488,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.97746,
+  "lng": 135.71524,
+  "precision": "building",
+  "addressJa": "京都府京都市西京区桂南滝川町53",
+  "neighbourhood": "Katsura",
+  "ward": "Nishikyo",
+  "area": "West (Arashiyama & Takao)"
  },
  {
   "id": "kyoto-funaoka-onsen",
@@ -10474,7 +10522,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 35.03697,
+  "lng": 135.74463,
+  "precision": "block",
+  "addressJa": "京都府京都市北区紫野南舟岡町82-1",
+  "neighbourhood": "Murasakino",
+  "ward": "Kita",
+  "area": "Kita (north)"
  },
  {
   "id": "kyoto-sauna-no-umeyu",
@@ -10502,7 +10557,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.99295,
+  "lng": 135.76566,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区岩滝町175-1",
+  "neighbourhood": "Kawaramachi-Shomen",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-goko-yu",
@@ -10530,7 +10592,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.99675,
+  "lng": 135.7499,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区黒門通五条上る柿本町590-12",
+  "neighbourhood": "Gojo-Horikawa",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kurama-onsen",
@@ -10557,7 +10626,14 @@
    "flags": [
     "Tattoos OK"
    ]
-  }
+  },
+  "lat": 35.11921,
+  "lng": 135.77656,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区鞍馬本町520",
+  "neighbourhood": "Kurama",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-kamogawa-yu",
@@ -10585,7 +10661,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.04354,
+  "lng": 135.76479,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区下鴨上川原町56",
+  "neighbourhood": "Shimogamo",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-kaikan-bars",
@@ -10612,7 +10695,32 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00426,
+  "lng": 135.765,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区富小路通四条上る西大文字町615",
+  "neighbourhood": "Shijo-Kawaramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "extraPins": [
+   {
+    "label": "Yontomi Kaikan (四富会館)",
+    "lat": 35.00426,
+    "lng": 135.765
+   },
+   {
+    "label": "Takase Kaikan (たかせ会館)",
+    "lat": 35.00498,
+    "lng": 135.77019
+   },
+   {
+    "label": "Orizuru Kaikan (折鶴会館)",
+    "lat": 35.00313,
+    "lng": 135.731
+   }
+  ],
+  "geoNote": "Shitomi Kaikan is 四富会館, read Yontomi. Orizuru Kaikan is by Hankyu Saiin, about 3 km west of the other two."
  },
  {
   "id": "kyoto-nekoana",
@@ -10635,7 +10743,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.99912,
+  "lng": 135.76091,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区燈籠町592-1",
+  "neighbourhood": "Karasuma-Takatsuji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-honya-megaphone",
@@ -10658,7 +10773,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.01422,
+  "lng": 135.73877,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区西ノ京内畑町13-41",
+  "neighbourhood": "Nishinokyo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-hoka-books",
@@ -10681,7 +10803,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.99657,
+  "lng": 135.75311,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区小泉町100-6",
+  "neighbourhood": "Horikawa-Gojo",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-cafe-marble-bukkoji",
@@ -10711,7 +10840,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.0014,
+  "lng": 135.76274,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区仏光寺通高倉東入ル西前町378",
+  "neighbourhood": "Bukkoji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kotoro-coffee",
@@ -10741,7 +10877,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.02885,
+  "lng": 135.76831,
+  "precision": "block",
+  "addressJa": "京都府京都市上京区今出川通寺町東入下ル米屋町301",
+  "neighbourhood": "Demachi",
+  "ward": "Kamigyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-marufukuro-former-nintendo-headquarters",
@@ -10768,7 +10911,14 @@
    "style": [
     "Retro games"
    ]
-  }
+  },
+  "lat": 34.99176,
+  "lng": 135.76627,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区正面通加茂川西入鍵屋町342",
+  "neighbourhood": "Kawaramachi-Shomen",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-suruga-ya-kyoto-teramachi",
@@ -10798,7 +10948,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.00084,
+  "lng": 135.76737,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区恵美須之町534-2",
+  "neighbourhood": "Teramachi",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-cafe-de-ai",
@@ -10826,7 +10983,15 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00853,
+  "lng": 135.7697,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区大黒町42-1 大黒町ビル1F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "The website link now redirects to an unrelated site. The cafe still shows in listings at this address."
  },
  {
   "id": "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition",
@@ -10854,7 +11019,15 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00497,
+  "lng": 135.7703,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区四条木屋町上ル紙屋町366 レイホウ会館1F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "The town is Kamiyacho (紙屋町), the same block as Bee's Knees."
  },
  {
   "id": "kyoto-c2-kyoto",
@@ -10877,7 +11050,14 @@
   "categories": [
    "Gaming Cafes"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.99489,
+  "lng": 135.75882,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区鍵屋町333",
+  "neighbourhood": "Karasuma-Gojo",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-mk-bowl-kamigamo",
@@ -10906,7 +11086,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.06619,
+  "lng": 135.74686,
+  "precision": "block",
+  "addressJa": "京都府京都市北区上賀茂西河原町1-1",
+  "neighbourhood": "Kamigamo",
+  "ward": "Kita",
+  "area": "Kita (north)"
  },
  {
   "id": "kyoto-kyoichi-amusement-park-kisshoin",
@@ -10934,7 +11121,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.96639,
+  "lng": 135.72527,
+  "precision": "block",
+  "addressJa": "京都府京都市南区吉祥院石原長田町1-2",
+  "neighbourhood": "Kisshoin",
+  "ward": "Minami",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-gio-ji",
@@ -10957,7 +11151,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.02352,
+  "lng": 135.6668,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区嵯峨鳥居本小坂町32",
+  "neighbourhood": "Sagano",
+  "ward": "Ukyo",
+  "area": "West (Arashiyama & Takao)"
  },
  {
   "id": "kyoto-otagi-nenbutsu-ji",
@@ -10980,7 +11181,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.03116,
+  "lng": 135.66123,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区嵯峨鳥居本深谷町2-5",
+  "neighbourhood": "Saga-Toriimoto",
+  "ward": "Ukyo",
+  "area": "West (Arashiyama & Takao)"
  },
  {
   "id": "kyoto-saimyo-ji",
@@ -11003,7 +11211,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.05723,
+  "lng": 135.6748,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区梅ケ畑槇尾町1",
+  "neighbourhood": "Takao",
+  "ward": "Ukyo",
+  "area": "West (Arashiyama & Takao)"
  },
  {
   "id": "kyoto-jakko-in",
@@ -11026,7 +11241,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.12406,
+  "lng": 135.82082,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区大原草生町676",
+  "neighbourhood": "Ohara",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-kurama-dera",
@@ -11049,7 +11271,21 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.11787,
+  "lng": 135.77065,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区鞍馬本町1074",
+  "neighbourhood": "Kurama",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo",
+  "extraPins": [
+   {
+    "label": "Kurama-dera Niomon gate (entrance, by Kurama station)",
+    "lat": 35.114,
+    "lng": 135.7729
+   }
+  ]
  },
  {
   "id": "kyoto-bee-s-knees",
@@ -11078,7 +11314,14 @@
     "Hidden entrance",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00506,
+  "lng": 135.77031,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区木屋町通四条上る紙屋町364",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-apotheca",
@@ -11106,7 +11349,14 @@
     "Walk-in",
     "Hidden entrance"
    ]
-  }
+  },
+  "lat": 35.00629,
+  "lng": 135.76524,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区油屋町145",
+  "neighbourhood": "Shijo-Kawaramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kyosaimi-nomura-karasuma-honten",
@@ -11137,7 +11387,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.00599,
+  "lng": 135.75897,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区蛸薬師通烏丸西入ル橋弁慶町224",
+  "neighbourhood": "Karasuma",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-teuchi-soba-kanei",
@@ -11170,7 +11427,14 @@
     "Book ahead",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.03759,
+  "lng": 135.74709,
+  "precision": "block",
+  "addressJa": "京都府京都市北区紫野東藤ノ森町11-1",
+  "neighbourhood": "Murasakino",
+  "ward": "Kita",
+  "area": "Kita (north)"
  },
  {
   "id": "kyoto-kyoto-curry-seisakusho-kariru",
@@ -11200,7 +11464,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.01823,
+  "lng": 135.75674,
+  "precision": "block",
+  "addressJa": "京都府京都市上京区新町通丸太町上ル春帯町349-1",
+  "neighbourhood": "Marutamachi",
+  "ward": "Kamigyo",
+  "area": "Kamigyo & Nishijin"
  },
  {
   "id": "kyoto-kissa-tyrol",
@@ -11233,7 +11504,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.01149,
+  "lng": 135.74785,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区御池通大宮西入門前町539-3",
+  "neighbourhood": "Nijo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-toyouke-chaya",
@@ -11263,6 +11541,13 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.02781,
+  "lng": 135.7356,
+  "precision": "building",
+  "addressJa": "京都府京都市上京区今出川通御前西入紙屋川町822",
+  "neighbourhood": "Kitano Tenmangu",
+  "ward": "Kamigyo",
+  "area": "Kamigyo & Nishijin"
  }
 ]

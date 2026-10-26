@@ -12,6 +12,19 @@
   "verified": true,
   "notes": "Couldn't confirm the shop on the web."
  },
+ "kyoto-apotheca": {
+  "id": "kyoto-apotheca",
+  "lat": 35.00629,
+  "lng": 135.76524,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区油屋町145",
+  "neighbourhood": "Shijo-Kawaramachi (Takoyakushi)",
+  "ward": "Nakagyo",
+  "source": "transliterated from guide address; OSM node 'APOTHECA'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "Youtoukan building, 4th floor per the guide. I could not confirm the building name in Japanese, so it is left out of addressJa."
+ },
  "kyoto-bar-k6": {
   "id": "kyoto-bar-k6",
   "lat": 35.01363,
@@ -51,6 +64,19 @@
   "verified": true,
   "notes": "2F. Instagram not checked; address from guide."
  },
+ "kyoto-bee-s-knees": {
+  "id": "kyoto-bee-s-knees",
+  "lat": 35.00506,
+  "lng": 135.77031,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区木屋町通四条上る紙屋町364",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "source": "transliterated from guide address; OSM node 'Bee's Knees'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI returns the same town-level point for every lot in 紙屋町; the OSM venue node is 10 m from it. Matsuya Bldg 1F per the guide; building name not added to addressJa because the kanji are unconfirmed."
+ },
  "kyoto-big-time-kyoto": {
   "id": "kyoto-big-time-kyoto",
   "lat": 35.00881,
@@ -77,6 +103,19 @@
   "verified": true,
   "notes": "Pinned at the official address, the ropeway base station on the lake side. The ski slopes are at the top of the ropeway on Mt Horai."
  },
+ "kyoto-boardgame-bed-bokuyado": {
+  "id": "kyoto-boardgame-bed-bokuyado",
+  "lat": 34.99368,
+  "lng": 135.75507,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区西側町490",
+  "neighbourhood": "Rokujo (between the Hongan-ji temples)",
+  "ward": "Shimogyo",
+  "source": "transliterated from guide address; OSM node 'Guest House Bokuyado'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point (34.99374,135.75496) and OSM building node agree within 15 m."
+ },
  "kyoto-boro": {
   "id": "kyoto-boro",
   "lat": 35.00674,
@@ -90,6 +129,19 @@
   "verified": true,
   "notes": "Guide gives no ward; 式部町 exists in Nakagyo (Teramachi near Rokkaku). Couldn't confirm the shop on the web."
  },
+ "kyoto-c2-kyoto": {
+  "id": "kyoto-c2-kyoto",
+  "lat": 34.99489,
+  "lng": 135.75882,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区鍵屋町333",
+  "neighbourhood": "Karasuma-Gojo",
+  "ward": "Shimogyo",
+  "source": "https://c2kyoto.com/ (address); OSM node 'C2 Kyoto'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point agrees within 10 m. This is a different 鍵屋町 from Marufukuro's."
+ },
  "kyoto-caf-bar-laurel": {
   "id": "kyoto-caf-bar-laurel",
   "lat": 35.00759,
@@ -102,6 +154,32 @@
   "method": "gsi",
   "verified": true,
   "notes": "2F."
+ },
+ "kyoto-cafe-de-ai": {
+  "id": "kyoto-cafe-de-ai",
+  "lat": 35.00853,
+  "lng": 135.7697,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区大黒町42-1 大黒町ビル1F",
+  "neighbourhood": "Kiyamachi (Sanjo)",
+  "ward": "Nakagyo",
+  "source": "https://shop.caferun.jp/shop/7674/ (address); GSI",
+  "method": "gsi",
+  "verified": true,
+  "notes": "The guide's URL https://www.kyoto-cafede-ai.com/ now 301-redirects to an unrelated gambling site (slotjp.uk), so the domain has lapsed or been hijacked. The shop still appears on caferun and other concept-cafe listings with the same address; closure is not confirmed. Listed hours vary (16:30-LAST vs 18:30-1:00)."
+ },
+ "kyoto-cafe-marble-bukkoji": {
+  "id": "kyoto-cafe-marble-bukkoji",
+  "lat": 35.0014,
+  "lng": 135.76274,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区仏光寺通高倉東入ル西前町378",
+  "neighbourhood": "Bukkoji (Shijo-Karasuma)",
+  "ward": "Shimogyo",
+  "source": "transliterated from guide address; OSM node 'cafe marble Bukkoji'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point agrees within 30 m."
  },
  "kyoto-cavalier": {
   "id": "kyoto-cavalier",
@@ -168,6 +246,19 @@
   "verified": true,
   "notes": "Couldn't confirm the address on the web; 323 Ebiyacho is also an older listed address for gRASS."
  },
+ "kyoto-funaoka-onsen": {
+  "id": "kyoto-funaoka-onsen",
+  "lat": 35.03697,
+  "lng": 135.74463,
+  "precision": "block",
+  "addressJa": "京都府京都市北区紫野南舟岡町82-1",
+  "neighbourhood": "Murasakino",
+  "ward": "Kita",
+  "source": "transliterated from guide address",
+  "method": "gsi",
+  "verified": true,
+  "notes": "OSM node for 船岡温泉 (35.03695,135.74450) agrees."
+ },
  "kyoto-galaxie500": {
   "id": "kyoto-galaxie500",
   "lat": 35.00484,
@@ -180,6 +271,32 @@
   "method": "gsi",
   "verified": true,
   "notes": "Venue site gives no 番地; pin is the centroid of 紙屋町, a short strip of Nishi-Kiyamachi just north of Shijo. Building is spelled たかせ会館 on the site."
+ },
+ "kyoto-game-bar-kyoto": {
+  "id": "kyoto-game-bar-kyoto",
+  "lat": 34.93225,
+  "lng": 135.75972,
+  "precision": "block",
+  "addressJa": "京都府京都市伏見区納屋町129",
+  "neighbourhood": "Fushimi",
+  "ward": "Fushimi",
+  "source": "transliterated from guide address",
+  "method": "gsi",
+  "verified": true,
+  "notes": "Venue Instagram not checked (address already had a lot number). GSI and reverse geocode agree on 納屋町."
+ },
+ "kyoto-gio-ji": {
+  "id": "kyoto-gio-ji",
+  "lat": 35.02352,
+  "lng": 135.6668,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区嵯峨鳥居本小坂町32",
+  "neighbourhood": "Sagano (Saga-Toriimoto)",
+  "ward": "Ukyo",
+  "source": "transliterated from guide address; OSM node '祇王寺'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI's lot point was about 275 m north. The OSM temple node reverse-geocodes to 嵯峨鳥居本小坂町, matching the official address."
  },
  "kyoto-gion-sushi-tadayasu": {
   "id": "kyoto-gion-sushi-tadayasu",
@@ -207,6 +324,19 @@
   "verified": true,
   "notes": "Couldn't confirm the shop on the web."
  },
+ "kyoto-goko-yu": {
+  "id": "kyoto-goko-yu",
+  "lat": 34.99675,
+  "lng": 135.7499,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区黒門通五条上る柿本町590-12",
+  "neighbourhood": "Gojo-Horikawa",
+  "ward": "Shimogyo",
+  "source": "transliterated from guide address; OSM node '五香湯'; Street View embed on https://www.gokouyu.net/",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point was about 60 m off; OSM node and the venue site's Street View position agree."
+ },
  "kyoto-grass": {
   "id": "kyoto-grass",
   "lat": 35.00795,
@@ -233,6 +363,45 @@
   "verified": true,
   "notes": ""
  },
+ "kyoto-hoka-books": {
+  "id": "kyoto-hoka-books",
+  "lat": 34.99657,
+  "lng": 135.75311,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区小泉町100-6",
+  "neighbourhood": "Horikawa-Gojo",
+  "ward": "Shimogyo",
+  "source": "https://hokabooks.com/",
+  "method": "gsi",
+  "verified": true,
+  "notes": "The guide only says 'alley machiya'. The address comes from the shop's site; Nikkei BookPlus describes it as down a covered alley off Sameigai-dori, one street east of Horikawa near Gojo. Hours per site: 12:00-19:00, closed Mon-Wed."
+ },
+ "kyoto-honya-megaphone": {
+  "id": "kyoto-honya-megaphone",
+  "lat": 35.01422,
+  "lng": 135.73877,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区西ノ京内畑町13-41",
+  "neighbourhood": "Nishinokyo (north of Nijo station)",
+  "ward": "Nakagyo",
+  "source": "https://booksmegafon.stores.jp/about (address via web search; page blocks direct fetch); Instagram @books_megafone",
+  "method": "gsi",
+  "verified": true,
+  "notes": "The address was found through a search summary of the shop's STORES page; I could not load the page directly. The pin is about 430 m NW of JR Nijo station, which fits '8 min north'. Hours are listed on Instagram (Thu/Sun 16:00-20:00, Fri/Sat 12:00-19:00, reading unclear). Pre-opened 26 Dec 2025 after closing the Gifu shop."
+ },
+ "kyoto-jakko-in": {
+  "id": "kyoto-jakko-in",
+  "lat": 35.12406,
+  "lng": 135.82082,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区大原草生町676",
+  "neighbourhood": "Ohara",
+  "ward": "Sakyo",
+  "source": "transliterated from guide address; OSM node '寂光院'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI's lot point was about 750 m north of the temple; the OSM node was used and reverse-geocodes to 大原草生町."
+ },
  "kyoto-jazz-in-rokudenashi": {
   "id": "kyoto-jazz-in-rokudenashi",
   "lat": 35.00289,
@@ -245,6 +414,65 @@
   "method": "nominatim",
   "verified": true,
   "notes": "Guide says 'Kiyamachi'. OSM places it on Nishi-Ishigaki-dori in 斎藤町, Shimogyo, just south of Shijo between Kiyamachi and the Kamo river, a block or so from Kiyamachi-dori itself. No 番地 found."
+ },
+ "kyoto-kaikan-bars": {
+  "id": "kyoto-kaikan-bars",
+  "lat": 35.00426,
+  "lng": 135.765,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区富小路通四条上る西大文字町615",
+  "neighbourhood": "Shijo-Kawaramachi",
+  "ward": "Nakagyo",
+  "source": "https://www.hotpepper.jp/strJ000695454/ (四富会館 address); OSM node '四富会館'; https://souda-kyoto.jp/guide/theme/kaikan-nomi/",
+  "method": "nominatim",
+  "verified": true,
+  "extraPins": [
+   {
+    "label": "Yontomi Kaikan (四富会館)",
+    "lat": 35.00426,
+    "lng": 135.765,
+    "addressJa": "京都府京都市中京区富小路通四条上る西大文字町615"
+   },
+   {
+    "label": "Takase Kaikan (たかせ会館)",
+    "lat": 35.00498,
+    "lng": 135.77019,
+    "addressJa": "京都府京都市中京区紙屋町367-2"
+   },
+   {
+    "label": "Orizuru Kaikan (折鶴会館)",
+    "lat": 35.00313,
+    "lng": 135.731,
+    "addressJa": "京都府京都市右京区西院高山寺町15"
+   }
+  ],
+  "notes": "Primary pin is 四富会館. The guide's 'Shitomi Kaikan' is 四富会館, read Yontomi; the souda-kyoto article gives the reading. たかせ会館 is in Nakagyo near Kiyamachi; 折鶴会館 is in Ukyo by Hankyu Saiin station, about 3 km west of the other two. Takase Kaikan's pin is street level: GSI returns the same point for every lot in 紙屋町."
+ },
+ "kyoto-kamogawa-yu": {
+  "id": "kyoto-kamogawa-yu",
+  "lat": 35.04354,
+  "lng": 135.76479,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区下鴨上川原町56",
+  "neighbourhood": "Shimogamo",
+  "ward": "Sakyo",
+  "source": "transliterated from guide address",
+  "method": "gsi",
+  "verified": true,
+  "notes": "OSM node '鴨川湯' (35.04357,135.76459) agrees."
+ },
+ "kyoto-katsura-golf-club": {
+  "id": "kyoto-katsura-golf-club",
+  "lat": 34.97746,
+  "lng": 135.71524,
+  "precision": "building",
+  "addressJa": "京都府京都市西京区桂南滝川町53",
+  "neighbourhood": "Katsura",
+  "ward": "Nishikyo",
+  "source": "https://golf-medley.com/practice_facilities/2008 (address and Google Maps link)",
+  "method": "venue-site",
+  "verified": true,
+  "notes": "GSI's block point for 桂南滝川町53 (34.97870,135.71466) reverse-geocodes into neighbouring 桂滝川町, so the listing's map coordinates were used; those reverse-geocode to 桂南滝川町."
  },
  "kyoto-kerala": {
   "id": "kyoto-kerala",
@@ -259,6 +487,66 @@
   "verified": true,
   "notes": "Tabelog gives 河原町通三条上ル KUSビル2F with no town; the 下丸屋町408 town and number come from an iTownPage listing. Pin is about 80 m west of Kawaramachi-dori, so treat as block level."
  },
+ "kyoto-kissa-tyrol": {
+  "id": "kyoto-kissa-tyrol",
+  "lat": 35.01149,
+  "lng": 135.74785,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区御池通大宮西入門前町539-3",
+  "neighbourhood": "Nijo (Oike-Omiya)",
+  "ward": "Nakagyo",
+  "source": "https://tyrol.favy.jp/ (address)",
+  "method": "gsi",
+  "verified": true,
+  "notes": null
+ },
+ "kyoto-kotoro-coffee": {
+  "id": "kyoto-kotoro-coffee",
+  "lat": 35.02885,
+  "lng": 135.76831,
+  "precision": "block",
+  "addressJa": "京都府京都市上京区今出川通寺町東入下ル米屋町301",
+  "neighbourhood": "Demachi (Imadegawa-Teramachi)",
+  "ward": "Kamigyo",
+  "source": "https://kotorocoffee.base.shop/ (address)",
+  "method": "gsi",
+  "verified": true,
+  "notes": null
+ },
+ "kyoto-kurama-dera": {
+  "id": "kyoto-kurama-dera",
+  "lat": 35.11787,
+  "lng": 135.77065,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区鞍馬本町1074",
+  "neighbourhood": "Kurama",
+  "ward": "Sakyo",
+  "source": "transliterated from guide address; OSM node '鞍馬寺' (main hall)",
+  "method": "nominatim",
+  "verified": true,
+  "extraPins": [
+   {
+    "label": "Kurama-dera Niomon gate (entrance, by Kurama station)",
+    "lat": 35.114,
+    "lng": 135.7729,
+    "addressJa": "京都府京都市左京区鞍馬本町"
+   }
+  ],
+  "notes": "Pinned at the main hall. The Niomon entrance gate is by Eizan Kurama station, 30-40 min below; its extra pin is approximate, taken from an OSM signboard node beside the gate. GSI's lot point (35.11956,135.77312) sits in the forest between the two."
+ },
+ "kyoto-kurama-onsen": {
+  "id": "kyoto-kurama-onsen",
+  "lat": 35.11921,
+  "lng": 135.77656,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区鞍馬本町520",
+  "neighbourhood": "Kurama",
+  "ward": "Sakyo",
+  "source": "https://kurama-spa.com/ (address and Google Maps link)",
+  "method": "venue-site",
+  "verified": true,
+  "notes": "GSI's point for 鞍馬本町520 was about 1 km north up the valley, so it was discarded. The venue's map link and OSM agree."
+ },
  "kyoto-kyogoku-stand": {
   "id": "kyoto-kyogoku-stand",
   "lat": 35.00459,
@@ -271,6 +559,32 @@
   "method": "gsi",
   "verified": true,
   "notes": ""
+ },
+ "kyoto-kyoichi-amusement-park-kisshoin": {
+  "id": "kyoto-kyoichi-amusement-park-kisshoin",
+  "lat": 34.96639,
+  "lng": 135.72527,
+  "precision": "block",
+  "addressJa": "京都府京都市南区吉祥院石原長田町1-2",
+  "neighbourhood": "Kisshoin",
+  "ward": "Minami",
+  "source": "http://www.matsubara-kosan.co.jp/hall/bwl02.html (operator page lists 京都市南区吉祥院石原長田町1番地2)",
+  "method": "gsi",
+  "verified": true,
+  "notes": null
+ },
+ "kyoto-kyosaimi-nomura-karasuma-honten": {
+  "id": "kyoto-kyosaimi-nomura-karasuma-honten",
+  "lat": 35.00599,
+  "lng": 135.75897,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区蛸薬師通烏丸西入ル橋弁慶町224",
+  "neighbourhood": "Karasuma (Takoyakushi)",
+  "ward": "Nakagyo",
+  "source": "transliterated from guide address",
+  "method": "gsi",
+  "verified": true,
+  "notes": "The venue page returned 503, so this relies on the guide address. GSI and reverse geocode agree."
  },
  "kyoto-kyoto-brewing-co-taproom": {
   "id": "kyoto-kyoto-brewing-co-taproom",
@@ -298,6 +612,19 @@
   "verified": true,
   "notes": ""
  },
+ "kyoto-kyoto-curry-seisakusho-kariru": {
+  "id": "kyoto-kyoto-curry-seisakusho-kariru",
+  "lat": 35.01823,
+  "lng": 135.75674,
+  "precision": "block",
+  "addressJa": "京都府京都市上京区新町通丸太町上ル春帯町349-1",
+  "neighbourhood": "Marutamachi (Shinmachi)",
+  "ward": "Kamigyo",
+  "source": "https://karil.jp/ (address)",
+  "method": "gsi",
+  "verified": true,
+  "notes": "An OSM node for カリル sits on Teramachi-dori (中京区妙満寺前町, 35.01174,135.76732). It is probably stale or an old location. The official site lists only the Shinmachi-Marutamachi shop and has no relocation notice, so the guide address was kept."
+ },
  "kyoto-kyoto-mai-sushi": {
   "id": "kyoto-kyoto-mai-sushi",
   "lat": 35.00241,
@@ -323,6 +650,32 @@
   "method": "gsi",
   "verified": true,
   "notes": "rroomm-hp.com has a broken TLS certificate, so the address wasn't checked against the site. GSI puts Shimogyo 鍋屋町244 just north of Takatsuji on the Fuyacho line, which matches the guide's 'Fuyacho-Takatsuji'."
+ },
+ "kyoto-marufukuro-former-nintendo-headquarters": {
+  "id": "kyoto-marufukuro-former-nintendo-headquarters",
+  "lat": 34.99176,
+  "lng": 135.76627,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区正面通加茂川西入鍵屋町342",
+  "neighbourhood": "Kawaramachi-Shomen",
+  "ward": "Shimogyo",
+  "source": "https://marufukuro.com/en (address); OSM node '丸福樓'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI matched 鍵屋町342 to a different 鍵屋町 near Karasuma-Gojo, about 700 m west. Shimogyo has several towns called 鍵屋町, so the GSI hit was not used. The OSM hotel node on Shomen-dori reverse-geocodes to 鍵屋町."
+ },
+ "kyoto-mk-bowl-kamigamo": {
+  "id": "kyoto-mk-bowl-kamigamo",
+  "lat": 35.06619,
+  "lng": 135.74686,
+  "precision": "block",
+  "addressJa": "京都府京都市北区上賀茂西河原町1-1",
+  "neighbourhood": "Kamigamo",
+  "ward": "Kita",
+  "source": "https://aumo.jp/articles/52011 (address via search); GSI",
+  "method": "gsi",
+  "verified": true,
+  "notes": "Some sources write 上賀茂西河原町1 without the -1; same block either way."
  },
  "kyoto-mont-bell-kyoto": {
   "id": "kyoto-mont-bell-kyoto",
@@ -363,6 +716,19 @@
   "verified": true,
   "notes": "Guide says '40 Tamachi, Saiin'; the venue site gives 西院東今田町40 (Saiin Higashi-Imada-cho). Live site negaposi.net refused connections, so the address came from the June 2026 Wayback snapshot. Event listings in early 2026 show it still operating (Hankyu Saiin 5 min)."
  },
+ "kyoto-nekoana": {
+  "id": "kyoto-nekoana",
+  "lat": 34.99912,
+  "lng": 135.76091,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区燈籠町592-1",
+  "neighbourhood": "Karasuma-Takatsuji",
+  "ward": "Shimogyo",
+  "source": "transliterated from guide address",
+  "method": "gsi",
+  "verified": true,
+  "notes": "No venue link in the guide and web search found no independent listing, so this is only confirmed as a valid address."
+ },
  "kyoto-number-seven": {
   "id": "kyoto-number-seven",
   "lat": 35.00917,
@@ -388,6 +754,19 @@
   "method": "gsi",
   "verified": true,
   "notes": "4F. Instagram not checked; address from guide."
+ },
+ "kyoto-otagi-nenbutsu-ji": {
+  "id": "kyoto-otagi-nenbutsu-ji",
+  "lat": 35.03116,
+  "lng": 135.66123,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区嵯峨鳥居本深谷町2-5",
+  "neighbourhood": "Saga-Toriimoto",
+  "ward": "Ukyo",
+  "source": "transliterated from guide address; OSM node '愛宕念仏寺'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI's lot point was about 200 m off; the OSM node reverse-geocodes to 深谷町."
  },
  "kyoto-own-kyoto": {
   "id": "kyoto-own-kyoto",
@@ -493,6 +872,32 @@
   "verified": true,
   "notes": "5F. Instagram not checked (blocked); address from guide."
  },
+ "kyoto-saimyo-ji": {
+  "id": "kyoto-saimyo-ji",
+  "lat": 35.05723,
+  "lng": 135.6748,
+  "precision": "building",
+  "addressJa": "京都府京都市右京区梅ケ畑槇尾町1",
+  "neighbourhood": "Takao (Makinoo)",
+  "ward": "Ukyo",
+  "source": "transliterated from guide address; OSM node '西明寺'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI's lot point was about 230 m off; the OSM node reverse-geocodes to 梅ケ畑槇尾町."
+ },
+ "kyoto-sauna-no-umeyu": {
+  "id": "kyoto-sauna-no-umeyu",
+  "lat": 34.99295,
+  "lng": 135.76566,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区岩滝町175-1",
+  "neighbourhood": "Kawaramachi-Shomen (Takase River)",
+  "ward": "Shimogyo",
+  "source": "https://yutonamisha.com/sento/umeyu/ (address); OSM node 'サウナの梅湯'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point is 30 m away. OSM's address tags put it in 高宮町, but GSI reverse geocode of the pin returns 岩滝町, matching the guide."
+ },
  "kyoto-selfurugi": {
   "id": "kyoto-selfurugi",
   "lat": 35.0298,
@@ -505,6 +910,19 @@
   "method": "gsi",
   "verified": true,
   "notes": "SELFURUGI (unmanned chain run by AVEND) is real, but couldn't find a web listing for this Kyoto branch."
+ },
+ "kyoto-sharif": {
+  "id": "kyoto-sharif",
+  "lat": 35.00786,
+  "lng": 135.77015,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区大黒町71 木屋町BEST B.L.D 5F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "source": "https://sharif-kyoto.com/ (address); coordinates from the Google Maps place link on https://eventsearch.jp/facility/shisha-sharif-kyoto",
+  "method": "venue-site",
+  "verified": true,
+  "notes": "5th floor. GSI resolves 大黒町71 to a different spot about 500 m west, because Nakagyo has more than one 大黒町, so the GSI hit was not used. Other listings write the address as 河原町通三条下る大黒町71; nearest station Keihan Sanjo, 5 min."
  },
  "kyoto-shibashi": {
   "id": "kyoto-shibashi",
@@ -531,6 +949,45 @@
   "method": "gsi",
   "verified": true,
   "notes": ""
+ },
+ "kyoto-shozan-golf-club": {
+  "id": "kyoto-shozan-golf-club",
+  "lat": 35.04784,
+  "lng": 135.72345,
+  "precision": "building",
+  "addressJa": "京都府京都市北区大北山長谷町2",
+  "neighbourhood": "Kinkakuji (Okitayama)",
+  "ward": "Kita",
+  "source": "https://shozangolf.com/ (footer address and embedded map)",
+  "method": "venue-site",
+  "verified": true,
+  "notes": "GSI only resolves to town level for this address, so the venue's own map embed was used. It falls inside 大北山長谷町 on reverse geocode."
+ },
+ "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition": {
+  "id": "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition",
+  "lat": 35.00497,
+  "lng": 135.7703,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区四条木屋町上ル紙屋町366 レイホウ会館1F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "source": "https://tabelog.com/kyoto/A2601/A260201/26006793/ (address via search); OSM node 'Cafe la Siesta 8bit edition'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "The guide's 'Kamiyanagicho' is a misromanisation: the town is 紙屋町 (Kamiyacho), the same town as Bee's Knees. The cafelasiesta.com access page returns 404."
+ },
+ "kyoto-suruga-ya-kyoto-teramachi": {
+  "id": "kyoto-suruga-ya-kyoto-teramachi",
+  "lat": 35.00084,
+  "lng": 135.76737,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区恵美須之町534-2",
+  "neighbourhood": "Teramachi (Shijo south)",
+  "ward": "Shimogyo",
+  "source": "https://www.suruga-ya.jp/feature/realstore/teramachi/index.html (address via search); GSI",
+  "method": "gsi",
+  "verified": true,
+  "notes": "Suruga-ya's store list gives the same address. It also gives hours of weekdays 12:00-22:00 and weekends/holidays 10:00-22:00, which differ from the guide's unverified 11:00-21:00. I left the guide text unchanged."
  },
  "kyoto-sushi-rakumi": {
   "id": "kyoto-sushi-rakumi",
@@ -618,6 +1075,32 @@
   "verified": true,
   "notes": ""
  },
+ "kyoto-teuchi-soba-kanei": {
+  "id": "kyoto-teuchi-soba-kanei",
+  "lat": 35.03759,
+  "lng": 135.74709,
+  "precision": "block",
+  "addressJa": "京都府京都市北区紫野東藤ノ森町11-1",
+  "neighbourhood": "Murasakino",
+  "ward": "Kita",
+  "source": "transliterated from guide address; confirmed by https://guide.michelin.com/jp/ja/kyoto-region/kyoto/restaurant/teuchisoba-kanei",
+  "method": "gsi",
+  "verified": true,
+  "notes": null
+ },
+ "kyoto-toyouke-chaya": {
+  "id": "kyoto-toyouke-chaya",
+  "lat": 35.02781,
+  "lng": 135.7356,
+  "precision": "building",
+  "addressJa": "京都府京都市上京区今出川通御前西入紙屋川町822",
+  "neighbourhood": "Kitano Tenmangu",
+  "ward": "Kamigyo",
+  "source": "transliterated from guide address; OSM node 'とようけ茶屋'",
+  "method": "nominatim",
+  "verified": true,
+  "notes": "GSI block point agrees within 20 m."
+ },
  "kyoto-twelve-kyoto": {
   "id": "kyoto-twelve-kyoto",
   "lat": 35.00784,
@@ -643,6 +1126,19 @@
   "method": "gsi",
   "verified": true,
   "notes": "Guide gives only 'Kiyamachi-Sanjo'; full address from venue access page. 3F."
+ },
+ "kyoto-yamashina-golf-garden": {
+  "id": "kyoto-yamashina-golf-garden",
+  "lat": 34.99851,
+  "lng": 135.83914,
+  "precision": "block",
+  "addressJa": "滋賀県大津市稲葉台1-16",
+  "neighbourhood": "Inabadai (near Yamashina)",
+  "ward": "Otsu",
+  "source": "https://yamashina-gg.com/ (footer address); GSI",
+  "method": "gsi",
+  "verified": true,
+  "notes": "In Otsu, Shiga Prefecture, not Kyoto city. The venue's map embed (34.99820,135.83940) agrees with GSI within about 40 m."
  },
  "kyoto-yamatoya": {
   "id": "kyoto-yamatoya",

@@ -1,4 +1,4 @@
-import { esc, distanceKm, formatDistance, walkMinutes, formatDay } from "./util.js";
+import { esc, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.js";
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
@@ -23,7 +23,7 @@ export function mountList(root) {
     const { places, guide, catOrder } = app.data;
     const a = anchor();
     let results = places.filter((p) => matches(p));
-    results.forEach((p) => (p.dist = a ? distanceKm(a, p) : null));
+    results.forEach((p) => (p.dist = a ? nearestKm(a, p) : null));
     if (a) results.sort((x, y) => (x.dist ?? 1e9) - (y.dist ?? 1e9));
     else if (filter.q) {
       const q = filter.q.toLowerCase();
@@ -31,7 +31,7 @@ export function mountList(root) {
     } else results.sort((x, y) => x.order - y.order || catOrder[x.main.category] - catOrder[y.main.category]);
 
     ctx.innerHTML = contextCards(results, guide);
-    const where = a ? (a.kind === "here" ? "nearest to you" : `nearest to ${esc(a.label)} · ${formatDay(app.date)}`) : "";
+    const where = a ? (a.kind === "here" ? "nearest to you" : `nearest to ${esc(a.label)} on ${formatDay(app.date)}`) : "";
     count.innerHTML = `${results.length} place${results.length === 1 ? "" : "s"}${where ? ` <span>${where}</span>` : ""}`;
     rows.innerHTML = results.length ? results.map(row).join("") :
       `<li class="empty">Nothing matches. Try removing a filter.</li>`;

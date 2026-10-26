@@ -16,6 +16,10 @@ export function distanceKm(a, b) {
   return 12742 * Math.asin(Math.sqrt(h));
 }
 
+// Distance from a place to an anchor that may be several points (a day's stops)
+export const nearestKm = (anchor, p) =>
+  anchor?.points ? Math.min(...anchor.points.map((q) => distanceKm(q, p))) : distanceKm(anchor, p);
+
 export function formatDistance(km) {
   if (km == null) return "";
   if (km < 1) return `${Math.round(km * 1000 / 10) * 10} m`;
@@ -31,7 +35,9 @@ const JP = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit",
   hour: "2-digit", minute: "2-digit", hourCycle: "h23",
 });
-export function japanNow(date = new Date()) {
+// ?now=2026-11-20T22:30 pretends it's that moment in Japan, for checking the plan ahead of time
+const NOW = new URLSearchParams(location.search).get("now");
+export function japanNow(date = NOW ? new Date(NOW + "+09:00") : new Date()) {
   const p = Object.fromEntries(JP.formatToParts(date).map((x) => [x.type, x.value]));
   return { date: `${p.year}-${p.month}-${p.day}`, minutes: +p.hour * 60 + +p.minute, time: `${p.hour}:${p.minute}` };
 }

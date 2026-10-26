@@ -22,8 +22,15 @@ export function showPlan() {
   clearInterval(timer);
   // Keep Now / Next current while the tab is open
   timer = setInterval(render, 60000);
-  const today = root.querySelector(".day.today");
-  if (today) requestAnimationFrame(() => today.scrollIntoView({ block: "start" }));
+}
+
+// During the trip, today and what's ahead come first; earlier days fold away
+function days(trip, now) {
+  const past = trip.days.filter((d) => d.date < now.date);
+  const ahead = trip.days.filter((d) => d.date >= now.date);
+  if (!past.length || !ahead.length) return `<ol class="days">${trip.days.map((d) => dayCard(d, now)).join("")}</ol>`;
+  return `<ol class="days">${ahead.map((d) => dayCard(d, now)).join("")}</ol>
+    <details class="earlier"><summary>Earlier days (${past.length})</summary><ol class="days">${past.map((d) => dayCard(d, now)).join("")}</ol></details>`;
 }
 export const hidePlan = () => clearInterval(timer);
 
@@ -43,7 +50,7 @@ function render() {
   root.innerHTML = `
     <header class="viewhead"><h1>Plan</h1><p class="who">${esc(trip.people.join(" · "))}</p></header>
     ${top}
-    <ol class="days">${trip.days.map((d) => dayCard(d, now)).join("")}</ol>
+    ${days(trip, now)}
     ${trip.open?.length ? `<section class="card open"><h2>Still to sort out</h2><ul>${trip.open.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>` : ""}`;
 }
 

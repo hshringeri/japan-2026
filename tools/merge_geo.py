@@ -59,7 +59,17 @@ AREAS = {
 }
 
 # Where the pin knowingly differs from the guide's address line, say so on the place page
-GEO_NOTES = {}
+GEO_NOTES = {
+    "osaka-environment-0g": "The guide's address is Hokage's building. The pin uses the venue's own address: Nishi-Osaka Bldg B1F, 3-6-1 Minami-Horie, near Sakuragawa station.",
+    "kyoto-big-time-kyoto": "The shop's own listing puts it at Sanjo-Teramachi (Sanjo-dori Teramachi-higashi-iru), which is where the pin is.",
+    "tokyo-cafe-game-bar-kotobuki": "It's at Imagawa 4-28-20, about 1.5 km north of Nishi-Ogikubo station: a 14-minute walk from Kami-Igusa, or a bus from Nishi-Ogikubo.",
+    "osaka-awesome-day-coffee": "This address matches REICHI STORE / R COFFEE's press release exactly, so check which shop is there now.",
+    "kyoto-p-m-sounds-kyoto": "This looks like the same venue as P.M.SOUNDS. Its Instagram is @pmsounds.kyoto.",
+    "kyoto-shibashi": "Mostly opens for booked events, and the address comes with the booking. The pin only marks the area east of Heian Shrine.",
+    "kyoto-kaikan-bars": "Shitomi Kaikan is 四富会館, read Yontomi. Orizuru Kaikan is by Hankyu Saiin, about 3 km west of the other two.",
+    "kyoto-cafe-de-ai": "The website link now redirects to an unrelated site. The cafe still shows in listings at this address.",
+    "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition": "The town is Kamiyacho (紙屋町), the same block as Bee's Knees.",
+}
 
 
 def area_for(city, ward, hood):
