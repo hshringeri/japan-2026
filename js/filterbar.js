@@ -1,6 +1,13 @@
 import { esc, formatDay, weekday, dayNumber, japanNow } from "./util.js";
+import { KIND_EMOJI, CATEGORY_EMOJI } from "./data.js";
 import { filter, setFilter, suggestions, picked, applyChip, removePicked, onFilter } from "./filter.js";
 import { app, setDate, onApp } from "./state.js";
+
+// Chips carry the same marks as the list, where the value has one
+function chipEmoji(c) {
+  const e = c.key === "kind" ? KIND_EMOJI[c.value] : c.key === "category" ? CATEGORY_EMOJI[c.label] : "";
+  return e ? `${e} ` : "";
+}
 
 // Search box + picked chips + next-step chips. One instance per view, all kept in sync.
 export function mountFilterBar(root, { compact = false } = {}) {
@@ -39,8 +46,8 @@ export function mountFilterBar(root, { compact = false } = {}) {
     clearBtn.hidden = !filter.q;
     const { groups } = suggestions(app.data.places, app.data);
     const sel = picked(app.data);
-    const chip = (c) => `<button type="button" class="chip" data-key="${esc(c.key)}" data-value="${esc(c.value)}">${esc(c.label)}<small>${c.count}</small></button>`;
-    let html = sel.map((s) => `<button type="button" class="chip on" data-remove='${esc(JSON.stringify(s))}'>${esc(s.label)}<span aria-hidden="true">×</span></button>`).join("");
+    const chip = (c) => `<button type="button" class="chip" data-key="${esc(c.key)}" data-value="${esc(c.value)}">${esc(chipEmoji(c))}${esc(c.label)}<small>${c.count}</small></button>`;
+    let html = sel.map((s) => `<button type="button" class="chip on" data-remove='${esc(JSON.stringify(s))}'>${esc(chipEmoji(s))}${esc(s.label)}<span aria-hidden="true">×</span></button>`).join("");
     if (sel.length > 1) html += `<button type="button" class="chip reset" data-reset>Clear</button>`;
     for (const g of groups.filter((g) => g.row === 1)) {
       if (html) html += `<span class="sep" aria-hidden="true"></span>`;

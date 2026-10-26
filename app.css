@@ -75,7 +75,7 @@ button { font: inherit; color: inherit; }
 /* Hover (desktop) lights the row; .lit is its pin lit from the map */
 .row.lit, .row:hover { background: #ebe4d7; }
 /* The pin the list is pointing at jumps out */
-.pin.lit span { transform: scale(1.6); border-color: var(--ink); box-shadow: 0 0 0 3px var(--paper), 0 1px 6px rgba(0, 0, 0, .5); }
+.pin.lit span { transform: scale(1.6); border-color: var(--ink); background: #fff; box-shadow: 0 0 0 3px var(--paper), 0 1px 6px rgba(0, 0, 0, .5); }
 .pin span { transition: transform .12s ease-out, border-color .12s, box-shadow .12s; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-top: 5px; display: inline-block; flex: none; }
 .row .body { display: grid; gap: 2px; min-width: 0; }
@@ -110,9 +110,9 @@ button { font: inherit; color: inherit; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .maptoast { position: absolute; z-index: 600; left: 50%; transform: translateX(-50%); bottom: 84px; margin: 0; background: var(--ink); color: var(--paper); padding: 8px 14px; font: 600 13px var(--sans); border-radius: 18px; max-width: calc(100% - 32px); text-align: center; }
 
-.pin span { display: block; width: 18px; height: 18px; margin: 2px; border-radius: 50%; background: var(--c); border: 2.5px solid #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .4); }
-.pin.approx span { opacity: .55; border-style: dashed; }
-.pin.big span { width: 24px; height: 24px; }
+.pin span { display: grid; place-items: center; width: 22px; height: 22px; margin: 2px; border-radius: 50%; background: #fff; border: 2.5px solid var(--c); box-shadow: 0 1px 4px rgba(0, 0, 0, .4); font-size: 12px; line-height: 1; }
+.pin.approx span { opacity: .6; border-style: dashed; }
+.pin.big span { width: 28px; height: 28px; font-size: 15px; }
 .cluster { background: var(--ink); color: #fff; border-radius: 50%; border: 2.5px solid #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, .4); display: grid; place-items: center; font: 800 13px var(--sans); }
 /* Where we sleep: a square badge, unlike the round place pins, with the stay's name under it */
 .stay { background: var(--ink); border-radius: 9px; border: 2.5px solid #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, .45); display: grid; place-items: center; }

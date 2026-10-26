@@ -70,7 +70,7 @@ function build() {
 
 function pin(p) {
   const m = L.marker([p.lat, p.lng], {
-    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}"></span>`, iconSize: [22, 22] }),
+    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}">${catEmoji(p)}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }),
     title: p.name, keyboard: true,
   });
   m.on("click", (e) => { L.DomEvent.stopPropagation(e); openPlace(p); });

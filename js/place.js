@@ -3,7 +3,7 @@ import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay 
 import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan } from "./state.js";
-import { KIND_EMOJI, isInstagram } from "./data.js";
+import { KIND_EMOJI, catEmoji, isInstagram } from "./data.js";
 
 let mini;
 
@@ -72,7 +72,7 @@ export function renderPlace(root, id) {
     mini = L.map(el, { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false, maxZoom: 19 })
       .setView([p.lat, p.lng], 16);
     addBasemap(mini, { interactive: false });
-    L.marker([p.lat, p.lng], { icon: L.divIcon({ className: "pin big", html: `<span style="--c:${p.color}"></span>`, iconSize: [28, 28] }) }).addTo(mini);
+    L.marker([p.lat, p.lng], { icon: L.divIcon({ className: "pin big", html: `<span style="--c:${p.color}">${catEmoji(p)}</span>`, iconSize: [32, 32], iconAnchor: [16, 16] }) }).addTo(mini);
     el.addEventListener("click", () => (location.hash = `#/map/${p.id}`));
   }
   root.scrollTop = 0;

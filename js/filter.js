@@ -115,7 +115,7 @@ export function picked(data, f = filter) {
   const out = [];
   if (f.city) out.push({ key: "city", label: data.cityName[f.city] });
   for (const a of f.area) out.push({ key: "area", value: a, label: a });
-  if (f.kind) out.push({ key: "kind", label: data.kindName[f.kind] });
+  if (f.kind) out.push({ key: "kind", value: f.kind, label: data.kindName[f.kind] });
   if (f.category) out.push({ key: "category", label: f.category });
   for (const t of f.tags) out.push({ key: "tag", value: t, label: t.split(/:(.*)/s)[1] });
   return out;
