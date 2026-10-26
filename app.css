@@ -47,6 +47,7 @@ button { font: inherit; color: inherit; }
 .search .clear { border: 0; background: none; font-size: 22px; line-height: 1; color: var(--mute); cursor: pointer; padding: 0 2px; }
 .chiprow { display: flex; gap: 6px; overflow-x: auto; padding: 0 16px; scrollbar-width: none; align-items: center; min-height: 34px; }
 .chiprow::-webkit-scrollbar { display: none; }
+.chiprow[hidden] { display: none; }
 .chip { flex: none; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 11px; border: 1.5px solid var(--ink); background: var(--card); font: 700 13px var(--sans); cursor: pointer; white-space: nowrap; border-radius: 16px; }
 .chip small { font-weight: 600; color: var(--mute); font-size: 11px; }
 .chip.on { background: var(--ink); color: var(--paper); }

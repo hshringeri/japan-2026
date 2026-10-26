@@ -11,8 +11,10 @@ export function mountFilterBar(root, { compact = false } = {}) {
       <input type="search" placeholder="Search places, food, areas…" autocomplete="off" enterkeyhint="search">
       <button type="button" class="clear" aria-label="Clear search" hidden>×</button>
     </label>
-    <div class="chiprow" role="toolbar" aria-label="Filters"></div>`;
-  const input = root.querySelector("input"), clearBtn = root.querySelector(".clear"), row = root.querySelector(".chiprow");
+    <div class="chiprow" role="toolbar" aria-label="Filters"></div>
+    <div class="chiprow types" role="toolbar" aria-label="Types" hidden></div>`;
+  const input = root.querySelector("input"), clearBtn = root.querySelector(".clear");
+  const [row, typeRow] = root.querySelectorAll(".chiprow");
   input.value = filter.q;
 
   let t;
@@ -22,13 +24,14 @@ export function mountFilterBar(root, { compact = false } = {}) {
   });
   clearBtn.addEventListener("click", () => { input.value = ""; setFilter({ q: "" }); input.focus(); });
 
-  row.addEventListener("click", (e) => {
-    const b = e.target.closest("button");
+  root.addEventListener("click", (e) => {
+    const b = e.target.closest(".chiprow button");
     if (!b) return;
     if (b.dataset.remove != null) removePicked(JSON.parse(b.dataset.remove));
     else if (b.dataset.reset != null) setFilter({ city: null, area: null, kind: null, category: null, tags: [], q: "" });
     else applyChip(b.dataset.key, b.dataset.value);
     row.scrollTo({ left: 0, behavior: "smooth" });
+    typeRow.scrollTo({ left: 0, behavior: "smooth" });
   });
 
   function render() {
@@ -36,14 +39,18 @@ export function mountFilterBar(root, { compact = false } = {}) {
     clearBtn.hidden = !filter.q;
     const { groups } = suggestions(app.data.places, app.data);
     const sel = picked(app.data);
+    const chip = (c) => `<button type="button" class="chip" data-key="${esc(c.key)}" data-value="${esc(c.value)}">${esc(c.label)}<small>${c.count}</small></button>`;
     let html = sel.map((s) => `<button type="button" class="chip on" data-remove='${esc(JSON.stringify(s))}'>${esc(s.label)}<span aria-hidden="true">×</span></button>`).join("");
     if (sel.length > 1) html += `<button type="button" class="chip reset" data-reset>Clear</button>`;
-    for (const g of groups) {
+    for (const g of groups.filter((g) => g.row === 1)) {
       if (html) html += `<span class="sep" aria-hidden="true"></span>`;
-      html += g.chips.map((c) =>
-        `<button type="button" class="chip" data-key="${esc(c.key)}" data-value="${esc(c.value)}">${esc(c.label)}<small>${c.count}</small></button>`).join("");
+      html += g.chips.map(chip).join("");
     }
     row.innerHTML = html;
+    // Every type (Gorpcore, Vinyl Bars, Gaming Cafes…) on a row of its own until you drill in
+    const types = groups.filter((g) => g.row === 2).flatMap((g) => g.chips);
+    typeRow.hidden = !types.length;
+    typeRow.innerHTML = types.map(chip).join("");
   }
   onFilter(render);
   onApp("data", render);

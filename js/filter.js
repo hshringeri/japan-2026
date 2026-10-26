@@ -69,7 +69,7 @@ export function suggestions(places, data, f = filter) {
   const add = (key, label, entries, opts = {}) => {
     let chips = entries.map(([value, count]) => ({ key, value, count, label: opts.name ? opts.name(value) : value }));
     if (opts.narrowOnly) chips = chips.filter((c) => c.count < results.length);
-    if (chips.length > (opts.min ?? 1)) groups.push({ key, label, chips });
+    if (chips.length > (opts.min ?? 1)) groups.push({ key, label, chips, row: opts.row || 1 });
   };
 
   const kindsHere = counts(results, (p) => p.kinds);
@@ -88,6 +88,14 @@ export function suggestions(places, data, f = filter) {
     if (kind && !f.category) {
       const cats = counts(results, (p) => p.categories.filter((c) => data.taxonomy.kinds.find((k) => k.id === kind).categories.includes(c)));
       add("category", "Type", cats);
+    } else if (!f.category) {
+      // No kind yet: offer every type (Gorpcore, Vinyl Bars, Gaming Cafes…) grouped by kind,
+      // skipping a type that is its whole kind here (JDM Culture = Car culture)
+      const byCat = new Map(counts(results, (p) => p.categories));
+      const kindCount = new Map(kindsHere);
+      const cats = data.taxonomy.kinds.flatMap((k) =>
+        k.categories.filter((c) => byCat.has(c) && byCat.get(c) < kindCount.get(k.id)).map((c) => [c, byCat.get(c)]));
+      add("category", "Type", cats, { min: 0, row: 2 });
     }
     const facet = FACET_FOR_KIND[kind];
     if (facet) {
