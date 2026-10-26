@@ -3,6 +3,7 @@ import { loadData } from "./data.js";
 import { app, emit, startLocation, locationWasAllowed, setDate } from "./state.js";
 import { mountList } from "./list.js";
 import { mountMap, showMap, focusPlace } from "./map.js";
+import { mountSplit, syncSplit } from "./split.js";
 import { mountPlan, showPlan, hidePlan } from "./plan.js";
 import { renderPlace } from "./place.js";
 import { renderGuide } from "./guide.js";
@@ -23,6 +24,7 @@ function route() {
   // On wide screens the map stays beside every panel
   if (wide.matches && name !== "guide") $("#view-map").hidden = false;
   if (name === "map" || (wide.matches && name !== "guide")) showMap();
+  syncSplit(name);
   if (view === "map" && arg && app.data.byId[arg]) {
     if (wide.matches) { $("#view-place").hidden = false; renderPlace($("#view-place"), arg); }
     focusPlace(app.data.byId[arg]);
@@ -46,6 +48,7 @@ async function start() {
   mountList($("#view-list"));
   mountMap($("#view-map"));
   mountPlan($("#view-plan"));
+  mountSplit();
   emit("data");
   // ?day=2026-11-24 opens straight onto that trip day
   const day = new URLSearchParams(location.search).get("day");

@@ -35,6 +35,11 @@ export function showMap() {
   setTimeout(() => map.invalidateSize(), 0);
 }
 
+// The seam was dragged: cell sizes changed without a window resize
+export function resized() {
+  if (started) map.invalidateSize();
+}
+
 function build() {
   started = true;
   map = L.map("map", { zoomControl: false, attributionControl: true, maxBounds: JAPAN.pad(1.5), minZoom: 5, maxZoom: 19, tap: true })

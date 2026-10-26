@@ -211,6 +211,15 @@ button { font: inherit; color: inherit; }
   #view-guide { top: 0; left: 0; bottom: 0; z-index: 20; }
   .viewhead { padding-top: 12px; }
   body[data-view="guide"] .tabbar { display: none; }
+
+  /* Drag seam over the panel's border. Widen the hit area past the 3px rule. */
+  .split { position: fixed; top: 52px; bottom: 0; left: var(--panel-w); width: 15px; margin-left: -9px; z-index: 15; cursor: col-resize; touch-action: none; }
+  .split::after { content: ""; position: absolute; inset: 0 6px; background: transparent; transition: background .12s; }
+  .split:hover::after, .split.dragging::after, .split:focus-visible::after { background: var(--accent); }
+  .split:focus-visible { outline: none; }
+  .split.dragging, body.resizing { cursor: col-resize; }
+  body.resizing { user-select: none; }
+  body.resizing iframe, body.resizing .leaflet-container { pointer-events: none; }
 }
 .geonote { font: 13px/1.45 var(--sans); background: #fff6d6; border-left: 4px solid #b7791f; padding: 6px 10px; margin: 8px 0; color: #5b4310; }
 .earlier { margin: 8px 16px 0; }

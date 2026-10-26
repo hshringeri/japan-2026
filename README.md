@@ -18,6 +18,8 @@ There's no build step. GitHub Pages serves the files as they are.
 
 The map is OpenFreeMap (OpenStreetMap data, no key) with labels switched to English; `js/basemap.js` does the switch. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
 
+On a wide screen the list sits beside the map. The seam between them is draggable (drag, or focus it and use the arrow keys; double-click resets to 440px). The width is remembered per browser and ignored on phones, where the panel stays full width.
+
 ## Common edits
 
 To add an Airbnb address, find the stay in `data/trip.json` and fill in `address`, `lat` and `lng`, then delete its `precisionNote`. Google Maps gives you the coordinates when you long-press a spot.
