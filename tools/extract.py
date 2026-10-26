@@ -28,11 +28,11 @@ def slug(s):
 def save_image(data_uri, name):
     m = re.match(r"data:image/(\w+);base64,(.*)", data_uri, re.S)
     ext = "jpg" if m.group(1) == "jpeg" else m.group(1)
-    path = f"img/{name}.{ext}"
-    os.makedirs(os.path.join(ROOT, "img"), exist_ok=True)
-    with open(os.path.join(ROOT, path), "wb") as f:
+    os.makedirs(os.path.join(ROOT, "img/original"), exist_ok=True)
+    with open(os.path.join(ROOT, f"img/original/{name}.{ext}"), "wb") as f:
         f.write(base64.b64decode(m.group(2)))
-    return path
+    # The app serves a resized copy (tools/resize-images.sh); the original stays for tools/check.py
+    return f"img/{name}.{ext}"
 
 
 def figure(fig_html, name):

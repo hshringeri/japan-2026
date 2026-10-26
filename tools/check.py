@@ -95,7 +95,7 @@ def main():
     figs = [guide["cover"]] + [x for city in guide["cities"] for x in [city["hero"]] + [b for b in city["blocks"] if b["type"] == "band"]]
     originals = {base64.b64decode(m) for m in re.findall(r"data:image/\w+;base64,([A-Za-z0-9+/=]+)", src)}
     for f in figs:
-        if open(os.path.join(ROOT, f["img"]), "rb").read() not in originals:
+        if open(os.path.join(ROOT, "img/original", os.path.basename(f["img"])), "rb").read() not in originals:
             errors.append(f"image {f['img']} does not match any original")
     if len(figs) != len(originals):
         errors.append(f"image count: original {len(originals)}, extracted {len(figs)}")
