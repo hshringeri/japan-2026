@@ -1,0 +1,650 @@
+{
+ "people": [
+  "Raghav",
+  "Vik",
+  "Aman",
+  "Raj",
+  "Hardhi"
+ ],
+ "stays": [
+  {
+   "id": "tokyo-1",
+   "name": "Tokyo Airbnb",
+   "city": "tokyo",
+   "from": "2026-11-15",
+   "to": "2026-11-18",
+   "lat": null,
+   "lng": null,
+   "url": "https://www.airbnb.com/rooms/1183630871035082218?adults=5&check_in=2026-11-15&check_out=2026-11-18&guests=5",
+   "precision": "none",
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
+  },
+  {
+   "id": "kyoto",
+   "name": "Kyoto Airbnb",
+   "city": "kyoto",
+   "from": "2026-11-18",
+   "to": "2026-11-21",
+   "lat": null,
+   "lng": null,
+   "url": "https://www.airbnb.com/l/nTZD9VxK",
+   "precision": "none",
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
+  },
+  {
+   "id": "osaka",
+   "name": "Osaka Airbnb",
+   "city": "osaka",
+   "from": "2026-11-21",
+   "to": "2026-11-24",
+   "lat": null,
+   "lng": null,
+   "url": "https://www.airbnb.com/trips/v1/1760680450375926976/ro/RESERVATION2_CHECKIN/HMHTZX3P59",
+   "precision": "none",
+   "precisionNote": "Address not added yet",
+   "type": "airbnb"
+  },
+  {
+   "id": "fuji",
+   "name": "Fuji Classic Hotel",
+   "city": "fuji",
+   "from": "2026-11-24",
+   "to": "2026-11-25",
+   "lat": 35.42511,
+   "lng": 138.62268,
+   "address": "1306 Fujigane, Fujikawaguchiko, Yamanashi",
+   "precision": "exact",
+   "notes": "Booked by Hardhi. About 25 min by taxi from Kawaguchiko Station.",
+   "type": "hotel"
+  },
+  {
+   "id": "tokyo-2",
+   "name": "Tokyo Airbnb",
+   "city": "tokyo",
+   "from": "2026-11-25",
+   "to": "2026-11-29",
+   "lat": null,
+   "lng": null,
+   "url": "https://www.airbnb.com/properties/1715242135235065210?anchor_room_id=1280000126296256014",
+   "precision": "none",
+   "precisionNote": "Address not added yet",
+   "notes": "Booked by Aman.",
+   "type": "airbnb"
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-11-15",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo · Shibuya",
+   "title": "Land, then Shibuya at night",
+   "stay": "tokyo-1",
+   "items": [
+    {
+     "kind": "flight",
+     "title": "Raghav lands",
+     "time": "13:00",
+     "who": [
+      "Raghav"
+     ],
+     "notes": "Airport not in the sheet."
+    },
+    {
+     "kind": "flight",
+     "title": "Vik, Aman and Raj land",
+     "time": "15:00",
+     "who": [
+      "Vik",
+      "Aman",
+      "Raj"
+     ]
+    },
+    {
+     "kind": "flight",
+     "title": "Hardhi lands",
+     "status": "tbd",
+     "who": [
+      "Hardhi"
+     ]
+    },
+    {
+     "kind": "transfer",
+     "title": "Airport → Tokyo / Shibuya",
+     "notes": "Get a Suica card at the airport."
+    },
+    {
+     "kind": "checkin",
+     "title": "Check in: Tokyo Airbnb"
+    },
+    {
+     "kind": "sight",
+     "title": "Shibuya Crossing and Shibuya at night",
+     "notes": "Ad hoc.",
+     "lat": 35.6595,
+     "lng": 139.7005,
+     "address": "Shibuya Station Hachiko-mae crossing, Dogenzaka 2-chome, Shibuya-ku, Tokyo"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo",
+   "title": "Shibuya and Harajuku → Shimokitazawa → Shinjuku at night",
+   "stay": "tokyo-1",
+   "items": [
+    {
+     "kind": "sight",
+     "title": "Shibuya and Harajuku",
+     "lat": 35.6702,
+     "lng": 139.7027
+    },
+    {
+     "kind": "food",
+     "title": "Ramen: Usagi",
+     "notes": "From the sheet's \"ramen usagi (shibuya)\". Near Shinsen station; not confirmed open in 2026.",
+     "url": "https://www.timeout.com/tokyo/restaurants/usagi",
+     "lat": 35.65573,
+     "lng": 139.69353,
+     "address": "1F Argus Shimoda Bldg, 8-13 Shinsen-cho, Shibuya-ku, Tokyo 150-0045"
+    },
+    {
+     "kind": "food",
+     "title": "Yama (dessert omakase)",
+     "notes": "The sheet's restaurant link is Yama's OMAKASE booking page. An archived listing shows seatings at 12:00 and 15:00. It's in Shirokane, off the day's route.",
+     "url": "https://omakase.in/r/oz781836?utm_content=booking_btn&utm_medium=referral&utm_source=michelinofficial",
+     "lat": 35.64381,
+     "lng": 139.7229,
+     "address": "ZEX SHIROKANE 1F, 6-16-41 Shirokane, Minato-ku, Tokyo 108-0072 (白金6-16-41 ゼクス白金 1F)"
+    },
+    {
+     "kind": "sight",
+     "title": "Shimokitazawa",
+     "lat": 35.6616,
+     "lng": 139.668
+    },
+    {
+     "kind": "night",
+     "title": "Shinjuku at night",
+     "lat": 35.6938,
+     "lng": 139.7034
+    },
+    {
+     "kind": "food",
+     "title": "Yakiniku in Shinjuku",
+     "status": "tbd",
+     "notes": "Place not picked yet."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo",
+   "title": "Ueno and Asakusa → Tokyo Tower sunset → Akihabara",
+   "stay": "tokyo-1",
+   "items": [
+    {
+     "kind": "sight",
+     "title": "Ueno",
+     "lat": 35.71402,
+     "lng": 139.77393,
+     "address": "Ueno Park, Taito-ku, Tokyo 110-0007"
+    },
+    {
+     "kind": "sight",
+     "title": "Asakusa (Senso-ji)",
+     "lat": 35.7134,
+     "lng": 139.79553,
+     "address": "Asakusa 2-chome, Taito-ku, Tokyo 111-0032"
+    },
+    {
+     "kind": "sight",
+     "title": "Tokyo Tower for sunset",
+     "lat": 35.65845,
+     "lng": 139.74554,
+     "address": "Shibakoen 4-chome, Minato-ku, Tokyo 105-0011"
+    },
+    {
+     "kind": "activity",
+     "title": "Akihabara: bowling, arcade, maid cafe",
+     "notes": "The guide's Akihabara picks are in the list under Akihabara & Kanda.",
+     "lat": 35.69834,
+     "lng": 139.77317,
+     "address": "Akihabara, Taito/Chiyoda-ku, Tokyo"
+    },
+    {
+     "kind": "food",
+     "title": "Spice Lab Tokyo",
+     "notes": "Modern Indian in Ginza. Booking is through TableCheck.",
+     "url": "https://spicelabtokyo.com/en/menu/",
+     "lat": 35.67157,
+     "lng": 139.76204,
+     "address": "Gicros GINZA Gems 10F, 6-4-3 Ginza, Chuo-ku, Tokyo 104-0061"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "city": "kyoto",
+   "short": "Kyoto",
+   "cityLabel": "Tokyo → Kyoto",
+   "title": "Bullet train to Kyoto → Golden Pavilion → Bamboo Forest → Gion",
+   "stay": "kyoto",
+   "items": [
+    {
+     "kind": "checkout",
+     "title": "Check out: Tokyo Airbnb"
+    },
+    {
+     "kind": "train",
+     "title": "Shinkansen, Tokyo → Kyoto (morning)",
+     "notes": "Nozomi takes about 2 h 15 min, e.g. 08:00 → 10:15. ¥13,320 with a non-reserved seat.",
+     "lat": 35.68125,
+     "lng": 139.76724,
+     "address": "1-9-1 Marunouchi, Chiyoda-ku, Tokyo"
+    },
+    {
+     "kind": "checkin",
+     "title": "Check in: Kyoto Airbnb"
+    },
+    {
+     "kind": "sight",
+     "title": "Golden Pavilion (Kinkaku-ji)",
+     "lat": 35.03953,
+     "lng": 135.72954,
+     "address": "Kinkakuji-cho, Kita-ku, Kyoto 603-8361"
+    },
+    {
+     "kind": "sight",
+     "title": "Arashiyama Bamboo Forest",
+     "lat": 35.01674,
+     "lng": 135.67115,
+     "address": "Sagaogurayama, Ukyo-ku, Kyoto"
+    },
+    {
+     "kind": "night",
+     "title": "Gion (music bar)",
+     "notes": "Bar not picked yet.",
+     "lat": 35.00469,
+     "lng": 135.7784,
+     "address": "Gion, Higashiyama-ku, Kyoto"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "city": "kyoto",
+   "short": "Kyoto",
+   "cityLabel": "Kyoto",
+   "title": "Fushimi Inari → chill → Pontocho at night",
+   "stay": "kyoto",
+   "items": [
+    {
+     "kind": "sight",
+     "title": "Fushimi Inari trail",
+     "lat": 34.96708,
+     "lng": 135.77254,
+     "address": "Fukakusa, Fushimi-ku, Kyoto 612-0807"
+    },
+    {
+     "kind": "note",
+     "title": "Chill"
+    },
+    {
+     "kind": "night",
+     "title": "Pontocho Alley",
+     "lat": 35.00425,
+     "lng": 135.77121,
+     "address": "Pontocho, Nakagyo-ku, Kyoto"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "city": "osaka",
+   "short": "Osaka",
+   "cityLabel": "Kyoto → Osaka night out",
+   "title": "Osaka for a big night out",
+   "stay": "kyoto",
+   "items": [
+    {
+     "kind": "train",
+     "title": "Kyoto → Osaka",
+     "notes": "About 30 min. Hankyu from Kyoto-kawaramachi to Osaka-umeda.",
+     "lat": 35.00376,
+     "lng": 135.76961,
+     "address": "Shijo-dori, Shimogyo-ku, Kyoto"
+    },
+    {
+     "kind": "note",
+     "title": "Chill"
+    },
+    {
+     "kind": "night",
+     "title": "Going out in Osaka",
+     "notes": "The guide's Osaka clubs and bars are in the list."
+    },
+    {
+     "kind": "train",
+     "title": "Last train back to Kyoto",
+     "time": "23:45",
+     "notes": "Hankyu Osaka-umeda 23:45 → Kyoto-kawaramachi 00:34 (¥410). Keihan Yodoyabashi 23:33 → Gion-shijo 00:20 (¥490). JR Osaka 00:00 → Kyoto 00:30 (¥580). From Namba, leave by about 23:28 for the Hankyu train.",
+     "lat": 34.70542,
+     "lng": 135.49837,
+     "address": "1-1-2 Shibata, Kita-ku, Osaka"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "city": "osaka",
+   "short": "Osaka",
+   "cityLabel": "Kyoto → Osaka",
+   "title": "Recover, eat, chill",
+   "stay": "osaka",
+   "items": [
+    {
+     "kind": "checkout",
+     "title": "Check out: Kyoto Airbnb"
+    },
+    {
+     "kind": "checkin",
+     "title": "Check in: Osaka Airbnb"
+    },
+    {
+     "kind": "food",
+     "title": "Macauda (Italian)",
+     "notes": "The sheet's restaurant link is Macauda's booking page. Bib Gourmand Italian, ¥9,900 course per a 2025 archive; recheck the live page.",
+     "url": "https://omakaseje.com/restaurants/vn678930?utm_content=booking_btn&utm_medium=referral&utm_source=michelinofficial",
+     "lat": 34.68244,
+     "lng": 135.51431,
+     "address": "101 Haines Tokiwa, 2-1-3 Tokiwamachi, Chuo-ku, Osaka 540-0028"
+    },
+    {
+     "kind": "flight",
+     "title": "Osaka → Okinawa? (night flight)",
+     "status": "tbd"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "city": "osaka",
+   "short": "Nara",
+   "cityLabel": "Osaka · Nara · Okinawa?",
+   "title": "Nara",
+   "stay": "osaka",
+   "items": [
+    {
+     "kind": "sight",
+     "title": "Nara",
+     "lat": 34.68476,
+     "lng": 135.83375,
+     "address": "Noborioji-cho, Nara"
+    },
+    {
+     "kind": "flight",
+     "title": "Jetstar GK355, Kansai → Okinawa (Naha)",
+     "time": "15:20",
+     "end": "17:50",
+     "notes": "From the sheet's Google Flights link. Times are the usual Sunday schedule, not confirmed for this date, so check the booking.",
+     "lat": 34.4342,
+     "lng": 135.22252,
+     "address": "Izumisano, Osaka 549-0011"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "city": "okinawa",
+   "short": "Okinawa",
+   "cityLabel": "Okinawa?",
+   "title": "Okinawa day 2 → fly back toward Fuji (route TBD)",
+   "stay": "osaka",
+   "items": [
+    {
+     "kind": "flight",
+     "title": "Okinawa → Tokyo area",
+     "status": "tbd",
+     "lat": 26.1967,
+     "lng": 127.64895,
+     "address": "Kagamizu, Naha, Okinawa 901-0142"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "city": "fuji",
+   "short": "Fuji",
+   "cityLabel": "Drive to Fuji",
+   "title": "Drive to Fuji, onsen day with Fuji views",
+   "stay": "fuji",
+   "items": [
+    {
+     "kind": "transfer",
+     "title": "Pick up the rental car: JDM Rental Japan",
+     "notes": "Start of the sheet's driving route.",
+     "url": "https://maps.app.goo.gl/hPvb7HBui3L1Mg7u8",
+     "lat": 35.77832,
+     "lng": 140.34963,
+     "address": "555-1 Kosuge, Narita, Chiba 286-0127"
+    },
+    {
+     "kind": "transfer",
+     "title": "Stop: Lawson Chiba Muratacho",
+     "lat": 35.55119,
+     "lng": 140.12716,
+     "address": "893-540 Muratacho, Chuo Ward, Chiba 260-0825"
+    },
+    {
+     "kind": "sight",
+     "title": "Umihotaru (Tokyo Bay Aqua-Line)",
+     "lat": 35.46486,
+     "lng": 139.87368,
+     "address": "Umihotaru 5F, Nakajima, Kisarazu, Chiba 292-0008"
+    },
+    {
+     "kind": "sight",
+     "title": "Ohama Park, Hiratsuka",
+     "lat": 35.31644,
+     "lng": 139.3622,
+     "address": "33-30 Takahamadai, Hiratsuka, Kanagawa 254-0803"
+    },
+    {
+     "kind": "sight",
+     "title": "Mt. Taikan Observation Deck",
+     "lat": 35.18472,
+     "lng": 139.04837,
+     "address": "955 Kajiya, Yugawara, Ashigarashimo District, Kanagawa 259-0313"
+    },
+    {
+     "kind": "transfer",
+     "title": "Fuel: Idemitsu Gotemba",
+     "lat": 35.30204,
+     "lng": 138.94439,
+     "address": "2-22-18 Higashitanaka, Gotemba, Shizuoka 412-0026"
+    },
+    {
+     "kind": "sight",
+     "title": "Oishi Park, Lake Kawaguchi",
+     "lat": 35.5229,
+     "lng": 138.74575,
+     "address": "2585-85 Oishi, Fujikawaguchiko, Yamanashi 401-0305"
+    },
+    {
+     "kind": "activity",
+     "title": "Onsen with Fuji views"
+    },
+    {
+     "kind": "checkin",
+     "title": "Check in: Fuji Classic Hotel",
+     "notes": "Booked by Hardhi.",
+     "lat": 35.42511,
+     "lng": 138.62268
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "city": "tokyo",
+   "short": "Fuji",
+   "cityLabel": "Fuji → Tokyo",
+   "title": "Golf at Fuji Classic, then back to Tokyo",
+   "stay": "tokyo-2",
+   "items": [
+    {
+     "kind": "golf",
+     "title": "Golf at Fuji Classic",
+     "time": "08:00",
+     "status": "booked",
+     "notes": "$155 deposit paid.",
+     "url": "https://reserve.golfdigest.co.jp/golf-course/435308/",
+     "lat": 35.40719,
+     "lng": 138.64493,
+     "address": "2-2 Fujigane, Fujikawaguchiko, Minamitsuru District, Yamanashi"
+    },
+    {
+     "kind": "checkout",
+     "title": "Check out: Fuji Classic Hotel"
+    },
+    {
+     "kind": "train",
+     "title": "Back to Tokyo",
+     "notes": "From Kawaguchiko Station: highway bus to Busta Shinjuku about 1 h 45 min (¥2,200), or the Fuji Excursion train about 2 h 07 min (¥4,189). The last train leaves 21:16 and reaches Shinjuku 23:56.",
+     "lat": 35.49853,
+     "lng": 138.76864,
+     "address": "Funatsu, Fujikawaguchiko, Yamanashi 401-0392"
+    },
+    {
+     "kind": "checkin",
+     "title": "Check in: Tokyo Airbnb",
+     "notes": "Booked by Aman."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo",
+   "title": "Harajuku archive shopping, teamLab, drift class",
+   "stay": "tokyo-2",
+   "items": [
+    {
+     "kind": "shop",
+     "title": "PAT MARKET",
+     "place": "tokyo-pat-market"
+    },
+    {
+     "kind": "shop",
+     "title": "PIN NAP",
+     "url": "https://www.pinnap.com",
+     "lat": 35.67104,
+     "lng": 139.70802,
+     "address": "3-26-10 Jingumae, Shibuya-ku, Tokyo"
+    },
+    {
+     "kind": "shop",
+     "title": "AMORE",
+     "status": "tbd",
+     "notes": "Branch not confirmed."
+    },
+    {
+     "kind": "note",
+     "title": "Archive clothing guide (Lost in Transit)",
+     "url": "https://lostintransitjp.com/blog/best-archive-clothing-stores-in-japan"
+    },
+    {
+     "kind": "activity",
+     "title": "teamLab Planets",
+     "notes": "Open 8:00–22:00.",
+     "url": "https://www.teamlab.art/e/planets/",
+     "lat": 35.64888,
+     "lng": 139.79002,
+     "address": "6-1-16 Toyosu, Koto-ku, Tokyo (東京都江東区豊洲6-1-16)"
+    },
+    {
+     "kind": "activity",
+     "title": "Drift class (Rag + Hard)",
+     "status": "tbd",
+     "notes": "Operator not identified yet."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo",
+   "title": "Tokyo open day",
+   "stay": "tokyo-2",
+   "items": [
+    {
+     "kind": "food",
+     "title": "Sushi Masashi",
+     "notes": "One Michelin star. Closed Wednesdays and Sundays.",
+     "url": "https://guide.michelin.com/us/en/tokyo-region/tokyo/restaurant/sushi-masashi",
+     "lat": 35.6714,
+     "lng": 139.71672,
+     "address": "7F, 2-9-9 Kitaaoyama, Minato-ku, Tokyo 107-0061"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "city": "tokyo",
+   "short": "Tokyo",
+   "cityLabel": "Tokyo",
+   "title": "Tokyo open day",
+   "stay": "tokyo-2",
+   "items": [
+    {
+     "kind": "flight",
+     "title": "Raghav flies home",
+     "time": "16:00",
+     "who": [
+      "Raghav"
+     ],
+     "notes": "Airport not in the sheet."
+    }
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "city": "tokyo",
+   "short": "Depart",
+   "cityLabel": "Tokyo → home",
+   "title": "Departure and final Tokyo time",
+   "stay": null,
+   "items": [
+    {
+     "kind": "checkout",
+     "title": "Check out: Tokyo Airbnb"
+    },
+    {
+     "kind": "flight",
+     "title": "Japan → home",
+     "status": "tbd"
+    }
+   ]
+  }
+ ],
+ "checklist": [
+  "Get a Suica card"
+ ],
+ "open": [
+  "Addresses for the four Airbnbs (Tokyo 15–18, Kyoto 18–21, Osaka 21–24, Tokyo 25–29). Until then they aren't on the map.",
+  "Okinawa: the flight to Okinawa is 22 Nov and day 2 is 23 Nov, but the Osaka Airbnb runs 21–24 Nov and 22 Nov also lists Nara. There's no Okinawa stay yet.",
+  "The flight back from Okinawa on 23 Nov, and how you get to the rental car near Narita for the 24 Nov drive.",
+  "25 Nov: the sheet says both a night train (~1 hr) and a morning train from Hakone. You'll be at Lake Kawaguchi, about 2 hours from Tokyo.",
+  "Hardhi's arrival, and everyone's flights home on 29 Nov.",
+  "Times for Yama (16th), Spice Lab (17th), Macauda (21st) and Sushi Masashi (27th).",
+  "Still to pick: the Shinjuku yakiniku, the Gion music bar, the AMORE branch and the drift class operator."
+ ]
+}

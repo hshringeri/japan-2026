@@ -1,0 +1,114 @@
+{
+ "cities": [
+  {
+   "id": "tokyo",
+   "name": "Tokyo"
+  },
+  {
+   "id": "osaka",
+   "name": "Osaka"
+  },
+  {
+   "id": "kyoto",
+   "name": "Kyoto"
+  }
+ ],
+ "kinds": [
+  {
+   "id": "shop",
+   "name": "Shop",
+   "categories": [
+    "Streetwear & Vintage",
+    "Archive & Designer Vintage",
+    "Watches & Vintage Hobby",
+    "Gorpcore & Snow",
+    "Vintage Nintendo"
+   ]
+  },
+  {
+   "id": "music",
+   "name": "Music",
+   "categories": [
+    "Underground Music",
+    "Electronic & Clubs",
+    "Jazz Bars",
+    "Vinyl Bars"
+   ]
+  },
+  {
+   "id": "drink",
+   "name": "Drink",
+   "categories": [
+    "Beer & Whisky",
+    "Cool Bars",
+    "After Dark"
+   ]
+  },
+  {
+   "id": "eat",
+   "name": "Eat",
+   "categories": [
+    "Izakaya",
+    "Omakase",
+    "Indian",
+    "Brunch",
+    "Good Food"
+   ]
+  },
+  {
+   "id": "play",
+   "name": "Play",
+   "categories": [
+    "Board Game Bars",
+    "Pool Bars",
+    "Golf & Driving Range",
+    "Bowling Alleys",
+    "Gaming Cafes",
+    "Maid Cafes"
+   ]
+  },
+  {
+   "id": "unwind",
+   "name": "Baths & temples",
+   "categories": [
+    "Onsen & Sento",
+    "Hidden Temples & Shrines"
+   ]
+  },
+  {
+   "id": "cars",
+   "name": "Car culture",
+   "categories": [
+    "JDM Culture"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "id": "cuisine",
+   "name": "Cuisine",
+   "for": [
+    "eat"
+   ]
+  },
+  {
+   "id": "genre",
+   "name": "Genre",
+   "for": [
+    "music"
+   ]
+  },
+  {
+   "id": "style",
+   "name": "Style",
+   "for": [
+    "shop"
+   ]
+  },
+  {
+   "id": "flags",
+   "name": "Good to know",
+   "for": null
+  }
+ ]
+}

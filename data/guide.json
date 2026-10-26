@@ -1,0 +1,1462 @@
+{
+ "title": "Japan 2026 — Niche, Non-Touristy Field Guide",
+ "cover": {
+  "img": "img/cover.jpg",
+  "alt": "“Place, Japan” meme: a calm face beside a drawing labelled “Place”, a screaming face beside the identical drawing labelled “Place, Japan”",
+  "caption": "“Place / Place, Japan” meme, author unknown — via Know Your Meme",
+  "issue": [
+   "Field Guide · No. 01",
+   "Autumn 2026"
+  ],
+  "lede": "Niche, non-touristy places only: a working guide to the Tokyo, Osaka and Kyoto the tour buses skip, verified October 2026.",
+  "chips": [
+   "Streetwear & vintage",
+   "Archive vintage",
+   "Watches",
+   "Vintage toys & hobby",
+   "JDM",
+   "Gorpcore & snow",
+   "Punk & noise basements",
+   "Forward-thinking clubs",
+   "Jazz bars",
+   "Vinyl bars",
+   "Beer & whisky",
+   "Izakaya",
+   "Omakase",
+   "Indian",
+   "Board game bars",
+   "Pool",
+   "Golf & ranges",
+   "Onsen & sento",
+   "Weird bars & zines",
+   "Brunch",
+   "Vintage Nintendo",
+   "Maid Cafes",
+   "Gaming Cafes",
+   "Bowling Alleys",
+   "Hidden Temples & Shrines",
+   "Cool Bars",
+   "Good Food"
+  ],
+  "mast": "Japan <em>2026</em>"
+ },
+ "manifesto": "<b>Read this first.</b> Every place in this guide is niche and non-touristy by design. There are no Dotonbori, Shibuya Crossing, Takeshita-dori, Nishiki souvenir stalls, Golden Pavilion or dinner shows; this is where the scenes themselves shop, drink, dig and play. Many of these rooms are tiny, local and run by one or two people, so go quietly, follow the house rules and keep groups small. The reason these places still feel like this is that most visitors never find them.",
+ "discovery": "Discovery cross-check: <a href=\"https://www.corner.inc/\">corner.inc</a>, the Gen-Z place-curation app, for <a href=\"https://www.corner.inc/guides/tokyo\">Tokyo</a>, <a href=\"https://www.corner.inc/guides/osaka\">Osaka</a> and <a href=\"https://www.corner.inc/guides/kyoto\">Kyoto</a>.",
+ "toc": [
+  {
+   "href": "#tokyo",
+   "html": "<span>01</span>Tokyo — 148 places, by neighbourhood"
+  },
+  {
+   "href": "#t-koenji-higashi-koenji",
+   "html": "Koenji &amp; Higashi-Koenji"
+  },
+  {
+   "href": "#t-shimokitazawa-sangenjaya",
+   "html": "Shimokitazawa &amp; Sangenjaya"
+  },
+  {
+   "href": "#t-harajuku-shibuya",
+   "html": "Harajuku &amp; Shibuya"
+  },
+  {
+   "href": "#t-shinjuku-yotsuya",
+   "html": "Shinjuku &amp; Yotsuya"
+  },
+  {
+   "href": "#t-nakano",
+   "html": "Nakano"
+  },
+  {
+   "href": "#t-kichijoji-nishi-ogikubo",
+   "html": "Kichijoji &amp; Nishi-Ogikubo"
+  },
+  {
+   "href": "#t-nakameguro-meguro",
+   "html": "Nakameguro &amp; Meguro"
+  },
+  {
+   "href": "#t-akihabara-kanda",
+   "html": "Akihabara &amp; Kanda"
+  },
+  {
+   "href": "#t-ginza-minato-shitamachi",
+   "html": "Ginza, Minato &amp; Shitamachi"
+  },
+  {
+   "href": "#t-day-trips-citywide",
+   "html": "Day Trips &amp; Citywide"
+  },
+  {
+   "href": "#osaka",
+   "html": "<span>02</span>Osaka — 100 places"
+  },
+  {
+   "href": "#kyoto",
+   "html": "<span>03</span>Kyoto — 89 places"
+  }
+ ],
+ "tocNote": "Tokyo is split by neighbourhood; Osaka and Kyoto run by category. Categories always appear in this order: streetwear &amp; vintage, archive &amp; designer vintage, watches &amp; vintage hobby, jdm culture, gorpcore &amp; snow, underground music, electronic &amp; clubs, jazz bars, vinyl bars, beer &amp; whisky, izakaya, omakase, indian, board game bars, pool bars, golf &amp; driving range, onsen &amp; sento, after dark, brunch, vintage nintendo, maid cafes, gaming cafes, bowling alleys, hidden temples &amp; shrines, cool bars, good food. Tap a name for its website and tap ⌖ for the map. Small rooms change hours without notice, so check Instagram on the day.",
+ "rules": {
+  "title": "House rules — read once",
+  "items": [
+   "Carry cash. Many small rooms take nothing else; a few (noted) are cashless only.",
+   "Live houses add a compulsory drink (“+1D”, about ¥600). Door price usually runs ¥300–500 above advance.",
+   "Bars often add a table charge (otoshi at izakaya), and small counters may turn away groups of four or more.",
+   "Reserve by email with your name, the date and how many people. Sold out usually means no door sales.",
+   "Clubs check photo ID at the door; bring your passport.",
+   "Many basements sit in residential streets. Don't hang around outside; it can cost the venue its licence.",
+   "Upstairs and basement shops keep late, irregular hours. Most open around 1–2pm."
+  ]
+ },
+ "cities": [
+  {
+   "id": "tokyo",
+   "num": "01",
+   "name": "Tokyo",
+   "jp": "東京",
+   "hero": {
+    "img": "img/tokyo-hero.jpg",
+    "alt": "Koenji",
+    "caption": "Koenji — photo: Stephen Kelly from San Francisco, CA, USA, CC BY 2.0"
+   },
+   "dek": "Koenji and Shimokitazawa for clothes and basements, Nakano for watches and toys, Kanda for snow gear, Shinjuku for jazz after midnight.",
+   "blocks": [
+    {
+     "type": "hood",
+     "id": "t-koenji-higashi-koenji",
+     "name": "Koenji & Higashi-Koenji",
+     "dek": "The Chuo-line punk village: stair-shop vintage, basement live houses and yakitori under the tracks."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Streetwear & Vintage",
+     "places": [
+      "tokyo-curb-koenji",
+      "tokyo-curb-other-side",
+      "tokyo-mecha",
+      "tokyo-room-number-10",
+      "tokyo-ca-used-clothing-and-books",
+      "tokyo-militaria",
+      "tokyo-small-change"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Underground Music",
+     "places": [
+      "tokyo-higashi-koenji-niman-den-atsu",
+      "tokyo-u-f-o-club",
+      "tokyo-los-angeles-club",
+      "tokyo-koenji-showboat",
+      "tokyo-jirokichi",
+      "tokyo-koenji-high"
+     ]
+    },
+    {
+     "type": "tip",
+     "html": "<b>Finding the gig.</b> Follow the musicians, not the rooms: Daisuke Takaoka, Tatsuya Yoshida, Takashi Seo, Junji Hirose, Masayo Koketsu. Then check venue month pages (den-atsu.com/schedule/…), PAL arcade shop windows and the flyer racks at Antiknock and Disk Union. QR codes on flyers resolve to LivePocket, TIGET, e+ or ZAIKO."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Izakaya",
+     "places": [
+      "tokyo-yakitori-taisho-honten",
+      "tokyo-shimonya-koenji"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Board Game Bars",
+     "places": [
+      "tokyo-little-cave-koenji",
+      "tokyo-grand-pa-higashi-koenji",
+      "tokyo-koenji-kemuriba"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Pool Bars",
+     "places": [
+      "tokyo-berry-billiards-darts"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Onsen & Sento",
+     "places": [
+      "tokyo-kosugi-yu"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "After Dark",
+     "places": [
+      "tokyo-bar-mugen"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Brunch",
+     "places": [
+      "tokyo-aimu"
+     ]
+    },
+    {
+     "type": "band",
+     "img": "img/band-1.jpg",
+     "alt": "Shimokitazawa",
+     "caption": "Shimokitazawa — photo: Syced, CC0"
+    },
+    {
+     "type": "hood",
+     "id": "t-shimokitazawa-sangenjaya",
+     "name": "Shimokitazawa & Sangenjaya",
+     "dek": "Select shops and sneaker rooms by day, small clubs and record bars by night."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Streetwear & Vintage",
+     "places": [
+      "tokyo-ccx-kitazawa",
+      "tokyo-furugiya-kakko",
+      "tokyo-mu",
+      "tokyo-kimama",
+      "tokyo-soma"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Underground Music",
+     "places": [
+      "tokyo-basement-bar-three",
+      "tokyo-heaven-s-door"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Electronic & Clubs",
+     "places": [
+      "tokyo-spread"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Jazz Bars",
+     "places": [
+      "tokyo-bar-holly"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Vinyl Bars",
+     "places": [
+      "tokyo-little-soul-cafe",
+      "tokyo-bar-loaded"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Board Game Bars",
+     "places": [
+      "tokyo-jelly-jelly-shimokitazawa"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Brunch",
+     "places": [
+      "tokyo-flour-water-shimokitazawa"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Bowling Alleys",
+     "places": [
+      "tokyo-kyodo-bowl"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-harajuku-shibuya",
+     "name": "Harajuku & Shibuya",
+     "dek": "Backstreet Harajuku racks, then Shibuya&#x27;s serious techno basements and vinyl bars."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Streetwear & Vintage",
+     "places": [
+      "tokyo-business-as-usual",
+      "tokyo-what-z-up",
+      "tokyo-straight-from-l-a"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Archive & Designer Vintage",
+     "places": [
+      "tokyo-pat-market",
+      "tokyo-archive-store",
+      "tokyo-laila-tokio",
+      "tokyo-context-tokyo",
+      "tokyo-awesine-by-bring",
+      "tokyo-ragtag-harajuku",
+      "tokyo-kld-tokyo",
+      "tokyo-ether"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gorpcore & Snow",
+     "places": [
+      "tokyo-and-wander-miyashita-park"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Electronic & Clubs",
+     "places": [
+      "tokyo-forestlimit",
+      "tokyo-contact",
+      "tokyo-www-www",
+      "tokyo-oath",
+      "tokyo-vent",
+      "tokyo-circus-tokyo",
+      "tokyo-womb",
+      "tokyo-liquidroom"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Jazz Bars",
+     "places": [
+      "tokyo-jazz-union"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Vinyl Bars",
+     "places": [
+      "tokyo-jbs-jazz-blues-soul",
+      "tokyo-hi-fi-disco-bar-chaos"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Beer & Whisky",
+     "places": [
+      "tokyo-baird-beer-harajuku-taproom",
+      "tokyo-goodbeer-faucets",
+      "tokyo-tokyo-whisky-library"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Onsen & Sento",
+     "places": [
+      "tokyo-minami-aoyama-shimizu-yu"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Brunch",
+     "places": [
+      "tokyo-nephew",
+      "tokyo-path"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Bowling Alleys",
+     "places": [
+      "tokyo-sasazuka-bowl"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Cool Bars",
+     "places": [
+      "tokyo-janai-coffee",
+      "tokyo-bar-trench"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Good Food",
+     "places": [
+      "tokyo-fuunji",
+      "tokyo-tamawarai"
+     ]
+    },
+    {
+     "type": "band",
+     "img": "img/band-2.jpg",
+     "alt": "Omoide Yokocho, Shinjuku",
+     "caption": "Omoide Yokocho, Shinjuku — photo: Dick Thomas Johnson from Tokyo, Japan, CC BY 2.0"
+    },
+    {
+     "type": "hood",
+     "id": "t-shinjuku-yotsuya",
+     "name": "Shinjuku & Yotsuya",
+     "dek": "Jazz cellars, heavy basements and late DJ bars."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Underground Music",
+     "places": [
+      "tokyo-antiknock",
+      "tokyo-ochiai-soup"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Electronic & Clubs",
+     "places": [
+      "tokyo-dj-bar-bridge"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Jazz Bars",
+     "places": [
+      "tokyo-shinjuku-pit-inn",
+      "tokyo-dug",
+      "tokyo-eagle-iiguru"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Beer & Whisky",
+     "places": [
+      "tokyo-shot-bar-zoetrope"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Board Game Bars",
+     "places": [
+      "tokyo-poyo"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gaming Cafes",
+     "places": [
+      "tokyo-8bitcafe"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-nakano",
+     "name": "Nakano",
+     "dek": "One building, Nakano Broadway, holds the city&#x27;s used-watch dealers and vintage toy stalls."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Watches & Vintage Hobby",
+     "places": [
+      "tokyo-nakano-broadway",
+      "tokyo-jackroad",
+      "tokyo-kame-kichi",
+      "tokyo-mandarake-nakano"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Vintage Nintendo",
+     "places": [
+      "tokyo-mandarake-galaxy-nakano-broadway"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-kichijoji-nishi-ogikubo",
+     "name": "Kichijoji & Nishi-Ogikubo",
+     "dek": "West Tokyo&#x27;s slower pace: prog rooms, hardcore basements and the best game-bar library."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Streetwear & Vintage",
+     "places": [
+      "tokyo-boogie",
+      "tokyo-nomen"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gorpcore & Snow",
+     "places": [
+      "tokyo-hiker-s-depot"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Underground Music",
+     "places": [
+      "tokyo-pit-bar",
+      "tokyo-silver-elephant"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Izakaya",
+     "places": [
+      "tokyo-yakitori-ebisu-minamiguchi-honten"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Board Game Bars",
+     "places": [
+      "tokyo-cafe-game-bar-kotobuki"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-nakameguro-meguro",
+     "name": "Nakameguro & Meguro",
+     "dek": "Euro vintage, skate racks, an old basement pool hall and a three-storey range in the trees."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Streetwear & Vintage",
+     "places": [
+      "tokyo-olgou"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Archive & Designer Vintage",
+     "places": [
+      "tokyo-carrefour",
+      "tokyo-roku-6"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Pool Bars",
+     "places": [
+      "tokyo-new-bunka-billiards"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Golf & Driving Range",
+     "places": [
+      "tokyo-meguro-golf-driving-range"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Good Food",
+     "places": [
+      "tokyo-curry-station-niagara"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-akihabara-kanda",
+     "name": "Akihabara & Kanda",
+     "dek": "Akihabara otaku strip, Kanda ski shops and the east-side sento."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gorpcore & Snow",
+     "places": [
+      "tokyo-kanda-ogawamachi-ski-strip",
+      "tokyo-aspen-ski-shop",
+      "tokyo-fuso-snowboard-gear",
+      "tokyo-sports-bomber"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Underground Music",
+     "places": [
+      "tokyo-ftarri",
+      "tokyo-shichoshitsu",
+      "tokyo-bar-isshee"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Beer & Whisky",
+     "places": [
+      "tokyo-beer-club-popeye"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Onsen & Sento",
+     "places": [
+      "tokyo-daikoku-yu-oshiage-onsen",
+      "tokyo-tokyo-somei-onsen-sakura"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Vintage Nintendo",
+     "places": [
+      "tokyo-super-potato-akihabara",
+      "tokyo-beep-akihabara"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Maid Cafes",
+     "places": [
+      "tokyo-cure-maid-cafe",
+      "tokyo-cafe-mai-lish",
+      "tokyo-granvania"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gaming Cafes",
+     "places": [
+      "tokyo-tokyo-video-gamers"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Hidden Temples & Shrines",
+     "places": [
+      "tokyo-tenno-ji",
+      "tokyo-zensho-an"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Cool Bars",
+     "places": [
+      "tokyo-bar-libre"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Good Food",
+     "places": [
+      "tokyo-ponta-honke",
+      "tokyo-kayaba-coffee",
+      "tokyo-onigiri-asakusa-yadoroku"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-ginza-minato-shitamachi",
+     "name": "Ginza, Minato & Shitamachi",
+     "dek": "Omakase counters, South Indian rooms, rooftop golf nets, old-Tokyo fish halls and Ota&#x27;s black-water onsen sento."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gorpcore & Snow",
+     "places": [
+      "tokyo-snow-peak-land-station-tokyo"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Beer & Whisky",
+     "places": [
+      "tokyo-bar-white-oak"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Izakaya",
+     "places": [
+      "tokyo-uosan-sakaba-tomioka"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Omakase",
+     "places": [
+      "tokyo-sushi-mikata",
+      "tokyo-ginza-sushi-horinouchi",
+      "tokyo-hakkoku"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Indian",
+     "places": [
+      "tokyo-erick-south-yaesu",
+      "tokyo-andhra-dining",
+      "tokyo-nirvanam-kamiyacho",
+      "tokyo-tandoor-bar-kamalpur-kiba"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Golf & Driving Range",
+     "places": [
+      "tokyo-minato-golf-tamachi",
+      "tokyo-toranomon-sky-range",
+      "tokyo-the-golf-house-mita-tamachi"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Onsen & Sento",
+     "places": [
+      "tokyo-cocofuro-masunoyu",
+      "tokyo-hasunuma-onsen"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gaming Cafes",
+     "places": [
+      "tokyo-ukiyo-game-bar-cafe"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Bowling Alleys",
+     "places": [
+      "tokyo-tokyo-port-bowl"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Cool Bars",
+     "places": [
+      "tokyo-bar-gen-yamamoto"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Good Food",
+     "places": [
+      "tokyo-kameido-gyoza-honten"
+     ]
+    },
+    {
+     "type": "hood",
+     "id": "t-day-trips-citywide",
+     "name": "Day Trips & Citywide",
+     "dek": "Car culture and destinations outside the core, plus shops with several branches."
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "JDM Culture",
+     "places": [
+      "tokyo-daikoku-pa",
+      "tokyo-up-garage",
+      "tokyo-mooneyes-area-1",
+      "tokyo-nismo-festival",
+      "tokyo-tokyo-auto-salon-2027"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Gorpcore & Snow",
+     "places": [
+      "tokyo-mountain-research-anachronorm",
+      "tokyo-gentemstick"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "After Dark",
+     "places": [
+      "tokyo-zine-stockists"
+     ]
+    },
+    {
+     "type": "category",
+     "id": null,
+     "name": "Hidden Temples & Shrines",
+     "places": [
+      "tokyo-takao-san-yakuo-in-side-halls",
+      "tokyo-shiofune-kannon-ji"
+     ]
+    },
+    {
+     "type": "gone",
+     "html": "<b>Gone.</b> Muzenji left its Koenji under-track home in June 2026 and its move collapsed in August. Green House shut in 2020, Trouble Peach in 2024. bed Shimokitazawa reportedly closed in February 2026 (one source only); its Harajuku shop remains."
+    }
+   ]
+  },
+  {
+   "id": "osaka",
+   "num": "02",
+   "name": "Osaka",
+   "jp": "大阪",
+   "hero": {
+    "img": "img/osaka-hero.jpg",
+    "alt": "Amerikamura",
+    "caption": "Amerikamura — photo: BradBeattie at English Wikipedia, CC BY-SA 3.0"
+   },
+   "dek": "Horie and Amemura for clothes, Shinsaibashi basements for noise, Doyamacho for games, Nakazakicho and Tenma for the quieter rooms.",
+   "blocks": [
+    {
+     "type": "category",
+     "id": "osaka-cat-1",
+     "name": "Streetwear & Vintage",
+     "places": [
+      "osaka-daily-dose-quality-stuff",
+      "osaka-copyart-collective",
+      "osaka-rroomm-mens",
+      "osaka-rroomm-womens",
+      "osaka-nnuudd",
+      "osaka-404vintage",
+      "osaka-giant-baby",
+      "osaka-nutty",
+      "osaka-dollar",
+      "osaka-moshpit",
+      "osaka-the-mongolian-choppsss"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-2",
+     "name": "Archive & Designer Vintage",
+     "places": [
+      "osaka-renton-archives",
+      "osaka-jizhoh-osaka",
+      "osaka-iruse"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-3",
+     "name": "Watches & Vintage Hobby",
+     "places": [
+      "osaka-kame-kichi-shinsaibashi",
+      "osaka-mandarake-nipponbashi",
+      "osaka-den-den-town-ota-road"
+     ]
+    },
+    {
+     "type": "band",
+     "img": "img/band-3.jpg",
+     "alt": "Shinsekai",
+     "caption": "Shinsekai — photo: Guilhem Vellut from Annecy, France, CC BY 2.0"
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-4",
+     "name": "JDM Culture",
+     "places": [
+      "osaka-osaka-auto-messe",
+      "osaka-up-garage-osaka"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-5",
+     "name": "Gorpcore & Snow",
+     "places": [
+      "osaka-and-wander-osaka",
+      "osaka-lead-osaka"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-6",
+     "name": "Underground Music",
+     "places": [
+      "osaka-environment-0g",
+      "osaka-hokage",
+      "osaka-sinkagura",
+      "osaka-king-cobra",
+      "osaka-pangea",
+      "osaka-club-stomp",
+      "osaka-matsuyamachi-chikaikkai",
+      "osaka-sengoku-daitouryo",
+      "osaka-holy-mountain",
+      "osaka-magayura",
+      "osaka-nambaya",
+      "osaka-socore-factory"
+     ]
+    },
+    {
+     "type": "tip",
+     "html": "<b>Finding the gig.</b> osaka-live.net aggregates the basements by district and price. Most rooms take reservations by email (name, date, number of people) or Google Form; when advance tickets sell out, door sales are often announced only on the night. Venue Instagram is the real schedule."
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-7",
+     "name": "Electronic & Clubs",
+     "places": [
+      "osaka-club-daphnia",
+      "osaka-compufunk-records",
+      "osaka-noon-cafe",
+      "osaka-environment-0g",
+      "osaka-circus-osaka",
+      "osaka-joule"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-8",
+     "name": "Jazz Bars",
+     "places": [
+      "osaka-proust",
+      "osaka-royal-horse",
+      "osaka-nambaya"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-9",
+     "name": "Vinyl Bars",
+     "places": [
+      "osaka-record-bar-moon-shine",
+      "osaka-mitsutera-kaikan"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-10",
+     "name": "Beer & Whisky",
+     "places": [
+      "osaka-beer-belly-tenma",
+      "osaka-yellow-ape-craft",
+      "osaka-bar-k",
+      "osaka-osake-no-bijutsukan-shinsaibashi"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-11",
+     "name": "Izakaya",
+     "places": [
+      "osaka-izakaya-toyo",
+      "osaka-fukumasa",
+      "osaka-nonkiya",
+      "osaka-tenma-sakagura"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-12",
+     "name": "Omakase",
+     "places": [
+      "osaka-sushi-kirimon",
+      "osaka-sushiya-yohei",
+      "osaka-sawada-osaka-fukushima"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-13",
+     "name": "Indian",
+     "places": [
+      "osaka-columbia8-kitahama",
+      "osaka-botani-curry",
+      "osaka-kyu-yamu-tei-karahori",
+      "osaka-spice-curry-soma"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-14",
+     "name": "Board Game Bars",
+     "places": [
+      "osaka-game-bar-236",
+      "osaka-game-bar-picoty",
+      "osaka-alcheringa",
+      "osaka-saio",
+      "osaka-neighbor",
+      "osaka-peegee-shinsaibashi",
+      "osaka-nagakutsu"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-15",
+     "name": "Pool Bars",
+     "places": [
+      "osaka-pool-bar-room"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-16",
+     "name": "Golf & Driving Range",
+     "places": [
+      "osaka-sakuranomiya-golf-club",
+      "osaka-hanshin-golf-center-taisho",
+      "osaka-sugimura-golf-center"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-17",
+     "name": "Onsen & Sento",
+     "places": [
+      "osaka-naniwa-no-yu",
+      "osaka-hinode-yu",
+      "osaka-ofuroya-wako-wako-yokujo",
+      "osaka-hamura-onsen"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-18",
+     "name": "After Dark",
+     "places": [
+      "osaka-nippo-kawaramachi-kaikan",
+      "osaka-mondial-kaffee-328-a",
+      "osaka-awesome-day-coffee",
+      "osaka-reichi-store-r-coffee"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-19",
+     "name": "Brunch",
+     "places": [
+      "osaka-maze-nishihorie",
+      "osaka-nichi-nichi-bake"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-20",
+     "name": "Vintage Nintendo",
+     "places": [
+      "osaka-game-tanteidan-game-detectives"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-21",
+     "name": "Maid Cafes",
+     "places": [
+      "osaka-cafe-e-maid",
+      "osaka-merimero"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-22",
+     "name": "Gaming Cafes",
+     "places": [
+      "osaka-pc-and-retro-bar-space-station",
+      "osaka-bar-encount"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-23",
+     "name": "Bowling Alleys",
+     "places": [
+      "osaka-shinsaibashi-sunbowl",
+      "osaka-kanzakigawa-daidoh-bowl"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-24",
+     "name": "Hidden Temples & Shrines",
+     "places": [
+      "osaka-ryuan-ji-temple",
+      "osaka-hozan-ji-temple",
+      "osaka-isshin-ji-temple"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-25",
+     "name": "Cool Bars",
+     "places": [
+      "osaka-bar-nayuta",
+      "osaka-tachinomi-shomin",
+      "osaka-bible-club-osaka"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "osaka-cat-26",
+     "name": "Good Food",
+     "places": [
+      "osaka-dramatic-curry-golden-nakazaki",
+      "osaka-ramen-jinsei-jet",
+      "osaka-chitose-honten",
+      "osaka-negiyaki-yamamoto-honten",
+      "osaka-shinsekai-kushikatsu-ittoku-tsutenkaku-ten",
+      "osaka-aizuya-honten",
+      "osaka-endo-sushi-central-market"
+     ]
+    },
+    {
+     "type": "gone",
+     "html": "<b>Gone.</b> Namba Bears, the heart of Osaka noise since 1986, closed on 31 July 2026 when its building was demolished; on the last night the crowd took the walls home. The Misono building&#x27;s bars relocated, many to Nippo Kawaramachi Kaikan. Borderless Kyobashi shut in 2021."
+    }
+   ]
+  },
+  {
+   "id": "kyoto",
+   "num": "03",
+   "name": "Kyoto",
+   "jp": "京都",
+   "hero": {
+    "img": "img/kyoto-hero.jpg",
+    "alt": "Teramachi arcade",
+    "caption": "Teramachi arcade — photo: Celuici, CC BY-SA 3.0"
+   },
+   "dek": "Teramachi stair shops by day, Kiyamachi record bars and kaikan alleys by night, Sakyo for students and second-hand.",
+   "blocks": [
+    {
+     "type": "category",
+     "id": "kyoto-cat-1",
+     "name": "Streetwear & Vintage",
+     "places": [
+      "kyoto-big-time-kyoto",
+      "kyoto-grass",
+      "kyoto-dockery-farm",
+      "kyoto-goat",
+      "kyoto-roger-s",
+      "kyoto-rushout",
+      "kyoto-boro",
+      "kyoto-number-seven",
+      "kyoto-lloomm-kyoto",
+      "kyoto-twelve-kyoto",
+      "kyoto-000",
+      "kyoto-diggers",
+      "kyoto-selfurugi",
+      "kyoto-own-kyoto"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-2",
+     "name": "Archive & Designer Vintage",
+     "places": [
+      "kyoto-coil",
+      "kyoto-n-ed"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-3",
+     "name": "Watches & Vintage Hobby",
+     "places": [
+      "kyoto-ruchiklu-antique-watches"
+     ]
+    },
+    {
+     "type": "band",
+     "img": "img/band-4.jpg",
+     "alt": "Kiyamachi",
+     "caption": "Kiyamachi — photo: Japanexperterna.se, CC BY-SA 3.0"
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-4",
+     "name": "Gorpcore & Snow",
+     "places": [
+      "kyoto-mont-bell-kyoto",
+      "kyoto-biwako-valley"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-5",
+     "name": "Underground Music",
+     "places": [
+      "kyoto-urbanguild",
+      "kyoto-takutaku",
+      "kyoto-club-metro",
+      "kyoto-negaposi",
+      "kyoto-roka"
+     ]
+    },
+    {
+     "type": "tip",
+     "html": "<b>Finding the gig.</b> Kyoto venues post their schedules on their own sites (takutaku.jp, metro.ne.jp) and take email reservations. UrBANGUILD&#x27;s flyer table is the city&#x27;s notice board. Rooms are small and residential, so a reservation usually means a seat."
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-6",
+     "name": "Electronic & Clubs",
+     "places": [
+      "kyoto-club-metro",
+      "kyoto-urbanguild",
+      "kyoto-s-pod",
+      "kyoto-octave-kyoto",
+      "kyoto-cavalier"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-7",
+     "name": "Jazz Bars",
+     "places": [
+      "kyoto-yamatoya",
+      "kyoto-tamon",
+      "kyoto-jazz-in-rokudenashi"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-8",
+     "name": "Vinyl Bars",
+     "places": [
+      "kyoto-p-m-sounds",
+      "kyoto-hachi-record-shop-bar",
+      "kyoto-galaxie500",
+      "kyoto-beatle-momo",
+      "kyoto-shibashi",
+      "kyoto-p-m-sounds-kyoto"
+     ]
+    },
+    {
+     "type": "band",
+     "img": "img/band-5.jpg",
+     "alt": "Evening, Demachiyanagi",
+     "caption": "Evening, Demachiyanagi — photo: 桂鷺淵 (Katsura Roen), Public domain"
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-9",
+     "name": "Beer & Whisky",
+     "places": [
+      "kyoto-kyoto-brewing-co-taproom",
+      "kyoto-kyoto-brewing-tap-stand",
+      "kyoto-bar-k6",
+      "kyoto-bar-rocking-chair"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-10",
+     "name": "Izakaya",
+     "places": [
+      "kyoto-tatsumi",
+      "kyoto-kyogoku-stand",
+      "kyoto-tachinomi-shomin-shijo-omiya"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-11",
+     "name": "Omakase",
+     "places": [
+      "kyoto-kyoto-mai-sushi",
+      "kyoto-gion-sushi-tadayasu",
+      "kyoto-sushi-rakumi"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-12",
+     "name": "Indian",
+     "places": [
+      "kyoto-tadka-tadka-1-tadka-2",
+      "kyoto-shinrin-shokudo",
+      "kyoto-kerala"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-13",
+     "name": "Board Game Bars",
+     "places": [
+      "kyoto-caf-bar-laurel",
+      "kyoto-game-bar-kyoto",
+      "kyoto-boardgame-bed-bokuyado"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-14",
+     "name": "Pool Bars",
+     "places": [
+      "kyoto-sharif"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-15",
+     "name": "Golf & Driving Range",
+     "places": [
+      "kyoto-shozan-golf-club",
+      "kyoto-yamashina-golf-garden",
+      "kyoto-katsura-golf-club"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-16",
+     "name": "Onsen & Sento",
+     "places": [
+      "kyoto-funaoka-onsen",
+      "kyoto-sauna-no-umeyu",
+      "kyoto-goko-yu",
+      "kyoto-kurama-onsen",
+      "kyoto-kamogawa-yu"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-17",
+     "name": "After Dark",
+     "places": [
+      "kyoto-kaikan-bars",
+      "kyoto-nekoana",
+      "kyoto-honya-megaphone",
+      "kyoto-hoka-books"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-18",
+     "name": "Brunch",
+     "places": [
+      "kyoto-cafe-marble-bukkoji",
+      "kyoto-kotoro-coffee"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-19",
+     "name": "Vintage Nintendo",
+     "places": [
+      "kyoto-marufukuro-former-nintendo-headquarters",
+      "kyoto-suruga-ya-kyoto-teramachi"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-20",
+     "name": "Maid Cafes",
+     "places": [
+      "kyoto-cafe-de-ai"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-21",
+     "name": "Gaming Cafes",
+     "places": [
+      "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition",
+      "kyoto-c2-kyoto"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-22",
+     "name": "Bowling Alleys",
+     "places": [
+      "kyoto-mk-bowl-kamigamo",
+      "kyoto-kyoichi-amusement-park-kisshoin"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-23",
+     "name": "Hidden Temples & Shrines",
+     "places": [
+      "kyoto-gio-ji",
+      "kyoto-otagi-nenbutsu-ji",
+      "kyoto-saimyo-ji",
+      "kyoto-jakko-in",
+      "kyoto-kurama-dera"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-24",
+     "name": "Cool Bars",
+     "places": [
+      "kyoto-bee-s-knees",
+      "kyoto-bar-rocking-chair",
+      "kyoto-apotheca"
+     ]
+    },
+    {
+     "type": "category",
+     "id": "kyoto-cat-25",
+     "name": "Good Food",
+     "places": [
+      "kyoto-kyosaimi-nomura-karasuma-honten",
+      "kyoto-teuchi-soba-kanei",
+      "kyoto-kyoto-curry-seisakusho-kariru",
+      "kyoto-kissa-tyrol",
+      "kyoto-toyouke-chaya"
+     ]
+    },
+    {
+     "type": "gone",
+     "html": "<b>Gone.</b> PANAMABOY, ROOSTER and Paul&#x27;s are gone, and the Demachiyanagi vintage strip has emptied out, so go north to Ichijoji instead."
+    }
+   ]
+  }
+ ],
+ "footer": "<h3>Photo credits</h3><ul><li>Cover: “Place / Place, Japan” meme, author unknown — <a href=\"https://knowyourmeme.com/memes/thing-japan\">Know Your Meme</a>, reproduced for identification. The same template also circulates as “Thing, Japan”.</li><li>Koenji: “Koenji Street Scene (53416682176).jpg” by Stephen Kelly from San Francisco, CA, USA, CC BY 2.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Koenji_Street_Scene_(53416682176).jpg\">source</a></li><li>Shimokitazawa: “Walk in Shimokitazawa 3.jpg” by Syced, CC0 — <a href=\"https://commons.wikimedia.org/wiki/File:Walk_in_Shimokitazawa_3.jpg\">source</a></li><li>Omoide Yokocho, Shinjuku: “Omoide Yokocho (53136554958).jpg” by Dick Thomas Johnson from Tokyo, Japan, CC BY 2.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Omoide_Yokocho_(53136554958).jpg\">source</a></li><li>Amerikamura: “Amerikamura (Busy).jpg” by BradBeattie at English Wikipedia, CC BY-SA 3.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Amerikamura_(Busy).jpg\">source</a></li><li>Shinsekai: “Shinsekai @ Osaka (13382384655).jpg” by Guilhem Vellut from Annecy, France, CC BY 2.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Shinsekai_@_Osaka_(13382384655).jpg\">source</a></li><li>Kiyamachi: “Kiyamachi Café.jpg” by Japanexperterna.se, CC BY-SA 3.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Kiyamachi_Caf%C3%A9.jpg\">source</a></li><li>Teramachi arcade: “Teramachi shopping street, Kyoto, May 2017.jpg” by Celuici, CC BY-SA 3.0 — <a href=\"https://commons.wikimedia.org/wiki/File:Teramachi_shopping_street,_Kyoto,_May_2017.jpg\">source</a></li><li>Evening, Demachiyanagi: “Evening of Demachiyanagi, Kyoto.jpg” by 桂鷺淵 (Katsura Roen), Public domain — <a href=\"https://commons.wikimedia.org/wiki/File:Evening_of_Demachiyanagi,_Kyoto.jpg\">source</a></li></ul><p>All photographs from Wikimedia Commons under the licences listed. Venue facts were compiled in October 2026; hours and prices change.</p>"
+}
