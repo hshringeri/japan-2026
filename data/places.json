@@ -13,7 +13,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=curb%20Koenji%203-55-2%20Koenji-minami%2C%20Suginami%20Tokyo",
     "info": "Mon–Fri 14–22 · Sat/Sun 13–22"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Logo-era streetwear"
+   ]
+  }
  },
  {
   "id": "tokyo-curb-other-side",
@@ -29,7 +40,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=curb%20Other%20Side%20Kawakami%20Bldg%201F%2C%204-24-3%20Koenji-minami%20Tokyo",
     "info": "14–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Logo-era streetwear",
+    "Americana"
+   ]
+  }
  },
  {
   "id": "tokyo-mecha",
@@ -45,7 +68,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MECHA%20J%20Bldg%204F%2C%204-28-7%20Koenji-minami%20Tokyo",
     "info": "14–21 · DM to confirm floor"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-room-number-10",
@@ -61,7 +91,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=room_number_10%20Taiyu%20Bldg%201F%2C%204-27-8%20Koenji-minami%20Tokyo",
     "info": "12–19"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-ca-used-clothing-and-books",
@@ -77,7 +114,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CA.%20used%20clothing%20and%20books%20%23103%2C%204-24-9%20Koenji-minami%20Tokyo",
     "info": "14–19:30 · open daily"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Americana"
+   ]
+  }
  },
  {
   "id": "tokyo-militaria",
@@ -93,7 +141,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=militaria%201F%2C%203-57-3%20Koenji-minami%20Tokyo",
     "info": "14–20 · irregular"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Military"
+   ]
+  }
  },
  {
   "id": "tokyo-small-change",
@@ -109,7 +168,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Small%20Change%201F%E2%80%932F%2C%203-45-16%20Koenji-minami%20Tokyo",
     "info": "11–20 (to 21 Fri–Sun)"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-higashi-koenji-niman-den-atsu",
@@ -125,7 +191,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Higashi-Koenji%20Niman%20Den-atsu%20B1%20L-Grazia%2C%201-7-23%20Koenji-minami%20%C2%B7%20Higashi-Koenji%20exit%203%20Tokyo",
     "info": "130 cap · ¥2–6.5k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Hardcore"
+   ]
+  }
  },
  {
   "id": "tokyo-u-f-o-club",
@@ -141,7 +218,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=U.F.O.CLUB%20B1%20Harmony%20Hills%2C%201-11-6%20Koenji-minami%20Tokyo",
     "info": "~120 cap · ¥2.8–3.5k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Psych",
+    "Noise",
+    "Garage"
+   ]
+  }
  },
  {
   "id": "tokyo-los-angeles-club",
@@ -157,7 +247,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Los%20Angeles%20Club%20B1%2C%201-7-2%20Koenji-minami%20Tokyo",
     "info": "100 cap · ¥2.5k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-koenji-showboat",
@@ -173,7 +270,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Koenji%20ShowBoat%203-17-2%20Koenji-kita%20Tokyo",
     "info": "250 cap · ¥3.5–4k"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Punk",
+    "Rock"
+   ]
+  }
  },
  {
   "id": "tokyo-jirokichi",
@@ -189,7 +298,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JIROKICHI%20B1%2C%202-3-4%20Koenji-kita%20Tokyo",
     "info": "100 cap · ¥3.5k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Blues",
+    "Improv"
+   ]
+  }
  },
  {
   "id": "tokyo-koenji-high",
@@ -205,7 +326,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=KOENJI%20HIGH%204-30-1%20Koenji-minami%20Tokyo",
     "info": "300 cap · tickets in person 17–22"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-yakitori-taisho-honten",
@@ -221,7 +349,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yakitori%20Taisho%20%28Honten%29%204-27-9%20Koenji-minami%2C%20Suginami%20Tokyo",
     "info": "¥ (budget) · Mon–Fri 15:00–24:00, Sat/Sun/hols 14:00–24:00 · closed Wed · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakitori"
+   ],
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-shimonya-koenji",
@@ -237,7 +380,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shimonya%20Koenji%203-22-8%20Koenji-kita%2C%20Suginami%20Tokyo",
     "info": "¥2,000–2,999 · 17:00–23:00 · open daily · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakitori",
+    "Motsu"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-little-cave-koenji",
@@ -253,7 +411,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Cave%20Koenji%20Ashino%20Bldg%20201%2C%204-26-16%20Koenji-minami%20Tokyo",
     "info": "weekday 3h+ ¥2,000 + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Hidden entrance"
+   ]
+  }
  },
  {
   "id": "tokyo-grand-pa-higashi-koenji",
@@ -269,7 +438,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Grand%20Pa%20Higashi-Koenji%201F%2C%201-7-2%20Koenji-minami%20Tokyo",
     "info": "Mon/Fri/Sat 22–01 only"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-koenji-kemuriba",
@@ -285,7 +465,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Koenji%20Kemuriba%203%20min%20from%20Koenji%20station%20Tokyo",
     "info": "shisha ¥2,400 · games free"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-berry-billiards-darts",
@@ -301,7 +488,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Berry%20Billiards%20%26%20Darts%20PAL%20arcade%2C%20Koenji%20south%20exit%20Tokyo",
     "info": "4 pocket tables"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Pool Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-kosugi-yu",
@@ -317,7 +511,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kosugi-yu%203-32-2%20Koenji-kita%2C%20Suginami%20Tokyo",
     "info": "¥600 · weekdays 14:00–25:30, weekends 8:00–25:30 · closed Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-mugen",
@@ -333,7 +539,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Mugen%20B1%20Plaza%20USA%20Bldg%2C%203-58-17%20Koenji-minami%20Tokyo",
     "info": "20–04"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-aimu",
@@ -349,7 +566,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=AIMU%203-11-1%20Koenji%20Kita%2C%20Suginami%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 · Roughly 11:00–17:00, irregular closed days · Reservations not accepted"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Pancakes",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-ccx-kitazawa",
@@ -365,7 +597,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CCX%20Kitazawa%20Wakaba%20Heights%20%23202%2C%202-12-2%20Kitazawa%20Tokyo",
     "info": "14–22 · closed Mon"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-furugiya-kakko",
@@ -381,7 +620,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furugiya%20KAKKO%20La%20Pacion%202D%2C%205-32-10%20Daizawa%20Tokyo",
     "info": "12–19"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-mu",
@@ -397,7 +643,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=mu%20Fuji%20Heights%201-2%2C%205-9-12%20Daizawa%20Tokyo",
     "info": "hours vary"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Americana",
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-kimama",
@@ -413,7 +671,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=KIMAMA%20UC%20Bldg%202F%2C%202-30-6%20Kitazawa%20Tokyo",
     "info": "13–20 · weekends 12–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-soma",
@@ -429,7 +694,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=soma%20Iijima%20Bldg%20202%2C%202-33-6%20Kitazawa%20Tokyo",
     "info": "15–20 · irregular"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Sneakers"
+   ]
+  }
  },
  {
   "id": "tokyo-basement-bar-three",
@@ -445,7 +721,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BASEMENT%20BAR%20/%20THREE%20Calabash%20Bldg%20B1%2C%205-18-1%20Daizawa%20Tokyo",
     "info": "250 cap · ¥2.5–3k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-heaven-s-door",
@@ -461,7 +744,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Heaven%27s%20Door%20B1%2C%201-33-19%20Sangenjaya%20Tokyo",
     "info": "¥2.8–3k"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Punk",
+    "Experimental"
+   ]
+  }
  },
  {
   "id": "tokyo-spread",
@@ -477,7 +772,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=SPREAD%20B1F%20Riverstone%20Bldg%2C%202-12-6%20Kitazawa%2C%20Setagaya%20Tokyo",
     "info": "end times vary"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "House",
+    "Techno",
+    "Bass"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-holly",
@@ -493,7 +801,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Holly%201F%2C%202-33-8%20Kitazawa%20Tokyo",
     "info": "20–03 · closed Sun & 2nd Mon"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-little-soul-cafe",
@@ -509,7 +831,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Soul%20Cafe%20Taisei%20Bldg%202F%2C%203-20-2%20Kitazawa%20Tokyo",
     "info": "20–02 · Fri/Sat to 04"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Soul & funk",
+    "Disco"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-loaded",
@@ -525,7 +862,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20LOADED%201F%2C%202-40-15%20Kitazawa%20Tokyo",
     "info": "closed Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Rock"
+   ]
+  }
  },
  {
   "id": "tokyo-jelly-jelly-shimokitazawa",
@@ -541,7 +889,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JELLY%20JELLY%20Shimokitazawa%20%23202%2C%202-11-3%20Kitazawa%20Tokyo",
     "info": "day ¥1.5–2k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-flour-water-shimokitazawa",
@@ -557,7 +912,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=flour%2Bwater%20Shimokitazawa%20Midokita%201F%20Booth%20A%2C%202-34-3%20Kitazawa%2C%20Setagaya%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 (brunch set ¥1,980) · Brunch 10:00–16:00 daily · Reservations via Toreta, walk-ins queue"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Pancakes"
+   ],
+   "flags": [
+    "Walk-in",
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-kyodo-bowl",
@@ -573,7 +944,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyodo%20Bowl%202-19-5%20Miyasaka%2C%20Setagaya%2C%20Tokyo%20%28Matsubara%20Bldg%205F%29%20Tokyo",
     "info": "¥750/game · daily 8:00–23:00 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-business-as-usual",
@@ -589,7 +972,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BUSINESS%20AS%20USUAL%20INOUE%20Bldg%202F%2C%203-20-5%20Jingumae%20Tokyo",
     "info": "to 20:00 · tees ¥6–7.5k"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Logo-era streetwear"
+   ]
+  }
  },
  {
   "id": "tokyo-what-z-up",
@@ -605,7 +999,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=What%27z%20up%20Field%20One%20Bldg%202F%2C%203-21-10%20Jingumae%20Tokyo",
     "info": "13–19 · cash"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "tokyo-straight-from-l-a",
@@ -621,7 +1026,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Straight%20From%20L.A.%201F%2C%203-21-1%20Jingumae%20Tokyo",
     "info": "12–20 · ¥7/gram"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "tokyo-pat-market",
@@ -637,7 +1053,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=PAT%20MARKET%203-27-8%20Jingumae%2C%20Shibuya%20Tokyo",
     "info": "10 min from Harajuku Stn"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-archive-store",
@@ -653,7 +1080,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Archive%20Store%201-12-16%20Jinnan%2C%20Shibuya%20Tokyo",
     "info": "12:00–20:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-laila-tokio",
@@ -669,7 +1107,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=LAILA%20TOKIO%201-5-11%20Shibuya%20Tokyo",
     "info": "12:00–20:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-context-tokyo",
@@ -685,7 +1134,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CONTEXT%20TOKYO%201F%20MIMI%20Bldg%2C%205-11-6%20Jingumae%2C%20Shibuya%20Tokyo",
     "info": "weekdays 13:00–19:00, weekends 13:00–20:00 · closed Wed"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-awesine-by-bring",
@@ -701,7 +1161,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=AWESINE%20by%20BRING%202F%20DE%20Harajuku%20Maple%20Square%20Bldg%2C%204-25-35%20Jingumae%2C%20Shibuya%20Tokyo",
     "info": "12:00–20:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-ragtag-harajuku",
@@ -717,7 +1188,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20Harajuku%20Jingumae%2C%20Shibuya%20%28Cat%20Street%20south%29%20Tokyo",
     "info": "see ragtag.jp"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-kld-tokyo",
@@ -733,7 +1215,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=KLD%20TOKYO%204F%20Kura%20Bldg%2C%201-17-5%20Jinnan%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥¥–¥¥¥ · daily 11:00–20:00 · walk-in (buy-in appraisals by appointment)"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-ether",
@@ -749,7 +1245,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=ETHER%20Aoyama%2C%20Minato%2C%20Tokyo%20%28exact%20address%20shared%20via%20Instagram%2C%20unverified%29%20Tokyo",
     "info": "¥¥¥ · open 13:00–20:00 · walk-in; worldwide shipping"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-and-wander-miyashita-park",
@@ -765,7 +1275,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=and%20wander%20Miyashita%20Park%202F%20MIYASHITA%20PARK%20South%2C%206-20-10%20Jingumae%2C%20Shibuya%20Tokyo",
     "info": "11:00–21:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-forestlimit",
@@ -781,7 +1302,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=FORESTLIMIT%20B1F-102%20KODA%20Bldg%2C%202-8-15%20Hatagaya%2C%20Shibuya%20Tokyo",
     "info": "door ~¥2,000 + 1D · nightly"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Experimental",
+    "Noise"
+   ]
+  }
  },
  {
   "id": "tokyo-contact",
@@ -797,7 +1330,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Contact%20B2F%20Shindaiso%20Bldg%20No.4%2C%202-10-12%20Dogenzaka%2C%20Shibuya%20Tokyo",
     "info": "ID required · late"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno",
+    "House"
+   ],
+   "flags": [
+    "ID required",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-www-www",
@@ -813,7 +1362,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=WWW%20/%20WWW%CE%B2%20B1%2C%2013-17%20Udagawacho%2C%20Shibuya%20Tokyo",
     "info": "ID required"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "flags": [
+    "ID required"
+   ]
+  }
  },
  {
   "id": "tokyo-oath",
@@ -829,7 +1389,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=OATH%201F%20Aoyama%20Bldg%2C%204-5-9%20Shibuya%20Tokyo",
     "info": "bar · DJs nightly"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-vent",
@@ -845,7 +1412,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vent%20B1%20Toa%20Badge%20Bldg%2C%203-18-19%20Minami-Aoyama%2C%20Minato%20Tokyo",
     "info": "ID required · late · 2026 status not confirmed on its own site"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno",
+    "House"
+   ],
+   "flags": [
+    "ID required",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-circus-tokyo",
@@ -861,7 +1444,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CIRCUS%20Tokyo%203-26-16%20Shibuya%20Tokyo",
     "info": "ID required · under-20s refused after 22:00"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "House",
+    "Techno",
+    "Bass"
+   ],
+   "flags": [
+    "ID required"
+   ]
+  }
  },
  {
   "id": "tokyo-womb",
@@ -877,7 +1476,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=WOMB%202-16%20Maruyama-cho%2C%20Shibuya%20Tokyo",
     "info": "ID required · late"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno",
+    "Trance"
+   ],
+   "flags": [
+    "ID required",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-liquidroom",
@@ -893,7 +1508,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=LIQUIDROOM%203-16-6%20Higashi%2C%20Shibuya%20%28Ebisu%29%20Tokyo",
     "info": "event tickets"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-jazz-union",
@@ -909,7 +1531,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JAZZ%20UNION%204-28-8%20Jingumae%20Tokyo",
     "info": "café hours"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "tokyo-jbs-jazz-blues-soul",
@@ -925,7 +1558,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JBS%20%28Jazz%20Blues%20Soul%29%202F%2C%201-17-10%20Dogenzaka%2C%20Shibuya%20Tokyo",
     "info": "small, seated"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz",
+    "Blues",
+    "Soul & funk"
+   ]
+  }
  },
  {
   "id": "tokyo-hi-fi-disco-bar-chaos",
@@ -941,7 +1587,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hi-Fi%20Disco%20Bar%20Chaos%20Maruyama-cho%2C%20Shibuya%20Tokyo",
     "info": "seated listening"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Disco",
+    "House"
+   ]
+  }
  },
  {
   "id": "tokyo-baird-beer-harajuku-taproom",
@@ -957,7 +1615,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Baird%20Beer%20Harajuku%20Taproom%202F%20No-surrender%20Bldg%2C%201-20-13%20Jingumae%2C%20Shibuya%20Tokyo",
     "info": "weekdays 17:00–23:00 · Sat/hols 12:00–23:00 · Sun 12:00–22:00 · open daily · non-smoking"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakitori"
+   ]
+  }
  },
  {
   "id": "tokyo-goodbeer-faucets",
@@ -973,7 +1642,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Goodbeer%20Faucets%202F%20Crossroads%20Bldg%2C%201-29-1%20Shoto%2C%20Shibuya%20Tokyo",
     "info": "¥2,001–3,000 · Tue–Sun 15:00–23:00 · closed Mon (open if Mon is a holiday, then closed Tue) · happy hour to 18:00, ¥300 off pints"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-tokyo-whisky-library",
@@ -989,7 +1665,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Whisky%20Library%202F%20Minami-Aoyama%20Santa%20Chiara%20Church%2C%205-5-24%20Minami-Aoyama%2C%20Minato%20Tokyo",
     "info": "10% service, no cover charge · lunch 12:00–15:00 · Mon–Thu & Sun 17:30–23:00, Fri–Sat 17:30–24:00 · open daily except New Year"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-minami-aoyama-shimizu-yu",
@@ -1005,7 +1692,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minami-Aoyama%20Shimizu-yu%203-12-3%20Minami-Aoyama%2C%20Minato%20Tokyo",
     "info": "weekdays 12:00–24:00, weekends 12:00–23:00 · closed Fri"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-nephew",
@@ -1021,7 +1719,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=nephew%201-7-2%20Tomigaya%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 · Morning & cafe 8:00–17:00 daily (bistro-bar evenings) · Walk-ins, no booking for cafe hours"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-path",
@@ -1037,7 +1750,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=PATH%20A-FLAT%201F%2C%201-44-2%20Tomigaya%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 · Wed–Sun from 8:00 (brunch service, closed Mon–Tue) · No reservations for brunch; queue at opening"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Pancakes",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-sasazuka-bowl",
@@ -1053,7 +1782,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sasazuka%20Bowl%201-57-10%20Sasazuka%2C%20Shibuya%2C%20Tokyo%20%283F-4F%29%20Tokyo",
     "info": "~¥400–700/game · daily 7:00–1:00, Fri–Sat until 5:00 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-janai-coffee",
@@ -1069,7 +1811,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Janai%20Coffee%20Yamanen%20Bldg%20B1F%2C%202-3-13%20Ebisu-Minami%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥¥ · 18:00–24:00, closed Tue · reservation only, by solving the website riddle"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Book ahead",
+    "Hidden entrance",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-trench",
@@ -1085,7 +1840,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Trench%20DIS%20Bldg%20102%2C%201-5-8%20Ebisu-Nishi%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥¥ (drinks ¥1,200–1,800) · daily 18:00–02:00 · no reservations, walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Hidden entrance",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-fuunji",
@@ -1101,7 +1869,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fuunji%20Hokuto%20Daiichi%20Building%201F%2C%202-14-3%20Yoyogi%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥ · 11:00–15:00 & 17:00–21:00 daily, closes early when the soup runs out · no reservations, ticket machine at the door"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Ramen"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-tamawarai",
@@ -1117,7 +1899,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tamawarai%205-23-3%20Jingumae%2C%20Shibuya%2C%20Tokyo%20Tokyo",
     "info": "¥¥ lunch / ¥¥¥ dinner · lunch and dinner service, soba sells out · booking normal, Japanese only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Soba"
+   ],
+   "flags": [
+    "Book ahead",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "tokyo-antiknock",
@@ -1133,7 +1930,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Antiknock%20B1%2C%204-3-15%20Shinjuku%20%C2%B7%20Shinjuku-sanchome%20E7%20Tokyo",
     "info": "300 cap · ¥2.5–3k + 1D"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Rock",
+    "Metal"
+   ]
+  }
  },
  {
   "id": "tokyo-ochiai-soup",
@@ -1149,7 +1958,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ochiai%20Soup%20Mikasa%20Bldg%20B1%2C%203-9-10%20Kami-Ochiai%20Tokyo",
     "info": "~¥2k · no re-entry"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Noise"
+   ]
+  }
  },
  {
   "id": "tokyo-dj-bar-bridge",
@@ -1165,7 +1985,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=DJ%20Bar%20Bridge%20B1%20Kado%20Bldg%2C%202-19-9%20Shinjuku%20Tokyo",
     "info": "DJ bar"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Disco",
+    "House",
+    "Soul & funk"
+   ]
+  }
  },
  {
   "id": "tokyo-shinjuku-pit-inn",
@@ -1181,7 +2014,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20PIT%20INN%20B1%20Accord%20Shinjuku%2C%202-12-4%20Shinjuku%20Tokyo",
     "info": "nights ¥4,400 incl. drink · day sets ¥2,000"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz",
+    "Improv"
+   ]
+  }
  },
  {
   "id": "tokyo-dug",
@@ -1197,7 +2042,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=DUG%20B1%2C%203-15-12%20Shinjuku%20%28behind%20Kinokuniya%29%20Tokyo",
     "info": "to ~02:00"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-eagle-iiguru",
@@ -1213,7 +2072,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eagle%20%28Iiguru%29%20B1%20Horinaka%20Bldg%2C%201-8%20Yotsuya%20Tokyo",
     "info": "cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Cash only"
+   ]
+  }
  },
  {
   "id": "tokyo-shot-bar-zoetrope",
@@ -1229,7 +2102,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shot%20Bar%20Zoetrope%203F%20Gaia%20Bldg%204%2C%207-10-14%20Nishi-Shinjuku%2C%20Shinjuku%20Tokyo",
     "info": "¥4,001–5,000 · Mon–Sat 17:00–23:00 · closed Sun & hols · 20+ only"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-poyo",
@@ -1245,7 +2125,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=POYO%20Shinjuku%20Gyoen%20Heights%20605%2C%201-15-7%20Shinjuku%20Tokyo",
     "info": "flat ¥2–2.4k + drink · Fri–Sun"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-8bitcafe",
@@ -1261,7 +2152,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=8bitcafe%20Q%20Bldg%205F%2C%203-8-9%20Shinjuku%2C%20Shinjuku%20City%20Tokyo",
     "info": "¥500 cover + drinks from ¥600 · 19:00–24:00, closed Tue · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-nakano-broadway",
@@ -1277,7 +2180,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nakano%20Broadway%205-52-15%20Nakano%20%C2%B7%205%20min%20from%20JR%20Nakano%20north%20exit%20Tokyo",
     "info": "most shops ~12–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Watches"
+   ]
+  }
  },
  {
   "id": "tokyo-jackroad",
@@ -1293,7 +2207,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JACKROAD%20Nakano%20Broadway%203F%20%28several%20units%29%20Tokyo",
     "info": "Seiko authorised + pre-owned"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Watches"
+   ]
+  }
  },
  {
   "id": "tokyo-kame-kichi",
@@ -1309,7 +2234,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kame-kichi%20Nakano%20Broadway%20Tokyo",
     "info": "Rolex / Cartier, new and used"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "tokyo-mandarake-nakano",
@@ -1325,7 +2261,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20Nakano%20Nakano%20Broadway%20%2820%2B%20units%2C%202F%E2%80%934F%29%20Tokyo",
     "info": "most units 12–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Toys & figures"
+   ]
+  }
  },
  {
   "id": "tokyo-mandarake-galaxy-nakano-broadway",
@@ -1341,7 +2288,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20Galaxy%2C%20Nakano%20Broadway%20Nakano%20Broadway%202F%2C%205-52-15%20Nakano%2C%20Nakano%2C%20Tokyo%20Tokyo",
     "info": "JPY cheap loose carts to premium boxed titles · 12:00-20:00 daily · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Retro games"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-boogie",
@@ -1357,7 +2318,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Boogie%20Toei%20Bldg%202F%2C%201-20-15%20Kichijoji-honcho%20Tokyo",
     "info": "14–21 · weekends 13–21"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-nomen",
@@ -1373,7 +2341,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NoMen%20%23305%2C%201-30-16%20Kichijoji-honcho%20Tokyo",
     "info": "14–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Euro vintage",
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-hiker-s-depot",
@@ -1389,7 +2369,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hiker%27s%20Depot%202F%20Nissei%20Mitaka%20Mansion%2C%204-15-33%20Shimorenjaku%2C%20Mitaka%20Tokyo",
     "info": "12:00–20:00 · closed Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-pit-bar",
@@ -1405,7 +2396,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pit%20Bar%20B1%2C%203-14-10%20Nishiogi-minami%20Tokyo",
     "info": "¥2–2.3k + 1D · book in store"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Hardcore"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-silver-elephant",
@@ -1421,7 +2426,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Silver%20Elephant%20Yoshida%20Bldg%20B1%2C%202-10-6%20Kichijoji-honcho%20Tokyo",
     "info": "120 cap · book via the band"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Prog"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-yakitori-ebisu-minamiguchi-honten",
@@ -1437,7 +2456,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yakitori%20Ebisu%20%28Minamiguchi%20Honten%29%203-11-5%20Nishiogi-minami%2C%20Suginami%20Tokyo",
     "info": "under ¥3,000 · open daily · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakitori",
+    "Motsu"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-cafe-game-bar-kotobuki",
@@ -1453,7 +2487,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20%26%20Game%20Bar%20Kotobuki%20Nishi-Ogikubo%20Tokyo",
     "info": "no play fee · drink free-time from ¥990"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-olgou",
@@ -1469,7 +2510,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=olgou%20Pine%20Village%20100%2C%201-10-6%20Kamimeguro%20Tokyo",
     "info": "12–20 · ¥3k–50k"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Euro vintage"
+   ]
+  }
  },
  {
   "id": "tokyo-carrefour",
@@ -1485,7 +2537,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrefour%202-15-13%20Midorigaoka%2C%20Meguro%20Tokyo",
     "info": "11:30–21:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "tokyo-roku-6",
@@ -1501,7 +2564,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Roku%206%202F%20Goto%20Bldg%2C%201-27-12%20Aobadai%2C%20Meguro%2C%20Tokyo%20Tokyo",
     "info": "¥¥–¥¥¥ · hours unverified · walk-in (unmarked door up a stairwell)"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Military",
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in",
+    "Hidden entrance"
+   ]
+  }
  },
  {
   "id": "tokyo-new-bunka-billiards",
@@ -1517,7 +2596,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=New%20Bunka%20Billiards%20B1%20Sankei%20Plaza%2C%203-47-8%20Okusawa%2C%20Setagaya%20Tokyo",
     "info": "5 pocket + 4 carom"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Pool Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-meguro-golf-driving-range",
@@ -1533,7 +2619,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Meguro%20Golf%20Driving%20Range%205-6-22%20Kamimeguro%2C%20Meguro%20Tokyo",
     "info": "no entry or bay fee · ¥14–15/ball · Mon–Sat 6:30–22:00, Sun/hols 6:30–20:00 · open year-round (closed New Year's Day & bad weather) · cash only · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-curry-station-niagara",
@@ -1549,7 +2648,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Curry%20Station%20Niagara%201-21-2%20Yutenji%2C%20Meguro%2C%20Tokyo%20Tokyo",
     "info": "¥ · 11:00–17:00, closed Mon (next business day if Mon is a holiday) · no reservations; numbered ticket issued when busy"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Japanese curry",
+    "Kissaten"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-kanda-ogawamachi-ski-strip",
@@ -1565,7 +2679,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kanda%20Ogawamachi%20ski%20strip%20Kanda-Ogawamachi%202%E2%80%933%20chome%2C%20Chiyoda%20Tokyo",
     "info": "shops ~11–20 · peak Oct–Dec"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow",
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "tokyo-aspen-ski-shop",
@@ -1581,7 +2707,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=ASPEN%20Ski%20Shop%203-6%20Kanda-Ogawamachi%2C%20Chiyoda%20Tokyo",
     "info": "race and boot-fitting shop"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow"
+   ]
+  }
  },
  {
   "id": "tokyo-fuso-snowboard-gear",
@@ -1597,7 +2734,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=FUSO%20Snowboard%20Gear%202-3-13%20Kanda-Ogawamachi%2C%20Chiyoda%20Tokyo",
     "info": "snowboard specialist"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow"
+   ]
+  }
  },
  {
   "id": "tokyo-sports-bomber",
@@ -1613,7 +2761,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sports%20Bomber%201F%20Ichigo%20Kanda%20Ogawamachi%20Bldg%2C%202-4-16%20Kanda-Ogawamachi%20Tokyo",
     "info": "core snowboard"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow"
+   ]
+  }
  },
  {
   "id": "tokyo-ftarri",
@@ -1629,7 +2788,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ftarri%20Okano%20Bldg%20B1%2C%201-4-11%20Hongo%20Tokyo",
     "info": "20 cap · email booking · BYO"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Improv"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-shichoshitsu",
@@ -1645,7 +2818,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shichoshitsu%203-8-5%20Nishi-Kanda%20Tokyo",
     "info": "calendar to December"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Improv"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-isshee",
@@ -1661,7 +2845,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Isshee%20B1%2C%203-36-11%20Sendagi%20Tokyo",
     "info": "pay what you want + ¥500"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Improv"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-beer-club-popeye",
@@ -1677,7 +2875,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beer%20Club%20Popeye%202-18-7%20Ryogoku%2C%20Sumida%20Tokyo",
     "info": "dinner from ¥4,000 · ¥470 table charge · Tue–Fri 15:00–23:00, Sat 14:00–23:00, Sun/hols 13:00–22:00 · closed Mon · same-day bookings by phone only"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-daikoku-yu-oshiage-onsen",
@@ -1693,7 +2898,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Daikoku-yu%20%28Oshiage%20Onsen%29%203-12-14%20Yokokawa%2C%20Sumida%20Tokyo",
     "info": "¥600 · Mon–Fri 15:00–10:00 next day, Sat 14:00–, Sun/hols 13:00– · closed Tue · tattoos OK · no late-night surcharge"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Tattoos OK"
+   ]
+  }
  },
  {
   "id": "tokyo-tokyo-somei-onsen-sakura",
@@ -1709,7 +2925,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Somei%20Onsen%20Sakura%205-4-24%20Komagome%2C%20Toshima%20Tokyo",
     "info": "natural onsen from 1,800 m"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-super-potato-akihabara",
@@ -1725,7 +2948,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Super%20Potato%20Akihabara%20Kitabayashi%20Bldg%203F-5F%2C%201-11-2%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%20Tokyo",
     "info": "JPY 100 loose carts to five-figure boxed rarities · 11:00-20:00 daily (5F retro arcade runs later) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Retro games"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-beep-akihabara",
@@ -1741,7 +2978,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BEEP%20Akihabara%20SEEKBASE%20Aki-Oka%20Manufacture%2C%20under%20the%20JR%20tracks%20between%20Akihabara%20and%20Okachimachi%2C%20Chiyoda%2C%20Tokyo%20%28relocated%20May-June%202026%3B%20exact%20unit%20unverified%29%20Tokyo",
     "info": "JPY budget carts to collector-grade hardware · 11:00-20:00, closed Wed (pre-move schedule; current hours unverified) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Watches",
+    "Retro games"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-cure-maid-cafe",
@@ -1757,7 +3009,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cure%20Maid%20Cafe%20Onoden%20Bldg%204F%2C%201-2-7%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 · daily 11:00–20:00 · no booking needed, walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-cafe-mai-lish",
@@ -1773,7 +3036,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Mai%3Alish%20FH%20Kyowa%20Square%202F%2C%203-6-2%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%20Tokyo",
     "info": "¥1,000–2,000 · afternoons–evenings, closed Wed (hours unverified — check site) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-granvania",
@@ -1789,7 +3063,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Granvania%20Denpa%20Kaikan%202F%2C%201-14-3%20Sotokanda%2C%20Chiyoda%2C%20Tokyo%20Tokyo",
     "info": "¥3,000–5,000 · approx. midday–22:00, varies by day (check site) · timed 60-min system, walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-tokyo-video-gamers",
@@ -1805,7 +3090,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=TOKYO%20VIDEO%20GAMERS%20SEEKBASE%201-9%2C%2013-1%20Kanda-Neribeicho%2C%20Chiyoda%20City%20%28under%20the%20Akihabara%20overpass%29%20Tokyo",
     "info": "Cover charge applies (unverified), cabinets free-play · daytime cafe to late-night bar · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-tenno-ji",
@@ -1821,7 +3118,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tenno-ji%20Yanaka%207-chome%2C%20Taito%2C%20Tokyo%20%28near%20Yanaka%20Ginza%29%20Tokyo",
     "info": "5 min from Nippori or Sendagi, no hike · grounds open daytime, quiet · free"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-zensho-an",
@@ -1837,7 +3141,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Zensho-an%20Yanaka%205-chome%2C%20Taito%2C%20Tokyo%20%28between%20Yanaka%20and%20Nezu%20cemeteries%29%20Tokyo",
     "info": "7 min from Nezu, no hike · zazen/sermons by reservation, grounds often near-empty · free"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-bar-libre",
@@ -1853,7 +3164,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Libre%20Somaya%20Bldg%20B1F%2C%203-25-8%20Nishi-Ikebukuro%2C%20Toshima%2C%20Tokyo%20Tokyo",
     "info": "¥¥ · evenings until ~01:00 (unverified) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-ponta-honke",
@@ -1869,7 +3191,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ponta%20Honke%203-23-3%20Ueno%2C%20Taito%2C%20Tokyo%20Tokyo",
     "info": "¥¥–¥¥¥ · Tue–Sun 11:00–14:00 & 16:30–20:20, closed Mon · reservations accepted (from 2 people)"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Tonkatsu"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-kayaba-coffee",
@@ -1885,7 +3221,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kayaba%20Coffee%206-1-29%20Yanaka%2C%20Taito%2C%20Tokyo%20Tokyo",
     "info": "¥ · Tue–Sun 8:00–18:00, closed Mon · no reservations"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Kissaten"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-onigiri-asakusa-yadoroku",
@@ -1901,7 +3252,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Onigiri%20Asakusa%20Yadoroku%203-9-10%20Asakusa%2C%20Taito%2C%20Tokyo%20Tokyo",
     "info": "¥ · lunch 11:30–15:00 Mon–Sat, some evening service · no reservations; small counter, expect a short wait"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Onigiri"
+   ],
+   "flags": [
+    "Walk-in",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "tokyo-snow-peak-land-station-tokyo",
@@ -1917,7 +3283,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Snow%20Peak%20Land%20Station%20Tokyo%204F%20KITTE%2C%202-7-2%20Marunouchi%2C%20Chiyoda%20Tokyo",
     "info": "11:00–20:00 · café inside"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-white-oak",
@@ -1933,7 +3310,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20White%20Oak%20Room%20302%20Chuorin%20Bldg%2C%208-7-7%20Ginza%2C%20Chuo%20Tokyo",
     "info": "Tue–Sat 18:00–03:00 · Sun 16:00–24:00 · closed Mon · half shots of high-end bottles"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-uosan-sakaba-tomioka",
@@ -1949,7 +3337,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Uosan%20Sakaba%20%28Tomioka%29%201F%E2%80%934F%2C%201-5-4%20Tomioka%2C%20Koto%20Tokyo",
     "info": "¥2,000–2,999 · Mon–Sat 16:00–22:00 · closed Sun · cash only · no bookings"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Seafood"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-sushi-mikata",
@@ -1965,7 +3368,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Mikata%204-1-4%20Mita%2C%20Minato%20Tokyo",
     "info": "¥8,800 nigiri omakase (10 pieces), or by the piece · standing counter · book via TableCheck"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Book ahead",
+    "Standing"
+   ]
+  }
  },
  {
   "id": "tokyo-ginza-sushi-horinouchi",
@@ -1981,7 +3399,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Sushi%20Horinouchi%201F%20Hase%20Daiichi%20Bldg%2C%207-5-5%20Ginza%2C%20Chuo%20%28Sony-dori%20entrance%29%20Tokyo",
     "info": "lunch ¥19,800 · dinner omakase ¥29,700 + 10% service · lunch Tue & Sat 12:00, dinner Mon–Sat 18:00 · closed Sun & hols · 8-seat counter · book via Omakase.in (bookings open to 30 Nov 2026; next release 1 Nov 2026 15:00)"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-hakkoku",
@@ -1997,7 +3429,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hakkoku%203F%20Rape%20Bldg%2C%206-7-6%20Ginza%2C%20Chuo%20Tokyo",
     "info": "lunch from ¥25,000 · dinner 25-piece course ¥36,300 · dinner from 17:00 · closed Sun & hols · card only · book via Omakase.in (irregular releases, max one booking a week; ¥390 fee per seat)"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Cashless",
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-erick-south-yaesu",
@@ -2013,7 +3460,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Erick%20South%20Yaesu%20Yaesu%20Chikagai%20Naka%204-go%20%282-ban-dori%29%2C%202-1%20Yaesu%2C%20Chuo%20Tokyo",
     "info": "Mon–Fri 11:00–22:00, Sat/Sun/hols 11:00–21:30 · closes on Yaesu Chikagai holidays · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "South Indian"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-andhra-dining",
@@ -2029,7 +3490,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Andhra%20Dining%201-8-2%20Ginza%2C%20Chuo%20%28next%20to%20Cozy%20Corner%20Ginza%201-chome%29%20Tokyo",
     "info": "¥1,500–3,000 · Mon–Fri 11:15–15:00 & 17:00–22:30, Sat/Sun/hols 11:30–15:00 & 17:00–21:30 · open daily · book via Hot Pepper"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "South Indian"
+   ],
+   "flags": [
+    "Book ahead",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "tokyo-nirvanam-kamiyacho",
@@ -2045,7 +3521,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nirvanam%20Kamiyacho%201F%20Hisanaga%20Bldg%2C%203-18-21%20Toranomon%2C%20Minato%20Tokyo",
     "info": "lunch ~¥1,500 · dinner ~¥3,500 · 11:15–14:30 & 18:00–22:00 · open daily · book via Hot Pepper"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "South Indian"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-tandoor-bar-kamalpur-kiba",
@@ -2061,7 +3551,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tandoor%20Bar%20Kamalpur%20%28Kiba%29%20Kiba%2C%20Koto%20%28a%20few%20minutes%27%20walk%20east%20of%20Kiba%20station%29%20Tokyo",
     "info": "counter + small tables · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Tandoor"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-minato-golf-tamachi",
@@ -2077,7 +3581,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minato%20Golf%20Tamachi%20RF%20Daisan%20Toun%20Bldg%2C%201-13-10%20Shibaura%2C%20Minato%20Tokyo",
     "info": "¥1,500/60 min (balls included) · Mon–Fri 11:00–21:00, Sat 9:00–20:00, Sun 9:00–18:00 · no membership or booking (lessons take priority)"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-toranomon-sky-range",
@@ -2093,7 +3604,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toranomon%20Sky%20Range%20R%20%28rooftop%29%2C%20Shin-Toranomon%20Jitsugyo%20Kaikan%2C%201-1-21%20Toranomon%2C%20Minato%20Tokyo",
     "info": "memberships from ¥19,800/month · Mon–Fri 8:00–21:00, Sat 11:00–17:00 · 8 bays · free rental clubs/shoes"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-the-golf-house-mita-tamachi",
@@ -2109,7 +3631,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=The%20Golf%20House%20Mita-Tamachi%204F%2C%202-30-15%20Shiba%2C%20Minato%20Tokyo",
     "info": "from ¥36,100/month (Regular) · 24 h, 365 days · 2 private TrackMan 4 bays · join via LINE trial booking"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-cocofuro-masunoyu",
@@ -2125,7 +3654,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=COCOFURO%20Masunoyu%202-1-23%20Minami-Kugahara%2C%20Ota%20Tokyo",
     "info": "¥600 · sauna +¥100 · 6:00–24:00 (last entry 23:30) · closed 2nd Thu of Mar, Jun, Sep & Dec · 1 min from Kugahara Stn (Tokyu Ikegami Line)"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "tokyo-hasunuma-onsen",
@@ -2141,7 +3682,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hasunuma%20Onsen%206-16-11%20Nishi-Kamata%2C%20Ota%20Tokyo",
     "info": "¥600 · sauna ¥300 (towels incl.) · 15:00–24:00 · closed Tue (also closed 18 Nov 2026) · tattoos allowed"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Tattoos OK",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "tokyo-ukiyo-game-bar-cafe",
@@ -2157,7 +3710,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=UKIYO%20GAME%20BAR%20%26%20CAFE%20Yurakucho%2C%20Chiyoda%20City%20%283%20min%20from%20Yurakucho%20Sta.%3B%20exact%20block%20unverified%29%20Tokyo",
     "info": "Drink-order basis, games free to play · opened pre-launch Sep 2026, hours posted on X · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-tokyo-port-bowl",
@@ -2173,7 +3737,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Port%20Bowl%201-13-10%20Shibaura%2C%20Minato%2C%20Tokyo%20%28No.3%20Toun%20Bldg%207F%29%20Tokyo",
     "info": "from ~¥600/game · Mon–Sat 10:00–23:30, Sun & holidays 10:00–22:30 · walk-in, group bookings accepted"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-bar-gen-yamamoto",
@@ -2189,7 +3764,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Gen%20Yamamoto%20Anniversary%20Bldg%201F%2C%201-6-4%20Azabu-Juban%2C%20Minato%2C%20Tokyo%20Tokyo",
     "info": "¥¥¥ (tasting course ~¥8,000–10,000) · Tue–Sat 15:00–22:30, closed Sun–Mon · phone reservation required, ~1 week ahead"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "tokyo-kameido-gyoza-honten",
@@ -2205,7 +3791,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kameido%20Gyoza%20Honten%205-3-3%20Kameido%2C%20Koto%2C%20Tokyo%20Tokyo",
     "info": "¥ (~¥1,000/head) · 11:00–20:00 or until sell-out, closed Tue · no reservations, cash, line moves fast"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Gyoza"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "tokyo-daikoku-pa",
@@ -2221,7 +3822,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Daikoku%20PA%20Shutoko%20Bayshore%20Route%2C%20Yokohama%20%28car%20only%29%20Tokyo",
     "info": "weekend nights · often closed by police"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-up-garage",
@@ -2237,7 +3845,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=UP%20GARAGE%20stores%20across%20Tokyo%20Tokyo",
     "info": "used aftermarket parts"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-mooneyes-area-1",
@@ -2253,7 +3868,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MOONEYES%20Area-1%202-10%20Honmoku-Miyahara%2C%20Naka-ku%2C%20Yokohama%20Tokyo",
     "info": "shop + café"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-nismo-festival",
@@ -2269,7 +3891,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NISMO%20Festival%20Tokyo",
     "info": "annual fan event"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {
+   "flags": [
+    "Event"
+   ]
+  }
  },
  {
   "id": "tokyo-tokyo-auto-salon-2027",
@@ -2285,7 +3918,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Auto%20Salon%202027%20Makuhari%20Messe%2C%202-1%20Nakase%2C%20Mihama-ku%2C%20Chiba%20Tokyo",
     "info": "15–17 Jan 2027 · industry day 15th, public from 2pm"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {
+   "flags": [
+    "Event"
+   ]
+  }
  },
  {
   "id": "tokyo-mountain-research-anachronorm",
@@ -2301,7 +3945,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mountain%20Research%20/%20ANACHRONORM%20Tokyo",
     "info": "dealer list on site"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor"
+   ]
+  }
  },
  {
   "id": "tokyo-gentemstick",
@@ -2317,7 +3972,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gentemstick%20Tokyo",
     "info": "powder boards"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow"
+   ]
+  }
  },
  {
   "id": "tokyo-zine-stockists",
@@ -2333,7 +3999,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Zine%20stockists%20Shibuya%20Publishing%20%26%20Booksellers%20%C2%B7%20UTRECHT%20%C2%B7%20Mosakusha%20%C2%B7%20Taco%20ch%C3%A9%20Tokyo",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-takao-san-yakuo-in-side-halls",
@@ -2349,7 +4022,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Takao-san%20Yakuo-in%20%28side%20halls%29%20Takaomachi%202177%2C%20Hachioji%2C%20Tokyo%20%28halfway%20up%20Mount%20Takao%3B%20trailhead%20at%20Takaosanguchi%29%20Tokyo",
     "info": "~90 min hike on Trail 1 or cable car; open daily, halls staffed · free (cable car extra)"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "tokyo-shiofune-kannon-ji",
@@ -2365,7 +4045,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shiofune%20Kannon-ji%20Shiobune%20194%2C%20Ome%2C%20Tokyo%20%28Ome%20hills%20on%20the%20Okutama%20approach%2C%20near%20Kabe%20station%29%20Tokyo",
     "info": "~30 min walk from Shiofune or short taxi from Kabe, gentle hill climb · open daytime · free"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-daily-dose-quality-stuff",
@@ -2381,7 +4068,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=DAILY%20DOSE%20quality%20stuff%201-19-31%20Minami-Horie%2C%20Nishi%20Osaka",
     "info": "13–20 · irregular"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-copyart-collective",
@@ -2397,7 +4091,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CopyArt%20Collective%20Amemura%20%28see%20%40copyart_collective%29%20Osaka",
     "info": "check IG for hours"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-rroomm-mens",
@@ -2413,7 +4114,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=rroomm%20%28mens%29%20Tsuruno%20Bldg%202F%2C%202-8%20Tsurunocho%2C%20Kita%20Osaka",
     "info": "12–21"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "osaka-rroomm-womens",
@@ -2429,7 +4141,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=rroomm%20%28womens%29%20Toyosaki%20Bldg%201F%2C%203-3-14%20Toyosaki%2C%20Kita%20Osaka",
     "info": "13–20 · closed Wed & Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Womenswear"
+   ]
+  }
  },
  {
   "id": "osaka-nnuudd",
@@ -2445,7 +4168,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=nnuudd%20Tenma%20%28see%20nnuudd.official.ec%29%20Osaka",
     "info": "check IG for hours"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "osaka-404vintage",
@@ -2461,7 +4195,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=404VINTAGE%201F%2C%201-22-17%20Kita-Horie%20Osaka",
     "info": "12–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Logo-era streetwear"
+   ]
+  }
  },
  {
   "id": "osaka-giant-baby",
@@ -2477,7 +4222,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=GIANT%20BABY%202-10-9%20Minami-Horie%20Osaka",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Band tees",
+    "Skate"
+   ]
+  }
  },
  {
   "id": "osaka-nutty",
@@ -2493,7 +4250,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NUTTY%20Sawai%20Bldg%202F%2C%201-24-1%20Minami-Horie%20Osaka",
     "info": "12–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Americana"
+   ]
+  }
  },
  {
   "id": "osaka-dollar",
@@ -2509,7 +4277,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=DOLLAR%202F%2C%201-25-17%20Minami-Horie%20Osaka",
     "info": "13–19"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-moshpit",
@@ -2525,7 +4300,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MOSHPIT%204F%2C%201-14-21%20Kita-Horie%20Osaka",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-the-mongolian-choppsss",
@@ -2541,7 +4323,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=THE%20Mongolian%20Choppsss%20Shinsekai%20%28direct%20store%2C%203F%29%20Osaka",
     "info": "check @tmc__osaka"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-renton-archives",
@@ -2557,7 +4346,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=RENTON%20ARCHIVES%203F%2C%201-22-3%20Kita-Horie%20Osaka",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "osaka-jizhoh-osaka",
@@ -2573,7 +4373,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JizhoH%20OSAKA%207F%20Meijo%20Bldg%2C%201-16-15%20Minami-Horie%2C%20Nishi%2C%20Osaka%20Osaka",
     "info": "¥¥–¥¥¥ · 14:00–20:00 · walk-in; worldwide shipping"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-iruse",
@@ -2589,7 +4403,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=IRUSE%20Kyoei%20Bldg%2C%201-12-3%20Higashi-Shinsaibashi%2C%20Chuo%2C%20Osaka%20Osaka",
     "info": "¥¥–¥¥¥ · hours unverified · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-kame-kichi-shinsaibashi",
@@ -2605,7 +4433,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kame-kichi%20Shinsaibashi%20Shinsaibashi%20Osaka",
     "info": "see kame-kichi.com"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "osaka-mandarake-nipponbashi",
@@ -2621,7 +4460,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20%28Nipponbashi%29%204-12-6%20Nipponbashi%2C%20Naniwa%20Osaka",
     "info": "12–20 · open daily"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Toys & figures"
+   ]
+  }
  },
  {
   "id": "osaka-den-den-town-ota-road",
@@ -2637,7 +4487,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Den%20Den%20Town%20/%20Ota-Road%20Nipponbashi%204%E2%80%935%20chome%20Osaka",
     "info": "most shops 11–20"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Toys & figures",
+    "Retro games"
+   ]
+  }
  },
  {
   "id": "osaka-osaka-auto-messe",
@@ -2653,7 +4515,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Osaka%20Auto%20Messe%20INTEX%20Osaka%2C%20Suminoe%20Osaka",
     "info": "annual · mid-February"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {
+   "flags": [
+    "Event"
+   ]
+  }
  },
  {
   "id": "osaka-up-garage-osaka",
@@ -2669,7 +4542,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=UP%20GARAGE%20%28Osaka%29%20stores%20across%20Osaka%20Osaka",
     "info": "used aftermarket parts"
    }
-  ]
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-and-wander-osaka",
@@ -2685,7 +4565,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=and%20wander%20Osaka%201F%20Shigematsu%20Bldg%2C%204-2-7%20Bakuro-machi%2C%20Chuo%20Osaka",
     "info": "11:00–20:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-lead-osaka",
@@ -2701,7 +4588,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=LEAD%20Osaka%202-1-4%20Shikitsu-higashi%2C%20Naniwa-ku%20%28Namba%29%20Osaka",
     "info": "Oct: 11:00–20:00, closed Thu · from Nov (winter hours): 11:00–21:00, closed 2nd & 3rd Thu · sells early-bird lift passes (cash)"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only"
+   ]
+  }
  },
  {
   "id": "osaka-environment-0g",
@@ -2725,7 +4623,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Environment%200g%20B1%E2%80%93B2%20Kasadomart%2C%202-9-36%20Nishi-Shinsaibashi%20Osaka",
     "info": "event-dependent"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music",
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Experimental"
+   ]
+  }
  },
  {
   "id": "osaka-hokage",
@@ -2741,7 +4651,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hokage%20Amemura%20Osaka",
     "info": "punk/metal nights"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Punk",
+    "Metal"
+   ]
+  }
  },
  {
   "id": "osaka-sinkagura",
@@ -2757,7 +4679,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sinkagura%206F%2C%20Hokage%20building%20Osaka",
     "info": "100 cap"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-king-cobra",
@@ -2773,7 +4702,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=King%20Cobra%20Amemura%20Osaka",
     "info": "punk"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Punk"
+   ]
+  }
  },
  {
   "id": "osaka-pangea",
@@ -2789,7 +4729,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pangea%20Shinsaibashi%20Osaka",
     "info": "indie/alt"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Indie"
+   ]
+  }
  },
  {
   "id": "osaka-club-stomp",
@@ -2805,7 +4756,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Club%20Stomp%20Higashi-Shinsaibashi%20Osaka",
     "info": "garage/punk"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Garage",
+    "Punk"
+   ]
+  }
  },
  {
   "id": "osaka-matsuyamachi-chikaikkai",
@@ -2821,7 +4784,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Matsuyamachi%20Chikaikkai%20Matsuyamachi%20Osaka",
     "info": "hardcore"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Hardcore"
+   ]
+  }
  },
  {
   "id": "osaka-sengoku-daitouryo",
@@ -2837,7 +4811,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sengoku%20Daitouryo%20Inside%20Midoribashi%20station%2C%20exit%202%20Osaka",
     "info": "noise/punk"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Noise",
+    "Punk"
+   ]
+  }
  },
  {
   "id": "osaka-holy-mountain",
@@ -2853,7 +4839,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Holy%20Mountain%20Namba%20Ekikan%20%28under%20the%20tracks%29%20Osaka",
     "info": "indie/experimental"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Indie",
+    "Experimental"
+   ]
+  }
  },
  {
   "id": "osaka-magayura",
@@ -2869,7 +4867,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MagaYura%20Near%20JR%20Noda%20Osaka",
     "info": "ambient/poetry/open mic"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Ambient"
+   ]
+  }
  },
  {
   "id": "osaka-nambaya",
@@ -2893,7 +4902,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nambaya%20Haginochaya%2C%20Nishinari%20Osaka",
     "info": "jazz/improv"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music",
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz",
+    "Improv"
+   ]
+  }
  },
  {
   "id": "osaka-socore-factory",
@@ -2909,7 +4931,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=SOCORE%20FACTORY%20Minami-Horie%20Osaka",
     "info": "heavy sound system"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-club-daphnia",
@@ -2925,7 +4954,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Club%20Daphnia%205-5-1%20Kitakagaya%2C%20Suminoe%20Osaka",
     "info": "event nights · Oct 2026 calendar"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Ambient",
+    "Techno"
+   ]
+  }
  },
  {
   "id": "osaka-compufunk-records",
@@ -2941,7 +4982,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Compufunk%20Records%202F%20GROW%20Kitahama%20Bldg%2C%201-29%20Kitahama-higashi%2C%20Chuo%20Osaka",
     "info": "record shop + parties"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "House",
+    "Disco"
+   ]
+  }
  },
  {
   "id": "osaka-noon-cafe",
@@ -2957,7 +5010,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NOON%20%2B%20CAFE%20Under%20the%20JR%20Kyoto%20line%20tracks%2C%203-3-8%20Nakazaki-nishi%2C%20Kita%20Osaka",
     "info": "club + café"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "House",
+    "Hip-hop"
+   ]
+  }
  },
  {
   "id": "osaka-circus-osaka",
@@ -2973,7 +5038,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CIRCUS%20Osaka%202F%20Nakanishi%20Bldg%2C%201-8-16%20Nishi-Shinsaibashi%2C%20Chuo%20Osaka",
     "info": "ID required · under-20s refused after 22:00"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "House",
+    "Techno"
+   ],
+   "flags": [
+    "ID required"
+   ]
+  }
  },
  {
   "id": "osaka-joule",
@@ -2989,7 +5069,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JOULE%20Nishi-Shinsaibashi%2C%20Amemura%20Osaka",
     "info": "ID required · rooftop"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "flags": [
+    "ID required"
+   ]
+  }
  },
  {
   "id": "osaka-proust",
@@ -3005,7 +5096,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=PROUST%20Osaka",
     "info": "music charge + 1 food & 1 drink · closed Mon"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "osaka-royal-horse",
@@ -3021,7 +5123,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Horse%2011F%20Burma%20Bldg%2C%201-1-28%20Kitahama%2C%20Chuo%20Osaka",
     "info": "nightly sets"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "osaka-record-bar-moon-shine",
@@ -3037,7 +5150,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Record%20Bar%20MOON%20SHINE%204F%20Sonezaki%20Koei%20Bldg%2C%202-10-29%20Sonezaki%2C%20Kita%20Osaka",
     "info": "19–24"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Rock",
+    "Folk",
+    "City pop"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-mitsutera-kaikan",
@@ -3053,7 +5182,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mitsutera%20Kaikan%202-9-5%20Nishi-Shinsaibashi%20Osaka",
     "info": "bars ~20–late"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-beer-belly-tenma",
@@ -3069,7 +5209,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beer%20Belly%20Tenma%207-4%20Ikeda-cho%2C%20Kita%20%28inside%20Tenma%20Market%29%20Osaka",
     "info": "weekdays 17:00–24:00 · Sat/Sun/hols 15:00–24:00 · no closed days"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-yellow-ape-craft",
@@ -3085,7 +5236,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yellow%20Ape%20Craft%202-4-9%20Imabashi%2C%20Chuo%20Osaka",
     "info": "Tue–Sat 15:00–24:30 (LO 24:00) · closed Sun & Mon, plus irregular days · non-smoking · bottle shop attached"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-bar-k",
@@ -3101,7 +5263,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%2CK%20B1F%20Koyo%20Bldg%2C%201-3-3%20Sonezaki-Shinchi%2C%20Kita%20Osaka",
     "info": "Mon–Sat 18:00–24:00 · closed Sun & New Year · 7 counter seats + 2 tables"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-osake-no-bijutsukan-shinsaibashi",
@@ -3117,7 +5293,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Osake%20no%20Bijutsukan%20Shinsaibashi%202-7-29%20Higashi-Shinsaibashi%2C%20Chuo%20Osaka",
     "info": "from ¥500 a glass · no cover charge · 15:00–23:30 LO · no closed days"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-izakaya-toyo",
@@ -3133,7 +5316,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Izakaya%20Toyo%203-2-26%20Higashinoda-cho%2C%20Miyakojima-ku%20%28Kyobashi%29%20Osaka",
     "info": "¥2,000–2,999 · afternoons only; listed as Tue, Wed, Fri 13:00–17:00 and Sat 12:00–17:00 · closed Mon, Thu, Sun & holidays · standing only, no bookings, cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Seafood"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Standing"
+   ]
+  }
  },
  {
   "id": "osaka-fukumasa",
@@ -3149,7 +5348,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fukumasa%203-4-7%20Ebisu-higashi%2C%20Naniwa-ku%20%28Janjan%20Yokocho%2C%20Shinsekai%29%20Osaka",
     "info": "about ¥1,000 for a quick drink · morning set ¥350 · 09:00–20:00 · open daily · standing, no cover charge"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "flags": [
+    "Standing",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-nonkiya",
@@ -3165,7 +5376,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nonkiya%203-4-5%20Ebisu-higashi%2C%20Naniwa-ku%20%28Shinsekai-Ura%2C%20by%20Janjan%20Yokocho%29%20Osaka",
     "info": "about ¥1,500 for a quick drink · oden from ¥130, beef-tendon doteyaki ¥160 · 08:00–19:00 with a mid-afternoon break · closed Tue & Wed · standing"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Oden"
+   ],
+   "flags": [
+    "Standing",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-tenma-sakagura",
@@ -3181,7 +5407,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tenma%20Sakagura%205-7-28%20Tenjinbashi%2C%20Kita-ku%20%28Tenma%2C%20Tenjinbashisuji%20arcade%2C%20Ten-5%20area%29%20Osaka",
     "info": "¥1,000–1,999 evening · 11:30–21:30 (last order 21:00) · one irregular day off a week, posted monthly · bookings taken, but not Sat, Sun or holidays · cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "cuisine": [
+    "Doteyaki"
+   ],
+   "flags": [
+    "Cash only",
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "osaka-sushi-kirimon",
@@ -3197,7 +5438,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Kirimon%201F%20Dojima%20Food%20Center%20Bldg%2C%201-1-20%20Dojima%2C%20Kita-ku%20%28Kitashinchi%29%20Osaka",
     "info": "lunch nigiri course ¥16,500 (2 people minimum) · dinner nigiri course ¥19,800 · full omakase ¥33,000, tax & service included · lunch from 11:30, dinner 17:00–21:00 last entry · irregular days off · TableCheck (in English), card details needed"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "osaka-sushiya-yohei",
@@ -3213,7 +5468,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sushiya%20Yohei%209F%20Kitashinchi%20Place%2C%201-10-2%20Sonezaki-shinchi%2C%20Kita-ku%20Osaka",
     "info": "omakase ¥27,500 + 10% service (¥30,800 all-in from 1 Jan 2027) · seatings 12:00, 18:00, 20:30 · irregular days off · 8 seats · OMAKASE.in only; slots open monthly, ¥390 booking fee per seat"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "osaka-sawada-osaka-fukushima",
@@ -3229,7 +5498,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sawada%20%28Osaka%20Fukushima%29%204-2-50%20Fukushima%2C%20Fukushima-ku%20Osaka",
     "info": "kappo omakase ¥27,300 + service · seatings 17:30 and 20:45 · irregular days off · 7–8 seats, 18+ only · OMAKASE.in only, at most one booking a month; next slots open 20 Nov 2026 12:00"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Kappo"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "osaka-columbia8-kitahama",
@@ -3245,7 +5528,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Columbia8%20Kitahama%202F%20Ebisu%20Doshomachi%20Bldg%2C%201-3-3%20Doshomachi%2C%20Chuo-ku%20Osaka",
     "info": "¥1,100–1,300 with drink · lunch only, Tue–Fri 11:00–15:00 and 2nd & 4th Sat · closed Sun, Mon, holidays and other Saturdays"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "osaka-botani-curry",
@@ -3261,7 +5558,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BOTANI%3ACURRY%201F%20Nippo%20Nishi-Honmachi%20Bldg%2C%204-5-3%20Kawaramachi%2C%20Chuo-ku%20%28Honmachi%29%20Osaka",
     "info": "from 11:00 until sold out · irregular days off · no bookings, no cards, no smoking"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "osaka-kyu-yamu-tei-karahori",
@@ -3277,7 +5590,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyu%20Yamu-tei%20Karahori%206-4-23%20Tanimachi%2C%20Chuo-ku%20%28Karahori%20shopping%20street%29%20Osaka",
     "info": "¥1,000–1,999 · Wed–Sat 11:30–14:30 & 18:00–21:30; Sun 11:20–14:30 & 18:00–21:00 · closed Mon & Tue · cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Cash only"
+   ]
+  }
  },
  {
   "id": "osaka-spice-curry-soma",
@@ -3293,7 +5620,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Spice%20Curry%20Soma%20Room%20203%20Excelsior%20Nakatsu%2C%201-9-18%20Nakatsu%2C%20Kita-ku%20Osaka",
     "info": "about ¥1,400 for a three-curry plate · 12:00–15:00 (last order 14:30) · closed Fri & Sun"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Hidden entrance"
+   ]
+  }
  },
  {
   "id": "osaka-game-bar-236",
@@ -3309,7 +5650,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Game%20Bar%20236%205F%20Umeda%20Royal%20Bldg%2C%202-14-10%20Sonezaki%20Osaka",
     "info": "30 min from ¥400 · closed Mon"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-game-bar-picoty",
@@ -3325,7 +5673,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Game%20Bar%20Picoty%202F%20Hoshiro%20Bldg%2C%2015-15%20Doyamacho%20Osaka",
     "info": "1h ¥2,000 incl. alcohol · 13–05"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-alcheringa",
@@ -3341,7 +5700,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Alcheringa%206F%20Kita%20Chateau%20Bldg%2C%2017-8%20Doyamacho%20Osaka",
     "info": "¥500/h, capped · cashless"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Cashless"
+   ]
+  }
  },
  {
   "id": "osaka-saio",
@@ -3357,7 +5727,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saio%20101%20Nakazaki%20Bldg%2C%201-6-2%20Nakazaki%20Osaka",
     "info": "no play fee · ¥900 drinks"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-neighbor",
@@ -3373,7 +5750,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Neighbor%201-2-10%20Ukita%2C%20Kita%20%28Tenroku%29%20Osaka",
     "info": "bar 19–24"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-peegee-shinsaibashi",
@@ -3389,7 +5777,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=PeeGee%20Shinsaibashi%205F%20Nikko%20Bldg%2C%201-4-12%20Shinsaibashisuji%20Osaka",
     "info": "¥1,200/h with alcohol · to 05"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-nagakutsu",
@@ -3405,7 +5804,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NAGAKUTSU%204F%20Juraku%20Bldg%2C%209-23%20Toganocho%20Osaka",
     "info": "beginner shows ¥2,500"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-pool-bar-room",
@@ -3421,7 +5827,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pool%20Bar%20Room%203F%20Amemura%20Square%20Bldg%2C%202-8-33%20Nishi-Shinsaibashi%20Osaka",
     "info": "late"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Pool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-sakuranomiya-golf-club",
@@ -3437,7 +5854,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sakuranomiya%20Golf%20Club%202-3-23%20Nakano-cho%2C%20Miyakojima-ku%20Osaka",
     "info": "93 bays, 120 yd · club or shoe rental ¥330 each · private bunker ¥880 per 30 min · weekdays 08:00–22:30, Sat, Sun & holidays 07:00–22:30 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-hanshin-golf-center-taisho",
@@ -3453,7 +5882,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hanshin%20Golf%20Center%20Taisho%201-1-41%20Chishima%2C%20Taisho-ku%20Osaka",
     "info": "¥13.2–25.3 per ball depending on time and day; ¥2,200 one-day card · open 24 hours (no play Mon 04:00–06:00) · club rental ¥400 · Trackman on every bay · bus 7 min from JR Taisho"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-sugimura-golf-center",
@@ -3469,7 +5905,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sugimura%20Golf%20Center%201-4-74%20Fukuzaki%2C%20Minato-ku%20Osaka",
     "info": "250 yd, 86 bays, natural grass to 70 yd · visitors pay member rate + ¥2 per ball · 05:00–24:00 (front desk 09:00–22:00, 08:00 on weekends) · closed 31 Dec–1 Jan · free shuttle from Bentencho station"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-naniwa-no-yu",
@@ -3485,7 +5933,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Naniwa%20no%20Yu%201-7-31%20Nagara-nishi%2C%20Kita-ku%20Osaka",
     "info": "Adults ¥900 weekdays / ¥1,000 weekends & holidays · Weekdays 10:00–1:00, weekends & holidays 8:00–1:00 (last entry 24:00) · Open every day except maintenance closures · One entry per visit, no re-entry · Tattoos refused"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-hinode-yu",
@@ -3501,7 +5961,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hinode-yu%202-7-9%20San%27no%2C%20Nishinari-ku%20Osaka",
     "info": "Adults ¥600 incl. sauna · 6:00–23:00 (Tue 11:00–23:00) · Closed Mon · Wrap a bath towel around you in the sauna"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-ofuroya-wako-wako-yokujo",
@@ -3517,7 +5988,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ofuroya%20Wako%20%28Wako%20Yokujo%29%201-7-6%20San%27no%2C%20Nishinari-ku%20Osaka",
     "info": "¥600 · sauna free if you bring a bath towel (rental ¥100) · 6:00–24:00 · Closed Wed · Tattoos OK"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Tattoos OK",
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-hamura-onsen",
@@ -3533,7 +6017,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hamura%20Onsen%201-7-18%20Nakazaki-nishi%2C%20Kita-ku%20Osaka",
     "info": "¥600 + sauna ¥100 (bath towel included) · 15:00–23:00 · Closed Sat"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-nippo-kawaramachi-kaikan",
@@ -3549,7 +6040,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nippo%20Kawaramachi%20Kaikan%201-22%20Nanba-Sennichimae%20Osaka",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-mondial-kaffee-328-a",
@@ -3565,7 +6063,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MONDIAL%20KAFFEE%20328%20%E2%99%A3A%201F%20Ace%20Bldg%2C%201-10-4%20Nishi-Shinsaibashi%20Osaka",
     "info": "8–20:30"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-awesome-day-coffee",
@@ -3581,7 +6090,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=AWESOME%20DAY%2C%20COFFEE%201F%20Cielo%2C%201-19-7%20Minami-Horie%20Osaka",
     "info": "10–19"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-reichi-store-r-coffee",
@@ -3597,7 +6113,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=REICHI%20STORE%20/%20R%20COFFEE%20Minami-Horie%20Osaka",
     "info": "opened Aug 2026"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-maze-nishihorie",
@@ -3613,7 +6136,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=maZe%20nishihorie%201-11-5%20Kitahorie%2C%20Nishi%2C%20Osaka%20Osaka",
     "info": "¥1,000–2,000 (brunch plates ¥1,600–1,800) · Daytime service only; hours vary — check Instagram · Walk-ins (reservations unavailable)"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-nichi-nichi-bake",
@@ -3629,7 +6166,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=nichi%20nichi%20BAKE%202F%2C%201-7-17%20Nakazaki%20Nishi%2C%20Kita%2C%20Osaka%20Osaka",
     "info": "¥1,000–1,500 · Wed–Mon 11:30–18:00 (last entry 17:30), closed Tue · Walk-ins"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe",
+    "Bakery"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-game-tanteidan-game-detectives",
@@ -3645,7 +6197,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Game%20Tanteidan%20%28Game%20Detectives%29%205-7-18%20Nipponbashi%2C%20Naniwa%2C%20Osaka%20Osaka",
     "info": "JPY budget to collector pricing · 12:00-19:00 daily, open year-round (trade-ins until 17:00) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Watches",
+    "Retro games"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-cafe-e-maid",
@@ -3661,7 +6228,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20e-maid%20Ladies%20Mansion%20Nishiyama%201F%2C%202-3-6%20Nanbanaka%2C%20Naniwa%2C%20Osaka%20Osaka",
     "info": "~¥1,500 · weekdays 12:00–22:30, weekends 11:00–22:30 · no reservations on weekends/holidays"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-merimero",
@@ -3677,7 +6255,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=merimero%20Kakutani%20Bldg%201-2F%2C%203-8-14%20Nipponbashi%2C%20Naniwa%2C%20Osaka%20Osaka",
     "info": "price band unverified · weekdays 17:00–22:00, weekends/holidays 12:00–22:00 · reservation-priority via web/SNS"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-pc-and-retro-bar-space-station",
@@ -3693,7 +6278,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=PC%20and%20Retro%20Bar%20Space%20Station%202-13-3%20Nishishinsaibashi%2C%20Chuo%20Ward%20Osaka",
     "info": "No cover; games free with drink order · evenings until late (hours vary; check Facebook) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-bar-encount",
@@ -3709,7 +6306,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20ENCOUNT%20Mittera%20Hall%203F%2C%202-9-5%20Nishishinsaibashi%2C%20Chuo%20Ward%20Osaka",
     "info": "Cheap cover + drinks · 20:00–02:00 · reservations accepted, walk-ins fine"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Book ahead",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-shinsaibashi-sunbowl",
@@ -3725,7 +6335,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shinsaibashi%20Sunbowl%202-9-28%20Nishi-Shinsaibashi%2C%20Chuo%2C%20Osaka%20%28BIG%20STEP%20South%29%20Osaka",
     "info": "from ~¥600/game · daily 10:00–24:00 (last entry 23:30) · walk-in, group reservations online"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-kanzakigawa-daidoh-bowl",
@@ -3741,7 +6363,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kanzakigawa%20Daidoh%20Bowl%202-14-18%20Mitsuyakita%2C%20Yodogawa%2C%20Osaka%20Osaka",
     "info": "¥550–600/game (students ¥370) · weekdays 12:00–22:00, Sat 10:00–21:30, Sun & holidays 10:00–19:00 · walk-in, groups by reservation"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-ryuan-ji-temple",
@@ -3757,7 +6390,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ryuan-ji%20Temple%20Minoo%20Park%2C%20Minoo%20City%20%28trailhead%201-18%20Minookoen%3B%20hike%20riverside%20trail%20from%20Minoo%20Station%20toward%20Minoo%20Falls%29%20Osaka",
     "info": "25-min walk up the Minoo Park valley trail from Hankyu Minoo Station · grounds year-round, office 10:00–16:00 · free (special viewing charged)"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "osaka-hozan-ji-temple",
@@ -3773,7 +6413,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hozan-ji%20Temple%201-1%20Monzencho%2C%20Ikoma%20%28climb%20the%20old%20stone%20stairway%20from%20Kintetsu%20Ikoma%20Station%2C%20or%20ride%20the%201918%20cable%20car%20to%20Hozanji%20Station%20and%20walk%2010%20min%29%20Osaka",
     "info": "Steep stair climb or cable car up Mt. Ikoma · Apr–Sep 8:00–17:00, Oct–Mar 8:30–16:30 · free"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-isshin-ji-temple",
@@ -3789,7 +6440,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Isshin-ji%20Temple%202-8-69%20Osaka%2C%20Tennoji%20Ward%20%2810%E2%80%9315%20min%20walk%20from%20Tennoji%20Station%2C%20off%20the%20Shitennoji%20circuit%29%20Osaka",
     "info": "Flat city walk from Tennoji Station · grounds 5:00–18:00, hall 9:00–16:00, year-round · free"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "osaka-bar-nayuta",
@@ -3805,7 +6467,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Nayuta%20Mario%20Bldg%205F%2C%201-6-17%20Nishi-Shinsaibashi%2C%20Chuo%2C%20Osaka%20Osaka",
     "info": "¥¥ · 18:00–02:00 · walk-in; deliberately unmarked entrance"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Hidden entrance",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-tachinomi-shomin",
@@ -3821,7 +6496,24 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tachinomi%20Shomin%203-2-11%20Higashi-Nodacho%2C%20Miyakojima%2C%20Osaka%20%28Kyobashi%29%20Osaka",
     "info": "¥ (cash only) · from 11:00 until late · standing only, no reservations"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "cuisine": [
+    "Seafood"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Standing",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-bible-club-osaka",
@@ -3837,7 +6529,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bible%20Club%20Osaka%20B1F%2C%202-1-11%20Shinsaibashisuji%2C%20Chuo%2C%20Osaka%20Osaka",
     "info": "¥¥ · 18:00–01:00 (LO 00:30), closed Wed · reservations accepted"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Book ahead",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "osaka-dramatic-curry-golden-nakazaki",
@@ -3853,7 +6557,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dramatic%20Curry%20Golden%20Nakazaki%201-6-18%20Nakazaki%2C%20Kita%2C%20Osaka%20%28Ten-Go%20Nakazaki%20arcade%29%20Osaka",
     "info": "¥ (¥1,000–1,500) · 11:30–14:30 & 18:00–21:00, irregular holidays · no reservations, expect a short queue"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-ramen-jinsei-jet",
@@ -3869,7 +6587,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ramen%20Jinsei%20JET%207-12-2%20Fukushima%2C%20Fukushima%2C%20Osaka%20Osaka",
     "info": "¥ (¥900–1,100) · 11:00–15:00 & 18:00–22:00, irregular holidays · no reservations, cash only, queue before opening"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Ramen"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-chitose-honten",
@@ -3885,7 +6618,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chitose%20Honten%208-1%20Namba%20Sennichimae%2C%20Chuo%2C%20Osaka%20%28behind%20Namba%20Grand%20Kagetsu%29%20Osaka",
     "info": "¥ (nikusui ¥900) · 10:30–14:30 until sold out, closed Tue · no reservations, cash only, ticket machine"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Udon"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-negiyaki-yamamoto-honten",
@@ -3901,7 +6649,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Negiyaki%20Yamamoto%20Honten%201-8-4%20Jusohonmachi%2C%20Yodogawa%2C%20Osaka%20%28near%20Juso%20Sta.%29%20Osaka",
     "info": "¥ (¥1,170–2,090) · 11:30–21:00 (LO), irregular holidays · reservations not accepted, 20-seat counter, line moves fast"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Okonomiyaki"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-shinsekai-kushikatsu-ittoku-tsutenkaku-ten",
@@ -3917,7 +6679,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shinsekai%20Kushikatsu%20Ittoku%20Tsutenkaku-ten%202-3-12%20Ebisuhigashi%2C%20Naniwa%2C%20Osaka%20Osaka",
     "info": "¥–¥¥ (¥1,000–2,999) · Mon/Wed–Fri 17:00–23:00, Sat/Sun/hol 11:00–23:00 (LO 22:30), closed Tue · reservations accepted"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Kushikatsu",
+    "Doteyaki"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "osaka-aizuya-honten",
@@ -3933,7 +6710,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Aizuya%20Honten%202-3-1%20Tamadenishi%2C%20Nishinari%2C%20Osaka%20Osaka",
     "info": "¥ (12 pieces from ¥550) · daytime to early evening (hours unverified) · no reservations, walk-up counter"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Takoyaki"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "osaka-endo-sushi-central-market",
@@ -3949,7 +6740,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Endo%20Sushi%20Central%20Market%201-1-86%20Noda%2C%20Fukushima%2C%20Osaka%20%28inside%20Osaka%20Central%20Wholesale%20Market%29%20Osaka",
     "info": "¥¥ (maze 5-piece set) · Mon–Sat 6:00–14:00, closed Sun & holidays · no reservations, go at dawn with the fishmongers"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Walk-in",
+    "Standing",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-big-time-kyoto",
@@ -3965,7 +6772,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=BIG%20TIME%20Kyoto%20B1%E2%80%933F%2C%205-1%20Ishibashicho%2C%20Shijo-Teramachi%20Kyoto",
     "info": "all floors"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-grass",
@@ -3981,7 +6795,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=gRASS%202F%2C%20316%20Ebiyacho%20Kyoto",
     "info": "¥5,500–52,800"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-dockery-farm",
@@ -3997,7 +6818,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dockery%20Farm%201F%2C%20323%20Ebiyacho%20Kyoto",
     "info": "¥70k–1M · closed Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-goat",
@@ -4013,7 +6841,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=goat%202F%2C%20328%20Ebiyacho%20Kyoto",
     "info": "in-store first"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-roger-s",
@@ -4029,7 +6864,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=ROGER%27S%202F%2C%20241%20Eirakucho%20Kyoto",
     "info": "since 1993"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-rushout",
@@ -4045,7 +6887,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=RUSHOUT%202F%2C%20228%20Eirakucho%20Kyoto",
     "info": "band tees ¥2,264–4,537"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Band tees",
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "kyoto-boro",
@@ -4061,7 +6915,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=boro%202-C%2C%20259%20Shikibucho%20Kyoto",
     "info": "closed Wed, 2nd/3rd Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-number-seven",
@@ -4077,7 +6938,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=NUMBER%20SEVEN%202F%2C%20446%20Ebisucho%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-lloomm-kyoto",
@@ -4093,7 +6961,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=lloomm%20Kyoto%20244-1%20Nabeyacho%2C%20Fuyacho-Takatsuji%20Kyoto",
     "info": "12–20 · closed Wed"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ]
+  }
  },
  {
   "id": "kyoto-twelve-kyoto",
@@ -4109,7 +6988,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=TWELVE%20KYOTO%202F%20east%2C%20645-1%20Sanjo-Inokumacho%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-000",
@@ -4125,7 +7011,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=000%2050-2%20Takano-Tamaokacho%2C%20Sakyo%20Kyoto",
     "info": "cashless only · irregular"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {
+   "flags": [
+    "Cashless"
+   ]
+  }
  },
  {
   "id": "kyoto-diggers",
@@ -4141,7 +7038,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Diggers%2010%20Ichijoji-Haraidonocho%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-selfurugi",
@@ -4157,7 +7061,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=SELFURUGI%2090%20Tanaka-Monzencho%2C%20Hyakumanben%20Kyoto",
     "info": "24h · unmanned · cash"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-own-kyoto",
@@ -4173,7 +7084,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=OWN%20KYOTO%2010-17%20Kyomachi%2C%20Fushimi%20Kyoto",
     "info": "closed Wed & Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Streetwear & Vintage"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-coil",
@@ -4189,7 +7107,24 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Coil%201F%20Avi%20Shijo%2C%2098%20Nushiyacho%2C%20Shimogyo%2C%20Kyoto%20Kyoto",
     "info": "¥¥ · daily 12:00–19:00 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Americana",
+    "Euro vintage",
+    "Designer",
+    "Watches"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-n-ed",
@@ -4205,7 +7140,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A9eD%20Room%20202%20Comfort%20Teramachi%2C%20463%20Myomanji-maecho%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "¥¥–¥¥¥ · 13:00–20:00 · walk-in; online drops Sundays 21:00"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Archive & Designer Vintage"
+  ],
+  "tags": {
+   "style": [
+    "Designer"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-ruchiklu-antique-watches",
@@ -4221,7 +7170,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ruchiklu%20Antique%20Watches%20202%20Aoyama%20Bldg%2C%20633-3%20Shimogoryomaecho%2C%20Nakagyo%20Kyoto",
     "info": "11–20 (wknd 11–19) · closed Thu, 2nd/3rd Wed"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Watches"
+   ]
+  }
  },
  {
   "id": "kyoto-mont-bell-kyoto",
@@ -4237,7 +7197,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Kyoto%201F%20Yoshimoto%20Bldg%2C%20530-1%20Higashigawa-cho%2C%20Shinkyogoku-Takoyakushi-sagaru%2C%20Nakagyo%20Kyoto",
     "info": "11:00–20:00 · open daily"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor",
+    "Bargains"
+   ]
+  }
  },
  {
   "id": "kyoto-biwako-valley",
@@ -4253,7 +7225,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biwako%20Valley%20Otsu%2C%20Shiga%20%2840%20min%20from%20Kyoto%29%20Kyoto",
     "info": "winter season"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Ski & snow"
+   ]
+  }
  },
  {
   "id": "kyoto-urbanguild",
@@ -4277,7 +7260,25 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=UrBANGUILD%20Kiyamachi-Sanjo%20Kyoto",
     "info": "late nights"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music",
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Experimental",
+    "Noise",
+    "Improv",
+    "Ambient"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-takutaku",
@@ -4293,7 +7294,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Takutaku%20136-9%20Sujiyacho%2C%20Tominokoji-Bukkoji%20Kyoto",
     "info": "adv ¥3,000 · door ¥3,500"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Blues",
+    "Rock"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  }
  },
  {
   "id": "kyoto-club-metro",
@@ -4317,7 +7333,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=CLUB%20METRO%20B1%20Ebisu%20Bldg%2C%2082%20Shimotsutsumicho%2C%20Kawabata-Marutamachi%20Kyoto",
     "info": "OPEN 22:00 · ID required"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music",
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno"
+   ],
+   "flags": [
+    "ID required"
+   ]
+  }
  },
  {
   "id": "kyoto-negaposi",
@@ -4333,7 +7364,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Negaposi%2040%20Tamachi%2C%20Saiin%2C%20Ukyo%20Kyoto",
     "info": "18–01"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-roka",
@@ -4349,7 +7391,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=ROKA%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-s-pod",
@@ -4365,7 +7414,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=S-Pod%205F%20ITO%20Bldg%2C%20328%20Imadegawa-cho%2C%20Imadegawa-dori%20Karasuma-nishi-iru%2C%20Kamigyo-ku%20Kyoto",
     "info": "18:00–23:00 · closed Sun"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno"
+   ]
+  }
  },
  {
   "id": "kyoto-octave-kyoto",
@@ -4381,7 +7441,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Octave%20Kyoto%204F%20Lumiere-do%20Bldg%2C%20236-2%20Yamazaki-cho%2C%20Kawaramachi%20Sanjo-sagaru%202-chome%2C%20Nakagyo-ku%20Kyoto",
     "info": "event entry ¥1,000–2,500 · late nights from 22:00–23:00 · enquiries by email only (octavekyoto@gmail.com), no phone bookings"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-cavalier",
@@ -4397,7 +7468,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cavalier%205F%20Hikari%20Bldg%2C%20188-3%20Zaimoku-cho%2C%20Nakagyo-ku%20Kyoto",
     "info": "daily 19:00–02:00 (LO 01:30) · walk-in only, no reservations · 8 seats, no printed menu"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Ambient",
+    "Techno"
+   ],
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-yamatoya",
@@ -4413,7 +7500,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=YAMATOYA%20East%20of%20Kumano-jinja%20crossing%2C%20Sakyo%20Kyoto",
     "info": "12–22 · closed Wed & Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "kyoto-tamon",
@@ -4429,7 +7527,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tamon%20B1%2C%20Sanjo-Kiyamachi%20Kyoto",
     "info": "80 seats"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "kyoto-jazz-in-rokudenashi",
@@ -4445,7 +7554,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=JAZZ%20IN%20Rokudenashi%20Kiyamachi%20Kyoto",
     "info": "cheap drinks"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Jazz Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ]
+  }
  },
  {
   "id": "kyoto-p-m-sounds",
@@ -4461,7 +7581,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=P.M.SOUNDS%20B1%20CT-Beach%20Yamaguchi%20Bldg%2C%2071-21%20Daikokucho%20Kyoto",
     "info": "19–23:30"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-hachi-record-shop-bar",
@@ -4477,7 +7604,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hachi%20Record%20Shop%20%26%20Bar%2019%20Hiraicho%2C%20Shimogyo%20%28Gojo%29%20Kyoto",
     "info": "weekdays 18–24 · closed Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-galaxie500",
@@ -4493,7 +7634,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=GALAXIE500%20Takase%20Kaikan%202F%2C%20Nishi-Kiyamachi%20Kyoto",
     "info": "20–24 · no charge"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Psych",
+    "Punk",
+    "Krautrock"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-beatle-momo",
@@ -4509,7 +7666,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beatle%20momo%202F%20Keiwa%20Bldg%2C%20204-4%20Shimokoritsucho%20Kyoto",
     "info": "19–01 · closed Wed"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "60s pop"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-shibashi",
@@ -4525,7 +7696,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shibashi%20Okazaki%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Ambient"
+   ]
+  }
  },
  {
   "id": "kyoto-p-m-sounds-kyoto",
@@ -4541,7 +7723,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=P.M.SOUNDS%20KYOTO%20Nakagyo%2C%20Kyoto%20%28address%20via%20Instagram%2C%20unverified%29%20Kyoto",
     "info": "¥¥ · evenings, confirm on Instagram · walk-in · small bar"
    }
-  ]
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-kyoto-brewing-co-taproom",
@@ -4557,7 +7750,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Brewing%20Co.%20Taproom%2025-1%20Nishikujo%20Takahata-cho%2C%20Minami%20Kyoto",
     "info": "Wed–Fri 17:00–21:00 · Sat/Sun/hols 12:00–18:00 (to 19:00 May–Sep) · no food, bring your own · no drinking in if you came by car or bike"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-kyoto-brewing-tap-stand",
@@ -4573,7 +7773,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Brewing%20Tap%20Stand%20310-2%20Bizenjima-cho%2C%20Nakagyo%20Kyoto",
     "info": "S 200 ml / L 400 ml pours · weekdays 16:00–23:00 · Sat/Sun/hols 14:00–23:00 · open daily · buyers may use Rissei Hiroba until 20:00"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-bar-k6",
@@ -4589,7 +7796,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20K6%202F%20Valz%20Bldg%2C%20Kiyamachi%20Nijo%20Higashi-iru%2C%20Nakagyo%20Kyoto",
     "info": "18:00–02:00 · closed Mon & Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-bar-rocking-chair",
@@ -4613,7 +7831,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Rocking%20Chair%20434-2%20Tachibana-cho%2C%20Gokomachi-dori%20Bukkoji-sagaru%2C%20Shimogyo%2C%20Kyoto%20Kyoto",
     "info": "¥¥ · 17:00–01:00, closed Tue · reservations available"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Beer & Whisky",
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Book ahead",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-tatsumi",
@@ -4629,7 +7860,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tatsumi%20572%20Nakanocho%2C%20Uradera-machi-dori%20Shijo-agaru%2C%20Nakagyo-ku%20Kyoto",
     "info": "¥1,000–1,999 · 12:00–22:00 (food LO 20:50) · closed Thu · no bookings, cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Standing"
+   ]
+  }
  },
  {
   "id": "kyoto-kyogoku-stand",
@@ -4645,7 +7889,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyogoku%20Stand%20546%20Nakanocho%2C%20Shinkyogoku%20Shijo-agaru%2C%20Nakagyo-ku%20Kyoto",
     "info": "¥2,000–2,999 · 12:00–21:15 (LO 20:45) · closed Tue plus extra days posted monthly on Instagram · cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only"
+   ]
+  }
  },
  {
   "id": "kyoto-tachinomi-shomin-shijo-omiya",
@@ -4661,7 +7916,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tachinomi%20Shomin%20%28Shijo-Omiya%29%2018-6%20Shijo-Omiya-cho%2C%20Shimogyo-ku%20Kyoto",
     "info": "under ¥2,000 · 11:00–23:00 · closed Mon · standing only, no bookings, cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Standing"
+   ]
+  }
  },
  {
   "id": "kyoto-kyoto-mai-sushi",
@@ -4677,7 +7945,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Mai%20Sushi%201F%20Cosmo%20First%2C%2080%20Shioya-cho%2C%20Ayanokoji-dori%20Fuyacho-nishi-iru%2C%20Shimogyo-ku%20Kyoto",
     "info": "about ¥7,700 per person with sake (Jan 2026 review) · 16:00–21:30 (LO 21:00) · closed Tue–Thu · standing counter"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Standing"
+   ]
+  }
  },
  {
   "id": "kyoto-gion-sushi-tadayasu",
@@ -4693,7 +7975,23 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gion%20Sushi%20Tadayasu%20572-9%20Gionmachi%20Minamigawa%2C%20Higashiyama-ku%20Kyoto",
     "info": "from ¥17,600 · lunch from 12:00, dinner from 18:00 · irregular closures · book on OMAKASE, Pocket Concierge or the official site · cash only · 12 seats"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Cash only",
+    "Book ahead",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "kyoto-sushi-rakumi",
@@ -4709,7 +8007,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Rakumi%20332-6%20Miyoshi-cho%2C%20Higashiyama-ku%20Kyoto",
     "info": "from ¥25,000 · lunch from 12:00, dinner 17:00–22:00 · closed Sun and irregular days · book on OMAKASE · 8 seats"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi"
+   ],
+   "flags": [
+    "Book ahead",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "kyoto-tadka-tadka-1-tadka-2",
@@ -4725,7 +8038,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=TADKA%20%28Tadka%201%20/%20Tadka%202%29%201F%20Bain%20Oak%20Clivia%2C%20138%20Sakyo-cho%2C%20Oshikoji-dori%20Takakura-nishi-iru%2C%20Nakagyo-ku%20%28Tadka%201%29%20Kyoto",
     "info": "meals ¥1,650–1,750 · Tadka 1 lunch 12:00–16:00, Fri–Sat South Indian breakfast 8:00–10:00 · Tadka 2 dinner 17:30–22:00 · closed Sun & Mon · phone booking (no bookings Sat/holidays at Tadka 1)"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "South Indian"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-shinrin-shokudo",
@@ -4741,7 +8069,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shinrin%20Shokudo%2024-4%20Nishinokyo%20Uchihata-cho%2C%20Nakagyo-ku%20Kyoto",
     "info": "11:30–15:00 & 18:00–22:00 · closed on the 6th, 12th, 18th, 24th, 30th and the day after each · check the web calendar before going"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ]
+  }
  },
  {
   "id": "kyoto-kerala",
@@ -4757,7 +8096,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kerala%202F%20KUS%20Bldg%2C%20Kawaramachi-dori%20Sanjo-agaru%2C%20Nakagyo-ku%20Kyoto",
     "info": "lunch about ¥1,000, dinner about ¥3,000 · 11:30–14:30 & 17:00–22:00 · irregular closures"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Indian"
+  ],
+  "tags": {
+   "cuisine": [
+    "South Indian",
+    "Tandoor"
+   ]
+  }
  },
  {
   "id": "kyoto-caf-bar-laurel",
@@ -4773,7 +8124,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20%26%20Bar%20Laurel%202F%20T-N%20Bldg%2C%20452%20Matsugaecho%2C%20Shinkyogoku%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-game-bar-kyoto",
@@ -4789,7 +8147,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Game%20Bar%20Kyoto%20129%20Nayamachi%2C%20Fushimi%20Kyoto",
     "info": "weekends"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-boardgame-bed-bokuyado",
@@ -4805,7 +8170,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Boardgame%20%26%20Bed%20Bokuyado%20490%20Nishigawacho%2C%20Shimogyo%20Kyoto",
     "info": "overnight"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Board Game Bars"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-sharif",
@@ -4821,7 +8193,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=sharif%20Kiyamachi%20Kyoto",
     "info": "20–05 · open daily · charge ¥500"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Pool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-shozan-golf-club",
@@ -4837,7 +8220,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shozan%20Golf%20Club%202%20Okitayama%20Haseda-cho%2C%20Kita-ku%20Kyoto",
     "info": "¥400 bay fee + ¥6–11 per ball · north bays weekdays 6:30–23:00, weekends 5:50–23:00; south bays until sunset · open daily · IC member card required (¥330 to issue)"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-yamashina-golf-garden",
@@ -4853,7 +8247,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamashina%20Golf%20Garden%201-16%20Inabadai%2C%20Otsu%2C%20Shiga%20Kyoto",
     "info": "¥400 entry + ¥8.3–10 per ball; unlimited balls from ¥1,100 per 90 min · weekdays 9:00–22:30, weekends 8:00–22:30 · open daily"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-katsura-golf-club",
@@ -4869,7 +8274,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Katsura%20Golf%20Club%2053%20Katsura%20Minami%20Takigawa-cho%2C%20Nishikyo-ku%20Kyoto",
     "info": "weekdays 10:00–22:30, Sat 9:00–22:30, Sun/holidays 8:00–22:30 · no fixed closing day · paid bunker and approach areas"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Golf & Driving Range"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-funaoka-onsen",
@@ -4885,7 +8301,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Funaoka%20Onsen%2082-1%20Murasakino-Minamifunaoka-cho%2C%20Kita%20Kyoto",
     "info": "15:00–23:30 (Sun from 8:00) · closed Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-sauna-no-umeyu",
@@ -4901,7 +8328,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sauna%20no%20Umeyu%20175-1%20Iwataki-cho%2C%20Shimogyo%20Kyoto",
     "info": "¥550 · 6:00–26:00 · closed Thu"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-goko-yu",
@@ -4917,7 +8356,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Goko-yu%20590-12%20Kakimoto-cho%2C%20Kuromon-dori%20Gojo-agaru%2C%20Shimogyo%20Kyoto",
     "info": "weekdays 14:30–24:30, Sun 7:00–24:00 · closed Mon & 3rd Tue"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-kurama-onsen",
@@ -4933,7 +8384,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kurama%20Onsen%20520%20Kurama-honmachi%2C%20Sakyo%20Kyoto",
     "info": "outdoor bath only ¥1,500 weekdays / ¥1,600 weekends · outdoor + indoor with sauna ¥2,600 / ¥2,700, towels included · 10:00–21:00 · tattoos allowed · 10 min walk or free shuttle from Eizan Kurama Stn"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Tattoos OK"
+   ]
+  }
  },
  {
   "id": "kyoto-kamogawa-yu",
@@ -4949,7 +8411,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kamogawa-yu%2056%20Shimogamo-Kamikawara-cho%2C%20Sakyo%20Kyoto",
     "info": "¥550 · 14:00–25:00 (Sun from 8:00) · closed Tue · sauna and cold bath · cash or PayPay"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Onsen & Sento"
+  ],
+  "tags": {
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-kaikan-bars",
@@ -4965,7 +8439,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kaikan%20bars%20Shitomi%20Kaikan%20%C2%B7%20Orizuru%20Kaikan%20%C2%B7%20Takase%20Kaikan%20Kyoto",
     "info": "~20–late"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-nekoana",
@@ -4981,7 +8466,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nekoana%20592-1%20Toroucho%2C%20Shimogyo%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-honya-megaphone",
@@ -4997,7 +8489,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Honya%20Megaphone%208%20min%20north%20of%20Nijo%20station%20Kyoto",
     "info": "opened Dec 2025"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-hoka-books",
@@ -5013,7 +8512,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=hoka%20books%20alley%20machiya%20Kyoto",
     "info": null
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "After Dark"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-cafe-marble-bukkoji",
@@ -5029,7 +8535,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=cafe%20marble%20Bukkoji%20378%20Nishimaecho%2C%20Bukkoji-dori%20Kyoto",
     "info": "¥1,000–2,000 · Daytime to evening hours — confirm on official site · Walk-ins"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-kotoro-coffee",
@@ -5045,7 +8565,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kotoro%20Coffee%20301%20Komeyacho%2C%20Imadegawa-dori%2C%20Kamigyo%2C%20Kyoto%20Kyoto",
     "info": "¥1,000–1,500 · Irregular opening days — check official shop page · Walk-ins"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Brunch"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-marufukuro-former-nintendo-headquarters",
@@ -5061,7 +8595,18 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Marufukuro%20%28Former%20Nintendo%20Headquarters%29%20342%20Kagiyacho%2C%20Shimogyo%2C%20Kyoto%20Kyoto",
     "info": "Hotel stays JPY 40,000+ per night; paid architecture tours bookable via Wabunka · reservation required for stays/tours, no casual retail entry"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Retro games"
+   ]
+  }
  },
  {
   "id": "kyoto-suruga-ya-kyoto-teramachi",
@@ -5077,7 +8622,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Suruga-ya%20Kyoto%20Teramachi%20534-2%20Ebisunocho%2C%20Shimogyo%2C%20Kyoto%20%28inside%20Teramachi%20arcade%29%20Kyoto",
     "info": "JPY budget used carts to mid-range boxed games · hours approx. 11:00-21:00 (unverified) · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Vintage Nintendo"
+  ],
+  "tags": {
+   "style": [
+    "Retro games"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-cafe-de-ai",
@@ -5093,7 +8652,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20de%20Ai%20Daikoku%20Bldg%201F%2C%2042-1%20Daikokucho%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "first-visit all-you-can-drink set ¥3,000 · 18:30–25:00 · walk-in, 3 min from Keihan Sanjo"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Maid Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition",
@@ -5109,7 +8680,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=siesta%208bit%20%28Cafe%20La%20Siesta%208bit%20Edition%29%20Rei%20Hou%20Kaikan%201F%2C%20366%20Kamiyanagicho%20%28Shijo-Kiyamachi-agaru%29%2C%20Nakagyo%20Ward%20Kyoto",
     "info": "Drink-order basis, arcade play cheap/free · 17:30–01:30, closed Wed · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-c2-kyoto",
@@ -5125,7 +8708,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=C2%20Kyoto%20333%20Kagiyacho%2C%20Shimogyo%20Ward%20%28near%20Gojo/Karasuma%29%20Kyoto",
     "info": "Event admission/donation basis · opens only for scheduled meetups (see Meetup page) · RSVP via Meetup"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Gaming Cafes"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-mk-bowl-kamigamo",
@@ -5141,7 +8731,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=MK%20Bowl%20Kamigamo%201-1%20Kamigamo%20Nishigawara-cho%2C%20Kita%2C%20Kyoto%20Kyoto",
     "info": "budget per-game pricing · Mon–Thu 10:00–24:00, Fri–Sat & pre-holidays until 3:00, Sun & holidays 8:00–24:00 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-kyoichi-amusement-park-kisshoin",
@@ -5157,7 +8760,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoichi%20Amusement%20Park%20Kisshoin%201-2%20Kisshoin%20Ishihara%20Nagatamachi%2C%20Minami%2C%20Kyoto%20Kyoto",
     "info": "price unverified · weekdays 10:00–24:00, weekends 9:00–24:00 · walk-in"
    }
-  ]
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Bowling Alleys"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-gio-ji",
@@ -5173,7 +8788,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gio-ji%2032%20Kozakacho%2C%20Sagatoriimoto%2C%20Ukyo%2C%20Kyoto%20%28Sagano%2C%2020%20min%20from%20JR%20Saga-Arashiyama%29%20Kyoto",
     "info": "Flat walk through Sagano lanes · open 9:00–17:00 (last entry 16:30) · ¥300–500"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-otagi-nenbutsu-ji",
@@ -5189,7 +8811,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Otagi%20Nenbutsu-ji%202-5%20Sagatoriimoto%20Fukatanicho%2C%20Ukyo%2C%20Kyoto%20%28far%20north%20end%20of%20Saga-Toriimoto%3B%20~1%20hr%20walk%20or%20bus/taxi%29%20Kyoto",
     "info": "Uphill lane walk, no real hike · open 9:00–16:15, closed Wed · ¥500"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-saimyo-ji",
@@ -5205,7 +8834,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saimyo-ji%201%20Makino-o-cho%2C%20Umegahata%2C%20Ukyo%2C%20Kyoto%20%28Takao%20valley%3B%20JR%20bus%20to%20Yamashiro-Takao%20stop%2C%205%20min%20downhill%29%20Kyoto",
     "info": "Riverside steps from bus stop; optional 20–30 min trail to Jingo-ji · open 9:00–17:00 · free (¥500 in Nov)"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-jakko-in",
@@ -5221,7 +8857,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jakko-in%20676%20Oharakusao-cho%2C%20Sakyo%2C%20Kyoto%20%28Ohara%20village%3B%20Kyoto%20Bus%2C%2015%20min%20walk%20west%20of%20the%20stop%29%20Kyoto",
     "info": "Flat country lane walk from Ohara bus stop · open ~9:00–17:00 (shorter in winter) · ~¥600"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-kurama-dera",
@@ -5237,7 +8880,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kurama-dera%201074%20Kurama-honmachi%2C%20Sakyo%2C%20Kyoto%20%28Mount%20Kurama%3B%20Eizan%20Railway%20to%20Kurama%20Station%29%20Kyoto",
     "info": "30–40 min uphill forest hike (or ¥200 cable car); can continue 1 hr over the root path to Kifune · main hall 9:00–16:15 · ¥500 mountain fee"
    }
-  ]
+  ],
+  "kinds": [
+   "unwind"
+  ],
+  "categories": [
+   "Hidden Temples & Shrines"
+  ],
+  "tags": {}
  },
  {
   "id": "kyoto-bee-s-knees",
@@ -5253,7 +8903,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bee%27s%20Knees%20Matsuya%20Bldg%201F%2C%20364%20Kamiyacho%2C%20Kiyamachi-dori%20Shijo-agaru%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "¥¥ · Mon–Thu 18:00–01:00, Fri–Sat 18:00–02:00, closed Sun · walk-in, look for the yellow door and bee sign"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Hidden entrance",
+    "Open late"
+   ]
+  }
  },
  {
   "id": "kyoto-apotheca",
@@ -5269,7 +8932,19 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=APOTHECA%20Youtoukan%204F%2C%20145%20Aburayacho%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "¥¥ · hours unverified · walk-in through an unmarked door, still mostly a local crowd"
    }
-  ]
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Walk-in",
+    "Hidden entrance"
+   ]
+  }
  },
  {
   "id": "kyoto-kyosaimi-nomura-karasuma-honten",
@@ -5285,7 +8960,22 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyosaimi%20Nomura%20%28Karasuma%20Honten%29%20224%20Hashibenkeicho%2C%20Takoyakushi-dori%20Karasuma%20Nishi-iru%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "¥ (breakfast set ~¥1,500) · 7:00–14:30 (LO 14:00), closed days unverified · walk-in, no booking"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Obanzai"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-teuchi-soba-kanei",
@@ -5301,7 +8991,24 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Teuchi%20Soba%20Kanei%2011-1%20Murasakino%20Higashi-Fujinomoricho%2C%20Kita%2C%20Kyoto%20Kyoto",
     "info": "¥¥ (~¥2,000–3,000) · Tue–Fri 11:30–14:30 & 18:00–20:30, Sat–Sun lunch only, closed Mon · lunch walk-in queue, dinner by phone reservation day before; cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Soba"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Book ahead",
+    "Michelin"
+   ]
+  }
  },
  {
   "id": "kyoto-kyoto-curry-seisakusho-kariru",
@@ -5317,7 +9024,21 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Curry%20Seisakusho%20Kariru%20349-1%20Haruobicho%2C%20Shinmachi-dori%20Marutamachi%20Agaru%2C%20Kamigyo%2C%20Kyoto%20Kyoto",
     "info": "¥ (~¥1,000–1,500) · Mon–Fri 11:00–15:00 & 17:00–20:30, Sat/holidays lunch only, closed Sun · no reservations, queue before opening"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Spice curry"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  },
  {
   "id": "kyoto-kissa-tyrol",
@@ -5333,7 +9054,24 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kissa%20Tyrol%20539-3%20Monzencho%2C%20Oike-dori%20Omiya%20Nishi-iru%2C%20Nakagyo%2C%20Kyoto%20Kyoto",
     "info": "¥ (most plates under ¥1,000) · Mon–Sat 8:00–16:00 (LO 15:30), closed Sun & holidays · no reservations, cash only"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Kissaten",
+    "Japanese curry"
+   ],
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Morning"
+   ]
+  }
  },
  {
   "id": "kyoto-toyouke-chaya",
@@ -5349,6 +9087,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toyouke%20Chaya%20822%20Kamiyagawacho%2C%20Imadegawa-dori%20Gozen%20Nishi-iru%2C%20Kamigyo%2C%20Kyoto%20Kyoto",
     "info": "¥ (~¥1,000–1,500) · 11:00–14:30 (LO 14:00), closed Thu & Fri (open on the 25th and holidays) · no reservations, write your name and expect a wait"
    }
-  ]
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Tofu"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  }
  }
 ]
