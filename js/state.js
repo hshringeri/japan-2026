@@ -1,6 +1,6 @@
 import { distanceKm, storage } from "./util.js";
 import { setFilter } from "./filter.js";
-import { dayAnchor } from "./data.js";
+import { dayAnchor, dayAreas } from "./data.js";
 
 // App-wide state outside the filter: loaded data, the look-ahead date and your location
 export const app = { data: null, date: null, here: null, locating: false, locationError: null };
@@ -12,8 +12,11 @@ export const emit = (event, payload) => listeners[event]?.forEach((fn) => fn(pay
 export function setDate(date) {
   app.date = date;
   const day = date && app.data.trip?.dayByDate[date];
-  // Looking ahead to a day jumps the list to that day's city
-  if (day) setFilter({ city: ["tokyo", "osaka", "kyoto"].includes(day.city) ? day.city : null, area: null });
+  // Looking ahead to a day jumps the list and map to that day's city and the areas its stops are in
+  if (day) {
+    const city = ["tokyo", "osaka", "kyoto"].includes(day.city) ? day.city : null;
+    setFilter({ city, area: city ? dayAreas(app.data, date) : [] });
+  }
   emit("date", date);
 }
 

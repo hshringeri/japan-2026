@@ -63,10 +63,10 @@ function contextCards(results, guide) {
   const out = [];
   const city = filter.city && guide.cities.find((c) => c.id === filter.city);
   const hoods = new Set(results.map((p) => p.hood).filter(Boolean));
-  if (city && hoods.size === 1 && (filter.area || results.length < 40)) {
+  if (city && hoods.size === 1 && (filter.area.length || results.length < 40)) {
     const hood = city.blocks.find((b) => b.type === "hood" && b.name === [...hoods][0]);
     if (hood) out.push(`<aside class="card intro"><h2>${esc(hood.name)}</h2><p>${hood.dek}</p></aside>`);
-  } else if (city && !filter.area && !filter.kind && !filter.q) {
+  } else if (city && !filter.area.length && !filter.kind && !filter.q) {
     out.push(`<aside class="card intro"><h2>${esc(city.name)} <span lang="ja">${esc(city.jp)}</span></h2><p>${city.dek}</p></aside>`);
   }
   const musicish = filter.category === "Underground Music" || (filter.kind === "music" && !filter.category);
