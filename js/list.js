@@ -2,6 +2,7 @@ import { esc, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.j
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
+import { highlightPlace } from "./map.js";
 
 export function mountList(root) {
   root.innerHTML = `
@@ -41,6 +42,23 @@ export function mountList(root) {
   onFilter(render);
   onApp("date", render);
   onApp("here", () => { if (!app.date) render(); });
+
+  // The map and the list light each other up on hover
+  rows.addEventListener("mouseover", (e) => {
+    const row = e.target.closest(".row");
+    if (row) highlightPlace(row.dataset.pid, true);
+  });
+  rows.addEventListener("mouseout", (e) => {
+    const row = e.target.closest(".row");
+    if (row) highlightPlace(row.dataset.pid, false);
+  });
+  onApp("pinhover", ({ id, on }) => {
+    const row = rows.querySelector(`[data-pid="${CSS.escape(id)}"]`);
+    if (!row) return;
+    row.classList.toggle("lit", on);
+    if (on) row.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  });
+
   render();
 }
 
@@ -48,7 +66,7 @@ function row(p) {
   const flags = (p.tags?.flags || []).filter((f) => f !== "Walk-in").slice(0, 3);
   const detail = [...(p.tags?.cuisine || []), ...(p.tags?.genre || []), ...(p.tags?.style || [])].slice(0, 3);
   const dist = p.dist != null ? `<span class="dist">${formatDistance(p.dist)}${p.dist < 2.5 ? `<small>${walkMinutes(p.dist)} min walk</small>` : ""}</span>` : "";
-  return `<li><a class="row" href="#/place/${p.id}">
+  return `<li><a class="row" data-pid="${p.id}" href="#/place/${p.id}">
     <span class="dot" style="--c:${p.color}"></span>
     <span class="body">
       <span class="name">${esc(p.name)}</span>

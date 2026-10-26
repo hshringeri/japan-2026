@@ -2,7 +2,7 @@ import { $, $$ } from "./util.js";
 import { loadData } from "./data.js";
 import { app, emit, startLocation, locationWasAllowed, setDate } from "./state.js";
 import { mountList } from "./list.js";
-import { mountMap, showMap, focusPlace } from "./map.js";
+import { mountMap, showMap, focusPlace, revealPlace } from "./map.js";
 import { mountSplit, syncSplit } from "./split.js";
 import { mountPlan, showPlan, hidePlan } from "./plan.js";
 import { renderPlace } from "./place.js";
@@ -30,7 +30,11 @@ function route() {
     focusPlace(app.data.byId[arg]);
   }
   if (name === "plan") showPlan();
-  if (name === "place") renderPlace($("#view-place"), arg);
+  if (name === "place") {
+    renderPlace($("#view-place"), arg);
+    if (wide.matches && app.data.byId[arg]?.lat != null) revealPlace(app.data.byId[arg]);
+  }
+  if (name !== "place" && view !== "map") revealPlace(null);
   if (name === "guide") renderGuide($("#view-guide"), arg);
   if (["list", "map", "plan"].includes(name)) lastTab = name;
   emit("route", name);

@@ -2,13 +2,15 @@
 import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
-import { app, onApp, startLocation, hereInJapan, setDate } from "./state.js";
+import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
 import { dayAnchor } from "./data.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
 let map, cluster, dayLayer, stayLayer, hereMarker, hereRing, sheet, root;
 let firstFix = true, started = false;
+const markers = new Map();
+let stickyPin = null;
 
 export function mountMap(el) {
   root = el;
@@ -72,13 +74,48 @@ function pin(p) {
     title: p.name, keyboard: true,
   });
   m.on("click", (e) => { L.DomEvent.stopPropagation(e); openPlace(p); });
+  m.on("mouseover", () => emit("pinhover", { id: p.id, on: true }));
+  m.on("mouseout", () => emit("pinhover", { id: p.id, on: false }));
+  markers.set(p.id, m);
   return m;
+}
+
+// Light a pin from the list side (or any view that knows the place).
+// The halo is a separate marker so it shows even when the pin is inside a cluster.
+let halo;
+export function highlightPlace(id, on) {
+  const p = id && app.data.byId[id];
+  if (on && p && p.lat != null) {
+    if (halo) halo.remove();
+    halo = L.marker([p.lat, p.lng], {
+      icon: L.divIcon({ className: "pinhalo", iconSize: [34, 34] }), interactive: false, zIndexOffset: 1500,
+    }).addTo(map);
+  } else if (!on && halo) {
+    halo.remove();
+    halo = null;
+  }
+  const m = markers.get(id);
+  if (m) {
+    const el = m.getElement();
+    el?.classList.toggle("lit", on);
+    m.setZIndexOffset(on ? 600 : 0);
+  }
+}
+
+// Keep one pin lit until something else takes over (the open sheet, a place page)
+export function stickPin(id) {
+  if (stickyPin && stickyPin !== id) highlightPlace(stickyPin, false);
+  stickyPin = id;
+  if (id) highlightPlace(id, true);
 }
 
 function drawPlaces(refit) {
   const pts = app.data.places.filter((p) => p.lat != null && matches(p));
   cluster.clearLayers();
+  markers.clear();
   cluster.addLayers(pts.map(pin));
+  if (stickyPin && markers.has(stickyPin)) highlightPlace(stickyPin, true);
+  else if (halo) { halo.remove(); halo = null; }
   if (refit && pts.length && !app.date) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16 });
 }
 
@@ -189,6 +226,7 @@ export function openPlace(p, item, pan = true) {
       <a class="btn" href="${esc(directionsUrl(p) || l.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
     </div>`;
   sheet.hidden = false;
+  stickPin(p.id);
   if (pan) map.panTo([p.lat, p.lng], { animate: true });
 }
 
@@ -221,11 +259,24 @@ function openItem(it, day) {
   sheet.hidden = false;
 }
 
-function closeSheet() { sheet.hidden = true; }
+function closeSheet() {
+  sheet.hidden = true;
+  stickPin(null);
+}
 
 export function focusPlace(p) {
   showMap();
   // Jump without animating: a long animated zoom can be cut short by the map's first layout
   map.setView([p.lat, p.lng], 16, { animate: false });
   openPlace(p, null, false);
+}
+
+// The place page is up on the left: bring its pin into view without opening the sheet
+export function revealPlace(p) {
+  if (!started || !map) return;
+  if (!p) { if (sheet.hidden) stickPin(null); return; }
+  // Far out, the pin is buried in a cluster: zoom to it. Nearby, just nudge the view.
+  const z = Math.max(map.getZoom(), 13);
+  map.setView([p.lat, p.lng], z, { animate: true });
+  stickPin(p.id);
 }
