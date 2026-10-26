@@ -12,6 +12,7 @@ There's no build step. GitHub Pages serves the files as they are.
 | `data/trip.json` | The trip: stays, day by day plans, open questions |
 | `data/guide.json` | The magazine's editorial text: cover, house rules, intros, tips, Gone notes, credits |
 | `data/geo.json` | Geocoding results with their sources and notes |
+| `data/photos.json` | One photo per place, linked from where it lives, with its source and credit |
 | `data/taxonomy.json` | Kinds (Shop, Eat, Music…) and which categories sit under each |
 | `js/` | The app |
 | `guide.css` | The original magazine styles, used by the Guide view |
@@ -32,6 +33,7 @@ To add a guide place, add it to `data/places.json` with `lat` and `lng`, then ru
 - `tools/extract.py` was the one-time split of the original page into data files.
 - `tools/merge_geo.py` folds geocoding results into the places and assigns each one an area.
 - `tools/tag.py` assigns kinds, cuisine, genre, shop style and practical flags.
+- `tools/photos.py` finds a photo for each place: the place's own website first, then Wikimedia Commons by name, then the nearest suitable Commons photo, then one of the area. Run it after adding places; it only looks up places without a photo. Pass place ids to redo those, and add an image or site URL to `tools/photos-blocked.txt` to stop it being picked.
 - `tools/resize-images.sh` makes the app's copies of the photos.
 
 To test locally, run `python3 -m http.server` in this folder and open http://localhost:8000. Adding `?now=2026-11-20T22:30` to the URL makes the app act as if it's that moment in Japan, and `?day=2026-11-24` opens on that trip day.

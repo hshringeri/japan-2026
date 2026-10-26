@@ -1,4 +1,4 @@
-import { esc, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.js";
+import { esc, photoImg, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.js";
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
@@ -55,7 +55,7 @@ function row(p) {
       <span class="sub">${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
       <span class="desc">${esc(p.main.desc)}</span>
       ${detail.length || flags.length ? `<span class="tags">${[...detail, ...flags].map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
-    </span>${dist}</a></li>`;
+    </span><span class="side">${photoImg(p, "thumb")}${dist}</span></a></li>`;
 }
 
 // The guide's own words for wherever the filter has narrowed to
