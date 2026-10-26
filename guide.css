@@ -1,0 +1,119 @@
+/* The original magazine stylesheet, scoped to .guide so it cannot reach the app UI. */
+.guide{--ink:#16130f;--paper:#f4efe6;--accent:#d2381f;--mute:#6f675c;--rule:#d9cfbf}
+.guide,.guide *{box-sizing:border-box}
+.guide-wrap{background:#e8e1d4}
+.guide{margin:0 auto;max-width:1100px;background:var(--paper);color:var(--ink);font:16px/1.5 "Iowan Old Style","Palatino Linotype",Georgia,serif}
+.guide .cover{position:relative;height:92vh;min-height:620px;overflow:hidden;margin:0}
+.guide .cover img{width:100%;height:100%;object-fit:cover;filter:contrast(1.05) saturate(.9)}
+.guide .cover .t{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:40px 48px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 35%,rgba(0,0,0,.75));color:#fff}
+.guide .mast{font:900 clamp(56px,11vw,140px)/.85 "Helvetica Neue",Arial,sans-serif;letter-spacing:-.04em;text-transform:uppercase;margin:0}
+.guide .mast em{font-style:normal;color:var(--accent)}
+.guide .issue{font:600 13px/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;display:flex;justify-content:space-between}
+.guide .cover .lede{font-size:22px;max-width:620px;margin:0 0 6px}
+.guide .cover figcaption{position:absolute;right:12px;bottom:8px;font:11px sans-serif;color:#ddd}
+.guide .inside{padding:56px 48px 24px;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;border-bottom:3px solid var(--ink)}
+.guide .inside h2{font:900 34px/1 "Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:-.02em;margin:0 0 14px}
+.guide .toc a{display:flex;gap:14px;align-items:baseline;color:inherit;text-decoration:none;border-top:1px solid var(--rule);padding:10px 0;font-size:20px}
+.guide .toc a span{font:700 13px "Helvetica Neue",Arial,sans-serif;color:var(--accent)}
+.guide .rules{background:var(--ink);color:var(--paper);padding:22px 26px}
+.guide .rules h3{font:800 13px "Helvetica Neue",Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+.guide .rules li{margin:0 0 7px}
+.guide .rules ul{padding-left:18px;margin:0}
+.guide .city{padding:0 0 30px;border-bottom:3px solid var(--ink)}
+.guide .cityhead{position:relative}
+.guide .hero{margin:0;height:62vh;min-height:420px;overflow:hidden;position:relative}
+.guide .hero img,.guide .band img{width:100%;height:100%;object-fit:cover;display:block}
+.guide figcaption{font:11px/1.3 "Helvetica Neue",Arial,sans-serif;color:var(--mute);padding:6px 48px 0}
+.guide .hero figcaption{position:absolute;bottom:8px;right:12px;color:#ddd;padding:0}
+.guide .cityttl{position:absolute;left:48px;bottom:36px;color:#fff;display:flex;align-items:flex-end;gap:18px;text-shadow:0 2px 18px rgba(0,0,0,.5)}
+.guide .cityttl h2{font:900 clamp(64px,12vw,150px)/.8 "Helvetica Neue",Arial,sans-serif;margin:0;letter-spacing:-.05em;text-transform:uppercase}
+.guide .cityttl .num{font:800 18px "Helvetica Neue",Arial,sans-serif;background:var(--accent);padding:4px 8px;margin-bottom:12px}
+.guide .cityttl .jp{font-size:34px;margin-bottom:8px;opacity:.9}
+.guide .dek{font-size:24px;line-height:1.35;padding:28px 48px 6px;margin:0;max-width:880px}
+.guide .dek::first-letter{font:900 64px/0.8 "Helvetica Neue",Arial,sans-serif;float:left;margin:6px 10px 0 0;color:var(--accent)}
+.guide .cat{padding:18px 48px 0}
+.guide .cat h3{font:800 13px "Helvetica Neue",Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;border-top:3px solid var(--ink);padding-top:10px;margin:18px 0 6px;display:flex;justify-content:space-between}
+.guide .cat h3::after{content:"";flex:0 0 46px;height:6px;background:var(--accent);margin-top:2px}
+.guide .grid{display:grid;grid-template-columns:repeat(2,1fr);column-gap:36px}
+.guide .e{border-bottom:1px solid var(--rule);padding:12px 0;break-inside:avoid}
+.guide .e h4{font:800 18px/1.2 "Helvetica Neue",Arial,sans-serif;margin:0 0 3px;letter-spacing:-.01em}
+.guide .e .d{margin:0 0 5px}
+.guide .e .m{margin:0;font:12px/1.4 "Helvetica Neue",Arial,sans-serif;color:var(--mute)}
+.guide .e .m span{color:var(--ink)}
+.guide .band{margin:30px 0 4px;height:340px;overflow:hidden}
+.guide .band figcaption{padding:6px 48px}
+.guide .tip,.guide .gone{margin:18px 48px 0;padding:14px 18px;font-size:15px}
+.guide .tip{background:#fff;border-left:6px solid var(--accent)}
+.guide .gone{border:1px dashed var(--mute);color:#3a342c}
+.guide footer{padding:28px 48px 48px;font:12px/1.5 "Helvetica Neue",Arial,sans-serif;color:var(--mute)}
+.guide footer h3{font:800 12px "Helvetica Neue",Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
+.guide footer a{color:inherit}
+@media (max-width:760px){.guide .grid,.guide .inside{grid-template-columns:1fr}
+.guide .cat,.guide .dek,.guide .inside,.guide footer{padding-left:20px;padding-right:20px}
+.guide .tip,.guide .gone{margin-left:20px;margin-right:20px}
+.guide .cityttl{left:20px}
+.guide .cover .t{padding:24px}
+}
+@media print{.guide-wrap{background:none}
+.guide .cover{height:100vh}
+.guide .city{break-before:page}
+.guide .e{break-inside:avoid}
+}
+.guide .e h4 a{color:inherit;text-decoration:none;border-bottom:2px solid var(--accent)}
+.guide .e h4 a:hover{color:var(--accent)}
+.guide .e h4 .arr{font-size:13px;color:var(--accent);border:0}
+.guide .e .m a.map{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--mute)}
+.guide .e .m a.map:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.guide .mast{font-size:clamp(80px,17vw,220px)}
+.guide .cover{height:auto;min-height:min(92vh,880px);display:flex}
+.guide .cover>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.guide .cover .t{position:relative;flex:1;gap:28px}
+.guide .mast{font-size:clamp(64px,12vw,168px);line-height:.85;margin:0;white-space:nowrap}
+.guide .cover .lede{font-size:clamp(17px,1.7vw,22px)}
+.guide .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 22px;max-width:820px;padding:0;list-style:none}
+.guide .chips li{font:700 11px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;border:1px solid rgba(255,255,255,.7);padding:6px 9px;background:rgba(0,0,0,.25)}
+.guide .hoodnav{display:flex;flex-wrap:wrap;gap:8px;padding:14px 48px 4px}
+.guide .hoodnav a{font:700 12px "Helvetica Neue",Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none;border:2px solid var(--ink);padding:7px 10px;display:flex;gap:8px}
+.guide .hoodnav a span{color:var(--accent)}
+.guide .hoodnav a:hover{background:var(--ink);color:var(--paper)}
+.guide .hood{margin-top:34px}
+.guide .hoodttl{font:900 clamp(30px,4.4vw,52px)/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:-.03em;text-transform:uppercase;margin:0;padding:0 48px;display:flex;align-items:center;gap:14px}
+.guide .hoodttl::before{content:"";width:18px;height:18px;background:var(--accent);flex:none}
+.guide .hooddek{padding:6px 48px 0 80px;margin:0;font-size:19px;color:#3a342c;max-width:860px}
+.guide .toc .sub{font-size:14px;padding:4px 0 4px 26px;border:0;color:var(--mute)}
+@media (max-width:760px){.guide .hoodnav,.guide .hoodttl{padding-left:20px;padding-right:20px}
+.guide .hooddek{padding-left:52px}
+}
+.guide .cover>figcaption{z-index:2}
+@media (max-width:760px){.guide .cover .t{padding-bottom:44px}
+.guide .mast{font-size:clamp(48px,15vw,90px)}
+.guide .chips li{font-size:10px;padding:5px 7px}
+}
+.guide .manifesto{display:block;margin:0;padding:22px 48px;background:var(--accent);color:#fff;font-size:18px;line-height:1.45;border-bottom:3px solid var(--ink)}
+.guide .manifesto b{font:900 13px "Helvetica Neue",Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;display:block;margin-bottom:6px}
+@media (max-width:760px){.guide .manifesto{padding:18px 20px;font-size:16px}
+}
+.guide .cover.meme{background:var(--ink)}
+.guide .cover.meme>img{object-fit:contain;filter:none;padding:clamp(10px,3vw,34px)}
+.guide .cover.meme{height:auto;min-height:92vh}
+.guide .cover.meme .t{background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.1) 38%,rgba(0,0,0,.88))}
+.guide .cover>figcaption{z-index:2}
+.guide .cover.meme{background:#16130f}
+.guide .cover.meme>img{object-fit:contain;filter:none;padding:clamp(8px,2.5vw,30px)}
+.guide .cover.meme .t{background:linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.05) 40%,rgba(0,0,0,.9))}
+.guide .catindex{display:flex;flex-wrap:wrap;gap:8px;margin:18px 48px 0}
+.guide .catindex a{display:inline-flex;gap:8px;align-items:baseline;border:2px solid var(--ink);padding:6px 10px;font:600 12px "Helvetica Neue",Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:inherit;text-decoration:none}
+.guide .catindex a span{font-weight:700;color:var(--accent)}
+.guide .catindex a:hover{background:var(--ink);color:var(--paper)}
+.guide .catindex a:hover span{color:var(--paper)}
+@media (max-width:760px){.guide .catindex{margin-left:20px;margin-right:20px}
+}
+.guide .tview{display:flex;gap:8px;margin:18px 48px 0}
+.guide .tview button{font:600 13px "Helvetica Neue",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:9px 14px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer}
+.guide .tview button.on{background:var(--ink);color:var(--paper)}
+@media (max-width:760px){.guide .tview{margin-left:20px;margin-right:20px}
+}
+.guide .cornersrc{margin:10px 48px 0;font-size:13px;color:var(--mute)}
+.guide .cornersrc a{color:inherit}
+@media (max-width:760px){.guide .cornersrc{margin-left:20px;margin-right:20px}
+}

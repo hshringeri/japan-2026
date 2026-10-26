@@ -24,7 +24,14 @@
    "style": [
     "Logo-era streetwear"
    ]
-  }
+  },
+  "lat": 35.70397,
+  "lng": 139.64752,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-55-2",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-curb-other-side",
@@ -52,7 +59,14 @@
     "Logo-era streetwear",
     "Americana"
    ]
-  }
+  },
+  "lat": 35.70349,
+  "lng": 139.64929,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-24-3 Kawakami Bldg 1F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-mecha",
@@ -75,7 +89,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.70454,
+  "lng": 139.65027,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-28-7 J Bldg 4F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-room-number-10",
@@ -98,7 +119,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.70462,
+  "lng": 139.64973,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-27-8 Taiyu Bldg 1F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-ca-used-clothing-and-books",
@@ -125,7 +153,14 @@
    "style": [
     "Americana"
    ]
-  }
+  },
+  "lat": 35.70396,
+  "lng": 139.64887,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-24-9 103",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-militaria",
@@ -152,7 +187,14 @@
    "style": [
     "Military"
    ]
-  }
+  },
+  "lat": 35.70376,
+  "lng": 139.6483,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-57-3 1F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-small-change",
@@ -175,7 +217,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.7031,
+  "lng": 139.64842,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-45-16 1F-2F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-higashi-koenji-niman-den-atsu",
@@ -202,7 +251,14 @@
    "genre": [
     "Hardcore"
    ]
-  }
+  },
+  "lat": 35.69844,
+  "lng": 139.65826,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南1-7-23 L-Grazia B1",
+  "neighbourhood": "Higashi-Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-u-f-o-club",
@@ -231,7 +287,14 @@
     "Noise",
     "Garage"
    ]
-  }
+  },
+  "lat": 35.69813,
+  "lng": 139.65505,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南1-11-6 Harmony Hills B1",
+  "neighbourhood": "Higashi-Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-los-angeles-club",
@@ -254,7 +317,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.69812,
+  "lng": 139.65791,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南1-7-2 B1",
+  "neighbourhood": "Higashi-Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-koenji-showboat",
@@ -282,7 +352,14 @@
     "Punk",
     "Rock"
    ]
-  }
+  },
+  "lat": 35.7062,
+  "lng": 139.64761,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-17-2",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-jirokichi",
@@ -310,7 +387,14 @@
     "Blues",
     "Improv"
    ]
-  }
+  },
+  "lat": 35.70559,
+  "lng": 139.65137,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北2-3-4 B1",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-koenji-high",
@@ -333,7 +417,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.70356,
+  "lng": 139.65105,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-30-1",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-yakitori-taisho-honten",
@@ -364,7 +455,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.7047,
+  "lng": 139.64977,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-27-9",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-shimonya-koenji",
@@ -395,7 +493,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70599,
+  "lng": 139.64885,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-22-8",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-little-cave-koenji",
@@ -422,7 +527,14 @@
    "flags": [
     "Hidden entrance"
    ]
-  }
+  },
+  "lat": 35.70458,
+  "lng": 139.64954,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-26-16 Ashino Bldg 201",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-grand-pa-higashi-koenji",
@@ -449,7 +561,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.69812,
+  "lng": 139.65791,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南1-7-2 1F",
+  "neighbourhood": "Higashi-Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-koenji-kemuriba",
@@ -472,7 +591,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.70372,
+  "lng": 139.64873,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-57-10 高円寺KSビル5F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-berry-billiards-darts",
@@ -495,7 +621,14 @@
   "categories": [
    "Pool Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.7031,
+  "lng": 139.64842,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-45-16 2F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-kosugi-yu",
@@ -523,7 +656,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.70794,
+  "lng": 139.64864,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-32-2",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-bar-mugen",
@@ -550,7 +690,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.70516,
+  "lng": 139.6487,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-58-17 Plaza USA Bldg B1",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-aimu",
@@ -581,7 +728,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70686,
+  "lng": 139.64624,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-11-1",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
  },
  {
   "id": "tokyo-ccx-kitazawa",
@@ -604,7 +758,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.66068,
+  "lng": 139.66814,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-12-2 Wakaba Heights 202",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-furugiya-kakko",
@@ -627,7 +788,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.65906,
+  "lng": 139.66772,
+  "precision": "block",
+  "addressJa": "東京都世田谷区代沢5-32-10 La Pacion 2D",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-mu",
@@ -655,7 +823,14 @@
     "Americana",
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.65659,
+  "lng": 139.66753,
+  "precision": "block",
+  "addressJa": "東京都世田谷区代沢5-9-12 Fuji Heights 1-2",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-kimama",
@@ -678,7 +853,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.66299,
+  "lng": 139.66713,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-30-6 UC Bldg 2F",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-soma",
@@ -705,7 +887,14 @@
    "style": [
     "Sneakers"
    ]
-  }
+  },
+  "lat": 35.66313,
+  "lng": 139.66859,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-33-6 Iijima Bldg 202",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-basement-bar-three",
@@ -728,7 +917,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.6567,
+  "lng": 139.66746,
+  "precision": "block",
+  "addressJa": "東京都世田谷区代沢5-18-1 Calabash Bldg B1",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-heaven-s-door",
@@ -756,7 +952,14 @@
     "Punk",
     "Experimental"
    ]
-  }
+  },
+  "lat": 35.64225,
+  "lng": 139.67169,
+  "precision": "block",
+  "addressJa": "東京都世田谷区三軒茶屋1-33-19 B1",
+  "neighbourhood": "Sangenjaya",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-spread",
@@ -785,7 +988,14 @@
     "Techno",
     "Bass"
    ]
-  }
+  },
+  "lat": 35.66088,
+  "lng": 139.66759,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-12-6 Riverstone Bldg B1F",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-bar-holly",
@@ -815,7 +1025,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66336,
+  "lng": 139.66869,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-33-8 1F",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-little-soul-cafe",
@@ -846,7 +1063,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66321,
+  "lng": 139.66928,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢3-20-2 Taisei Bldg 2F",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-bar-loaded",
@@ -873,7 +1097,14 @@
    "genre": [
     "Rock"
    ]
-  }
+  },
+  "lat": 35.66488,
+  "lng": 139.66571,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-40-15 1F",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-jelly-jelly-shimokitazawa",
@@ -896,7 +1127,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.66108,
+  "lng": 139.66829,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-11-3 202",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-flour-water-shimokitazawa",
@@ -928,7 +1166,14 @@
     "Walk-in",
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.66312,
+  "lng": 139.66814,
+  "precision": "block",
+  "addressJa": "東京都世田谷区北沢2-34-3 Midokita 1F Booth A",
+  "neighbourhood": "Shimokitazawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-kyodo-bowl",
@@ -956,7 +1201,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.65116,
+  "lng": 139.63771,
+  "precision": "block",
+  "addressJa": "東京都世田谷区宮坂2-19-5 Matsubara Bldg 5F",
+  "neighbourhood": "Kyodo",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
  },
  {
   "id": "tokyo-business-as-usual",
@@ -983,7 +1235,14 @@
    "style": [
     "Logo-era streetwear"
    ]
-  }
+  },
+  "lat": 35.67015,
+  "lng": 139.70831,
+  "precision": "block",
+  "addressJa": "東京都渋谷区神宮前3-20-5 INOUE Bldg 2F",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-what-z-up",
@@ -1010,7 +1269,14 @@
    "style": [
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.66983,
+  "lng": 139.70783,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前3-21-10",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-straight-from-l-a",
@@ -1037,7 +1303,14 @@
    "style": [
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.67081,
+  "lng": 139.70779,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前3-21-1",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-pat-market",
@@ -1064,7 +1337,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.67103,
+  "lng": 139.70888,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前3-27-8",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-archive-store",
@@ -1091,7 +1371,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.66259,
+  "lng": 139.70065,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神南1-12-16",
+  "neighbourhood": "Jinnan",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-laila-tokio",
@@ -1118,7 +1405,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.66129,
+  "lng": 139.70557,
+  "precision": "building",
+  "addressJa": "東京都渋谷区渋谷1-5-11",
+  "neighbourhood": "Shibuya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-context-tokyo",
@@ -1145,7 +1439,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.66671,
+  "lng": 139.70666,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前5-11-6",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-awesine-by-bring",
@@ -1172,7 +1473,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.66958,
+  "lng": 139.70834,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前4-25-35",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-ragtag-harajuku",
@@ -1199,7 +1507,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.66631,
+  "lng": 139.70573,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前6-14-2",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-kld-tokyo",
@@ -1229,7 +1544,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.66296,
+  "lng": 139.69989,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神南1-17-5",
+  "neighbourhood": "Jinnan",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-ether",
@@ -1259,7 +1581,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.66761,
+  "lng": 139.71666,
+  "precision": "block",
+  "addressJa": "東京都港区南青山3-3-9 ユザワビル3F",
+  "neighbourhood": "Minami-Aoyama",
+  "ward": "Minato",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-and-wander-miyashita-park",
@@ -1286,7 +1615,14 @@
    "style": [
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.66238,
+  "lng": 139.70201,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前6-20-10",
+  "neighbourhood": "Shibuya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-forestlimit",
@@ -1314,7 +1650,14 @@
     "Experimental",
     "Noise"
    ]
-  }
+  },
+  "lat": 35.67808,
+  "lng": 139.67694,
+  "precision": "building",
+  "addressJa": "東京都渋谷区幡ヶ谷2-8-15",
+  "neighbourhood": "Hatagaya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-contact",
@@ -1346,7 +1689,14 @@
     "ID required",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.65882,
+  "lng": 139.69757,
+  "precision": "building",
+  "addressJa": "東京都渋谷区道玄坂2-10-12",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-www-www",
@@ -1373,7 +1723,14 @@
    "flags": [
     "ID required"
    ]
-  }
+  },
+  "lat": 35.66163,
+  "lng": 139.6987,
+  "precision": "building",
+  "addressJa": "東京都渋谷区宇田川町13-17",
+  "neighbourhood": "Udagawacho",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-oath",
@@ -1396,7 +1753,14 @@
   "categories": [
    "Electronic & Clubs"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.65866,
+  "lng": 139.70921,
+  "precision": "building",
+  "addressJa": "東京都渋谷区渋谷4-5-9",
+  "neighbourhood": "Shibuya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-vent",
@@ -1428,7 +1792,14 @@
     "ID required",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66505,
+  "lng": 139.7133,
+  "precision": "block",
+  "addressJa": "東京都港区南青山3-18-19",
+  "neighbourhood": "Minami-Aoyama",
+  "ward": "Minato",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-circus-tokyo",
@@ -1460,7 +1831,14 @@
    "flags": [
     "ID required"
    ]
-  }
+  },
+  "lat": 35.65404,
+  "lng": 139.7054,
+  "precision": "building",
+  "addressJa": "東京都渋谷区渋谷3-26-16",
+  "neighbourhood": "Shibuya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-womb",
@@ -1492,7 +1870,14 @@
     "ID required",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.65832,
+  "lng": 139.6949,
+  "precision": "building",
+  "addressJa": "東京都渋谷区円山町2-16",
+  "neighbourhood": "Maruyamacho",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-liquidroom",
@@ -1515,7 +1900,14 @@
   "categories": [
    "Electronic & Clubs"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.64936,
+  "lng": 139.71077,
+  "precision": "building",
+  "addressJa": "東京都渋谷区東3-16-6",
+  "neighbourhood": "Ebisu",
+  "ward": "Shibuya",
+  "area": "Ebisu"
  },
  {
   "id": "tokyo-jazz-union",
@@ -1542,7 +1934,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 35.66897,
+  "lng": 139.70725,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前4-28-8",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-jbs-jazz-blues-soul",
@@ -1571,7 +1970,14 @@
     "Blues",
     "Soul & funk"
    ]
-  }
+  },
+  "lat": 35.65706,
+  "lng": 139.69672,
+  "precision": "building",
+  "addressJa": "東京都渋谷区道玄坂1-17-10",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-hi-fi-disco-bar-chaos",
@@ -1599,7 +2005,14 @@
     "Disco",
     "House"
    ]
-  }
+  },
+  "lat": 35.65851,
+  "lng": 139.69475,
+  "precision": "building",
+  "addressJa": "東京都渋谷区円山町9-3 NEXUS MARUYAMA 2F",
+  "neighbourhood": "Maruyamacho",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-baird-beer-harajuku-taproom",
@@ -1626,7 +2039,14 @@
    "cuisine": [
     "Yakitori"
    ]
-  }
+  },
+  "lat": 35.6718,
+  "lng": 139.70433,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前1-20-13",
+  "neighbourhood": "Harajuku",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-goodbeer-faucets",
@@ -1649,7 +2069,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.66003,
+  "lng": 139.69528,
+  "precision": "building",
+  "addressJa": "東京都渋谷区松濤1-29-1",
+  "neighbourhood": "Shoto",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-tokyo-whisky-library",
@@ -1676,7 +2103,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66337,
+  "lng": 139.71341,
+  "precision": "block",
+  "addressJa": "東京都港区南青山5-5-24",
+  "neighbourhood": "Minami-Aoyama",
+  "ward": "Minato",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-minami-aoyama-shimizu-yu",
@@ -1703,7 +2137,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66606,
+  "lng": 139.71391,
+  "precision": "block",
+  "addressJa": "東京都港区南青山3-12-3",
+  "neighbourhood": "Minami-Aoyama",
+  "ward": "Minato",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-nephew",
@@ -1734,7 +2175,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.66901,
+  "lng": 139.69014,
+  "precision": "building",
+  "addressJa": "東京都渋谷区富ヶ谷1-7-2",
+  "neighbourhood": "Tomigaya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-path",
@@ -1766,7 +2214,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.66851,
+  "lng": 139.68996,
+  "precision": "building",
+  "addressJa": "東京都渋谷区富ヶ谷1-44-2",
+  "neighbourhood": "Tomigaya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-sasazuka-bowl",
@@ -1795,7 +2250,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.67417,
+  "lng": 139.6667,
+  "precision": "building",
+  "addressJa": "東京都渋谷区笹塚1-57-10",
+  "neighbourhood": "Sasazuka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  },
  {
   "id": "tokyo-janai-coffee",
@@ -1824,7 +2286,14 @@
     "Hidden entrance",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.64561,
+  "lng": 139.70731,
+  "precision": "building",
+  "addressJa": "東京都渋谷区恵比寿南2-3-13",
+  "neighbourhood": "Ebisu",
+  "ward": "Shibuya",
+  "area": "Ebisu"
  },
  {
   "id": "tokyo-bar-trench",
@@ -1853,7 +2322,14 @@
     "Hidden entrance",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.64836,
+  "lng": 139.70775,
+  "precision": "building",
+  "addressJa": "東京都渋谷区恵比寿西1-5-8",
+  "neighbourhood": "Ebisu",
+  "ward": "Shibuya",
+  "area": "Ebisu"
  },
  {
   "id": "tokyo-fuunji",
@@ -1883,7 +2359,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.68667,
+  "lng": 139.69656,
+  "precision": "building",
+  "addressJa": "東京都渋谷区代々木2-14-3",
+  "neighbourhood": "Yoyogi",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-tamawarai",
@@ -1914,7 +2397,14 @@
     "Book ahead",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.66446,
+  "lng": 139.70465,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前5-23-3",
+  "neighbourhood": "Jingumae",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  },
  {
   "id": "tokyo-antiknock",
@@ -1942,7 +2432,14 @@
     "Rock",
     "Metal"
    ]
-  }
+  },
+  "lat": 35.68866,
+  "lng": 139.70351,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿4-3-15",
+  "neighbourhood": "Shinjuku-sanchome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-ochiai-soup",
@@ -1969,7 +2466,14 @@
    "genre": [
     "Noise"
    ]
-  }
+  },
+  "lat": 35.71091,
+  "lng": 139.68398,
+  "precision": "building",
+  "addressJa": "東京都新宿区上落合3-9-10",
+  "neighbourhood": "Kami-Ochiai",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-dj-bar-bridge",
@@ -1998,7 +2502,14 @@
     "House",
     "Soul & funk"
    ]
-  }
+  },
+  "lat": 35.69179,
+  "lng": 139.70728,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿2-19-9",
+  "neighbourhood": "Shinjuku-nichome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-shinjuku-pit-inn",
@@ -2026,7 +2537,14 @@
     "Jazz",
     "Improv"
    ]
-  }
+  },
+  "lat": 35.69046,
+  "lng": 139.70747,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿2-12-4",
+  "neighbourhood": "Shinjuku-nichome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-dug",
@@ -2056,7 +2574,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.69287,
+  "lng": 139.70349,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿3-15-12 B1F",
+  "neighbourhood": "Shinjuku-sanchome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-eagle-iiguru",
@@ -2086,7 +2611,14 @@
    "flags": [
     "Cash only"
    ]
-  }
+  },
+  "lat": 35.68651,
+  "lng": 139.72819,
+  "precision": "block",
+  "addressJa": "東京都新宿区四谷1-8 ホリナカビルB1",
+  "neighbourhood": "Yotsuya",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-shot-bar-zoetrope",
@@ -2109,7 +2641,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.6945,
+  "lng": 139.69835,
+  "precision": "building",
+  "addressJa": "東京都新宿区西新宿7-10-14 ガイア第4ビル3F",
+  "neighbourhood": "Nishi-Shinjuku",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-poyo",
@@ -2136,7 +2675,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.68996,
+  "lng": 139.71007,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿1-15-7 御苑ハイツ605",
+  "neighbourhood": "Shinjuku-gyoenmae",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-8bitcafe",
@@ -2164,7 +2710,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.69067,
+  "lng": 139.70674,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿3-8-9 新宿Qビル5F",
+  "neighbourhood": "Shinjuku-sanchome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
  },
  {
   "id": "tokyo-nakano-broadway",
@@ -2191,7 +2744,14 @@
    "style": [
     "Watches"
    ]
-  }
+  },
+  "lat": 35.70992,
+  "lng": 139.66566,
+  "precision": "building",
+  "addressJa": "東京都中野区中野5-52-15",
+  "neighbourhood": "Nakano",
+  "ward": "Nakano",
+  "area": "Nakano"
  },
  {
   "id": "tokyo-jackroad",
@@ -2218,7 +2778,14 @@
    "style": [
     "Watches"
    ]
-  }
+  },
+  "lat": 35.70992,
+  "lng": 139.66566,
+  "precision": "building",
+  "addressJa": "東京都中野区中野5-52-15 中野ブロードウェイ3F",
+  "neighbourhood": "Nakano",
+  "ward": "Nakano",
+  "area": "Nakano"
  },
  {
   "id": "tokyo-kame-kichi",
@@ -2245,7 +2812,14 @@
    "style": [
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.70992,
+  "lng": 139.66566,
+  "precision": "building",
+  "addressJa": "東京都中野区中野5-52-15 中野ブロードウェイ3F",
+  "neighbourhood": "Nakano",
+  "ward": "Nakano",
+  "area": "Nakano"
  },
  {
   "id": "tokyo-mandarake-nakano",
@@ -2272,7 +2846,14 @@
    "style": [
     "Toys & figures"
    ]
-  }
+  },
+  "lat": 35.70992,
+  "lng": 139.66566,
+  "precision": "building",
+  "addressJa": "東京都中野区中野5-52-15",
+  "neighbourhood": "Nakano",
+  "ward": "Nakano",
+  "area": "Nakano"
  },
  {
   "id": "tokyo-mandarake-galaxy-nakano-broadway",
@@ -2302,7 +2883,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70992,
+  "lng": 139.66566,
+  "precision": "building",
+  "addressJa": "東京都中野区中野5-52-15 中野ブロードウェイ2F",
+  "neighbourhood": "Nakano",
+  "ward": "Nakano",
+  "area": "Nakano"
  },
  {
   "id": "tokyo-boogie",
@@ -2325,7 +2913,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.70502,
+  "lng": 139.58186,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-20-15 東栄ビル2F",
+  "neighbourhood": "Kichijoji",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-nomen",
@@ -2353,7 +2948,14 @@
     "Euro vintage",
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.70408,
+  "lng": 139.58241,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-30-16 305",
+  "neighbourhood": "Kichijoji",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-hiker-s-depot",
@@ -2380,7 +2982,14 @@
    "style": [
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.69575,
+  "lng": 139.56131,
+  "precision": "building",
+  "addressJa": "東京都三鷹市下連雀4-15-33 ニッセイ三鷹マンション2F",
+  "neighbourhood": "Mitaka",
+  "ward": "Mitaka",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-pit-bar",
@@ -2410,7 +3019,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.70368,
+  "lng": 139.60106,
+  "precision": "building",
+  "addressJa": "東京都杉並区西荻南3-14-10 B1",
+  "neighbourhood": "Nishi-Ogikubo",
+  "ward": "Suginami",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-silver-elephant",
@@ -2440,7 +3056,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.70461,
+  "lng": 139.57704,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町2-10-6 B1",
+  "neighbourhood": "Kichijoji",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-yakitori-ebisu-minamiguchi-honten",
@@ -2471,7 +3094,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70349,
+  "lng": 139.59935,
+  "precision": "building",
+  "addressJa": "東京都杉並区西荻南3-11-5",
+  "neighbourhood": "Nishi-Ogikubo",
+  "ward": "Suginami",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-cafe-game-bar-kotobuki",
@@ -2494,7 +3124,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.71742,
+  "lng": 139.60201,
+  "precision": "building",
+  "addressJa": "東京都杉並区今川4-28-20 ハイツハルキチ寿館101",
+  "neighbourhood": "Imagawa",
+  "ward": "Suginami",
+  "area": "Kichijoji & Nishi-Ogikubo"
  },
  {
   "id": "tokyo-olgou",
@@ -2521,7 +3158,14 @@
    "style": [
     "Euro vintage"
    ]
-  }
+  },
+  "lat": 35.64694,
+  "lng": 139.69897,
+  "precision": "building",
+  "addressJa": "東京都目黒区上目黒1-10-6 パインビレッジ100",
+  "neighbourhood": "Nakameguro",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-carrefour",
@@ -2548,7 +3192,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.60859,
+  "lng": 139.6731,
+  "precision": "building",
+  "addressJa": "東京都目黒区緑が丘2-15-13",
+  "neighbourhood": "Jiyugaoka",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-roku-6",
@@ -2580,7 +3231,14 @@
     "Walk-in",
     "Hidden entrance"
    ]
-  }
+  },
+  "lat": 35.64775,
+  "lng": 139.69423,
+  "precision": "building",
+  "addressJa": "東京都目黒区青葉台1-27-12 後藤ビル2F",
+  "neighbourhood": "Nakameguro",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-new-bunka-billiards",
@@ -2603,7 +3261,14 @@
   "categories": [
    "Pool Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.60368,
+  "lng": 139.67297,
+  "precision": "building",
+  "addressJa": "東京都世田谷区奥沢3-47-8 サンケイプラザB1",
+  "neighbourhood": "Jiyugaoka",
+  "ward": "Setagaya",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-meguro-golf-driving-range",
@@ -2632,7 +3297,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.64416,
+  "lng": 139.68939,
+  "precision": "building",
+  "addressJa": "東京都目黒区上目黒5-6-22",
+  "neighbourhood": "Kamimeguro",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-curry-station-niagara",
@@ -2663,7 +3335,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.63919,
+  "lng": 139.69272,
+  "precision": "building",
+  "addressJa": "東京都目黒区祐天寺1-21-2",
+  "neighbourhood": "Yutenji",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
  },
  {
   "id": "tokyo-kanda-ogawamachi-ski-strip",
@@ -2691,7 +3370,14 @@
     "Ski & snow",
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.69505,
+  "lng": 139.76343,
+  "precision": "area",
+  "addressJa": "東京都千代田区神田小川町2〜3丁目",
+  "neighbourhood": "Kanda-Ogawamachi",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-aspen-ski-shop",
@@ -2718,7 +3404,14 @@
    "style": [
     "Ski & snow"
    ]
-  }
+  },
+  "lat": 35.6954,
+  "lng": 139.76218,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田小川町3-6",
+  "neighbourhood": "Kanda-Ogawamachi",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-fuso-snowboard-gear",
@@ -2745,7 +3438,14 @@
    "style": [
     "Ski & snow"
    ]
-  }
+  },
+  "lat": 35.69416,
+  "lng": 139.76433,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田小川町2-3-13",
+  "neighbourhood": "Kanda-Ogawamachi",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-sports-bomber",
@@ -2772,7 +3472,14 @@
    "style": [
     "Ski & snow"
    ]
-  }
+  },
+  "lat": 35.69462,
+  "lng": 139.76398,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田小川町2-4-16 いちご神田小川町ビル1F",
+  "neighbourhood": "Kanda-Ogawamachi",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-ftarri",
@@ -2802,7 +3509,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.70367,
+  "lng": 139.7556,
+  "precision": "building",
+  "addressJa": "東京都文京区本郷1-4-11 岡野ビルB1",
+  "neighbourhood": "Suidobashi",
+  "ward": "Bunkyo",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-shichoshitsu",
@@ -2829,7 +3543,14 @@
    "genre": [
     "Improv"
    ]
-  }
+  },
+  "lat": 35.69833,
+  "lng": 139.75374,
+  "precision": "block",
+  "addressJa": "東京都千代田区西神田3-8-5",
+  "neighbourhood": "Jimbocho",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-bar-isshee",
@@ -2859,7 +3580,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.72498,
+  "lng": 139.76277,
+  "precision": "building",
+  "addressJa": "東京都文京区千駄木3-36-11 千駄木センチュリー21 B1",
+  "neighbourhood": "Sendagi",
+  "ward": "Bunkyo",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-beer-club-popeye",
@@ -2882,7 +3610,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.69516,
+  "lng": 139.79279,
+  "precision": "building",
+  "addressJa": "東京都墨田区両国2-18-7",
+  "neighbourhood": "Ryogoku",
+  "ward": "Sumida",
+  "area": "Sumida & Koto"
  },
  {
   "id": "tokyo-daikoku-yu-oshiage-onsen",
@@ -2909,7 +3644,14 @@
    "flags": [
     "Tattoos OK"
    ]
-  }
+  },
+  "lat": 35.70509,
+  "lng": 139.81375,
+  "precision": "building",
+  "addressJa": "東京都墨田区横川3-12-14",
+  "neighbourhood": "Oshiage",
+  "ward": "Sumida",
+  "area": "Sumida & Koto"
  },
  {
   "id": "tokyo-tokyo-somei-onsen-sakura",
@@ -2932,7 +3674,14 @@
   "categories": [
    "Onsen & Sento"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.73829,
+  "lng": 139.73965,
+  "precision": "building",
+  "addressJa": "東京都豊島区駒込5-4-24",
+  "neighbourhood": "Komagome",
+  "ward": "Toshima",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-super-potato-akihabara",
@@ -2962,7 +3711,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.69939,
+  "lng": 139.77065,
+  "precision": "building",
+  "addressJa": "東京都千代田区外神田1-11-2 北林ビル3F-5F",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-beep-akihabara",
@@ -2993,7 +3749,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70131,
+  "lng": 139.77335,
+  "precision": "building",
+  "addressJa": "東京都千代田区神田練塀町15-1 SEEKBASE内 3区画",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-cure-maid-cafe",
@@ -3020,7 +3783,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.69835,
+  "lng": 139.77107,
+  "precision": "building",
+  "addressJa": "東京都千代田区外神田1-2-7 オノデンビル4F ジーストア・アキバ",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-cafe-mai-lish",
@@ -3047,7 +3817,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.70227,
+  "lng": 139.76953,
+  "precision": "building",
+  "addressJa": "東京都千代田区外神田3-6-2 FH協和スクエア2F",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-granvania",
@@ -3074,7 +3851,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.69858,
+  "lng": 139.77155,
+  "precision": "block",
+  "addressJa": "東京都千代田区外神田1-14-3 秋葉原電波会館2F",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-tokyo-video-gamers",
@@ -3102,7 +3886,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.70067,
+  "lng": 139.77334,
+  "precision": "building",
+  "addressJa": "東京都千代田区神田練塀町13-1外 SEEKBASE 1-9",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
  },
  {
   "id": "tokyo-tenno-ji",
@@ -3125,7 +3916,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.7265,
+  "lng": 139.77081,
+  "precision": "block",
+  "addressJa": "東京都台東区谷中7-14-8",
+  "neighbourhood": "Yanaka",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-zensho-an",
@@ -3148,7 +3946,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.7238,
+  "lng": 139.7668,
+  "precision": "block",
+  "addressJa": "東京都台東区谷中5-4-7",
+  "neighbourhood": "Yanaka",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-bar-libre",
@@ -3175,7 +3980,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.73027,
+  "lng": 139.70743,
+  "precision": "block",
+  "addressJa": "東京都豊島区西池袋3-25-8 相馬屋ビルB1F",
+  "neighbourhood": "Nishi-Ikebukuro",
+  "ward": "Toshima",
+  "area": "Ikebukuro"
  },
  {
   "id": "tokyo-ponta-honke",
@@ -3205,7 +4017,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.70632,
+  "lng": 139.77296,
+  "precision": "block",
+  "addressJa": "東京都台東区上野3-23-3",
+  "neighbourhood": "Ueno-Okachimachi",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-kayaba-coffee",
@@ -3236,7 +4055,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.72116,
+  "lng": 139.77075,
+  "precision": "block",
+  "addressJa": "東京都台東区谷中6-1-29",
+  "neighbourhood": "Yanaka",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-onigiri-asakusa-yadoroku",
@@ -3267,7 +4093,14 @@
     "Walk-in",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.71709,
+  "lng": 139.79489,
+  "precision": "block",
+  "addressJa": "東京都台東区浅草3-9-10",
+  "neighbourhood": "Asakusa",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
  },
  {
   "id": "tokyo-snow-peak-land-station-tokyo",
@@ -3294,7 +4127,14 @@
    "style": [
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.67909,
+  "lng": 139.76468,
+  "precision": "block",
+  "addressJa": "東京都千代田区丸の内2-7-2 JPタワー KITTE 4F",
+  "neighbourhood": "Marunouchi",
+  "ward": "Chiyoda",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-bar-white-oak",
@@ -3321,7 +4161,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.66835,
+  "lng": 139.76119,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座8-7-7",
+  "neighbourhood": "Ginza",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-uosan-sakaba-tomioka",
@@ -3352,7 +4199,14 @@
     "Cash only",
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.67104,
+  "lng": 139.79758,
+  "precision": "block",
+  "addressJa": "東京都江東区富岡1-5-4",
+  "neighbourhood": "Monzen-Nakacho",
+  "ward": "Koto",
+  "area": "Sumida & Koto"
  },
  {
   "id": "tokyo-sushi-mikata",
@@ -3383,7 +4237,14 @@
     "Book ahead",
     "Standing"
    ]
-  }
+  },
+  "lat": 35.64712,
+  "lng": 139.741,
+  "precision": "block",
+  "addressJa": "東京都港区三田4-1-4",
+  "neighbourhood": "Mita",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-ginza-sushi-horinouchi",
@@ -3413,7 +4274,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.66996,
+  "lng": 139.7616,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座7-5-5",
+  "neighbourhood": "Ginza",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-hakkoku",
@@ -3444,7 +4312,14 @@
     "Cashless",
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.67046,
+  "lng": 139.76283,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座6-7-6 ラペビル3F",
+  "neighbourhood": "Ginza",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-erick-south-yaesu",
@@ -3474,7 +4349,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.67986,
+  "lng": 139.76961,
+  "precision": "block",
+  "addressJa": "東京都中央区八重洲2-1 八重洲地下街中4号",
+  "neighbourhood": "Yaesu",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-andhra-dining",
@@ -3505,7 +4387,14 @@
     "Book ahead",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.67458,
+  "lng": 139.76906,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座1-8-2",
+  "neighbourhood": "Ginza",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-nirvanam-kamiyacho",
@@ -3535,7 +4424,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.66316,
+  "lng": 139.74626,
+  "precision": "block",
+  "addressJa": "東京都港区虎ノ門3-18-21",
+  "neighbourhood": "Kamiyacho",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-tandoor-bar-kamalpur-kiba",
@@ -3565,7 +4461,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.6689,
+  "lng": 139.81091,
+  "precision": "block",
+  "addressJa": "東京都江東区東陽3-20-9 鈴木ビル1F",
+  "neighbourhood": "Kiba / Toyocho",
+  "ward": "Koto",
+  "area": "Sumida & Koto"
  },
  {
   "id": "tokyo-minato-golf-tamachi",
@@ -3588,7 +4491,14 @@
   "categories": [
    "Golf & Driving Range"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.64644,
+  "lng": 139.75328,
+  "precision": "block",
+  "addressJa": "東京都港区芝浦1-13-10 第三東運ビル R階",
+  "neighbourhood": "Shibaura",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-toranomon-sky-range",
@@ -3615,7 +4525,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 35.67029,
+  "lng": 139.75056,
+  "precision": "block",
+  "addressJa": "東京都港区虎ノ門1-1-21 新虎ノ門実業会館 屋上",
+  "neighbourhood": "Toranomon",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-the-golf-house-mita-tamachi",
@@ -3638,7 +4555,14 @@
   "categories": [
    "Golf & Driving Range"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.64999,
+  "lng": 139.75194,
+  "precision": "block",
+  "addressJa": "東京都港区芝2-30-15 4F",
+  "neighbourhood": "Shiba",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-cocofuro-masunoyu",
@@ -3666,7 +4590,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.57992,
+  "lng": 139.68558,
+  "precision": "block",
+  "addressJa": "東京都大田区南久が原2-1-23",
+  "neighbourhood": "Kugahara",
+  "ward": "Ota",
+  "area": "Ota"
  },
  {
   "id": "tokyo-hasunuma-onsen",
@@ -3694,7 +4625,14 @@
     "Tattoos OK",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.56536,
+  "lng": 139.70859,
+  "precision": "block",
+  "addressJa": "東京都大田区西蒲田6-16-11",
+  "neighbourhood": "Nishi-Kamata",
+  "ward": "Ota",
+  "area": "Ota"
  },
  {
   "id": "tokyo-ukiyo-game-bar-cafe",
@@ -3721,7 +4659,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.67331,
+  "lng": 139.76073,
+  "precision": "block",
+  "addressJa": "東京都千代田区有楽町1-3-8 3F・4F",
+  "neighbourhood": "Yurakucho",
+  "ward": "Chiyoda",
+  "area": "Ginza & Marunouchi"
  },
  {
   "id": "tokyo-tokyo-port-bowl",
@@ -3748,7 +4693,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.64644,
+  "lng": 139.75328,
+  "precision": "block",
+  "addressJa": "東京都港区芝浦1-13-10 第三東運ビル7F",
+  "neighbourhood": "Shibaura",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-bar-gen-yamamoto",
@@ -3775,7 +4727,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.65659,
+  "lng": 139.73424,
+  "precision": "block",
+  "addressJa": "東京都港区麻布十番1-6-4 アニバーサリービル1F",
+  "neighbourhood": "Azabu-Juban",
+  "ward": "Minato",
+  "area": "Minato"
  },
  {
   "id": "tokyo-kameido-gyoza-honten",
@@ -3806,7 +4765,14 @@
     "Cash only",
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.69856,
+  "lng": 139.82616,
+  "precision": "block",
+  "addressJa": "東京都江東区亀戸5-3-3",
+  "neighbourhood": "Kameido",
+  "ward": "Koto",
+  "area": "Sumida & Koto"
  },
  {
   "id": "tokyo-daikoku-pa",
@@ -3829,7 +4795,14 @@
   "categories": [
    "JDM Culture"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.46177,
+  "lng": 139.68035,
+  "precision": "building",
+  "addressJa": "神奈川県横浜市鶴見区大黒ふ頭",
+  "neighbourhood": "Daikoku Futo",
+  "ward": "Tsurumi (Yokohama)",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "tokyo-up-garage",
@@ -3852,7 +4825,46 @@
   "categories": [
    "JDM Culture"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.73552,
+  "lng": 139.61485,
+  "precision": "block",
+  "addressJa": "東京都練馬区南田中2-23-18",
+  "neighbourhood": "Minami-Tanaka",
+  "ward": "Nerima",
+  "area": "Outskirts & day trips",
+  "extraPins": [
+   {
+    "label": "UP GARAGE 横浜町田総本店",
+    "lat": 35.50856,
+    "lng": 139.47557
+   },
+   {
+    "label": "UP GARAGE 国立府中インター店",
+    "lat": 35.677,
+    "lng": 139.44409
+   },
+   {
+    "label": "UP GARAGE 東村山店",
+    "lat": 35.75205,
+    "lng": 139.46751
+   },
+   {
+    "label": "UP GARAGE 昭島店",
+    "lat": 35.69757,
+    "lng": 139.37289
+   },
+   {
+    "label": "UP GARAGE 羽村店",
+    "lat": 35.77121,
+    "lng": 139.30818
+   },
+   {
+    "label": "UP GARAGE ホイールズ瑞穂店",
+    "lat": 35.76111,
+    "lng": 139.36221
+   }
+  ]
  },
  {
   "id": "tokyo-mooneyes-area-1",
@@ -3875,7 +4887,14 @@
   "categories": [
    "JDM Culture"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.42847,
+  "lng": 139.6651,
+  "precision": "block",
+  "addressJa": "神奈川県横浜市中区本牧宮原2-10",
+  "neighbourhood": "Honmoku",
+  "ward": "Naka (Yokohama)",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "tokyo-nismo-festival",
@@ -3902,7 +4921,14 @@
    "flags": [
     "Event"
    ]
-  }
+  },
+  "lat": 35.37148,
+  "lng": 138.93164,
+  "precision": "building",
+  "addressJa": "静岡県駿東郡小山町中日向694 富士スピードウェイ",
+  "neighbourhood": "Fuji Speedway",
+  "ward": "Oyama (Shizuoka)",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "tokyo-tokyo-auto-salon-2027",
@@ -3929,7 +4955,14 @@
    "flags": [
     "Event"
    ]
-  }
+  },
+  "lat": 35.64719,
+  "lng": 140.03456,
+  "precision": "block",
+  "addressJa": "千葉県千葉市美浜区中瀬2-1 幕張メッセ",
+  "neighbourhood": "Makuhari",
+  "ward": "Mihama (Chiba)",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "tokyo-mountain-research-anachronorm",
@@ -3956,7 +4989,21 @@
    "style": [
     "Outdoor"
    ]
-  }
+  },
+  "lat": 35.64771,
+  "lng": 139.69608,
+  "precision": "block",
+  "addressJa": "東京都目黒区青葉台1-14-11 コーポ青葉台102",
+  "neighbourhood": "Nakameguro",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro",
+  "extraPins": [
+   {
+    "label": "BALANCE NAKAMEGURO (ANACHRONORM flagship)",
+    "lat": 35.64817,
+    "lng": 139.69667
+   }
+  ]
  },
  {
   "id": "tokyo-gentemstick",
@@ -3983,7 +5030,41 @@
    "style": [
     "Ski & snow"
    ]
-  }
+  },
+  "lat": 35.69462,
+  "lng": 139.76398,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田小川町2-4-16 いちご神田小川町ビル",
+  "neighbourhood": "Kanda-Ogawamachi",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda",
+  "extraPins": [
+   {
+    "label": "スタイラス (Tomigaya)",
+    "lat": 35.66759,
+    "lng": 139.68539
+   },
+   {
+    "label": "BRINE (Wakabayashi)",
+    "lat": 35.65035,
+    "lng": 139.66267
+   },
+   {
+    "label": "2doors (Okusawa)",
+    "lat": 35.60394,
+    "lng": 139.6654
+   },
+   {
+    "label": "MAR SURF CREW (Higashi-Tabata)",
+    "lat": 35.73968,
+    "lng": 139.76308
+   },
+   {
+    "label": "Town Pump (Kinshicho)",
+    "lat": 35.70357,
+    "lng": 139.81223
+   }
+  ]
  },
  {
   "id": "tokyo-zine-stockists",
@@ -4006,7 +5087,31 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.66432,
+  "lng": 139.6933,
+  "precision": "block",
+  "addressJa": "東京都渋谷区神山町17-3 1F",
+  "neighbourhood": "Kamiyamacho",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "extraPins": [
+   {
+    "label": "UTRECHT",
+    "lat": 35.66419,
+    "lng": 139.70602
+   },
+   {
+    "label": "Mosakusha (模索舎)",
+    "lat": 35.68918,
+    "lng": 139.70752
+   },
+   {
+    "label": "Taco ché (タコシェ)",
+    "lat": 35.70992,
+    "lng": 139.66566
+   }
+  ]
  },
  {
   "id": "tokyo-takao-san-yakuo-in-side-halls",
@@ -4029,7 +5134,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.626,
+  "lng": 139.25044,
+  "precision": "building",
+  "addressJa": "東京都八王子市高尾町2177",
+  "neighbourhood": "Mount Takao",
+  "ward": "Hachioji",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "tokyo-shiofune-kannon-ji",
@@ -4052,7 +5164,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.80466,
+  "lng": 139.28047,
+  "precision": "building",
+  "addressJa": "東京都青梅市塩船194",
+  "neighbourhood": "Shiofune",
+  "ward": "Ome",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "osaka-daily-dose-quality-stuff",
@@ -4075,7 +5194,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67102,
+  "lng": 135.49464,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-19-31",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-copyart-collective",
@@ -4098,7 +5224,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67171,
+  "lng": 135.49777,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-11-19 APT 2F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-rroomm-mens",
@@ -4125,7 +5258,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 34.70699,
+  "lng": 135.50079,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区鶴野町2-8 鶴野ビル2F",
+  "neighbourhood": "Tsurunocho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-rroomm-womens",
@@ -4152,7 +5292,14 @@
    "style": [
     "Womenswear"
    ]
-  }
+  },
+  "lat": 34.71092,
+  "lng": 135.50008,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区豊崎3-3-14 豊崎ビル1F",
+  "neighbourhood": "Toyosaki",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-nnuudd",
@@ -4179,7 +5326,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 34.70749,
+  "lng": 135.51222,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区天神橋5-2-12 やなぎ屋ビル1F",
+  "neighbourhood": "Tenjinbashi",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-404vintage",
@@ -4206,7 +5360,14 @@
    "style": [
     "Logo-era streetwear"
    ]
-  }
+  },
+  "lat": 34.67366,
+  "lng": 135.49338,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区北堀江1-22-17 1F",
+  "neighbourhood": "Kita-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-giant-baby",
@@ -4234,7 +5395,14 @@
     "Band tees",
     "Skate"
    ]
-  }
+  },
+  "lat": 34.67129,
+  "lng": 135.49091,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江2-10-9",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-nutty",
@@ -4261,7 +5429,14 @@
    "style": [
     "Americana"
    ]
-  }
+  },
+  "lat": 34.6718,
+  "lng": 135.49362,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-24-1 澤井ビル2F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-dollar",
@@ -4284,7 +5459,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.6711,
+  "lng": 135.49297,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-25-17 2F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-moshpit",
@@ -4307,7 +5489,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67332,
+  "lng": 135.49454,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区北堀江1-14-21 4F",
+  "neighbourhood": "Kita-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-the-mongolian-choppsss",
@@ -4330,7 +5519,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.65314,
+  "lng": 135.50705,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区恵美須東1-7-5",
+  "neighbourhood": "Shinsekai",
+  "ward": "Naniwa",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-renton-archives",
@@ -4357,7 +5553,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 34.67388,
+  "lng": 135.49411,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区北堀江1-22-3 3F",
+  "neighbourhood": "Kita-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-jizhoh-osaka",
@@ -4387,7 +5590,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.67071,
+  "lng": 135.49474,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-16-15 明城ビル7F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-iruse",
@@ -4417,7 +5627,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.67447,
+  "lng": 135.50432,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区東心斎橋1-12-3 共栄ビル",
+  "neighbourhood": "Higashi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-kame-kichi-shinsaibashi",
@@ -4444,7 +5661,14 @@
    "style": [
     "Bargains"
    ]
-  }
+  },
+  "lat": 34.67599,
+  "lng": 135.50105,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区南船場3-11-10 心斎橋大陽ビル1F",
+  "neighbourhood": "Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-mandarake-nipponbashi",
@@ -4471,7 +5695,14 @@
    "style": [
     "Toys & figures"
    ]
-  }
+  },
+  "lat": 34.65911,
+  "lng": 135.50569,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区日本橋4-12-6",
+  "neighbourhood": "Nipponbashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-den-den-town-ota-road",
@@ -4499,7 +5730,14 @@
     "Toys & figures",
     "Retro games"
    ]
-  }
+  },
+  "lat": 34.65999,
+  "lng": 135.50607,
+  "precision": "area",
+  "addressJa": "大阪府大阪市浪速区日本橋4丁目",
+  "neighbourhood": "Nipponbashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-osaka-auto-messe",
@@ -4526,7 +5764,14 @@
    "flags": [
     "Event"
    ]
-  }
+  },
+  "lat": 34.63697,
+  "lng": 135.41713,
+  "precision": "block",
+  "addressJa": "大阪府大阪市住之江区南港北1-5-102 (インテックス大阪)",
+  "neighbourhood": "Nanko",
+  "ward": "Suminoe",
+  "area": "Bay side"
  },
  {
   "id": "osaka-up-garage-osaka",
@@ -4549,7 +5794,14 @@
   "categories": [
    "JDM Culture"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.62421,
+  "lng": 135.47826,
+  "precision": "block",
+  "addressJa": "大阪府大阪市住之江区北加賀屋2-2-19",
+  "neighbourhood": "Kitakagaya",
+  "ward": "Suminoe",
+  "area": "Bay side"
  },
  {
   "id": "osaka-and-wander-osaka",
@@ -4572,7 +5824,14 @@
   "categories": [
    "Gorpcore & Snow"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.6784,
+  "lng": 135.4997,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区博労町4-2-7 重松ビル1F",
+  "neighbourhood": "Bakuromachi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-lead-osaka",
@@ -4599,7 +5858,14 @@
    "flags": [
     "Cash only"
    ]
-  }
+  },
+  "lat": 34.65706,
+  "lng": 135.50212,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区敷津東2-1-4",
+  "neighbourhood": "Shikitsu-higashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-environment-0g",
@@ -4635,7 +5901,14 @@
    "genre": [
     "Experimental"
    ]
-  }
+  },
+  "lat": 34.67014,
+  "lng": 135.48842,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江3-6-1 西大阪ビルB1F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-hokage",
@@ -4663,7 +5936,14 @@
     "Punk",
     "Metal"
    ]
-  }
+  },
+  "lat": 34.67107,
+  "lng": 135.4991,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-9-36 カサドマートビルB1F/B2F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-sinkagura",
@@ -4686,7 +5966,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67107,
+  "lng": 135.4991,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-9-36 カサドマートビル6F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-king-cobra",
@@ -4713,7 +6000,14 @@
    "genre": [
     "Punk"
    ]
-  }
+  },
+  "lat": 34.67165,
+  "lng": 135.49815,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-11-3 シャトーダテ1F西",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-pangea",
@@ -4740,7 +6034,14 @@
    "genre": [
     "Indie"
    ]
-  }
+  },
+  "lat": 34.67188,
+  "lng": 135.49896,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-10-34 心斎橋ウエスト363ビル1F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-club-stomp",
@@ -4768,7 +6069,14 @@
     "Garage",
     "Punk"
    ]
-  }
+  },
+  "lat": 34.67429,
+  "lng": 135.50411,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区東心斎橋1-13-32 宝ビルB1F",
+  "neighbourhood": "Higashi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-matsuyamachi-chikaikkai",
@@ -4795,7 +6103,14 @@
    "genre": [
     "Hardcore"
    ]
-  }
+  },
+  "lat": 34.67773,
+  "lng": 135.51056,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区南船場1-1-12 企業交流プラザビルB1",
+  "neighbourhood": "Minami-Senba",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-sengoku-daitouryo",
@@ -4823,7 +6138,14 @@
     "Noise",
     "Punk"
    ]
-  }
+  },
+  "lat": 34.6811,
+  "lng": 135.54446,
+  "precision": "block",
+  "addressJa": "大阪府大阪市東成区中本1-11-14 ギャレ緑橋B1F",
+  "neighbourhood": "Midoribashi",
+  "ward": "Higashinari",
+  "area": "Kyobashi & east"
  },
  {
   "id": "osaka-holy-mountain",
@@ -4851,7 +6173,14 @@
     "Indie",
     "Experimental"
    ]
-  }
+  },
+  "lat": 34.6602,
+  "lng": 135.5029,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区難波中2-11-1 なんばEKIKAN内",
+  "neighbourhood": "Namba",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-magayura",
@@ -4878,7 +6207,14 @@
    "genre": [
     "Ambient"
    ]
-  }
+  },
+  "lat": 34.6892,
+  "lng": 135.47481,
+  "precision": "block",
+  "addressJa": "大阪府大阪市福島区吉野3-7-7 富岡ビル2-3F",
+  "neighbourhood": "Noda",
+  "ward": "Fukushima",
+  "area": "Fukushima"
  },
  {
   "id": "osaka-nambaya",
@@ -4915,7 +6251,14 @@
     "Jazz",
     "Improv"
    ]
-  }
+  },
+  "lat": 34.64645,
+  "lng": 135.50162,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西成区萩之茶屋2-5-2",
+  "neighbourhood": "Haginochaya",
+  "ward": "Nishinari",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-socore-factory",
@@ -4938,7 +6281,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67268,
+  "lng": 135.49114,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江2-13-26",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-club-daphnia",
@@ -4966,7 +6316,14 @@
     "Ambient",
     "Techno"
    ]
-  }
+  },
+  "lat": 34.62467,
+  "lng": 135.4731,
+  "precision": "block",
+  "addressJa": "大阪府大阪市住之江区北加賀屋5-5-1",
+  "neighbourhood": "Kitakagaya",
+  "ward": "Suminoe",
+  "area": "Bay side"
  },
  {
   "id": "osaka-compufunk-records",
@@ -4994,7 +6351,14 @@
     "House",
     "Disco"
    ]
-  }
+  },
+  "lat": 34.6903,
+  "lng": 135.51211,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区北浜東1-29 GROW北浜ビル2F",
+  "neighbourhood": "Kitahama",
+  "ward": "Chuo",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-noon-cafe",
@@ -5022,7 +6386,14 @@
     "House",
     "Hip-hop"
    ]
-  }
+  },
+  "lat": 34.70705,
+  "lng": 135.50159,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎西3-3-8",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-circus-osaka",
@@ -5053,7 +6424,14 @@
    "flags": [
     "ID required"
    ]
-  }
+  },
+  "lat": 34.6731,
+  "lng": 135.49791,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋1-8-16 中西ビル2F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-joule",
@@ -5080,7 +6458,14 @@
    "flags": [
     "ID required"
    ]
-  }
+  },
+  "lat": 34.6713,
+  "lng": 135.49811,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-11-7 南炭屋町ビル2F-4F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-proust",
@@ -5107,7 +6492,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 34.67436,
+  "lng": 135.50314,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区東心斎橋1-19-6 東山ビル1F",
+  "neighbourhood": "Higashi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-royal-horse",
@@ -5134,7 +6526,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 34.69174,
+  "lng": 135.50722,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区北浜1-1-28 11F",
+  "neighbourhood": "Kitahama",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
  },
  {
   "id": "osaka-record-bar-moon-shine",
@@ -5166,7 +6565,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.70074,
+  "lng": 135.50174,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区曽根崎2-10-29 4F",
+  "neighbourhood": "Ohatsutenjin",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-mitsutera-kaikan",
@@ -5193,7 +6599,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67065,
+  "lng": 135.49933,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-9-5",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-beer-belly-tenma",
@@ -5220,7 +6633,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.70706,
+  "lng": 135.51268,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区池田町7-4 天満市場内",
+  "neighbourhood": "Tenma",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-yellow-ape-craft",
@@ -5247,7 +6667,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.69058,
+  "lng": 135.50507,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区今橋2-4-9",
+  "neighbourhood": "Kitahama",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
  },
  {
   "id": "osaka-bar-k",
@@ -5277,7 +6704,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.69728,
+  "lng": 135.4969,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区曽根崎新地1-3-3 B1F",
+  "neighbourhood": "Kitashinchi",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-osake-no-bijutsukan-shinsaibashi",
@@ -5300,7 +6734,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67106,
+  "lng": 135.50285,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区東心斎橋2-7-29",
+  "neighbourhood": "Higashi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-izakaya-toyo",
@@ -5332,7 +6773,14 @@
     "Walk-in",
     "Standing"
    ]
-  }
+  },
+  "lat": 34.69719,
+  "lng": 135.53537,
+  "precision": "block",
+  "addressJa": "大阪府大阪市都島区東野田町3-2-26",
+  "neighbourhood": "Kyobashi",
+  "ward": "Miyakojima",
+  "area": "Kyobashi & east"
  },
  {
   "id": "osaka-fukumasa",
@@ -5360,7 +6808,14 @@
     "Standing",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.65021,
+  "lng": 135.50621,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区恵美須東3-4-7",
+  "neighbourhood": "Shinsekai",
+  "ward": "Naniwa",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-nonkiya",
@@ -5391,7 +6846,14 @@
     "Standing",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.65038,
+  "lng": 135.50627,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区恵美須東3-4-5",
+  "neighbourhood": "Shinsekai",
+  "ward": "Naniwa",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-tenma-sakagura",
@@ -5422,7 +6884,14 @@
     "Cash only",
     "Book ahead"
    ]
-  }
+  },
+  "lat": 34.70662,
+  "lng": 135.51129,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区天神橋5-7-28",
+  "neighbourhood": "Tenma",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-sushi-kirimon",
@@ -5452,7 +6921,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 34.69644,
+  "lng": 135.50029,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区堂島1-1-20 1F",
+  "neighbourhood": "Kitashinchi",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-sushiya-yohei",
@@ -5482,7 +6958,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 34.69794,
+  "lng": 135.49791,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区曽根崎新地1-10-2 9F",
+  "neighbourhood": "Kitashinchi",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-sawada-osaka-fukushima",
@@ -5512,7 +6995,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 34.69306,
+  "lng": 135.48253,
+  "precision": "block",
+  "addressJa": "大阪府大阪市福島区福島4-2-50",
+  "neighbourhood": "Fukushima",
+  "ward": "Fukushima",
+  "area": "Fukushima"
  },
  {
   "id": "osaka-columbia8-kitahama",
@@ -5542,7 +7032,14 @@
    "flags": [
     "Michelin"
    ]
-  }
+  },
+  "lat": 34.68826,
+  "lng": 135.50853,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区道修町1-3-3 2F",
+  "neighbourhood": "Kitahama",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
  },
  {
   "id": "osaka-botani-curry",
@@ -5574,7 +7071,14 @@
     "Walk-in",
     "Michelin"
    ]
-  }
+  },
+  "lat": 34.6864,
+  "lng": 135.49898,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区瓦町4-5-3 1F",
+  "neighbourhood": "Honmachi",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
  },
  {
   "id": "osaka-kyu-yamu-tei-karahori",
@@ -5604,7 +7108,14 @@
    "flags": [
     "Cash only"
    ]
-  }
+  },
+  "lat": 34.6736,
+  "lng": 135.51518,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区谷町6-4-23",
+  "neighbourhood": "Karahori",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
  },
  {
   "id": "osaka-spice-curry-soma",
@@ -5634,7 +7145,14 @@
    "flags": [
     "Hidden entrance"
    ]
-  }
+  },
+  "lat": 34.71091,
+  "lng": 135.4951,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中津1-9-18 203号室",
+  "neighbourhood": "Nakatsu",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-game-bar-236",
@@ -5657,7 +7175,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.70089,
+  "lng": 135.50076,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区曽根崎2-14-10 5F",
+  "neighbourhood": "Ohatsutenjin",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-game-bar-picoty",
@@ -5684,7 +7209,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.70471,
+  "lng": 135.50273,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区堂山町15-15 2F",
+  "neighbourhood": "Doyamacho",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-alcheringa",
@@ -5711,7 +7243,14 @@
    "flags": [
     "Cashless"
    ]
-  }
+  },
+  "lat": 34.70405,
+  "lng": 135.50194,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区堂山町17-8 6F",
+  "neighbourhood": "Doyamacho",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-saio",
@@ -5734,7 +7273,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.70663,
+  "lng": 135.50668,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎1-6-2 101号",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-neighbor",
@@ -5761,7 +7307,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.70925,
+  "lng": 135.50893,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区浮田1-2-10",
+  "neighbourhood": "Tenroku",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-peegee-shinsaibashi",
@@ -5788,7 +7341,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67278,
+  "lng": 135.50189,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区心斎橋筋1-4-12 5F",
+  "neighbourhood": "Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-nagakutsu",
@@ -5811,7 +7371,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.7003,
+  "lng": 135.50392,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区兎我野町9-23 4F",
+  "neighbourhood": "Toganocho",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-pool-bar-room",
@@ -5838,7 +7405,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67031,
+  "lng": 135.49902,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-8-33 3F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-sakuranomiya-golf-club",
@@ -5866,7 +7440,14 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.69967,
+  "lng": 135.52618,
+  "precision": "block",
+  "addressJa": "大阪府大阪市都島区中野町2-3-23",
+  "neighbourhood": "Sakuranomiya",
+  "ward": "Miyakojima",
+  "area": "Kyobashi & east"
  },
  {
   "id": "osaka-hanshin-golf-center-taisho",
@@ -5889,7 +7470,14 @@
   "categories": [
    "Golf & Driving Range"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.65461,
+  "lng": 135.47655,
+  "precision": "block",
+  "addressJa": "大阪府大阪市大正区千島1-1-41",
+  "neighbourhood": "Chishima",
+  "ward": "Taisho",
+  "area": "Bay side"
  },
  {
   "id": "osaka-sugimura-golf-center",
@@ -5917,7 +7505,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.65891,
+  "lng": 135.45598,
+  "precision": "block",
+  "addressJa": "大阪府大阪市港区福崎1-4-74",
+  "neighbourhood": "Fukuzaki",
+  "ward": "Minato",
+  "area": "Bay side"
  },
  {
   "id": "osaka-naniwa-no-yu",
@@ -5945,7 +7540,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.71539,
+  "lng": 135.51378,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区長柄西1-7-31",
+  "neighbourhood": "Nagara",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-hinode-yu",
@@ -5972,7 +7574,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.64524,
+  "lng": 135.50667,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西成区山王2-7-9",
+  "neighbourhood": "San'no",
+  "ward": "Nishinari",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-ofuroya-wako-wako-yokujo",
@@ -6001,7 +7610,14 @@
     "Open late",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.6468,
+  "lng": 135.50737,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西成区山王1-7-6",
+  "neighbourhood": "San'no",
+  "ward": "Nishinari",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-hamura-onsen",
@@ -6024,7 +7640,14 @@
   "categories": [
    "Onsen & Sento"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.70779,
+  "lng": 135.5038,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎西1-7-18",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-nippo-kawaramachi-kaikan",
@@ -6047,7 +7670,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.66536,
+  "lng": 135.50537,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区難波千日前1-22 日宝河原町会館2F",
+  "neighbourhood": "Sennichimae",
+  "ward": "Chuo",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-mondial-kaffee-328-a",
@@ -6074,7 +7704,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.67394,
+  "lng": 135.49934,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋1-10-4 1F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-awesome-day-coffee",
@@ -6097,7 +7734,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67058,
+  "lng": 135.4944,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-19-7 シエロ南堀江1F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-reichi-store-r-coffee",
@@ -6120,7 +7764,14 @@
   "categories": [
    "After Dark"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.67058,
+  "lng": 135.4944,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-19-7 シエロ南堀江1F",
+  "neighbourhood": "Minami-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-maze-nishihorie",
@@ -6150,7 +7801,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.67338,
+  "lng": 135.49551,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区北堀江1-11-5",
+  "neighbourhood": "Kita-Horie",
+  "ward": "Nishi",
+  "area": "Horie"
  },
  {
   "id": "osaka-nichi-nichi-bake",
@@ -6181,7 +7839,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.7077,
+  "lng": 135.50383,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎西1-7-17 2F",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-game-tanteidan-game-detectives",
@@ -6212,7 +7877,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.65686,
+  "lng": 135.50581,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区日本橋5-7-18",
+  "neighbourhood": "Nipponbashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-cafe-e-maid",
@@ -6239,7 +7911,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.66249,
+  "lng": 135.50382,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区難波中2-3-6 レディースマンション西山1F",
+  "neighbourhood": "Namba",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-merimero",
@@ -6262,7 +7941,14 @@
   "categories": [
    "Maid Cafes"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.66155,
+  "lng": 135.50499,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区日本橋3-8-14 角谷ビル1-2F",
+  "neighbourhood": "Nipponbashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-pc-and-retro-bar-space-station",
@@ -6290,7 +7976,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67006,
+  "lng": 135.49797,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-13-3",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-bar-encount",
@@ -6319,7 +8012,14 @@
     "Book ahead",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67065,
+  "lng": 135.49933,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-9-5 3F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-shinsaibashi-sunbowl",
@@ -6347,7 +8047,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67106,
+  "lng": 135.49824,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋2-9-28",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-kanzakigawa-daidoh-bowl",
@@ -6374,7 +8081,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.7308,
+  "lng": 135.47,
+  "precision": "block",
+  "addressJa": "大阪府大阪市淀川区三津屋北2-14-18",
+  "neighbourhood": "Mitsuya",
+  "ward": "Yodogawa",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-ryuan-ji-temple",
@@ -6397,7 +8111,14 @@
   "categories": [
    "Hidden Temples & Shrines"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.84244,
+  "lng": 135.47252,
+  "precision": "building",
+  "addressJa": "大阪府箕面市箕面公園2-23",
+  "neighbourhood": "Minoo Park",
+  "ward": "Minoh",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "osaka-hozan-ji-temple",
@@ -6424,7 +8145,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.6844,
+  "lng": 135.68656,
+  "precision": "building",
+  "addressJa": "奈良県生駒市門前町1-1",
+  "neighbourhood": "Hozanji",
+  "ward": "Ikoma",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "osaka-isshin-ji-temple",
@@ -6451,7 +8179,14 @@
    "flags": [
     "Morning"
    ]
-  }
+  },
+  "lat": 34.65353,
+  "lng": 135.51164,
+  "precision": "block",
+  "addressJa": "大阪府大阪市天王寺区逢阪2-8-69",
+  "neighbourhood": "Tennoji",
+  "ward": "Tennoji",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-bar-nayuta",
@@ -6480,7 +8215,14 @@
     "Hidden entrance",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67197,
+  "lng": 135.49838,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋1-6-17 5F",
+  "neighbourhood": "Amemura",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-tachinomi-shomin",
@@ -6513,7 +8255,14 @@
     "Standing",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.6974,
+  "lng": 135.53447,
+  "precision": "block",
+  "addressJa": "大阪府大阪市都島区東野田町3-2-11",
+  "neighbourhood": "Kyobashi",
+  "ward": "Miyakojima",
+  "area": "Kyobashi & east"
  },
  {
   "id": "osaka-bible-club-osaka",
@@ -6541,7 +8290,14 @@
     "Book ahead",
     "Open late"
    ]
-  }
+  },
+  "lat": 34.67114,
+  "lng": 135.502,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区心斎橋筋2-1-11 B1F",
+  "neighbourhood": "Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
  },
  {
   "id": "osaka-dramatic-curry-golden-nakazaki",
@@ -6571,7 +8327,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.70739,
+  "lng": 135.50647,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎1-6-18",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  },
  {
   "id": "osaka-ramen-jinsei-jet",
@@ -6602,7 +8365,14 @@
     "Cash only",
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.6986,
+  "lng": 135.48668,
+  "precision": "block",
+  "addressJa": "大阪府大阪市福島区福島7-12-2",
+  "neighbourhood": "Fukushima",
+  "ward": "Fukushima",
+  "area": "Fukushima"
  },
  {
   "id": "osaka-chitose-honten",
@@ -6633,7 +8403,14 @@
     "Cash only",
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.66407,
+  "lng": 135.50403,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区難波千日前8-1",
+  "neighbourhood": "Sennichimae",
+  "ward": "Chuo",
+  "area": "Namba & Nipponbashi"
  },
  {
   "id": "osaka-negiyaki-yamamoto-honten",
@@ -6663,7 +8440,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.71918,
+  "lng": 135.48112,
+  "precision": "block",
+  "addressJa": "大阪府大阪市淀川区十三本町1-8-4",
+  "neighbourhood": "Juso",
+  "ward": "Yodogawa",
+  "area": "Umeda & Kitashinchi"
  },
  {
   "id": "osaka-shinsekai-kushikatsu-ittoku-tsutenkaku-ten",
@@ -6694,7 +8478,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 34.65165,
+  "lng": 135.50601,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区恵美須東2-3-12",
+  "neighbourhood": "Shinsekai",
+  "ward": "Naniwa",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-aizuya-honten",
@@ -6724,7 +8515,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 34.62525,
+  "lng": 135.49063,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西成区玉出西2-3-1",
+  "neighbourhood": "Tamade",
+  "ward": "Nishinari",
+  "area": "Shinsekai & Nishinari"
  },
  {
   "id": "osaka-endo-sushi-central-market",
@@ -6756,7 +8554,14 @@
     "Standing",
     "Morning"
    ]
-  }
+  },
+  "lat": 34.68602,
+  "lng": 135.48105,
+  "precision": "block",
+  "addressJa": "大阪府大阪市福島区野田1-1-86",
+  "neighbourhood": "Noda",
+  "ward": "Fukushima",
+  "area": "Fukushima"
  },
  {
   "id": "kyoto-big-time-kyoto",
@@ -6779,7 +8584,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00881,
+  "lng": 135.76745,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区三条通寺町東入石橋町5-1 イシズミ二条ビル",
+  "neighbourhood": "Sanjo-Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-grass",
@@ -6802,7 +8614,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00795,
+  "lng": 135.76654,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区御幸町通三条下る海老屋町316 2F",
+  "neighbourhood": "Sanjo-Gokomachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-dockery-farm",
@@ -6825,7 +8644,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00797,
+  "lng": 135.76625,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区御幸町通三条下る海老屋町323 1F",
+  "neighbourhood": "Sanjo-Gokomachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-goat",
@@ -6848,7 +8674,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00795,
+  "lng": 135.76654,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区御幸町通三条下る海老屋町328 2F",
+  "neighbourhood": "Sanjo-Gokomachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-roger-s",
@@ -6871,7 +8704,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00798,
+  "lng": 135.7668,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区寺町通三条下る永楽町241 寺町六角ビル2F",
+  "neighbourhood": "Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-rushout",
@@ -6899,7 +8739,14 @@
     "Band tees",
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.00798,
+  "lng": 135.7668,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区寺町通三条下る永楽町228 2F",
+  "neighbourhood": "Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-boro",
@@ -6922,7 +8769,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00674,
+  "lng": 135.76675,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区式部町259 2-C",
+  "neighbourhood": "Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-number-seven",
@@ -6945,7 +8799,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00917,
+  "lng": 135.76953,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区恵比須町446 2F",
+  "neighbourhood": "Kawaramachi-Sanjo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-lloomm-kyoto",
@@ -6972,7 +8833,14 @@
    "style": [
     "Designer"
    ]
-  }
+  },
+  "lat": 35.00067,
+  "lng": 135.76572,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区鍋屋町244-1",
+  "neighbourhood": "Fuyacho-Takatsuji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-twelve-kyoto",
@@ -6995,7 +8863,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00784,
+  "lng": 135.7506,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区三条猪熊町645-1 2F東",
+  "neighbourhood": "Sanjo-Omiya",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-000",
@@ -7022,7 +8897,14 @@
    "flags": [
     "Cashless"
    ]
-  }
+  },
+  "lat": 35.04474,
+  "lng": 135.78406,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区高野玉岡町50-2",
+  "neighbourhood": "Takano",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-diggers",
@@ -7045,7 +8927,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.04378,
+  "lng": 135.78526,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区一乗寺払殿町10",
+  "neighbourhood": "Ichijoji",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-selfurugi",
@@ -7068,7 +8957,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.0298,
+  "lng": 135.78093,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区田中門前町90",
+  "neighbourhood": "Hyakumanben",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-own-kyoto",
@@ -7091,7 +8987,14 @@
   "categories": [
    "Streetwear & Vintage"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.9446,
+  "lng": 135.76527,
+  "precision": "block",
+  "addressJa": "京都府京都市伏見区京町10丁目17",
+  "neighbourhood": "Fushimi",
+  "ward": "Fushimi",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-coil",
@@ -7124,7 +9027,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.00195,
+  "lng": 135.7648,
+  "precision": "street",
+  "addressJa": "京都府京都市下京区塗師屋町98 アヴィ四条1F (富小路通綾小路下る, 〒600-8053)",
+  "neighbourhood": "Shijo-Karasuma / Tominokoji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-n-ed",
@@ -7154,7 +9064,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.01289,
+  "lng": 135.76706,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区妙満寺前町463 コンフォート寺町202",
+  "neighbourhood": "Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-ruchiklu-antique-watches",
@@ -7181,7 +9098,14 @@
    "style": [
     "Watches"
    ]
-  }
+  },
+  "lat": 35.01699,
+  "lng": 135.76767,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区下御霊前町633-3 青山ビル202 (〒604-0995)",
+  "neighbourhood": "Teramachi-Marutamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-mont-bell-kyoto",
@@ -7209,7 +9133,14 @@
     "Outdoor",
     "Bargains"
    ]
-  }
+  },
+  "lat": 35.00551,
+  "lng": 135.76747,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区新京極通蛸薬師下る東側町530-1 吉本ビル1F",
+  "neighbourhood": "Shinkyogoku",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-biwako-valley",
@@ -7236,7 +9167,14 @@
    "style": [
     "Ski & snow"
    ]
-  }
+  },
+  "lat": 35.20786,
+  "lng": 135.89969,
+  "precision": "building",
+  "addressJa": "滋賀県大津市木戸1547-1",
+  "neighbourhood": "Kido",
+  "ward": "Otsu",
+  "area": "Outskirts & day trips"
  },
  {
   "id": "kyoto-urbanguild",
@@ -7278,7 +9216,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00761,
+  "lng": 135.77077,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区木屋町三条下ル材木町181-2 ニュー京都ビル3F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-takutaku",
@@ -7309,7 +9254,14 @@
    "flags": [
     "Book ahead"
    ]
-  }
+  },
+  "lat": 35.0011,
+  "lng": 135.76488,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区富小路通仏光寺下ル筋屋町136-9",
+  "neighbourhood": "Tominokoji-Bukkoji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-club-metro",
@@ -7348,7 +9300,14 @@
    "flags": [
     "ID required"
    ]
-  }
+  },
+  "lat": 35.01707,
+  "lng": 135.77257,
+  "precision": "block",
+  "addressJa": "京都府京都市左京区川端通丸太町下ル下堤町82 恵美須ビルB1",
+  "neighbourhood": "Kawabata-Marutamachi",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-negaposi",
@@ -7375,7 +9334,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00632,
+  "lng": 135.73231,
+  "precision": "block",
+  "addressJa": "京都府京都市右京区西院東今田町40 (〒615-0002)",
+  "neighbourhood": "Saiin",
+  "ward": "Ukyo",
+  "area": "West (Arashiyama & Takao)"
  },
  {
   "id": "kyoto-roka",
@@ -7398,7 +9364,14 @@
   "categories": [
    "Underground Music"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.01271,
+  "lng": 135.74129,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区西ノ京星池町214 (〒604-8416)",
+  "neighbourhood": "Nishinokyo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-s-pod",
@@ -7425,7 +9398,14 @@
    "genre": [
     "Techno"
    ]
-  }
+  },
+  "lat": 35.02885,
+  "lng": 135.75879,
+  "precision": "block",
+  "addressJa": "京都府京都市上京区今出川通烏丸西入今出川町328 伊藤ビル5F",
+  "neighbourhood": "Imadegawa-Karasuma",
+  "ward": "Kamigyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-octave-kyoto",
@@ -7452,7 +9432,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00761,
+  "lng": 135.76975,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区河原町三条下る2丁目山崎町236-2 ルミエール堂ビル4F",
+  "neighbourhood": "Kawaramachi-Sanjo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-cavalier",
@@ -7484,7 +9471,14 @@
     "Walk-in",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00687,
+  "lng": 135.77078,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区材木町188-3 ヒカリビル5F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-yamatoya",
@@ -7511,7 +9505,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 35.01719,
+  "lng": 135.77934,
+  "precision": "building",
+  "addressJa": "京都府京都市左京区聖護院山王町 (熊野神社交差点東入ル2筋目下ル, 〒606-8392)",
+  "neighbourhood": "Kumano-jinja / Shogoin",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-tamon",
@@ -7538,7 +9539,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 35.00821,
+  "lng": 135.77071,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区木屋町通三条下ル材木町175 京都ゴールデンビルB1F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-jazz-in-rokudenashi",
@@ -7565,7 +9573,14 @@
    "genre": [
     "Jazz"
    ]
-  }
+  },
+  "lat": 35.00289,
+  "lng": 135.77062,
+  "precision": "building",
+  "addressJa": "京都府京都市下京区西石垣通四条下る斎藤町",
+  "neighbourhood": "Ponto-cho / Nishi-Ishigaki",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-p-m-sounds",
@@ -7588,7 +9603,14 @@
   "categories": [
    "Vinyl Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00807,
+  "lng": 135.76955,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区大黒町71-21 CT・BEACH山口ビルB1 (河原町通三条下る, 〒604-8031)",
+  "neighbourhood": "Kawaramachi-Sanjo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-hachi-record-shop-bar",
@@ -7618,7 +9640,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 34.99503,
+  "lng": 135.76625,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区平居町19",
+  "neighbourhood": "Gojo",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-galaxie500",
@@ -7650,7 +9679,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00484,
+  "lng": 135.77022,
+  "precision": "street",
+  "addressJa": "京都府京都市中京区西木屋町通四条上る紙屋町 たかせ会館2F (〒604-8024)",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-beatle-momo",
@@ -7680,7 +9716,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00543,
+  "lng": 135.77083,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区下樵木町204-4 恵和ビル2F",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-shibashi",
@@ -7707,7 +9750,14 @@
    "genre": [
     "Ambient"
    ]
-  }
+  },
+  "lat": 35.01615,
+  "lng": 135.78183,
+  "precision": "area",
+  "addressJa": "京都府京都市左京区岡崎 (平安神宮の東、徒歩約5分)",
+  "neighbourhood": "Okazaki",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo"
  },
  {
   "id": "kyoto-p-m-sounds-kyoto",
@@ -7734,7 +9784,14 @@
    "flags": [
     "Walk-in"
    ]
-  }
+  },
+  "lat": 35.00807,
+  "lng": 135.76955,
+  "precision": "building",
+  "addressJa": "京都府京都市中京区大黒町71-21 CT・BEACH山口ビルB1 (河原町通三条下る, 〒604-8031)",
+  "neighbourhood": "Kawaramachi-Sanjo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kyoto-brewing-co-taproom",
@@ -7757,7 +9814,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 34.97452,
+  "lng": 135.74364,
+  "precision": "block",
+  "addressJa": "京都府京都市南区西九条高畠町25-1",
+  "neighbourhood": "Nishikujo",
+  "ward": "Minami",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-kyoto-brewing-tap-stand",
@@ -7780,7 +9844,14 @@
   "categories": [
    "Beer & Whisky"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00585,
+  "lng": 135.77017,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区備前島町310-2",
+  "neighbourhood": "Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-bar-k6",
@@ -7807,7 +9878,14 @@
    "flags": [
     "Open late"
    ]
-  }
+  },
+  "lat": 35.01363,
+  "lng": 135.77031,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区木屋町二条東入ル東生洲町481 ヴァルズビル2F",
+  "neighbourhood": "Kiyamachi-Nijo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-bar-rocking-chair",
@@ -7844,7 +9922,14 @@
     "Book ahead",
     "Open late"
    ]
-  }
+  },
+  "lat": 35.00065,
+  "lng": 135.7664,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区御幸町通仏光寺下ル橘町434-2",
+  "neighbourhood": "Gokomachi-Bukkoji",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-tatsumi",
@@ -7873,7 +9958,14 @@
     "Walk-in",
     "Standing"
    ]
-  }
+  },
+  "lat": 35.00447,
+  "lng": 135.76843,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区裏寺町通四条上ル中之町572",
+  "neighbourhood": "Uradera-machi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kyogoku-stand",
@@ -7900,7 +9992,14 @@
    "flags": [
     "Cash only"
    ]
-  }
+  },
+  "lat": 35.00459,
+  "lng": 135.76743,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区新京極通四条上ル中之町546",
+  "neighbourhood": "Shinkyogoku",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-tachinomi-shomin-shijo-omiya",
@@ -7929,7 +10028,14 @@
     "Walk-in",
     "Standing"
    ]
-  }
+  },
+  "lat": 35.00311,
+  "lng": 135.74916,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区四条大宮町18-6",
+  "neighbourhood": "Shijo-Omiya",
+  "ward": "Shimogyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kyoto-mai-sushi",
@@ -7959,7 +10065,14 @@
    "flags": [
     "Standing"
    ]
-  }
+  },
+  "lat": 35.00241,
+  "lng": 135.76523,
+  "precision": "block",
+  "addressJa": "京都府京都市下京区綾小路通麩屋町西入塩屋町80 コスモファースト1F",
+  "neighbourhood": "Ayanokoji-Fuyacho",
+  "ward": "Shimogyo",
+  "area": "Station & south"
  },
  {
   "id": "kyoto-gion-sushi-tadayasu",
@@ -7991,7 +10104,14 @@
     "Book ahead",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.0036,
+  "lng": 135.77402,
+  "precision": "block",
+  "addressJa": "京都府京都市東山区祇園町南側572-9",
+  "neighbourhood": "Gion",
+  "ward": "Higashiyama",
+  "area": "Gion & Higashiyama"
  },
  {
   "id": "kyoto-sushi-rakumi",
@@ -8022,7 +10142,14 @@
     "Book ahead",
     "Michelin"
    ]
-  }
+  },
+  "lat": 35.0068,
+  "lng": 135.77579,
+  "precision": "block",
+  "addressJa": "京都府京都市東山区三吉町332-6",
+  "neighbourhood": "Sanjo-Keihan",
+  "ward": "Higashiyama",
+  "area": "Gion & Higashiyama"
  },
  {
   "id": "kyoto-tadka-tadka-1-tadka-2",
@@ -8053,7 +10180,21 @@
     "Walk-in",
     "Morning"
    ]
-  }
+  },
+  "lat": 35.01236,
+  "lng": 135.76193,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区押小路通高倉西入左京町138 バインオーククリビア1F",
+  "neighbourhood": "Karasuma-Oike",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "extraPins": [
+   {
+    "label": "Tadka 2 (dinner)",
+    "lat": 35.01209,
+    "lng": 135.76596
+   }
+  ]
  },
  {
   "id": "kyoto-shinrin-shokudo",
@@ -8080,7 +10221,14 @@
    "cuisine": [
     "Spice curry"
    ]
-  }
+  },
+  "lat": 35.01422,
+  "lng": 135.73877,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区西ノ京内畑町24-4",
+  "neighbourhood": "Nishinokyo",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-kerala",
@@ -8108,7 +10256,14 @@
     "South Indian",
     "Tandoor"
    ]
-  }
+  },
+  "lat": 35.01025,
+  "lng": 135.76878,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区河原町通三条上ル下丸屋町408 KUSビル2F",
+  "neighbourhood": "Kawaramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-caf-bar-laurel",
@@ -8131,7 +10286,14 @@
   "categories": [
    "Board Game Bars"
   ],
-  "tags": {}
+  "tags": {},
+  "lat": 35.00759,
+  "lng": 135.76796,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区新京極通松ケ枝町452 T-Nビル2F",
+  "neighbourhood": "Shinkyogoku",
+  "ward": "Nakagyo",
+  "area": "Downtown"
  },
  {
   "id": "kyoto-game-bar-kyoto",
