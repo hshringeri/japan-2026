@@ -72,9 +72,6 @@ export function mountList(root) {
 function row(p) {
   const tags = shortTags(p);
   const dist = p.dist != null ? `<span class="dist">${formatDistance(p.dist)}${p.dist < 2.5 ? `<small>${walkMinutes(p.dist)} min walk</small>` : ""}</span>` : "";
-  // Same photo as the map card; the distance tucks under it
-  const photo = app.data.thumbs[p.id];
-  const side = photo ? `<span class="side"><img src="${esc(photo.src)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">${dist}</span>` : dist;
   return `<li><a class="row" data-pid="${p.id}" href="#/place/${p.id}">
     <span class="dot" style="--c:${p.color}"></span>
     <span class="body">
@@ -83,7 +80,7 @@ function row(p) {
       ${hoursBadge(p, app.date)}
       <span class="desc">${esc(p.main.desc)}</span>
       ${tags.length ? `<span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
-    </span>${side}</a></li>`;
+    </span>${dist}</a></li>`;
 }
 
 // The guide's own words for wherever the filter has narrowed to

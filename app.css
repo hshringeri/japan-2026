@@ -114,8 +114,6 @@ body.dates-off .datestrip { display: none; }
 .tags i { font: 600 10.5px var(--sans); font-style: normal; padding: 2px 6px; background: #e9e1d2; border-radius: 3px; }
 .dist { font: 700 13px var(--sans); text-align: right; white-space: nowrap; }
 .dist small { display: block; font-weight: 500; font-size: 11px; color: var(--mute); }
-.row .side { display: grid; gap: 6px; justify-items: end; align-content: start; }
-.row .side img { display: block; width: 76px; height: 76px; object-fit: cover; border-radius: 8px; background: #e9e1d2; }
 .empty { padding: 32px 16px; color: var(--mute); text-align: center; list-style: none; }
 
 .card { margin: 12px 16px; padding: 14px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; font: 15px/1.45 var(--serif); }
@@ -324,3 +322,8 @@ body.dates-off .datestrip { display: none; }
 .place .hours th { text-align: left; font-weight: 600; padding-right: 14px; color: var(--mute); }
 .place .hours tr.today th, .place .hours tr.today td { color: var(--ink); font-weight: 800; }
 .place .hours .note { font-size: 12px; color: var(--mute); margin: 4px 0 0; }
+
+/* The venue's photo on its page: the map card's image, card-width so the small source stays sharp enough */
+.place .photo { margin: 4px 0 14px; }
+.place .photo img { display: block; width: 100%; max-width: 480px; aspect-ratio: 5 / 3; object-fit: cover; border-radius: 12px; background: var(--soft); }
+.place .photo figcaption { margin-top: 4px; font-size: 11px; color: var(--mute); }

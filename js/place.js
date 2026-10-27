@@ -23,6 +23,7 @@ export function renderPlace(root, id) {
     close(root);
     return;
   }
+  const photo = app.data.thumbs[p.id];
   const near = places.filter((q) => q !== p && q.lat != null && p.lat != null)
     .map((q) => ({ q, km: distanceKm(p, q) })).sort((a, b) => a.km - b.km).slice(0, 6);
   const planned = trip ? trip.days.flatMap((d) => d.items.filter((i) => i.place === p.id).map((i) => ({ d, i }))) : [];
@@ -39,6 +40,7 @@ export function renderPlace(root, id) {
         ${p.neighbourhood && p.neighbourhood !== p.area ? ` › <span>${esc(p.neighbourhood)}</span>` : ""}
       </p>
       <h1>${esc(p.name)}</h1>
+      ${photo ? `<figure class="photo"><img src="${esc(photo.src)}" alt="" decoding="async" onerror="this.closest('figure').remove()">${photo.credit ? `<figcaption>Photo: ${esc(photo.credit)}</figcaption>` : ""}</figure>` : ""}
       <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${KIND_EMOJI[k] || ""} ${esc(kindName[k])}</button>`).join("")}</p>
       ${planned.map(({ d, i }) => `<p class="planned">On the plan: ${esc(formatDay(d.date))}${i.time ? ` at ${esc(i.time)}` : ""}${i.notes ? ` · ${esc(i.notes)}` : ""}</p>`).join("")}
       ${p.listings.map((l) => `
