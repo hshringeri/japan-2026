@@ -16,7 +16,9 @@ There's no build step. GitHub Pages serves the files as they are.
 | `js/` | The app |
 | `guide.css` | The original magazine styles, used by the Guide view |
 
-The map is OpenFreeMap (OpenStreetMap data, no key) with labels switched to English; `js/basemap.js` does the switch. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
+The map is OpenFreeMap's colour Liberty style (OpenStreetMap data, no key) with labels switched to English and the style's own shop and food icons removed; `js/basemap.js` does both. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
+
+Pins say more the closer you zoom: the name from zoom 15, the name and tags from 17, and a card with a photo from 18. Where labels would overlap, a pin falls back to a smaller label or none. Tapping a pin zooms in and opens its card above it.
 
 On a wide screen the list sits beside the map. The seam between them is draggable (drag, or focus it and use the arrow keys; double-click resets to 440px). The width is remembered per browser and ignored on phones, where the panel stays full width.
 
@@ -35,5 +37,6 @@ To add a guide place, add it to `data/places.json` with `lat` and `lng`, then ru
 - `tools/merge_geo.py` folds geocoding results into the places and assigns each one an area.
 - `tools/tag.py` assigns kinds, cuisine, genre, shop style and practical flags.
 - `tools/resize-images.sh` makes the app's copies of the photos.
+- `tools/thumbs.py` makes the map cards' 300×180 photos in `img/thumbs/` from the per-place photos in commit bc0fa73, and writes `data/thumbs.json` with each one's credit.
 
 To test locally, run `python3 -m http.server` in this folder and open http://localhost:8000. Adding `?now=2026-11-20T22:30` to the URL makes the app act as if it's that moment in Japan, and `?day=2026-11-24` opens on that trip day.

@@ -9,15 +9,15 @@
  "stays": [
   {
    "id": "tokyo-1",
-   "name": "Tokyo Airbnb",
+   "name": "Shibuya Airbnb",
    "city": "tokyo",
    "from": "2026-11-15",
    "to": "2026-11-18",
-   "lat": null,
-   "lng": null,
+   "lat": 35.670025,
+   "lng": 139.685364,
+   "address": "Hagio Building, 9-3 Motoyoyogicho, Shibuya City, Tokyo 151-0062",
    "url": "https://www.airbnb.com/rooms/1183630871035082218?adults=5&check_in=2026-11-15&check_out=2026-11-18&guests=5",
-   "precision": "none",
-   "precisionNote": "Address not added yet",
+   "precision": "exact",
    "type": "airbnb"
   },
   {
@@ -26,11 +26,11 @@
    "city": "kyoto",
    "from": "2026-11-18",
    "to": "2026-11-21",
-   "lat": null,
-   "lng": null,
+   "lat": 34.993423,
+   "lng": 135.771362,
+   "address": "132-5 Kamitōryōchō, Higashiyama Ward, Kyoto 605-0916",
    "url": "https://www.airbnb.com/l/nTZD9VxK",
-   "precision": "none",
-   "precisionNote": "Address not added yet",
+   "precision": "exact",
    "type": "airbnb"
   },
   {
@@ -39,11 +39,11 @@
    "city": "osaka",
    "from": "2026-11-21",
    "to": "2026-11-24",
-   "lat": null,
-   "lng": null,
+   "lat": 34.662777,
+   "lng": 135.484756,
+   "address": "4F, 1-2-7 Kuboyoshi, Naniwa Ward, Osaka 556-0028",
    "url": "https://www.airbnb.com/trips/v1/1760680450375926976/ro/RESERVATION2_CHECKIN/HMHTZX3P59",
-   "precision": "none",
-   "precisionNote": "Address not added yet",
+   "precision": "exact",
    "type": "airbnb"
   },
   {
@@ -61,15 +61,15 @@
   },
   {
    "id": "tokyo-2",
-   "name": "Tokyo Airbnb",
+   "name": "Shinjuku Airbnb",
    "city": "tokyo",
    "from": "2026-11-25",
    "to": "2026-11-29",
-   "lat": null,
-   "lng": null,
+   "lat": 35.695518,
+   "lng": 139.706818,
+   "address": "2-2-21 Kabukichō, Shinjuku City, Tokyo 160-0021",
    "url": "https://www.airbnb.com/properties/1715242135235065210?anchor_room_id=1280000126296256014",
-   "precision": "none",
-   "precisionNote": "Address not added yet",
+   "precision": "exact",
    "notes": "Booked by Aman.",
    "type": "airbnb"
   }
@@ -117,7 +117,7 @@
     },
     {
      "kind": "checkin",
-     "title": "Check in: Tokyo Airbnb"
+     "title": "Check in: Shibuya Airbnb"
     },
     {
      "kind": "sight",
@@ -239,7 +239,7 @@
    "items": [
     {
      "kind": "checkout",
-     "title": "Check out: Tokyo Airbnb"
+     "title": "Check out: Shibuya Airbnb"
     },
     {
      "kind": "train",
@@ -523,7 +523,7 @@
     },
     {
      "kind": "checkin",
-     "title": "Check in: Tokyo Airbnb",
+     "title": "Check in: Shinjuku Airbnb",
      "notes": "Booked by Aman."
     }
    ]
@@ -625,7 +625,7 @@
    "items": [
     {
      "kind": "checkout",
-     "title": "Check out: Tokyo Airbnb"
+     "title": "Check out: Shinjuku Airbnb"
     },
     {
      "kind": "flight",
@@ -639,7 +639,6 @@
   "Get a Suica card"
  ],
  "open": [
-  "Addresses for the four Airbnbs (Tokyo 15–18, Kyoto 18–21, Osaka 21–24, Tokyo 25–29). Until then they aren't on the map.",
   "Okinawa: the flight to Okinawa is 22 Nov and day 2 is 23 Nov, but the Osaka Airbnb runs 21–24 Nov and 22 Nov also lists Nara. There's no Okinawa stay yet.",
   "The flight back from Okinawa on 23 Nov, and how you get to the rental car near Narita for the 24 Nov drive.",
   "25 Nov: the sheet says both a night train (~1 hr) and a morning train from Hakone. You'll be at Lake Kawaguchi, about 2 hours from Tokyo.",

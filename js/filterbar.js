@@ -1,7 +1,7 @@
-import { esc, formatDay, weekday, dayNumber, japanNow } from "./util.js";
+import { esc, formatDay, weekday, dayNumber, japanNow, storage } from "./util.js";
 import { KIND_EMOJI, CATEGORY_EMOJI } from "./data.js";
 import { filter, setFilter, suggestions, picked, applyChip, removePicked, onFilter } from "./filter.js";
-import { app, setDate, onApp } from "./state.js";
+import { app, setDate, onApp, emit } from "./state.js";
 
 // Chips carry the same marks as the list, where the value has one
 function chipEmoji(c) {
@@ -13,11 +13,16 @@ function chipEmoji(c) {
 export function mountFilterBar(root, { compact = false } = {}) {
   root.classList.add("filterbar");
   root.innerHTML = `
-    <label class="search">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-      <input type="search" placeholder="Search places, food, areas…" autocomplete="off" enterkeyhint="search">
-      <button type="button" class="clear" aria-label="Clear search" hidden>×</button>
-    </label>
+    <div class="searchrow">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input type="search" placeholder="Search places, food, areas…" autocomplete="off" enterkeyhint="search">
+        <button type="button" class="clear" aria-label="Clear search" hidden>×</button>
+      </label>
+      <button type="button" class="datetoggle" aria-label="Trip dates" title="Show or hide the trip dates">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      </button>
+    </div>
     <div class="chiprow" role="toolbar" aria-label="Filters"></div>
     <div class="chiprow types" role="toolbar" aria-label="Types" hidden></div>`;
   const input = root.querySelector("input"), clearBtn = root.querySelector(".clear");
@@ -30,6 +35,16 @@ export function mountFilterBar(root, { compact = false } = {}) {
     t = setTimeout(() => setFilter({ q: input.value.trim() }), 120);
   });
   clearBtn.addEventListener("click", () => { input.value = ""; setFilter({ q: "" }); input.focus(); });
+  const dateBtn = root.querySelector(".datetoggle");
+  dateBtn.addEventListener("click", () => setDatesShown(!datesShown()));
+  const syncDateBtn = () => {
+    dateBtn.setAttribute("aria-pressed", datesShown());
+    // Marked while a day is picked, so a hidden date row still says you're looking ahead
+    dateBtn.classList.toggle("ahead", !!app.date);
+  };
+  onApp("dates", syncDateBtn);
+  onApp("date", syncDateBtn);
+  syncDateBtn();
 
   root.addEventListener("click", (e) => {
     const b = e.target.closest(".chiprow button");
@@ -65,6 +80,15 @@ export function mountFilterBar(root, { compact = false } = {}) {
   if (compact) root.classList.add("compact");
   return { render };
 }
+
+// The date rows show unless you've hidden them; every view's toggle and strip follow one setting
+const datesShown = () => storage.get("datesShown", true);
+function setDatesShown(on) {
+  storage.set("datesShown", on);
+  document.body.classList.toggle("dates-off", !on);
+  emit("dates", on);
+}
+document.body.classList.toggle("dates-off", !datesShown());
 
 // "Now" plus one chip per trip day. Picking a day looks ahead to it on the map and list.
 export function mountDateStrip(root) {

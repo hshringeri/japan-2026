@@ -1,14 +1,14 @@
 // Offline support. The app's own files go network first so updates land straight away,
 // with the cache as a fallback underground. Map tiles and CDN libraries go cache first.
-const APP = "app-v6";
+const APP = "app-v8";
 const TILES = "tiles-v1";
 const MAX_TILES = 1500;
 
 const SHELL = [
   "./", "index.html", "app.css", "guide.css", "manifest.webmanifest",
   "js/app.js", "js/data.js", "js/filter.js", "js/filterbar.js", "js/guide.js", "js/list.js",
-  "js/map.js", "js/basemap.js", "js/place.js", "js/plan.js", "js/state.js", "js/util.js", "js/split.js",
-  "data/places.json", "data/guide.json", "data/taxonomy.json", "data/trip.json",
+  "js/map.js", "js/basemap.js", "js/place.js", "js/plan.js", "js/state.js", "js/util.js", "js/split.js", "js/icons.js",
+  "data/places.json", "data/guide.json", "data/taxonomy.json", "data/trip.json", "data/thumbs.json",
   "img/icon.svg", "img/icon-192.png",
 ];
 

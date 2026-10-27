@@ -33,8 +33,9 @@ export function isInstagram(url) {
 }
 
 export async function loadData() {
-  const [places, guide, taxonomy, trip] = await Promise.all([
+  const [places, guide, taxonomy, trip, thumbs] = await Promise.all([
     json("data/places.json"), json("data/guide.json"), json("data/taxonomy.json"), json("data/trip.json", true),
+    json("data/thumbs.json", true),
   ]);
 
   const kindName = Object.fromEntries(taxonomy.kinds.map((k) => [k.id, k.name]));
@@ -58,7 +59,7 @@ export async function loadData() {
 
   const byId = Object.fromEntries(places.map((p) => [p.id, p]));
   if (trip) prepareTrip(trip, byId);
-  return { places, byId, guide, taxonomy, trip, kindName, cityName, catOrder };
+  return { places, byId, guide, taxonomy, trip, thumbs: thumbs || {}, kindName, cityName, catOrder };
 }
 
 function prepareTrip(trip, byId) {
