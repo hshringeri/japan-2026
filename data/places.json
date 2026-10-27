@@ -11736,5 +11736,81 @@
   "neighbourhood": "Jingumae",
   "ward": "Shibuya",
   "area": "Harajuku & Aoyama"
+ },
+ {
+  "id": "tokyo-ishii-sports-yodobashi-shinjuku-west",
+  "city": "tokyo",
+  "name": "Ishii Sports Yodobashi Shinjuku West Entrance",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Gorpcore & Snow",
+    "url": null,
+    "desc": "Two basement floors of mountaineering, outdoor and ski gear from Ishii Sports, the climbing and ski chain Yodobashi owns, in its building by Shinjuku Station's west exit.",
+    "address": "B1–B2, Yodobashi Camera Shinjuku West Exit, 1-11-1 Nishi-Shinjuku, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ishii%20Sports%20Yodobashi%20Shinjuku%20West%20Entrance%20B1%E2%80%93B2%2C%20Yodobashi%20Camera%20Shinjuku%20West%20Exit%2C%201-11-1%20Nishi-Shinjuku%2C%20Shinjuku%2C%20Tokyo",
+    "info": "9:30–22:00"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor",
+    "Ski & snow"
+   ]
+  },
+  "lat": 35.689968,
+  "lng": 139.698013,
+  "precision": "block",
+  "addressJa": "東京都新宿区西新宿1-11-1",
+  "neighbourhood": "Nishi-Shinjuku",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Pinned to Yodobashi Camera's Shinjuku West Exit address; the shop is in the basement of its station-front building."
+ },
+ {
+  "id": "osaka-gyozaclub-rocklee",
+  "city": "osaka",
+  "name": "Gyozaclub Rocklee",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A gyoza and Chinese spot near Temma Station known for all-you-can-eat gyoza at lunch for ¥888, plus spicy mapo tofu and fried rice.",
+    "address": "7-5 Ikedacho, Kita, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gyozaclub%20Rocklee%207-5%20Ikedacho%2C%20Kita%2C%20Osaka",
+    "info": "¥¥ (~¥2,000–3,000 at dinner) · book on Tabelog, it fills up"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Gyoza",
+    "Chinese"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  },
+  "lat": 34.707153,
+  "lng": 135.512695,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区池田町7-5",
+  "neighbourhood": "Tenma",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
  }
 ]

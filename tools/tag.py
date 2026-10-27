@@ -41,6 +41,7 @@ CUISINE = {
         "Baird Beer Harajuku Taproom": ["Yakitori"],
     },
     "osaka": {
+        "Gyozaclub Rocklee": ["Gyoza", "Chinese"],
         "Izakaya Toyo": ["Seafood"], "Nonkiya": ["Oden"], "Tenma Sakagura": ["Doteyaki"],
         "Sushi Kirimon": ["Sushi"], "Sushiya Yohei": ["Sushi"], "Sawada (Osaka Fukushima)": ["Kappo"],
         "Columbia8 Kitahama": ["Spice curry"], "BOTANI:CURRY": ["Spice curry"],
