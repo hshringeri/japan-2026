@@ -1,5 +1,5 @@
 /* global L */
-import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, shortTags } from "./util.js";
+import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, shortTags, hoursBadge } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
@@ -213,7 +213,8 @@ function previewMarker(p, tier) {
     <b>${esc(p.name)}</b>
     ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
     <span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>
-    ${focus ? `<p class="desc">${esc(l.desc)}</p>
+    ${focus ? `${hoursBadge(p, app.date)}
+      <p class="desc">${esc(l.desc)}</p>
       ${p.precision === "area" ? `<p class="meta warn">Pin shows the area only; check the address before you go.</p>` : ""}
       ${distLine(p)}
       ${photo?.credit ? `<p class="credit">Photo: ${esc(photo.credit)}</p>` : ""}
