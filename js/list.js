@@ -1,4 +1,4 @@
-import { esc, nearestKm, formatDistance, walkMinutes, formatDay, shortTags } from "./util.js";
+import { esc, nearestKm, formatDistance, walkMinutes, formatDay, shortTags, hoursBadge } from "./util.js";
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor, listReturn } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
@@ -77,6 +77,7 @@ function row(p) {
     <span class="body">
       <span class="name">${esc(p.name)}</span>
       <span class="sub">${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
+      ${hoursBadge(p, app.date)}
       <span class="desc">${esc(p.main.desc)}</span>
       ${tags.length ? `<span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
     </span>${dist}</a></li>`;

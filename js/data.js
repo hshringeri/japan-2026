@@ -33,9 +33,9 @@ export function isInstagram(url) {
 }
 
 export async function loadData() {
-  const [places, guide, taxonomy, trip, thumbs] = await Promise.all([
+  const [places, guide, taxonomy, trip, thumbs, hours] = await Promise.all([
     json("data/places.json"), json("data/guide.json"), json("data/taxonomy.json"), json("data/trip.json", true),
-    json("data/thumbs.json", true),
+    json("data/thumbs.json", true), json("data/hours.json", true),
   ]);
 
   const kindName = Object.fromEntries(taxonomy.kinds.map((k) => [k.id, k.name]));
@@ -44,6 +44,7 @@ export async function loadData() {
 
   places.forEach((p, i) => {
     p.order = i;
+    p.hours = hours?.[p.id] || null;
     p.main = p.listings[0];
     p.area = p.area || p.hood || cityName[p.city];
     p.kind = p.kinds[0];

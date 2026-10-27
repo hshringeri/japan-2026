@@ -1,0 +1,10529 @@
+{
+ "tokyo-curb-koenji": {
+  "text": "Mon–Fri 14–22 · Sat/Sun 13–22",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-curb-other-side": {
+  "text": "14–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-mecha": {
+  "text": "14–21",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-room-number-10": {
+  "text": "12–19",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-ca-used-clothing-and-books": {
+  "text": "14–19:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "19:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-militaria": {
+  "text": "14–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-small-change": {
+  "text": "11–20, Fri–Sun to 21",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-higashi-koenji-niman-den-atsu": {
+  "text": "Show nights; doors usually ~18:00–19:00 (see schedule)",
+  "kind": "events",
+  "source": "https://den-atsu.com/"
+ },
+ "tokyo-u-f-o-club": {
+  "text": "Show nights; doors usually ~18:30 (see schedule)",
+  "kind": "events",
+  "source": "https://ufoclub.jp/"
+ },
+ "tokyo-los-angeles-club": {
+  "text": "Show nights; doors usually ~18:00–18:30 (see schedule)",
+  "kind": "events",
+  "source": "https://www.losangelesclub.jp/"
+ },
+ "tokyo-koenji-showboat": {
+  "text": "Show nights; doors usually ~18:00–18:30 (see schedule)",
+  "kind": "events",
+  "source": "https://www.showboat1993.com/"
+ },
+ "tokyo-jirokichi": {
+  "text": "Shows most nights; doors 18:30, start 19:00–19:30",
+  "kind": "events",
+  "source": "https://jirokichi.net/"
+ },
+ "tokyo-koenji-high": {
+  "text": "Show nights; ticket counter 17–22",
+  "kind": "events"
+ },
+ "tokyo-yakitori-taisho-honten": {
+  "text": "Mon–Fri 15:00–24:00, Sat/Sun/hols 14:00–24:00 · closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-shimonya-koenji": {
+  "text": "17:00–23:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-little-cave-koenji": {
+  "text": "Weekdays 13:00–23:00, Sat/Sun/hols 11:00–23:00",
+  "kind": "regular",
+  "source": "https://www.hotpepper.jp/strJ004470471/",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-grand-pa-higashi-koenji": {
+  "text": "Mon/Fri/Sat 22–01 only",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "22:00",
+     "25:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "22:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "22:00",
+     "25:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-koenji-kemuriba": {
+  "text": "Mon–Thu 17:00–24:00, Fri–Sat 17:00–05:00 (Sun not listed)",
+  "kind": "regular",
+  "source": "https://kemuriba.jp/",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-berry-billiards-darts": {
+  "text": "Hours not published; check Google Maps",
+  "kind": "irregular"
+ },
+ "tokyo-kosugi-yu": {
+  "text": "weekdays 14:00–25:30, weekends 8:00–25:30 · closed Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "25:30"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "25:30"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "25:30"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "14:00",
+     "25:30"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "25:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "25:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-mugen": {
+  "text": "20–04",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-aimu": {
+  "text": "Roughly 11:00–17:00, irregular closed days",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-ccx-kitazawa": {
+  "text": "14–22 · closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-furugiya-kakko": {
+  "text": "12–19",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-mu": {
+  "text": "Closed for good on 26 Jul 2025 (building demolished)",
+  "kind": "closed",
+  "source": "https://mu-and-dressroom.com/"
+ },
+ "tokyo-kimama": {
+  "text": "13–20 · weekends 12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-soma": {
+  "text": "15–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-basement-bar-three": {
+  "text": "Show nights; doors usually ~18:00–18:30 (see schedule)",
+  "kind": "events",
+  "source": "https://toos.co.jp/basementbar/"
+ },
+ "tokyo-heaven-s-door": {
+  "text": "Show nights; doors usually ~18:00–18:30 (see schedule)",
+  "kind": "events",
+  "source": "https://t-heavensdoor.jugem.jp/"
+ },
+ "tokyo-spread": {
+  "text": "Club nights; end times vary (see schedule)",
+  "kind": "events",
+  "source": "https://spread.tokyo/"
+ },
+ "tokyo-bar-holly": {
+  "text": "20–03 · closed Sun & 2nd Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-little-soul-cafe": {
+  "text": "20–02",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-loaded": {
+  "text": "Evenings, closed Thu",
+  "kind": "irregular"
+ },
+ "tokyo-jelly-jelly-shimokitazawa": {
+  "text": "Typically 13:00–23:00 (check site)",
+  "kind": "irregular",
+  "source": "https://jellyjellycafe.com/"
+ },
+ "tokyo-flour-water-shimokitazawa": {
+  "text": "Brunch 10:00–16:00 daily",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-kyodo-bowl": {
+  "text": "daily 8:00–23:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-business-as-usual": {
+  "text": "Afternoons to 20:00; check Instagram",
+  "kind": "irregular"
+ },
+ "tokyo-what-z-up": {
+  "text": "13–19",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-straight-from-l-a": {
+  "text": "12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-pat-market": {
+  "text": "Hours posted on Instagram",
+  "kind": "irregular"
+ },
+ "tokyo-archive-store": {
+  "text": "12:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-laila-tokio": {
+  "text": "12:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-context-tokyo": {
+  "text": "weekdays 13:00–19:00, weekends 13:00–20:00 · closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-awesine-by-bring": {
+  "text": "12:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-ragtag-harajuku": {
+  "text": "Daily 11:00–20:00",
+  "kind": "regular",
+  "source": "https://www.fashion-press.net/maps/6451",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-kld-tokyo": {
+  "text": "daily 11:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-ether": {
+  "text": "open 13:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-and-wander-miyashita-park": {
+  "text": "11:00–21:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-forestlimit": {
+  "text": "Nightly events, usually 18:00–23:00; some late parties from 24:00",
+  "kind": "events",
+  "source": "https://www.forestlimit.com/"
+ },
+ "tokyo-contact": {
+  "text": "Club nights, usually from 22:00 until morning (see schedule)",
+  "kind": "events",
+  "source": "https://www.contacttokyo.com/"
+ },
+ "tokyo-www-www": {
+  "text": "Gigs; doors usually 18:00–19:00 (see schedule)",
+  "kind": "events",
+  "source": "https://www-shibuya.jp/"
+ },
+ "tokyo-oath": {
+  "text": "DJ bar nightly from 21:00 until late",
+  "kind": "irregular",
+  "source": "http://www.bar-oath.com/"
+ },
+ "tokyo-vent": {
+  "text": "Club nights from ~23:00 (2026 status unconfirmed)",
+  "kind": "events"
+ },
+ "tokyo-circus-tokyo": {
+  "text": "Club nights from ~22:00–23:00 (see schedule)",
+  "kind": "events",
+  "source": "https://circus-tokyo.jp/"
+ },
+ "tokyo-womb": {
+  "text": "Club nights from ~22:00–23:00, mostly Fri–Sat (see schedule)",
+  "kind": "events",
+  "source": "https://www.womb.co.jp/"
+ },
+ "tokyo-liquidroom": {
+  "text": "Gigs; doors usually 17:00–19:00 (see schedule)",
+  "kind": "events",
+  "source": "https://www.liquidroom.net/"
+ },
+ "tokyo-jazz-union": {
+  "text": "13:00–20:00 (Wed–Thu to 21:00) · closed Tue",
+  "kind": "regular",
+  "source": "https://san-tatsu.jp/collects/10829/",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-jbs-jazz-blues-soul": {
+  "text": "Most days, afternoon coffee into night drinks",
+  "kind": "irregular"
+ },
+ "tokyo-hi-fi-disco-bar-chaos": {
+  "text": "Wed–Sun 20:00–03:00",
+  "kind": "regular",
+  "source": "https://www.timeout.jp/tokyo/ja/音楽/hi-fi-disco-bar-chaos",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-baird-beer-harajuku-taproom": {
+  "text": "weekdays 17:00–23:00 · Sat/hols 12:00–23:00 · Sun 12:00–22:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-goodbeer-faucets": {
+  "text": "Tue–Sun 15:00–23:00 · closed Mon (open if Mon is a holiday, then closed Tue)",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tokyo-whisky-library": {
+  "text": "Lunch 12:00–15:00 · Mon–Thu & Sun 17:30–23:00, Fri–Sat 17:30–24:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-minami-aoyama-shimizu-yu": {
+  "text": "weekdays 12:00–24:00, weekends 12:00–23:00 · closed Fri",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "fri": [],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-nephew": {
+  "text": "Morning & cafe 8:00–17:00 daily (bistro-bar evenings)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-path": {
+  "text": "Wed–Sun from 8:00 (brunch), closed Mon–Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "08:00",
+     "15:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "15:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "15:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "15:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "15:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-sasazuka-bowl": {
+  "text": "Daily 7:00–1:00, Fri–Sat until 5:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-janai-coffee": {
+  "text": "18:00–24:00, closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-trench": {
+  "text": "daily 18:00–02:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-fuunji": {
+  "text": "11:00–15:00 & 17:00–21:00 daily, closes early when the soup runs out",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tamawarai": {
+  "text": "11:30–14:30 & 17:30–20:00 · closed Wed",
+  "kind": "regular",
+  "source": "https://guide.michelin.com/us/en/tokyo-region/tokyo/restaurant/tamawarai",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-antiknock": {
+  "text": "Show nights; doors usually ~18:00 (see schedule)",
+  "kind": "events",
+  "source": "https://antiknock.net/"
+ },
+ "tokyo-ochiai-soup": {
+  "text": "Parties, mostly Fri–Sat late night (see schedule)",
+  "kind": "events",
+  "source": "https://ochiaisoup.com/"
+ },
+ "tokyo-dj-bar-bridge": {
+  "text": "DJ nights, usually from 21:00 (some 19:00–23:00)",
+  "kind": "irregular",
+  "source": "https://djbar-bridge.com/shinjuku"
+ },
+ "tokyo-shinjuku-pit-inn": {
+  "text": "Night sets doors 19:00 / start 19:30 · day sets from ~13:30",
+  "kind": "events",
+  "source": "http://www.pit-inn.com/"
+ },
+ "tokyo-dug": {
+  "text": "Closed (jazz-kissa press reports its closure)",
+  "kind": "closed",
+  "source": "https://jazzsoda.com/cafe/dug"
+ },
+ "tokyo-eagle-iiguru": {
+  "text": "Midday into evening; quiet listening until 18:00, talk allowed after",
+  "kind": "irregular"
+ },
+ "tokyo-shot-bar-zoetrope": {
+  "text": "Mon–Sat 17:00–23:00 · closed Sun & hols",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-poyo": {
+  "text": "Fri–Sun only; times on site",
+  "kind": "irregular",
+  "source": "https://poyobgcafe.com/"
+ },
+ "tokyo-8bitcafe": {
+  "text": "19:00–24:00, closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-nakano-broadway": {
+  "text": "most shops ~12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-jackroad": {
+  "text": "Daily 11:00–20:30",
+  "kind": "regular",
+  "source": "https://www.jackroad.co.jp/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-kame-kichi": {
+  "text": "Daily 11:00–20:30",
+  "kind": "regular",
+  "source": "https://www.gltjp.com/ja/directory/item/10392/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-mandarake-nakano": {
+  "text": "most units 12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-mandarake-galaxy-nakano-broadway": {
+  "text": "12:00-20:00 daily",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-boogie": {
+  "text": "14–21 · weekends 13–21",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-nomen": {
+  "text": "14–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-hiker-s-depot": {
+  "text": "12:00–20:00 · closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-pit-bar": {
+  "text": "Show nights (see schedule)",
+  "kind": "events",
+  "source": "https://ameblo.jp/pitbar/"
+ },
+ "tokyo-silver-elephant": {
+  "text": "Shows: doors 18:30, start 19:30",
+  "kind": "events",
+  "source": "https://www.silver-elephant.com/"
+ },
+ "tokyo-yakitori-ebisu-minamiguchi-honten": {
+  "text": "Open daily from late afternoon",
+  "kind": "irregular"
+ },
+ "tokyo-cafe-game-bar-kotobuki": {
+  "text": "11:00–22:00 · closed Wed",
+  "kind": "regular",
+  "source": "https://www.tokimeki.tv/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-olgou": {
+  "text": "12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-carrefour": {
+  "text": "11:30–21:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-roku-6": {
+  "text": "Hours not published; check Instagram",
+  "kind": "irregular"
+ },
+ "tokyo-new-bunka-billiards": {
+  "text": "Daily 11:00–24:30 (Fri–Sat sometimes until morning)",
+  "kind": "regular",
+  "source": "https://billi-walker.jp/bwpoolhall/index.php?mode=show_detail&g_id=11065",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "24:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-meguro-golf-driving-range": {
+  "text": "Mon–Sat 6:30–22:00, Sun/hols 6:30–20:00 · open year-round (closed New Year's Day & bad weather)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:30",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:30",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-curry-station-niagara": {
+  "text": "11:00–17:00, closed Mon (next business day if Mon is a holiday)",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-kanda-ogawamachi-ski-strip": {
+  "text": "shops ~11–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-aspen-ski-shop": {
+  "text": "Ski season: open daily; off-season closed Wed (check site)",
+  "kind": "irregular",
+  "source": "http://www.aspen-skishop.com/"
+ },
+ "tokyo-fuso-snowboard-gear": {
+  "text": "Winter (Nov–Feb): weekdays 11:30–20:00, Sat/Sun/hols 10:30–20:00",
+  "kind": "regular",
+  "source": "https://yamahack.com/1937",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-sports-bomber": {
+  "text": "Hours not published; check Google Maps",
+  "kind": "irregular"
+ },
+ "tokyo-ftarri": {
+  "text": "Concert nights; book by email",
+  "kind": "events",
+  "source": "https://www.ftarri.com/suidobashi/"
+ },
+ "tokyo-shichoshitsu": {
+  "text": "Event nights (see calendar)",
+  "kind": "events",
+  "source": "http://shicho.org/"
+ },
+ "tokyo-bar-isshee": {
+  "text": "Improv nights, usually from ~19:30 (see schedule)",
+  "kind": "events"
+ },
+ "tokyo-beer-club-popeye": {
+  "text": "Tue–Fri 15:00–23:00, Sat 14:00–23:00, Sun/hols 13:00–22:00 · closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-daikoku-yu-oshiage-onsen": {
+  "text": "Mon–Fri 15:00–10:00 next day, Sat from 14:00, Sun/hols from 13:00 · closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "34:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "15:00",
+     "34:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "34:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "34:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "34:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "34:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tokyo-somei-onsen-sakura": {
+  "text": "10:00–23:00 daily (last entry 22:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-super-potato-akihabara": {
+  "text": "11:00-20:00 daily (5F retro arcade runs later)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-beep-akihabara": {
+  "text": "11:00-20:00, closed Wed (pre-move schedule; current hours unverified)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-cure-maid-cafe": {
+  "text": "daily 11:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-cafe-mai-lish": {
+  "text": "Afternoons–evenings, closed Wed (check site)",
+  "kind": "irregular"
+ },
+ "tokyo-granvania": {
+  "text": "Roughly midday–22:00, varies by day (check site)",
+  "kind": "irregular",
+  "source": "https://thegranvania.com/"
+ },
+ "tokyo-tokyo-video-gamers": {
+  "text": "Daily 11:00–23:00",
+  "kind": "regular",
+  "source": "https://tokyovideogamers.com/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tenno-ji": {
+  "text": "Grounds open daytime, roughly 9:00–17:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-zensho-an": {
+  "text": "Grounds open daytime, roughly 9:00–17:00; zazen by reservation",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-libre": {
+  "text": "Evenings until ~01:00",
+  "kind": "irregular"
+ },
+ "tokyo-ponta-honke": {
+  "text": "Tue–Sun 11:00–14:00 & 16:30–20:20, closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "14:00"
+    ],
+    [
+     "16:30",
+     "20:20"
+    ]
+   ]
+  }
+ },
+ "tokyo-kayaba-coffee": {
+  "text": "Tue–Sun 8:00–18:00, closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-onigiri-asakusa-yadoroku": {
+  "text": "Lunch 11:30–15:00 Mon–Sat, some evenings",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-snow-peak-land-station-tokyo": {
+  "text": "11:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-white-oak": {
+  "text": "Tue–Sat 18:00–03:00 · Sun 16:00–24:00 · closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-uosan-sakaba-tomioka": {
+  "text": "Mon–Sat 16:00–22:00 · closed Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-sushi-mikata": {
+  "text": "Mon, Tue, Fri, Sat 17:30–21:00 · Sun 12:00–14:15 · closed Wed–Thu",
+  "kind": "regular",
+  "source": "https://ssl.tabelog.com/en/tokyo/A1314/A131402/13290333/",
+  "week": {
+   "mon": [
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "14:15"
+    ]
+   ]
+  }
+ },
+ "tokyo-ginza-sushi-horinouchi": {
+  "text": "Dinner by reservation · closed Sun & hols",
+  "kind": "irregular"
+ },
+ "tokyo-hakkoku": {
+  "text": "Dinner from 17:00 · closed Sun & hols",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-erick-south-yaesu": {
+  "text": "Mon–Fri 11:00–22:00, Sat/Sun/hols 11:00–21:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-andhra-dining": {
+  "text": "Mon–Fri 11:15–15:00 & 17:00–22:30, Sat/Sun/hols 11:30–15:00 & 17:00–21:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:15",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:15",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:15",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:15",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:15",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-nirvanam-kamiyacho": {
+  "text": "11:15–14:30 & 18:00–22:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:15",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tandoor-bar-kamalpur-kiba": {
+  "text": "Lunch 11:00–15:00 (LO 14:30), dinner evenings",
+  "kind": "irregular",
+  "source": "https://kamal-pur.com/"
+ },
+ "tokyo-minato-golf-tamachi": {
+  "text": "Mon–Fri 11:00–21:00, Sat 9:00–20:00, Sun 9:00–18:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-toranomon-sky-range": {
+  "text": "Mon–Fri 8:00–21:00, Sat 11:00–17:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-the-golf-house-mita-tamachi": {
+  "text": "24 hours, every day (members)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-cocofuro-masunoyu": {
+  "text": "6:00–24:00 (last entry 23:30) · closed 2nd Thu of Mar, Jun, Sep & Dec",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-hasunuma-onsen": {
+  "text": "15:00–24:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-ukiyo-game-bar-cafe": {
+  "text": "Hours posted on X",
+  "kind": "irregular"
+ },
+ "tokyo-tokyo-port-bowl": {
+  "text": "Mon–Sat 10:00–23:30, Sun & holidays 10:00–22:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ]
+  }
+ },
+ "tokyo-bar-gen-yamamoto": {
+  "text": "Tue–Sat 15:00–22:30, closed Sun–Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "15:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "22:30"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-kameido-gyoza-honten": {
+  "text": "11:00–20:00 or until sell-out, closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-daikoku-pa": {
+  "text": "Car meets on weekend nights; police often close the PA",
+  "kind": "irregular"
+ },
+ "tokyo-up-garage": {
+  "text": "Typically ~10:00–20:00; varies by branch",
+  "kind": "irregular"
+ },
+ "tokyo-mooneyes-area-1": {
+  "text": "Shop daily 10:00–19:00 · Moon Cafe Mon–Fri 11:00–20:30, Sat–Sun 10:30–20:30",
+  "kind": "regular",
+  "source": "https://www.mooneyes.co.jp/",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-nismo-festival": {
+  "text": "Annual at Fuji Speedway, usually early December",
+  "kind": "events"
+ },
+ "tokyo-tokyo-auto-salon-2027": {
+  "text": "15–17 Jan 2027 (after this trip)",
+  "kind": "events"
+ },
+ "tokyo-mountain-research-anachronorm": {
+  "text": "See the dealer list for store hours",
+  "kind": "irregular"
+ },
+ "tokyo-gentemstick": {
+  "text": "See site for showroom hours",
+  "kind": "irregular"
+ },
+ "tokyo-zine-stockists": {
+  "text": "Each shop keeps its own hours",
+  "kind": "irregular"
+ },
+ "tokyo-takao-san-yakuo-in-side-halls": {
+  "text": "Halls open daytime; cable car ~8:00–17:45",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-shiofune-kannon-ji": {
+  "text": "Open daytime, roughly 8:00–17:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "osaka-daily-dose-quality-stuff": {
+  "text": "13–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-copyart-collective": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "osaka-rroomm-mens": {
+  "text": "12–21",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-rroomm-womens": {
+  "text": "13–20 · closed Wed & Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-nnuudd": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "osaka-404vintage": {
+  "text": "12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-giant-baby": {
+  "text": "Hours on the shop blog",
+  "kind": "irregular"
+ },
+ "osaka-nutty": {
+  "text": "12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-dollar": {
+  "text": "13–19",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-moshpit": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "osaka-the-mongolian-choppsss": {
+  "text": "Hours on Instagram (@tmc__osaka)",
+  "kind": "irregular"
+ },
+ "osaka-renton-archives": {
+  "text": "Hours on the shop's online store",
+  "kind": "irregular"
+ },
+ "osaka-jizhoh-osaka": {
+  "text": "14:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-iruse": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "osaka-kame-kichi-shinsaibashi": {
+  "text": "Daily 11:00–20:30",
+  "kind": "regular",
+  "source": "https://www.kame-kichi.com/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:30"
+    ]
+   ]
+  }
+ },
+ "osaka-mandarake-nipponbashi": {
+  "text": "12–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-den-den-town-ota-road": {
+  "text": "most shops 11–20",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-osaka-auto-messe": {
+  "text": "Annual, mid-February (after this trip)",
+  "kind": "events"
+ },
+ "osaka-up-garage-osaka": {
+  "text": "Typically ~10:00–20:00; varies by branch",
+  "kind": "irregular"
+ },
+ "osaka-and-wander-osaka": {
+  "text": "11:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-lead-osaka": {
+  "text": "Winter hours from Nov: 11:00–21:00, closed 2nd & 3rd Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-environment-0g": {
+  "text": "Event nights (check socials)",
+  "kind": "events"
+ },
+ "osaka-hokage": {
+  "text": "Punk/metal nights; check Instagram",
+  "kind": "events"
+ },
+ "osaka-sinkagura": {
+  "text": "Shows: doors ~18:00–18:30",
+  "kind": "events",
+  "source": "https://sinkagura.jimdofree.com/"
+ },
+ "osaka-king-cobra": {
+  "text": "Show nights (see schedule)",
+  "kind": "events",
+  "source": "http://king-cobra.net/"
+ },
+ "osaka-pangea": {
+  "text": "Shows most nights: doors 18:00–18:30, start 18:30–19:00",
+  "kind": "events",
+  "source": "https://livepangea.com/"
+ },
+ "osaka-club-stomp": {
+  "text": "Show nights; check Instagram",
+  "kind": "events"
+ },
+ "osaka-matsuyamachi-chikaikkai": {
+  "text": "Show nights (see schedule)",
+  "kind": "events",
+  "source": "http://chikaikkai.web.fc2.com/"
+ },
+ "osaka-sengoku-daitouryo": {
+  "text": "Shows most nights: doors 18:30–19:30",
+  "kind": "events",
+  "source": "https://sengokudaitouryou.com/"
+ },
+ "osaka-holy-mountain": {
+  "text": "Shows: doors ~19:00 (some daytime)",
+  "kind": "events",
+  "source": "https://selebro.co.jp/holymountain/"
+ },
+ "osaka-magayura": {
+  "text": "Events: usually doors 19:00, start 19:30",
+  "kind": "events",
+  "source": "https://magayura.com/"
+ },
+ "osaka-nambaya": {
+  "text": "Jazz/improv nights (see blog)",
+  "kind": "events"
+ },
+ "osaka-socore-factory": {
+  "text": "Event nights (see schedule)",
+  "kind": "events",
+  "source": "https://socorefactory.com/"
+ },
+ "osaka-club-daphnia": {
+  "text": "Club nights (see calendar)",
+  "kind": "events",
+  "source": "https://club-daphnia.com/"
+ },
+ "osaka-compufunk-records": {
+  "text": "15:00–23:00 (Sun to 21:00) · closed Mon",
+  "kind": "regular",
+  "source": "https://www.compufunk.com/",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-noon-cafe": {
+  "text": "Club nights + café days (see schedule)",
+  "kind": "events",
+  "source": "https://noon-cafe.com/"
+ },
+ "osaka-circus-osaka": {
+  "text": "Club nights from ~22:00–23:00 (see schedule)",
+  "kind": "events",
+  "source": "https://circus-osaka.com/"
+ },
+ "osaka-joule": {
+  "text": "Club nights, mostly Fri–Sat from ~22:00",
+  "kind": "events",
+  "source": "https://club-joule.com/ja/"
+ },
+ "osaka-proust": {
+  "text": "Closed Mon; check Instagram for hours",
+  "kind": "irregular"
+ },
+ "osaka-royal-horse": {
+  "text": "Live sets nightly from evening (see schedule)",
+  "kind": "events",
+  "source": "https://www.royal-horse.jp/"
+ },
+ "osaka-record-bar-moon-shine": {
+  "text": "19–24",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-mitsutera-kaikan": {
+  "text": "Each bar keeps its own hours, mostly ~20:00–late",
+  "kind": "irregular"
+ },
+ "osaka-beer-belly-tenma": {
+  "text": "weekdays 17:00–24:00 · Sat/Sun/hols 15:00–24:00 · no closed days",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-yellow-ape-craft": {
+  "text": "Tue–Sat 15:00–24:30 (LO 24:00) · closed Sun & Mon, plus irregular days",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "15:00",
+     "24:30"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "24:30"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "24:30"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "24:30"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "24:30"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "osaka-bar-k": {
+  "text": "Mon–Sat 18:00–24:00 · closed Sun & New Year",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "osaka-osake-no-bijutsukan-shinsaibashi": {
+  "text": "15:00–23:30 LO · no closed days",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ]
+  }
+ },
+ "osaka-izakaya-toyo": {
+  "text": "Tue, Wed, Fri 13:00–17:00 · Sat 12:00–17:00 · closed Mon, Thu, Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "13:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "17:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "13:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "17:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "osaka-fukumasa": {
+  "text": "09:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-nonkiya": {
+  "text": "08:00–19:00 with a mid-afternoon break · closed Tue & Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-tenma-sakagura": {
+  "text": "11:30–21:30 (last order 21:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ]
+  }
+ },
+ "osaka-sushi-kirimon": {
+  "text": "Lunch from 11:30, dinner 17:00–21:00 (last entry)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-sushiya-yohei": {
+  "text": "Seatings 12:00, 18:00, 20:30 · irregular days off · booking only",
+  "kind": "irregular",
+  "source": "https://omakase.in/r/xp919884"
+ },
+ "osaka-sawada-osaka-fukushima": {
+  "text": "Seatings 17:30 and 20:45 · irregular days off · booking only",
+  "kind": "irregular"
+ },
+ "osaka-columbia8-kitahama": {
+  "text": "Lunch only, Tue–Fri 11:00–15:00 (+2nd & 4th Sat)",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "osaka-botani-curry": {
+  "text": "From 11:00 until sold out · irregular days off",
+  "kind": "irregular"
+ },
+ "osaka-kyu-yamu-tei-karahori": {
+  "text": "Wed–Sat 11:30–14:30 & 18:00–21:30; Sun 11:20–14:30 & 18:00–21:00 · closed Mon & Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:20",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-spice-curry-soma": {
+  "text": "12:00–15:00 (last order 14:30) · closed Fri & Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "fri": [],
+   "sat": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ]
+  }
+ },
+ "osaka-game-bar-236": {
+  "text": "Evenings; closed Mon",
+  "kind": "irregular"
+ },
+ "osaka-game-bar-picoty": {
+  "text": "13–05",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ]
+  }
+ },
+ "osaka-alcheringa": {
+  "text": "Tue–Fri 14:00–23:00, Sat/Sun/hols 13:00–23:00 · closed Mon",
+  "kind": "regular",
+  "source": "https://www.hotpepper.jp/strJ003715750/",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-saio": {
+  "text": "Hours on site",
+  "kind": "irregular",
+  "source": "https://cafesaio.com/"
+ },
+ "osaka-neighbor": {
+  "text": "bar 19–24",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-peegee-shinsaibashi": {
+  "text": "Mon–Fri 15:00–5:00, Sat/Sun/hols 13:00–5:00",
+  "kind": "regular",
+  "source": "https://gamebarshinsaibashi.com/",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "29:00"
+    ]
+   ]
+  }
+ },
+ "osaka-nagakutsu": {
+  "text": "Hours on site",
+  "kind": "irregular",
+  "source": "https://www.nagakutsu.com/"
+ },
+ "osaka-pool-bar-room": {
+  "text": "Daily 22:00–8:00",
+  "kind": "regular",
+  "source": "https://www.hotpepper.jp/strJ003498072/",
+  "week": {
+   "mon": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "tue": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "wed": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "thu": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "fri": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "sat": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ],
+   "sun": [
+    [
+     "22:00",
+     "32:00"
+    ]
+   ]
+  }
+ },
+ "osaka-sakuranomiya-golf-club": {
+  "text": "weekdays 08:00–22:30, Sat, Sun & holidays 07:00–22:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "sat": [],
+   "sun": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ]
+  }
+ },
+ "osaka-hanshin-golf-center-taisho": {
+  "text": "Open 24 hours (no play Mon 04:00–06:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-sugimura-golf-center": {
+  "text": "05:00–24:00 (front desk 09:00–22:00, 08:00 on weekends)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "05:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-naniwa-no-yu": {
+  "text": "Weekdays 10:00–1:00, weekends & holidays 8:00–1:00 (last entry 24:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "osaka-hinode-yu": {
+  "text": "6:00–23:00 (Tue 11:00–23:00) · Closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-ofuroya-wako-wako-yokujo": {
+  "text": "6:00–24:00 · Closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-hamura-onsen": {
+  "text": "15:00–23:00 · Closed Sat",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sat": [],
+   "sun": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-nippo-kawaramachi-kaikan": {
+  "text": "20:00–1:00 (Fri to 3:00)",
+  "kind": "regular",
+  "source": "https://minanomi.jp/shops/new-concord",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "osaka-mondial-kaffee-328-a": {
+  "text": "8–20:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "20:30"
+    ]
+   ]
+  }
+ },
+ "osaka-awesome-day-coffee": {
+  "text": "10–19",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-reichi-store-r-coffee": {
+  "text": "Opened Aug 2026; hours on site",
+  "kind": "irregular",
+  "source": "https://reichi.asia/"
+ },
+ "osaka-maze-nishihorie": {
+  "text": "Daytime only; hours on Instagram",
+  "kind": "irregular"
+ },
+ "osaka-nichi-nichi-bake": {
+  "text": "Wed–Mon 11:30–18:00 (last entry 17:30), closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "osaka-game-tanteidan-game-detectives": {
+  "text": "12:00-19:00 daily, open year-round (trade-ins until 17:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-cafe-e-maid": {
+  "text": "weekdays 12:00–22:30, weekends 11:00–22:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ]
+  }
+ },
+ "osaka-merimero": {
+  "text": "weekdays 17:00–22:00, weekends/holidays 12:00–22:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "osaka-pc-and-retro-bar-space-station": {
+  "text": "Evenings until late; check Facebook",
+  "kind": "irregular"
+ },
+ "osaka-bar-encount": {
+  "text": "20:00–02:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "osaka-shinsaibashi-sunbowl": {
+  "text": "daily 10:00–24:00 (last entry 23:30)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "osaka-kanzakigawa-daidoh-bowl": {
+  "text": "weekdays 12:00–22:00, Sat 10:00–21:30, Sun & holidays 10:00–19:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-ryuan-ji-temple": {
+  "text": "grounds year-round, office 10:00–16:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  }
+ },
+ "osaka-hozan-ji-temple": {
+  "text": "Oct–Mar 8:30–16:30 (Apr–Sep 8:00–17:00)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "tue": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "wed": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "thu": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "fri": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "sat": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:30",
+     "16:30"
+    ]
+   ]
+  }
+ },
+ "osaka-isshin-ji-temple": {
+  "text": "grounds 5:00–18:00, hall 9:00–16:00, year-round",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "05:00",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "osaka-bar-nayuta": {
+  "text": "18:00–02:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "osaka-tachinomi-shomin": {
+  "text": "From 11:00 until late",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-bible-club-osaka": {
+  "text": "18:00–01:00 (LO 00:30), closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "osaka-dramatic-curry-golden-nakazaki": {
+  "text": "11:30–14:30 & 18:00–21:00, irregular holidays",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-ramen-jinsei-jet": {
+  "text": "11:00–15:00 & 18:00–22:00, irregular holidays",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "osaka-chitose-honten": {
+  "text": "10:30–14:30 until sold out, closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "thu": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "fri": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ]
+  }
+ },
+ "osaka-negiyaki-yamamoto-honten": {
+  "text": "11:30–21:00 (LO), irregular holidays",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "osaka-shinsekai-kushikatsu-ittoku-tsutenkaku-ten": {
+  "text": "Mon/Wed–Fri 17:00–23:00, Sat/Sun/hol 11:00–23:00 (LO 22:30), closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-aizuya-honten": {
+  "text": "Daily 11:00–23:00 (LO 22:30)",
+  "kind": "regular",
+  "source": "https://www.aiduya.com/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "osaka-endo-sushi-central-market": {
+  "text": "Mon–Sat 6:00–14:00, closed Sun & holidays",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "14:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-big-time-kyoto": {
+  "text": "Weekdays 11:00–20:00, Sat/Sun/hols 11:00–21:00",
+  "kind": "regular",
+  "source": "https://bigtime.jp/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-grass": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-dockery-farm": {
+  "text": "Closed Tue; check Instagram for hours",
+  "kind": "irregular"
+ },
+ "kyoto-goat": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-roger-s": {
+  "text": "Hours not published; call 075-255-2606",
+  "kind": "irregular"
+ },
+ "kyoto-rushout": {
+  "text": "Hours on the shop site",
+  "kind": "irregular",
+  "source": "https://www.rushout.jp/"
+ },
+ "kyoto-boro": {
+  "text": "Closed Wed and 2nd/3rd Thu; check Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-number-seven": {
+  "text": "Hours not published; check Google Maps",
+  "kind": "irregular"
+ },
+ "kyoto-lloomm-kyoto": {
+  "text": "12–20 · closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-twelve-kyoto": {
+  "text": "Hours on the shop's online store",
+  "kind": "irregular"
+ },
+ "kyoto-000": {
+  "text": "Irregular days; check Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-diggers": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-selfurugi": {
+  "text": "Open 24 hours (unmanned)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-own-kyoto": {
+  "text": "Closed Wed & Thu; check Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-coil": {
+  "text": "daily 12:00–19:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-n-ed": {
+  "text": "13:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-ruchiklu-antique-watches": {
+  "text": "11–20 (weekends 11–19) · closed Thu, 2nd/3rd Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-mont-bell-kyoto": {
+  "text": "11:00–20:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-biwako-valley": {
+  "text": "Ski season from mid-December; Nov is between seasons",
+  "kind": "irregular"
+ },
+ "kyoto-urbanguild": {
+  "text": "Event nights (see schedule)",
+  "kind": "events",
+  "source": "https://urbanguild.net/"
+ },
+ "kyoto-takutaku": {
+  "text": "Shows: doors 17:30, start 18:30",
+  "kind": "events",
+  "source": "https://takutaku.jp/"
+ },
+ "kyoto-club-metro": {
+  "text": "Event nights (see schedule)",
+  "kind": "events",
+  "source": "https://www.metro.ne.jp/"
+ },
+ "kyoto-negaposi": {
+  "text": "18–01",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-roka": {
+  "text": "Event nights; office 14:00–24:00",
+  "kind": "events",
+  "source": "https://kyoto-roka.com/"
+ },
+ "kyoto-s-pod": {
+  "text": "18:00–23:00 · closed Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "23:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-octave-kyoto": {
+  "text": "Late nights from ~22:00–23:00",
+  "kind": "irregular"
+ },
+ "kyoto-cavalier": {
+  "text": "daily 19:00–02:00 (LO 01:30)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-yamatoya": {
+  "text": "12–22 · closed Wed & Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-tamon": {
+  "text": "18:00–27:00, Sat/Sun/hols 12:00–27:00 · closed Tue",
+  "kind": "regular",
+  "source": "https://tamon-kyoto.com/",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "27:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "27:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-jazz-in-rokudenashi": {
+  "text": "Evenings until late; check X",
+  "kind": "irregular"
+ },
+ "kyoto-p-m-sounds": {
+  "text": "19–23:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "tue": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "23:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-hachi-record-shop-bar": {
+  "text": "Weekdays 18–24 · closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "kyoto-galaxie500": {
+  "text": "20–24",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-beatle-momo": {
+  "text": "19–01 · closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "19:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-shibashi": {
+  "text": "Days and hours on the monthly calendar",
+  "kind": "irregular",
+  "source": "https://sibasi.jp/"
+ },
+ "kyoto-p-m-sounds-kyoto": {
+  "text": "Evenings; confirm on Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-kyoto-brewing-co-taproom": {
+  "text": "Wed–Fri 17:00–21:00",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "kyoto-kyoto-brewing-tap-stand": {
+  "text": "weekdays 16:00–23:00 · Sat/Sun/hols 14:00–23:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-bar-k6": {
+  "text": "18:00–02:00 · closed Mon & Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-bar-rocking-chair": {
+  "text": "17:00–01:00 (LO 24:00) · bookings only for 17:00–18:00 arrival",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-tatsumi": {
+  "text": "12:00–22:00 (food LO 20:50) · closed Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kyogoku-stand": {
+  "text": "12:00–21:15 (LO 20:45) · closed Tue plus extra days posted monthly on Instagram",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "21:15"
+    ]
+   ]
+  }
+ },
+ "kyoto-tachinomi-shomin-shijo-omiya": {
+  "text": "11:00–23:00 · closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kyoto-mai-sushi": {
+  "text": "16:00–21:30 (LO 21:00) · closed Tue–Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "tue": [],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-gion-sushi-tadayasu": {
+  "text": "Lunch from 12:00, dinner from 18:00 · booking only",
+  "kind": "irregular"
+ },
+ "kyoto-sushi-rakumi": {
+  "text": "Lunch from 12:00, dinner 17:00–22:00 · closed Sun and irregular days",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-tadka-tadka-1-tadka-2": {
+  "text": "Tadka 1 lunch 12:00–16:00; Tadka 2 dinner from 17:30",
+  "kind": "irregular"
+ },
+ "kyoto-shinrin-shokudo": {
+  "text": "11:30–15:00 & 18:00–22:00 · closed on dates ending 6, 12, 18, 24, 30 and the day after",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kerala": {
+  "text": "11:30–14:30 & 17:00–22:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-caf-bar-laurel": {
+  "text": "Hours on its link page",
+  "kind": "irregular",
+  "source": "https://lit.link/laurelkyoto"
+ },
+ "kyoto-game-bar-kyoto": {
+  "text": "Weekends; check Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-boardgame-bed-bokuyado": {
+  "text": "Overnight stays; check X",
+  "kind": "irregular"
+ },
+ "kyoto-sharif": {
+  "text": "20–05",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-shozan-golf-club": {
+  "text": "north bays weekdays 6:30–23:00, weekends 5:50–23:00; south bays until sunset",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:30",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:30",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:30",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:30",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:30",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:50",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "05:50",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-yamashina-golf-garden": {
+  "text": "weekdays 9:00–22:30, weekends 8:00–22:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-katsura-golf-club": {
+  "text": "weekdays 10:00–22:30, Sat 9:00–22:30, Sun/holidays 8:00–22:30",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "22:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-funaoka-onsen": {
+  "text": "15:00–23:30 (Sun from 8:00) · closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "23:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-sauna-no-umeyu": {
+  "text": "6:00–26:00 · closed Thu",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-goko-yu": {
+  "text": "Weekdays 14:30–24:30, Sun 7:00–24:00 · closed Mon & 3rd Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "14:30",
+     "24:30"
+    ]
+   ],
+   "wed": [
+    [
+     "14:30",
+     "24:30"
+    ]
+   ],
+   "thu": [
+    [
+     "14:30",
+     "24:30"
+    ]
+   ],
+   "fri": [
+    [
+     "14:30",
+     "24:30"
+    ]
+   ],
+   "sat": [
+    [
+     "14:30",
+     "24:30"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kurama-onsen": {
+  "text": "10:00–21:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kamogawa-yu": {
+  "text": "14:00–25:00 (Sun from 8:00) · closed Tue",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "14:00",
+     "25:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "14:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "14:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kaikan-bars": {
+  "text": "Each bar keeps its own hours, mostly ~20:00–late",
+  "kind": "irregular"
+ },
+ "kyoto-nekoana": {
+  "text": "Late nights; hours not published",
+  "kind": "irregular"
+ },
+ "kyoto-honya-megaphone": {
+  "text": "Hours on Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-hoka-books": {
+  "text": "12:00–19:00",
+  "kind": "regular",
+  "source": "https://hokabooks.com/",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-cafe-marble-bukkoji": {
+  "text": "Daily 11:00–21:00 (Sun to 20:00) · closed last Wed of the month",
+  "kind": "regular",
+  "source": "https://www.gltjp.com/ja/directory/item/17024/",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kotoro-coffee": {
+  "text": "Irregular days; check the shop page",
+  "kind": "irregular"
+ },
+ "kyoto-marufukuro-former-nintendo-headquarters": {
+  "text": "Hotel; tours and dinner by reservation only",
+  "kind": "irregular"
+ },
+ "kyoto-suruga-ya-kyoto-teramachi": {
+  "text": "hours approx. 11:00-21:00 (unverified)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-cafe-de-ai": {
+  "text": "18:30–25:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:30",
+     "25:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-siesta-8bit-cafe-la-siesta-8bit-edition": {
+  "text": "17:30–01:30, closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ],
+   "fri": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:30",
+     "25:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-c2-kyoto": {
+  "text": "Monthly meetups only (see Meetup)",
+  "kind": "events"
+ },
+ "kyoto-mk-bowl-kamigamo": {
+  "text": "Mon–Thu 10:00–24:00, Fri–Sat until 3:00, Sun & hols 8:00–24:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "27:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "27:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kyoichi-amusement-park-kisshoin": {
+  "text": "weekdays 10:00–24:00, weekends 9:00–24:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-gio-ji": {
+  "text": "open 9:00–17:00 (last entry 16:30)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-otagi-nenbutsu-ji": {
+  "text": "open 9:00–16:15, closed Wed",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ]
+  }
+ },
+ "kyoto-saimyo-ji": {
+  "text": "Open 9:00–17:00",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-jakko-in": {
+  "text": "open ~9:00–17:00 (shorter in winter)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-kurama-dera": {
+  "text": "main hall 9:00–16:15",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "16:15"
+    ]
+   ]
+  }
+ },
+ "kyoto-bee-s-knees": {
+  "text": "Mon–Thu 18:00–01:00, Fri–Sat 18:00–02:00, closed Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-apotheca": {
+  "text": "Evenings; check Instagram",
+  "kind": "irregular"
+ },
+ "kyoto-kyosaimi-nomura-karasuma-honten": {
+  "text": "7:00–14:30 (LO 14:00), closed days unverified",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "14:30"
+    ]
+   ]
+  }
+ },
+ "kyoto-teuchi-soba-kanei": {
+  "text": "Tue–Fri 11:30–14:30 & 18:00–20:30, Sat–Sun lunch only, closed Mon",
+  "kind": "regular",
+  "week": {
+   "mon": [],
+   "tue": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "18:00",
+     "20:30"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "kyoto-kyoto-curry-seisakusho-kariru": {
+  "text": "Mon–Fri 11:00–15:00 & 17:00–20:30, Sat/holidays lunch only, closed Sun",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "kyoto-kissa-tyrol": {
+  "text": "Mon–Sat 8:00–16:00 (LO 15:30), closed Sun & holidays",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-toyouke-chaya": {
+  "text": "11:00–14:30 (LO 14:00) · closed Thu & Fri (open on the 25th and holidays)",
+  "kind": "regular",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "thu": [],
+   "fri": [],
+   "sat": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ]
+  }
+ }
+}

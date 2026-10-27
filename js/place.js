@@ -1,5 +1,5 @@
 /* global L */
-import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay } from "./util.js";
+import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay, hoursBadge, weekRows, japanNow } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan, listReturn } from "./state.js";
@@ -47,6 +47,7 @@ export function renderPlace(root, id) {
           <p class="desc">${esc(l.desc)}</p>
           <p class="meta"><a href="${esc(l.mapUrl)}" target="_blank" rel="noopener">⌖ ${esc(l.address)}</a>${l.info ? ` · ${esc(l.info)}` : ""}</p>
         </section>`).join("")}
+      ${hoursBlock(p)}
       ${p.addressJa ? `<p class="ja" lang="ja">${esc(p.addressJa)} <button type="button" class="copy" data-copy="${esc(p.addressJa)}">Copy</button></p>` : ""}
       ${p.geoNote ? `<p class="geonote">${esc(p.geoNote)}</p>` : ""}
       ${p.precision === "area" ? `<p class="warn">The pin shows the area only; check the address before you go.</p>` : ""}
@@ -88,3 +89,15 @@ export function renderPlace(root, id) {
 }
 
 const KIND_VAR = (k) => `var(--k-${k})`;
+
+// Today's state, the hours as written, and the week with today picked out
+function hoursBlock(p) {
+  if (!p.hours) return "";
+  const rows = weekRows(p, japanNow().date);
+  return `<section class="hours"><h3>Hours</h3>
+    ${hoursBadge(p)}
+    <p class="meta">${esc(p.hours.text)}${p.hours.source ? ` · <a href="${esc(p.hours.source)}" target="_blank" rel="noopener">source</a>` : ""}</p>
+    ${rows.length ? `<table>${rows.map((r) => `<tr${r.today ? ` class="today"` : ""}><th>${r.day}</th><td>${esc(r.hours)}</td></tr>`).join("")}</table>
+      <p class="note">Holidays and one-off closures aren't shown; check before a special trip.</p>` : ""}
+  </section>`;
+}

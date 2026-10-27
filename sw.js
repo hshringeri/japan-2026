@@ -8,7 +8,7 @@ const SHELL = [
   "./", "index.html", "app.css", "guide.css", "manifest.webmanifest",
   "js/app.js", "js/data.js", "js/filter.js", "js/filterbar.js", "js/guide.js", "js/list.js",
   "js/map.js", "js/basemap.js", "js/place.js", "js/plan.js", "js/state.js", "js/util.js", "js/split.js", "js/icons.js",
-  "data/places.json", "data/guide.json", "data/taxonomy.json", "data/trip.json", "data/thumbs.json",
+  "data/places.json", "data/hours.json", "data/guide.json", "data/taxonomy.json", "data/trip.json", "data/thumbs.json",
   "img/icon.svg", "img/icon-192.png",
 ];
 

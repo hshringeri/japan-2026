@@ -307,3 +307,18 @@ body.dates-off .datestrip { display: none; }
 .earlier { margin: 8px 16px 0; }
 .earlier summary { font: 600 14px var(--sans); cursor: pointer; padding: 8px 0; }
 .earlier .days .day { margin-left: 0; margin-right: 0; }
+
+/* Opening hours: a coloured chip for now, a week table on the place page */
+.hrs { justify-self: start; align-self: start; display: inline-block; margin: 2px 0; padding: 1px 7px; border-radius: 9px; font: 700 11px/1.5 var(--sans); background: var(--soft); color: var(--mute); }
+.hrs.open { background: #e3f1e6; color: #1f6b35; }
+.hrs.soon { background: #fbefd9; color: #8a5a00; }
+.hrs.shut { background: #f7e1dc; color: #a2321c; }
+.hrs.gone { background: var(--ink); color: var(--paper); }
+.hrs.ahead { background: #e4ebf6; color: #234a85; }
+.place .hours { margin: 14px 0; }
+.place .hours h3 { margin: 0 0 6px; }
+.place .hours .meta { margin: 6px 0; }
+.place .hours table { border-collapse: collapse; font: 14px/1.6 var(--sans); }
+.place .hours th { text-align: left; font-weight: 600; padding-right: 14px; color: var(--mute); }
+.place .hours tr.today th, .place .hours tr.today td { color: var(--ink); font-weight: 800; }
+.place .hours .note { font-size: 12px; color: var(--mute); margin: 4px 0 0; }
