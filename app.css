@@ -251,6 +251,20 @@ body.dates-off .datestrip { display: none; }
 /* Guide view */
 .guide-close { position: sticky; top: 0; display: block; z-index: 2; background: var(--card); color: var(--blue-ink); box-shadow: var(--lift-1); padding: calc(12px + env(safe-area-inset-top)) 16px 12px; font: 500 14px var(--sans); text-decoration: none; }
 
+/* Phones: pack the search, dates and filter rows tight so the map and list keep the room */
+@media (max-width: 959px) {
+  .stick { padding: 6px 0 6px; }
+  .filterbar { gap: 4px; }
+  .search { height: 42px; }
+  .datetoggle { width: 42px; height: 42px; }
+  .chiprow { padding: 1px 16px 3px; min-height: 0; }
+  .chip { height: 30px; padding: 0 12px; }
+  .datestrip { padding: 0 16px 4px; }
+  .datestrip button { padding: 3px 8px; border-radius: 12px; }
+  .datestrip b { font-size: 16px; }
+  .mapui.top { padding-top: calc(8px + env(safe-area-inset-top)); }
+}
+
 /* Wide screens: list or plan on the left, map always on the right */
 @media (min-width: 960px) {
   :root { --panel-w: 440px; --tab-h: 0px; }
