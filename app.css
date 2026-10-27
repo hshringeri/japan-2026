@@ -16,6 +16,13 @@ html, body { margin: 0; height: 100%; }
 /* The tab bar owns the bottom edge: standalone iOS can end the layout viewport above the
    home indicator, so the canvas — not body — must be dark or a white strip shows under the bar */
 html { background: var(--ink); }
+/* iOS 26 home-screen apps (viewport-fit=cover + black-translucent) get a viewport shorter than the
+   screen by the status bar height, and stop drawing fixed content at that edge (WebKit 301108).
+   A page at least as tall as the screen gets the full viewport, so the tab bar reaches the bottom.
+   The min() cap stops a status-bar-height scroll where the top inset is 0 (WebKit 316008). */
+@media (display-mode: standalone) {
+  html { min-height: min(100lvh, calc(100% + env(safe-area-inset-top))); }
+}
 body { background: var(--paper); color: var(--ink); font: 15px/1.45 var(--sans); -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
 a { color: inherit; }
 button { font: inherit; color: inherit; }
