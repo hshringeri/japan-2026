@@ -1,6 +1,6 @@
 import { esc, nearestKm, formatDistance, walkMinutes, formatDay, shortTags } from "./util.js";
 import { filter, matches, onFilter } from "./filter.js";
-import { app, onApp, anchor } from "./state.js";
+import { app, onApp, anchor, listReturn } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
 import { catEmoji } from "./data.js";
 import { highlightPlace } from "./map.js";
@@ -43,6 +43,12 @@ export function mountList(root) {
   onFilter(render);
   onApp("date", render);
   onApp("here", () => { if (!app.date) render(); });
+  // Coming back from a place: put the list back where it was
+  onApp("route", (name) => {
+    if (name !== "list" || !listReturn.top) return;
+    root.scrollTop = listReturn.top;
+    listReturn.top = 0;
+  });
 
   // The map and the list light each other up on hover
   rows.addEventListener("mouseover", (e) => {

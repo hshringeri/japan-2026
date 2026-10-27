@@ -58,3 +58,6 @@ export function startLocation() {
 }
 // Resume tracking without a prompt when permission was granted before
 export const locationWasAllowed = () => storage.get("locationAllowed", false);
+
+// Where the list was when you left it, so the place view's close button can put you back there
+export const listReturn = { hash: null, top: 0 };

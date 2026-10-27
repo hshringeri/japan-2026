@@ -2,16 +2,25 @@
 import { esc, distanceKm, formatDistance, walkMinutes, directionsUrl, formatDay } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
-import { app, hereInJapan } from "./state.js";
+import { app, hereInJapan, listReturn } from "./state.js";
 import { KIND_EMOJI, catEmoji, isInstagram } from "./data.js";
 
 let mini;
+
+// Close: put you back on the list you came from, not on whatever page preceded it
+function close(root) {
+  root.querySelector(".back").addEventListener("click", () => {
+    location.hash = (listReturn.hash && listReturn.hash.startsWith("#/list")) ? listReturn.hash : "#/list";
+  });
+}
+const X = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>`;
 
 export function renderPlace(root, id) {
   const { byId, places, kindName, trip } = app.data;
   const p = byId[id];
   if (!p) {
-    root.innerHTML = `<header class="viewhead"><a class="back" href="#/list">‹ List</a></header><p class="empty">That place isn't in the guide.</p>`;
+    root.innerHTML = `<header class="viewhead"><button type="button" class="back" aria-label="Close">${X}</button></header><p class="empty">That place isn't in the guide.</p>`;
+    close(root);
     return;
   }
   const near = places.filter((q) => q !== p && q.lat != null && p.lat != null)
@@ -22,7 +31,7 @@ export function renderPlace(root, id) {
     vals.map((v) => `<button type="button" class="chip" data-tag="${esc(facet)}:${esc(v)}">${esc(v)}</button>`)).join("");
 
   root.innerHTML = `
-    <header class="viewhead"><button type="button" class="back">‹ Back</button></header>
+    <header class="viewhead"><button type="button" class="back" aria-label="Close">${X}</button></header>
     <article class="place">
       <p class="crumbs">
         <button type="button" data-set='{"city":"${p.city}"}'>${esc(p.cityName)}</button> ›
@@ -53,7 +62,7 @@ export function renderPlace(root, id) {
         <li><a href="#/place/${q.id}"><span class="dot" style="--c:${q.color}"></span><span>${esc(q.name)}<small>${esc(q.categories[0])}</small></span><em>${formatDistance(km)}</em></a></li>`).join("")}</ol></section>` : ""}
     </article>`;
 
-  root.querySelector(".back").addEventListener("click", () => (history.length > 1 ? history.back() : (location.hash = "#/list")));
+  close(root);
   root.querySelector(".place").addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (!b) return;

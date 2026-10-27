@@ -13,6 +13,9 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
+/* The tab bar owns the bottom edge: standalone iOS can end the layout viewport above the
+   home indicator, so the canvas — not body — must be dark or a white strip shows under the bar */
+html { background: var(--ink); }
 body { background: var(--paper); color: var(--ink); font: 15px/1.45 var(--sans); -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
 a { color: inherit; }
 button { font: inherit; color: inherit; }
@@ -32,10 +35,15 @@ button { font: inherit; color: inherit; }
 .viewhead h1 { font: 900 26px/1 var(--sans); text-transform: uppercase; letter-spacing: -.03em; margin: 0; }
 .viewhead .who { margin: 0; color: var(--mute); font-size: 12px; text-align: right; }
 .iconbtn, .back { border: 2px solid var(--ink); background: none; padding: 6px 10px; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; cursor: pointer; }
-.back { border: 0; padding: 6px 0; font-size: 15px; letter-spacing: 0; text-transform: none; }
+.back { display: grid; place-items: center; flex: none; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; background: var(--soft); color: var(--ink); cursor: pointer; }
+.back svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
+.back:hover { background: var(--line); }
 
 /* Tab bar along the bottom, like Google Maps: the current tab's icon sits in a tinted pill */
 .tabbar { position: fixed; left: 0; bottom: 0; width: var(--panel-w); height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom); background: var(--ink); display: grid; grid-template-columns: 1fr 1fr 1fr; z-index: 10; }
+/* Standalone iOS can end the layout viewport above the home indicator, leaving the page
+   canvas — not the page — under the bar. Carry the bar's ink past bottom: 0 to cover it. */
+.tabbar::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 80px; background: var(--ink); }
 .tabbar a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: #b9b0a2; text-decoration: none; font: 700 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; }
 .tabbar svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
 .tabbar a[aria-current="page"] { color: #fff; }
@@ -268,6 +276,7 @@ body.dates-off .datestrip { display: none; }
 @media (min-width: 960px) {
   :root { --panel-w: 440px; --tab-h: 0px; }
   .tabbar { top: 0; bottom: auto; height: 52px; padding: 0; z-index: 10; }
+  .tabbar::after { height: 0; }
   .tabbar a { flex-direction: row; gap: 8px; }
   .viewhead { padding-top: 12px; }
   .tabbar a[data-tab="map"] { display: none; }

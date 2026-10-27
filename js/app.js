@@ -1,6 +1,6 @@
 import { $, $$ } from "./util.js";
 import { loadData } from "./data.js";
-import { app, emit, startLocation, locationWasAllowed, setDate } from "./state.js";
+import { app, emit, startLocation, locationWasAllowed, setDate, listReturn } from "./state.js";
 import { mountList } from "./list.js";
 import { mountMap, showMap, focusPlace, revealPlace } from "./map.js";
 import { mountSplit, syncSplit } from "./split.js";
@@ -14,6 +14,12 @@ const wide = matchMedia("(min-width: 960px)");
 function route() {
   const [, view = "map", arg] = location.hash.match(/^#\/([^/]+)\/?(.*)$/) || [];
   let name = ["list", "map", "plan", "place", "guide"].includes(view) ? view : "map";
+  // Leaving the list: keep the hash and the scroll offset so a place can hand you back to it
+  if (name !== "list" && document.body.dataset.view === "list") {
+    listReturn.hash = prevHash || "#/list";
+    listReturn.top = $("#view-list").scrollTop;
+  }
+  prevHash = location.hash;
   // Wide screens have no map tab: the map is always beside the list
   if (wide.matches && name === "map" && !arg) name = "list";
   document.body.dataset.view = name;
@@ -40,6 +46,7 @@ function route() {
   emit("route", name);
 }
 let lastTab = "map";
+let prevHash = "";
 
 async function start() {
   try {
