@@ -70,10 +70,16 @@ export const storage = {
   },
 };
 
+// The tags worth showing at a glance: up to three of cuisine, genre or style, then up to three practical flags
+export function shortTags(p) {
+  const flags = (p.tags?.flags || []).filter((f) => f !== "Walk-in").slice(0, 3);
+  return [...(p.tags?.cuisine || []), ...(p.tags?.genre || []), ...(p.tags?.style || [])].slice(0, 3).concat(flags);
+}
+
 export const mapsUrl = (p) =>
   p.lat != null ? `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}` : null;
 export const directionsUrl = (p) =>
   p.lat != null ? `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=transit` : null;
 
-// Japan's national mapping agency (GSI) pale basemap: free, no key, detailed to the block
-export const TILES = "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png";
+// Japan's national mapping agency (GSI) standard colour basemap: free, no key, detailed to the block
+export const TILES = "https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png";

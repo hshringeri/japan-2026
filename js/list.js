@@ -1,4 +1,4 @@
-import { esc, nearestKm, formatDistance, walkMinutes, formatDay } from "./util.js";
+import { esc, nearestKm, formatDistance, walkMinutes, formatDay, shortTags } from "./util.js";
 import { filter, matches, onFilter } from "./filter.js";
 import { app, onApp, anchor } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
@@ -64,8 +64,7 @@ export function mountList(root) {
 }
 
 function row(p) {
-  const flags = (p.tags?.flags || []).filter((f) => f !== "Walk-in").slice(0, 3);
-  const detail = [...(p.tags?.cuisine || []), ...(p.tags?.genre || []), ...(p.tags?.style || [])].slice(0, 3);
+  const tags = shortTags(p);
   const dist = p.dist != null ? `<span class="dist">${formatDistance(p.dist)}${p.dist < 2.5 ? `<small>${walkMinutes(p.dist)} min walk</small>` : ""}</span>` : "";
   return `<li><a class="row" data-pid="${p.id}" href="#/place/${p.id}">
     <span class="dot" style="--c:${p.color}"></span>
@@ -73,7 +72,7 @@ function row(p) {
       <span class="name">${esc(p.name)}</span>
       <span class="sub">${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
       <span class="desc">${esc(p.main.desc)}</span>
-      ${detail.length || flags.length ? `<span class="tags">${[...detail, ...flags].map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
+      ${tags.length ? `<span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
     </span>${dist}</a></li>`;
 }
 

@@ -1,16 +1,24 @@
 /* global L */
-import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl } from "./util.js";
+import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, shortTags } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
-import { dayAnchor, catEmoji, isInstagram } from "./data.js";
+import { dayAnchor, isInstagram } from "./data.js";
+import { placeIcon } from "./icons.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
-let map, cluster, dayLayer, stayLayer, hereMarker, hereRing, sheet, root;
+let map, cluster, dayLayer, stayLayer, previewLayer, hereMarker, hereRing, sheet, root;
 let firstFix = true, started = false;
 const markers = new Map();
 let stickyPin = null;
+
+// The closer you zoom, the more each pin says: its name, then its name and tags, then a card
+// with a photo. Sizes are screen pixels, estimated, and only used to keep labels apart.
+const NAME_ZOOM = 15, TAGS_ZOOM = 17, PHOTO_ZOOM = 18, MAX_LABELS = 60;
+const CARD = { w: 156, h: 154 }, FOCUS = { w: 240, h: 300 };
+const previews = new Map();
+let shown = [], focusId = null, revealFocus = false;
 
 export function mountMap(el) {
   root = el;
@@ -48,12 +56,20 @@ function build() {
     .fitBounds(JAPAN);
   addBasemap(map);
   cluster = L.markerClusterGroup({
-    showCoverageOnHover: false, maxClusterRadius: 44, disableClusteringAtZoom: 16, spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false, maxClusterRadius: 44, disableClusteringAtZoom: NAME_ZOOM, spiderfyOnMaxZoom: true,
     iconCreateFunction: (c) => L.divIcon({ html: `<span>${c.getChildCount()}</span>`, className: "cluster", iconSize: [34, 34] }),
   }).addTo(map);
   stayLayer = L.layerGroup().addTo(map);
   dayLayer = L.layerGroup().addTo(map);
-  map.on("click", closeSheet);
+  // Cards sit under the pins so they never hide one; the tapped place's card sits over everything
+  map.createPane("previews").style.zIndex = 590;
+  map.createPane("focus").style.zIndex = 650;
+  previewLayer = L.layerGroup().addTo(map);
+  map.on("click", () => { closeSheet(); unfocus(); });
+  map.on("moveend", () => {
+    drawPreviews();
+    if (revealFocus) { revealFocus = false; keepFocusInView(); }
+  });
 
   onFilter(() => drawPlaces(true));
   onApp("date", () => { drawDay(); frame(); });
@@ -70,10 +86,10 @@ function build() {
 
 function pin(p) {
   const m = L.marker([p.lat, p.lng], {
-    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}">${catEmoji(p)}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }),
+    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}">${placeIcon(p)}</span>`, iconSize: [28, 28], iconAnchor: [14, 14] }),
     title: p.name, keyboard: true,
   });
-  m.on("click", (e) => { L.DomEvent.stopPropagation(e); openPlace(p); });
+  m.on("click", (e) => { L.DomEvent.stopPropagation(e); peek(p); });
   m.on("mouseover", () => emit("pinhover", { id: p.id, on: true }));
   m.on("mouseout", () => emit("pinhover", { id: p.id, on: false }));
   markers.set(p.id, m);
@@ -98,11 +114,129 @@ export function stickPin(id) {
 
 function drawPlaces(refit) {
   const pts = app.data.places.filter((p) => p.lat != null && matches(p));
+  shown = pts;
   cluster.clearLayers();
   markers.clear();
   cluster.addLayers(pts.map(pin));
   if (stickyPin && markers.has(stickyPin)) highlightPlace(stickyPin, true);
   if (refit && pts.length && !app.date) map.fitBounds(L.latLngBounds(pts.map((p) => [p.lat, p.lng])).pad(0.08), { maxZoom: 16 });
+  drawPreviews();
+}
+
+// Tapping a pin zooms in on it and opens its card above it, leaving room on screen for the card
+function peek(p) {
+  focusId = p.id;
+  closeSheet();
+  stickPin(p.id);
+  const z = Math.max(map.getZoom(), TAGS_ZOOM);
+  const lift = Math.min(110, map.getSize().y * 0.15);
+  revealFocus = true;
+  map.flyTo(map.unproject(map.project([p.lat, p.lng], z).subtract([0, lift]), z), z, { duration: 0.6 });
+  drawPreviews();
+}
+
+// Once the map settles, the tapped card can sit under the search and filter rows: nudge it clear
+function keepFocusInView() {
+  const card = previews.get(focusId)?.getElement()?.querySelector(".pv");
+  if (!card) return;
+  const dy = root.querySelector(".mapui.top").getBoundingClientRect().bottom + 8 - card.getBoundingClientRect().top;
+  if (dy > 0) map.panBy([0, -dy]);
+}
+
+function unfocus() {
+  if (!focusId) return;
+  focusId = null;
+  stickPin(null);
+  drawPreviews();
+}
+
+// Which pins get a label: the tapped one first, then those nearest the middle of the screen.
+// Each takes the most detailed label the zoom allows that doesn't cover another label or pin,
+// stepping down to a smaller one when it would; with no room even for its name it goes bare.
+function drawPreviews() {
+  if (!map) return;
+  const z = map.getZoom(), photos = app.data.thumbs, want = new Map();
+  if (z >= NAME_ZOOM) {
+    const size = map.getSize(), mid = size.divideBy(2), taken = [];
+    const cands = shown.map((p) => ({ p, pt: map.latLngToContainerPoint([p.lat, p.lng]) }))
+      .filter(({ pt }) => pt.x > -FOCUS.w && pt.x < size.x + FOCUS.w && pt.y > -40 && pt.y < size.y + FOCUS.h)
+      .sort((a, b) => (b.p.id === focusId) - (a.p.id === focusId) || a.pt.distanceTo(mid) - b.pt.distanceTo(mid));
+    const hits = (box, o) => box.l < o.r && box.r > o.l && box.t < o.b && box.b > o.t;
+    const pins = cands.map(({ pt }) => ({ l: pt.x - 13, r: pt.x + 13, t: pt.y - 13, b: pt.y + 13, pt }));
+    for (const { p, pt } of cands) {
+      const tiers = p.id === focusId ? ["focus"] :
+        ["photo", "tags", "name"].filter((t) => (t !== "photo" || (z >= PHOTO_ZOOM && photos[p.id])) && (t !== "tags" || z >= TAGS_ZOOM));
+      for (const tier of tiers) {
+        const box = labelBox(p, pt, tier);
+        if (tier !== "focus" && (taken.some((o) => hits(box, o)) || pins.some((o) => o.pt !== pt && hits(box, o)))) continue;
+        taken.push(box);
+        want.set(p.id, tier);
+        break;
+      }
+      if (want.size >= MAX_LABELS) break;
+    }
+  }
+  for (const [id, m] of previews) {
+    if (want.get(id) !== m.tier) { previewLayer.removeLayer(m); previews.delete(id); }
+  }
+  for (const [id, tier] of want) {
+    if (!previews.has(id)) { const m = previewMarker(app.data.byId[id], tier); previews.set(id, m); previewLayer.addLayer(m); }
+  }
+}
+
+// Where a label would sit on screen. Name and tag labels hang under the pin, cards stand above it.
+function labelBox(p, pt, tier) {
+  if (tier === "focus" || tier === "photo") {
+    const { w, h } = tier === "focus" ? FOCUS : CARD;
+    return { l: pt.x - w / 2, r: pt.x + w / 2, t: pt.y - 16 - h, b: pt.y - 10 };
+  }
+  const chars = tier === "tags" ? Math.max(p.name.length, labelTags(p).join(" · ").length * 0.85) : p.name.length;
+  const w = Math.min(tier === "tags" ? 180 : 150, chars * 7 + 18), h = tier === "tags" ? 38 : 22;
+  return { l: pt.x - w / 2, r: pt.x + w / 2, t: pt.y + 12, b: pt.y + 14 + h };
+}
+
+const labelTags = (p) => [p.categories[0], ...shortTags(p).slice(0, 1)];
+
+function previewMarker(p, tier) {
+  const focus = tier === "focus", card = focus || tier === "photo";
+  const photo = card && app.data.thumbs[p.id];
+  const l = p.main;
+  let html;
+  if (!card) {
+    html = `<div class="pl" style="--c:${p.color}"><b>${esc(p.name)}</b>${tier === "tags" ? `<small>${esc(labelTags(p).join(" · "))}</small>` : ""}</div>`;
+  } else {
+    const tags = focus ? [p.categories[0], ...shortTags(p)].slice(0, 4) : labelTags(p).slice(0, 1);
+    const day = app.date && app.data.trip?.dayByDate[app.date];
+    const item = focus && day?.items.find((i) => i.place === p.id);
+    html = `<div class="pv${focus ? " on" : ""}" style="--c:${p.color}">
+    ${photo ? `<img src="${esc(photo.src)}" alt="" onerror="this.remove()">` : ""}
+    ${focus ? `<p class="kicker">${esc(p.area)}</p>` : ""}
+    <b>${esc(p.name)}</b>
+    ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
+    <span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>
+    ${focus ? `<p class="desc">${esc(l.desc)}</p>
+      ${p.precision === "area" ? `<p class="meta warn">Pin shows the area only; check the address before you go.</p>` : ""}
+      ${distLine(p)}
+      ${photo?.credit ? `<p class="credit">Photo: ${esc(photo.credit)}</p>` : ""}
+      <div class="actions">
+        <a class="btn primary" href="#/place/${p.id}">Details</a>
+        <a class="btn" href="${esc(directionsUrl(p) || l.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
+        ${l.url ? `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${isInstagram(l.url) ? "Instagram" : "Website"} ↗</a>` : ""}
+      </div>` : ""}
+  </div>`;
+  }
+  const m = L.marker([p.lat, p.lng], {
+    pane: focus ? "focus" : "previews", keyboard: false,
+    icon: L.divIcon({ className: "preview", html, iconSize: [0, 0], iconAnchor: [0, 0] }),
+  });
+  m.tier = tier;
+  m.on("click", (e) => {
+    L.DomEvent.stopPropagation(e);
+    if (e.originalEvent.target.closest("a")) return;
+    if (focus) location.hash = `#/place/${p.id}`;
+    else peek(p);
+  });
+  return m;
 }
 
 const STAY_ICON = {
@@ -132,7 +266,7 @@ function drawDay() {
     n += 1;
     L.marker([it.lat, it.lng], {
       icon: L.divIcon({ className: "stop", html: `<span>${n}</span>`, iconSize: [26, 26] }), zIndexOffset: 900, title: it.title,
-    }).on("click", (e) => { L.DomEvent.stopPropagation(e); it.placeObj ? openPlace(it.placeObj, it) : openItem(it, day); }).addTo(dayLayer);
+    }).on("click", (e) => { L.DomEvent.stopPropagation(e); it.placeObj ? peek(it.placeObj) : openItem(it, day); }).addTo(dayLayer);
   }
 }
 
@@ -194,28 +328,6 @@ function distLine(p) {
   return `<span class="dist">${formatDistance(km)} away${km < 2.5 ? ` · ${walkMinutes(km)} min walk` : ""}</span>`;
 }
 
-export function openPlace(p, item, pan = true) {
-  const l = p.main;
-  sheet.innerHTML = `
-    <button type="button" class="close" aria-label="Close">×</button>
-    <p class="kicker"><span class="dot" style="--c:${p.color}"></span>${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}</p>
-    <h2>${esc(p.name)}</h2>
-    ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
-    <p class="desc">${esc(l.desc)}</p>
-    <p class="meta">${esc(l.address)}${l.info ? ` · ${esc(l.info)}` : ""}</p>
-    ${p.geoNote ? `<p class="meta geonote">${esc(p.geoNote)}</p>` : ""}
-    ${p.precision === "area" ? `<p class="meta warn">Pin shows the area only; check the address before you go.</p>` : ""}
-    ${distLine(p)}
-    <div class="actions">
-      <a class="btn primary" href="#/place/${p.id}">Details</a>
-      ${l.url ? `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${isInstagram(l.url) ? "Instagram" : "Website"} ↗</a>` : ""}
-      <a class="btn" href="${esc(directionsUrl(p) || l.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
-    </div>`;
-  sheet.hidden = false;
-  stickPin(p.id);
-  if (pan) map.panTo([p.lat, p.lng], { animate: true });
-}
-
 function openStay(s) {
   sheet.innerHTML = `
     <button type="button" class="close" aria-label="Close">×</button>
@@ -253,14 +365,18 @@ function closeSheet() {
 export function focusPlace(p) {
   showMap();
   // Jump without animating: a long animated zoom can be cut short by the map's first layout
-  map.setView([p.lat, p.lng], 16, { animate: false });
-  openPlace(p, null, false);
+  focusId = p.id;
+  closeSheet();
+  stickPin(p.id);
+  revealFocus = true;
+  map.setView([p.lat, p.lng], TAGS_ZOOM, { animate: false });
+  drawPreviews();
 }
 
 // The place page is up on the left: bring its pin into view without opening the sheet
 export function revealPlace(p) {
   if (!started || !map) return;
-  if (!p) { if (sheet.hidden) stickPin(null); return; }
+  if (!p) { if (sheet.hidden && !focusId) stickPin(null); return; }
   // Far out, the pin is buried in a cluster: zoom to it. Nearby, just nudge the view.
   const z = Math.max(map.getZoom(), 13);
   map.setView([p.lat, p.lng], z, { animate: true });
