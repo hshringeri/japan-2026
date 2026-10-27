@@ -4,8 +4,7 @@ import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
-import { dayAnchor, isInstagram } from "./data.js";
-import { placeIcon } from "./icons.js";
+import { dayAnchor, catEmoji, isInstagram } from "./data.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
 let map, cluster, dayLayer, stayLayer, previewLayer, hereMarker, hereRing, sheet, root;
@@ -86,7 +85,7 @@ function build() {
 
 function pin(p) {
   const m = L.marker([p.lat, p.lng], {
-    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}">${placeIcon(p)}</span>`, iconSize: [28, 28], iconAnchor: [14, 14] }),
+    icon: L.divIcon({ className: "pin" + (p.precision === "area" ? " approx" : ""), html: `<span style="--c:${p.color}">${catEmoji(p)}</span>`, iconSize: [28, 28], iconAnchor: [14, 14] }),
     title: p.name, keyboard: true,
   });
   m.on("click", (e) => { L.DomEvent.stopPropagation(e); peek(p); });
