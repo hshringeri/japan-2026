@@ -29,17 +29,17 @@ button { font: inherit; color: inherit; }
 #view-guide { right: 0; width: auto; overflow-y: auto; z-index: 5; }
 
 .viewhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: calc(12px + env(safe-area-inset-top)) 16px 6px; }
-.viewhead h1 { font: 700 24px/1.1 var(--sans); letter-spacing: -.01em; margin: 0; }
+.viewhead h1 { font: 900 26px/1 var(--sans); text-transform: uppercase; letter-spacing: -.03em; margin: 0; }
 .viewhead .who { margin: 0; color: var(--mute); font-size: 12px; text-align: right; }
-.iconbtn, .back { border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 7px 14px; font: 500 14px var(--sans); color: var(--blue-ink); text-decoration: none; cursor: pointer; }
-.back { border: 0; padding: 6px 0; font-size: 15px; background: none; }
+.iconbtn, .back { border: 2px solid var(--ink); background: none; padding: 6px 10px; font: 700 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; cursor: pointer; }
+.back { border: 0; padding: 6px 0; font-size: 15px; letter-spacing: 0; text-transform: none; }
 
 /* Tab bar along the bottom, like Google Maps: the current tab's icon sits in a tinted pill */
-.tabbar { position: fixed; left: 0; bottom: 0; width: var(--panel-w); height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom); background: var(--card); box-shadow: 0 -1px 0 var(--rule), 0 -2px 6px rgba(60, 64, 67, .06); display: grid; grid-template-columns: 1fr 1fr 1fr; z-index: 10; }
-.tabbar a { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: var(--mute); text-decoration: none; font: 500 12px var(--sans); }
-.tabbar svg { width: 56px; height: 30px; padding: 4px 17px; border-radius: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
-.tabbar a[aria-current="page"] { color: var(--blue-ink); font-weight: 600; }
-.tabbar a[aria-current="page"] svg { background: var(--blue-soft); }
+.tabbar { position: fixed; left: 0; bottom: 0; width: var(--panel-w); height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom); background: var(--ink); display: grid; grid-template-columns: 1fr 1fr 1fr; z-index: 10; }
+.tabbar a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: #b9b0a2; text-decoration: none; font: 700 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.tabbar svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.tabbar a[aria-current="page"] { color: #fff; }
+.tabbar a[aria-current="page"] svg { stroke: var(--accent); }
 
 /* Search, filters and dates. On the list they sit in the page; on the map they float. */
 .stick { position: sticky; top: 0; z-index: 3; background: var(--paper); padding: 8px 0 10px; border-bottom: 1px solid var(--rule); }
@@ -180,21 +180,21 @@ body.dates-off .datestrip { display: none; }
 .kicker .dot { margin: 0; }
 .sheet .desc { font: 15px/1.45 var(--serif); margin: 0 0 6px; }
 .meta { font-size: 13px; color: var(--mute); margin: 0 0 4px; }
-.meta a { color: var(--blue-ink); }
-.warn { color: #b3261e; font-size: 12.5px; }
-.planned { background: #fce8e6; color: #a50e0e; font: 500 13px var(--sans); padding: 6px 10px; margin: 6px 0; border-radius: 8px; }
+.meta a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule); }
+.warn { color: var(--accent); font-size: 12.5px; }
+.planned { background: var(--accent); color: #fff; font: 700 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 4px 8px; margin: 6px 0; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.btn { flex: 1 1 auto; text-align: center; padding: 9px 14px; border: 1px solid var(--line); border-radius: 20px; text-decoration: none; font: 500 14px var(--sans); color: var(--blue-ink); background: var(--card); }
-.btn.primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+.btn { flex: 1 1 auto; text-align: center; padding: 11px 14px; border: 2px solid var(--ink); text-decoration: none; font: 800 13px var(--sans); text-transform: uppercase; letter-spacing: .05em; background: var(--card); }
+.btn.primary { background: var(--ink); color: var(--paper); }
 
 /* Place detail */
 .place { padding: 0 16px; }
-.crumbs { margin: 4px 0 0; font: 500 13px var(--sans); color: var(--mute); }
-.crumbs button { border: 0; background: none; padding: 0; font: inherit; color: var(--blue-ink); cursor: pointer; }
-.place h1 { font: 600 28px/1.15 var(--sans); letter-spacing: -.01em; margin: 6px 0 8px; }
+.crumbs { margin: 4px 0 0; font: 700 12px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--mute); }
+.crumbs button { border: 0; background: none; padding: 0; font: inherit; color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule); cursor: pointer; }
+.place h1 { font: 900 32px/1.02 var(--sans); letter-spacing: -.03em; margin: 6px 0 8px; }
 .kinds { display: flex; gap: 6px; margin: 0 0 10px; }
-.kind { border: 0; border-radius: 14px; background: var(--c); color: #fff; font: 500 13px var(--sans); padding: 5px 12px; cursor: pointer; }
-.listing h2 { font: 500 13px var(--sans); color: var(--mute); border-top: 1px solid var(--rule); padding-top: 12px; margin: 16px 0 6px; }
+.kind { border: 0; background: var(--c); color: #fff; font: 800 11px var(--sans); text-transform: uppercase; letter-spacing: .08em; padding: 4px 8px; cursor: pointer; }
+.listing h2 { font: 800 12px var(--sans); text-transform: uppercase; letter-spacing: .14em; border-top: 3px solid var(--ink); padding-top: 8px; margin: 14px 0 6px; }
 .listing .desc { font: 17px/1.5 var(--serif); margin: 0 0 8px; }
 .listing .meta { font-size: 14px; line-height: 1.45; }
 .ja { font-size: 14px; margin: 8px 0; }
@@ -266,10 +266,8 @@ body.dates-off .datestrip { display: none; }
 /* Wide screens: list or plan on the left, map always on the right */
 @media (min-width: 960px) {
   :root { --panel-w: 440px; --tab-h: 0px; }
-  .tabbar { top: 0; bottom: auto; height: 52px; padding: 0; z-index: 10; box-shadow: 0 1px 0 var(--rule); }
-  .tabbar a { flex-direction: row; gap: 8px; font-size: 14px; }
-  .tabbar svg, .tabbar a[aria-current="page"] svg { width: 22px; height: 22px; padding: 0; background: none; }
-  .tabbar a[aria-current="page"]::after { content: ""; position: absolute; left: 22%; right: 22%; bottom: 0; height: 3px; border-radius: 3px 3px 0 0; background: var(--blue); }
+  .tabbar { top: 0; bottom: auto; height: 52px; padding: 0; z-index: 10; }
+  .tabbar a { flex-direction: row; gap: 8px; }
   .viewhead { padding-top: 12px; }
   .tabbar a[data-tab="map"] { display: none; }
   .tabbar { grid-template-columns: 1fr 1fr; }
