@@ -147,6 +147,10 @@
   "src": "img/thumbs/tokyo-business-as-usual.jpg",
   "credit": "ar.inspiredpencil.com"
  },
+ "tokyo-what-z-up": {
+  "src": "img/thumbs/tokyo-what-z-up.jpg",
+  "credit": "uploads-ssl.webflow.com"
+ },
  "tokyo-straight-from-l-a": {
   "src": "img/thumbs/tokyo-straight-from-l-a.jpg",
   "credit": "www.flightsfrom.com"
@@ -157,7 +161,7 @@
  },
  "tokyo-archive-store": {
   "src": "img/thumbs/tokyo-archive-store.jpg",
-  "credit": "sabukaru.online"
+  "credit": "archivestore.jp"
  },
  "tokyo-laila-tokio": {
   "src": "img/thumbs/tokyo-laila-tokio.jpg",
@@ -359,6 +363,10 @@
   "src": "img/thumbs/tokyo-cafe-game-bar-kotobuki.jpg",
   "credit": "joypark-pv.com"
  },
+ "tokyo-olgou": {
+  "src": "img/thumbs/tokyo-olgou.jpg",
+  "credit": "instagram.com/olgou_nakameguro"
+ },
  "tokyo-carrefour": {
   "src": "img/thumbs/tokyo-carrefour.jpg",
   "credit": "orders.bellecheese.com"
@@ -559,6 +567,10 @@
   "src": "img/thumbs/tokyo-nismo-festival.jpg",
   "credit": "global.nissannews.com"
  },
+ "tokyo-tokyo-auto-salon-2027": {
+  "src": "img/thumbs/tokyo-tokyo-auto-salon-2027.jpg",
+  "credit": "www.motaauto.com"
+ },
  "tokyo-mountain-research-anachronorm": {
   "src": "img/thumbs/tokyo-mountain-research-anachronorm.jpg",
   "credit": "thecoolhunter.net"
@@ -583,6 +595,10 @@
   "src": "img/thumbs/osaka-daily-dose-quality-stuff.jpg",
   "credit": "hypebeast.com"
  },
+ "osaka-copyart-collective": {
+  "src": "img/thumbs/osaka-copyart-collective.jpg",
+  "credit": "eyescream.jp"
+ },
  "osaka-rroomm-mens": {
   "src": "img/thumbs/osaka-rroomm-mens.jpg",
   "credit": "men.rroomm.jp"
@@ -594,6 +610,10 @@
  "osaka-nnuudd": {
   "src": "img/thumbs/osaka-nnuudd.jpg",
   "credit": "qui.tokyo"
+ },
+ "osaka-404vintage": {
+  "src": "img/thumbs/osaka-404vintage.jpg",
+  "credit": "instagram.com/404vintage_official"
  },
  "osaka-giant-baby": {
   "src": "img/thumbs/osaka-giant-baby.jpg",
@@ -622,6 +642,10 @@
  "osaka-jizhoh-osaka": {
   "src": "img/thumbs/osaka-jizhoh-osaka.jpg",
   "credit": "cash.aklass.org"
+ },
+ "osaka-iruse": {
+  "src": "img/thumbs/osaka-iruse.jpg",
+  "credit": "instagram.com/newiruse2"
  },
  "osaka-kame-kichi-shinsaibashi": {
   "src": "img/thumbs/osaka-kame-kichi-shinsaibashi.jpg",
@@ -666,6 +690,10 @@
  "osaka-king-cobra": {
   "src": "img/thumbs/osaka-king-cobra.jpg",
   "credit": "x.com"
+ },
+ "osaka-pangea": {
+  "src": "img/thumbs/osaka-pangea.jpg",
+  "credit": "portla-mag.com"
  },
  "osaka-club-stomp": {
   "src": "img/thumbs/osaka-club-stomp.jpg",
@@ -750,6 +778,10 @@
  "osaka-izakaya-toyo": {
   "src": "img/thumbs/osaka-izakaya-toyo.jpg",
   "credit": "www.istockphoto.com"
+ },
+ "osaka-fukumasa": {
+  "src": "img/thumbs/osaka-fukumasa.jpg",
+  "credit": "instagram.com/fukumusume777"
  },
  "osaka-nonkiya": {
   "src": "img/thumbs/osaka-nonkiya.jpg",
@@ -838,6 +870,10 @@
  "osaka-hinode-yu": {
   "src": "img/thumbs/osaka-hinode-yu.jpg",
   "credit": "www.timeout.com"
+ },
+ "osaka-ofuroya-wako-wako-yokujo": {
+  "src": "img/thumbs/osaka-ofuroya-wako-wako-yokujo.jpg",
+  "credit": "www.ofuroya-wako.com"
  },
  "osaka-hamura-onsen": {
   "src": "img/thumbs/osaka-hamura-onsen.jpg",
@@ -979,6 +1015,10 @@
   "src": "img/thumbs/kyoto-number-seven.jpg",
   "credit": "wwd.com"
  },
+ "kyoto-lloomm-kyoto": {
+  "src": "img/thumbs/kyoto-lloomm-kyoto.jpg",
+  "credit": "lloomm.jp"
+ },
  "kyoto-twelve-kyoto": {
   "src": "img/thumbs/kyoto-twelve-kyoto.jpg",
   "credit": "ar.inspiredpencil.com"
@@ -1002,6 +1042,10 @@
  "kyoto-coil": {
   "src": "img/thumbs/kyoto-coil.jpg",
   "credit": "jp.pinterest.com"
+ },
+ "kyoto-n-ed": {
+  "src": "img/thumbs/kyoto-n-ed.jpg",
+  "credit": "instagram.com/need_kyoto_"
  },
  "kyoto-ruchiklu-antique-watches": {
   "src": "img/thumbs/kyoto-ruchiklu-antique-watches.jpg",
@@ -1035,6 +1079,10 @@
   "src": "img/thumbs/kyoto-roka.jpg",
   "credit": "lovepik.com"
  },
+ "kyoto-s-pod": {
+  "src": "img/thumbs/kyoto-s-pod.jpg",
+  "credit": "instagram.com/s_podkyoto"
+ },
  "kyoto-octave-kyoto": {
   "src": "img/thumbs/kyoto-octave-kyoto.jpg",
   "credit": "www.facebook.com"
@@ -1046,6 +1094,10 @@
  "kyoto-yamatoya": {
   "src": "img/thumbs/kyoto-yamatoya.jpg",
   "credit": "kafkanahito.com"
+ },
+ "kyoto-tamon": {
+  "src": "img/thumbs/kyoto-tamon.jpg",
+  "credit": "tamon-kyoto.com"
  },
  "kyoto-jazz-in-rokudenashi": {
   "src": "img/thumbs/kyoto-jazz-in-rokudenashi.jpg",
@@ -1171,6 +1223,10 @@
   "src": "img/thumbs/kyoto-kurama-onsen.jpg",
   "credit": "www.tripadvisor.com"
  },
+ "kyoto-kamogawa-yu": {
+  "src": "img/thumbs/kyoto-kamogawa-yu.jpg",
+  "credit": "instagram.com/kamogawayu"
+ },
  "kyoto-kaikan-bars": {
   "src": "img/thumbs/kyoto-kaikan-bars.jpg",
   "credit": "www.wineenthusiast.com"
@@ -1254,6 +1310,10 @@
  "kyoto-kyosaimi-nomura-karasuma-honten": {
   "src": "img/thumbs/kyoto-kyosaimi-nomura-karasuma-honten.jpg",
   "credit": "foodle.pro"
+ },
+ "kyoto-teuchi-soba-kanei": {
+  "src": "img/thumbs/kyoto-teuchi-soba-kanei.jpg",
+  "credit": "instagram.com/kanei_soba"
  },
  "kyoto-kyoto-curry-seisakusho-kariru": {
   "src": "img/thumbs/kyoto-kyoto-curry-seisakusho-kariru.jpg",
