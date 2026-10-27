@@ -29,7 +29,7 @@ To add an Airbnb address, find the stay in `data/trip.json` and fill in `address
 
 To change the plan, edit the `items` for that day in `data/trip.json`. An item with a `time` ("14:30") feeds the Now / Next card. `status` can be `"booked"` or `"tbd"`. Setting `"place": "<id>"` links an item to a guide place by its id from `data/places.json`.
 
-To add a guide place, add it to `data/places.json` with `lat` and `lng`, then run `python3 tools/tag.py`.
+To add a guide place, add it to `data/places.json` with `lat` and `lng`, then run `python3 tools/tag.py`. A place that wasn't in the original guide also gets `"source": "maps"` (or wherever it came from), so `tools/check.py` leaves it out of the byte-for-byte rebuild. Its cuisine goes in the `CUISINE` table in `tools/tag.py`.
 
 ## Tools
 

@@ -26,6 +26,8 @@ KIND_OF = {cat: k for k, _, cats in KINDS for cat in cats}
 
 CUISINE = {
     "tokyo": {
+        "Sobahouse Konjiki Hototogisu": ["Ramen"], "The Pizza Bar on 38th": ["Pizza"],
+        "Tonkatsu Marushichi Ginza": ["Tonkatsu"], "Cloud Club Matcha": ["Matcha", "Cafe"], "Menchirashi": ["Udon"],
         "Yakitori Taisho (Honten)": ["Yakitori"], "Shimonya Koenji": ["Yakitori", "Motsu"],
         "AIMU": ["Pancakes", "Cafe"], "flour+water Shimokitazawa": ["Bakery", "Pancakes"],
         "nephew": ["Cafe"], "PATH": ["Pancakes", "Cafe"], "Fuunji": ["Ramen"], "Tamawarai": ["Soba"],

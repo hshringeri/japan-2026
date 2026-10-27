@@ -11549,5 +11549,192 @@
   "neighbourhood": "Kitano Tenmangu",
   "ward": "Kamigyo",
   "area": "Kamigyo & Nishijin"
+ },
+ {
+  "id": "tokyo-sobahouse-konjiki-hototogisu",
+  "city": "tokyo",
+  "name": "Sobahouse Konjiki Hototogisu",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "Michelin-starred ramen across from Shinjuku Gyoen; the shoyu soba layers pork, wa-dashi and clam broths under truffle sauce and porcini oil.",
+    "address": "2-4-1 Shinjuku, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sobahouse%20Konjiki%20Hototogisu%202-4-1%20Shinjuku%2C%20Shinjuku%2C%20Tokyo",
+    "info": "¥ (~¥1,100 a bowl) · Mon–Fri 11:00–15:00 & 18:30–21:00, closed Sat & Sun · no reservations; numbered tickets handed out from 9:30 for lunch and 17:30 for dinner"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Ramen"
+   ],
+   "flags": [
+    "Walk-in",
+    "Michelin"
+   ]
+  },
+  "lat": 35.688667,
+  "lng": 139.708267,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿2-4-1",
+  "neighbourhood": "Shinjuku 2-chome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-the-pizza-bar-on-38th",
+  "city": "tokyo",
+  "name": "The Pizza Bar on 38th",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.mandarinoriental.com/en/tokyo/nihonbashi/dine/the-pizza-bar-on-38th",
+    "desc": "Eight counter seats on the 38th floor of the Mandarin Oriental, with a Michelin listing and an evening omakase course.",
+    "address": "38F Mandarin Oriental Tokyo, 2-1-1 Nihonbashi-Muromachi, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The%20Pizza%20Bar%20on%2038th%2038F%20Mandarin%20Oriental%20Tokyo%2C%202-1-1%20Nihonbashi-Muromachi%2C%20Chuo%2C%20Tokyo",
+    "info": "¥¥¥¥ (omakase from ¥17,600 plus 15% service) · lunch and dinner, hours vary by source · book ahead by email to motyo-fbres@mohg.com"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Pizza"
+   ],
+   "flags": [
+    "Book ahead",
+    "Michelin"
+   ]
+  },
+  "lat": 35.686001,
+  "lng": 139.772644,
+  "precision": "building",
+  "addressJa": "東京都中央区日本橋室町2-1-1",
+  "neighbourhood": "Nihonbashi-Muromachi",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-tonkatsu-marushichi-ginza",
+  "city": "tokyo",
+  "name": "Tonkatsu Marushichi Ginza",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A small tonkatsu counter at the Shimbashi end of Ginza where the sets often sell out, so go early.",
+    "address": "8-15-5 Ginza, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tonkatsu%20Marushichi%20Ginza%208-15-5%20Ginza%2C%20Chuo%2C%20Tokyo",
+    "info": "¥¥ · 11:00–14:00 & 17:00–20:00, closed Sun · cash only"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Tonkatsu"
+   ],
+   "flags": [
+    "Cash only"
+   ]
+  },
+  "lat": 35.666161,
+  "lng": 139.763672,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座8-15-5",
+  "neighbourhood": "Ginza 8-chome",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-cloud-club-matcha",
+  "city": "tokyo",
+  "name": "Cloud Club Matcha",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A matcha tea stand near Higashi-Ginza Station; its matcha ice cream made Tabelog's 2023 top 100 for ice cream and gelato.",
+    "address": "Higashi-Ginza Building 1F, 8-18-4 Ginza, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cloud%20Club%20Matcha%20Higashi-Ginza%20Building%201F%2C%208-18-4%20Ginza%2C%20Chuo%2C%20Tokyo",
+    "info": "¥ (~¥1,000–2,000) · cards accepted"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ]
+  },
+  "lat": 35.666161,
+  "lng": 139.765121,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座8-18-4",
+  "neighbourhood": "Ginza 8-chome",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-menchirashi",
+  "city": "tokyo",
+  "name": "Menchirashi",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "House-made udon, tempura fried to order and onigiri in an alley off Cat Street; start with the kake udon.",
+    "address": "Grand Om 1F, 6-13-7 Jingumae, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Menchirashi%20Grand%20Om%201F%2C%206-13-7%20Jingumae%2C%20Shibuya%2C%20Tokyo",
+    "info": "¥ (most udon under ¥1,000) · 11:30–22:00 daily · expect a line at peak times"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Udon"
+   ]
+  },
+  "lat": 35.666534,
+  "lng": 139.705093,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前6-13-7",
+  "neighbourhood": "Jingumae",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
  }
 ]
