@@ -1,92 +1,21 @@
+import { japanTime, openState as openAt, hoursOn, WEEK, WEEK_NAME, weekdayOf } from "./hours.js";
+
+export { distanceKm, nearestKm, formatDistance, walkMinutes, mapsUrl, directionsUrl } from "./geo.js";
+export { hoursOn, weekRows, toMinutes } from "./hours.js";
+export { fold } from "./fold.js";
+
 export const $ = (sel, root = document) => root.querySelector(sel);
 export const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#x27;" };
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ESC[c]);
 
-// Lowercase, strip accents and punctuation so "Shimo-kita" finds "Shimokitazawa"
-export const fold = (s) =>
-  String(s ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9぀-鿿]+/g, "");
-
-export function distanceKm(a, b) {
-  if (!a || !b || a.lat == null || b.lat == null) return null;
-  const r = Math.PI / 180;
-  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
-  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLng / 2) ** 2;
-  return 12742 * Math.asin(Math.sqrt(h));
-}
-
-// Distance from a place to an anchor that may be several points (a day's stops)
-export const nearestKm = (anchor, p) =>
-  anchor?.points ? Math.min(...anchor.points.map((q) => distanceKm(q, p))) : distanceKm(anchor, p);
-
-export function formatDistance(km) {
-  if (km == null) return "";
-  if (km < 1) return `${Math.round(km * 1000 / 10) * 10} m`;
-  if (km < 10) return `${km.toFixed(1)} km`;
-  return `${Math.round(km)} km`;
-}
-
-// Walking at ~4.5 km/h along streets that run ~1.3x the straight line
-export const walkMinutes = (km) => Math.round((km * 1.3) / 4.5 * 60);
-
-// The trip runs on Japan time whatever the phone is set to
-const JP = new Intl.DateTimeFormat("en-CA", {
-  timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit",
-  hour: "2-digit", minute: "2-digit", hourCycle: "h23",
-});
 // ?now=2026-11-20T22:30 pretends it's that moment in Japan, for checking the plan ahead of time
 const NOW = new URLSearchParams(location.search).get("now");
-export function japanNow(date = NOW ? new Date(NOW + "+09:00") : new Date()) {
-  const p = Object.fromEntries(JP.formatToParts(date).map((x) => [x.type, x.value]));
-  return { date: `${p.year}-${p.month}-${p.day}`, minutes: +p.hour * 60 + +p.minute, time: `${p.hour}:${p.minute}` };
-}
-
-// Opening hours, from data/hours.json. Times past midnight run on ("25:00" is 1 a.m. the next day).
-const WEEK = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-const WEEK_NAME = { sun: "Sun", mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat" };
-const clock = (min) => `${String(Math.floor(min / 60) % 24).padStart(2, "0")}:${String(min % 60).padStart(2, "0")}`;
-const weekdayOf = (iso) => new Date(iso + "T00:00:00Z").getUTCDay();
-const spans = (w, day) => (w[WEEK[(day + 7) % 7]] || []).map(([a, b]) => [toMinutes(a), toMinutes(b)]);
+export const japanNow = (date = NOW ? new Date(NOW + "+09:00") : new Date()) => japanTime(date);
 
 // Open or closed right now, Japan time: { label, cls } or null when there's nothing to say
-export function openState(p, now = japanNow()) {
-  const h = p.hours;
-  if (!h) return null;
-  if (h.kind === "closed") return { label: "Closed for good", cls: "gone" };
-  if (h.kind === "events") return { label: "Show nights", cls: "ev" };
-  if (h.kind === "irregular" || !h.week) return { label: "Hours vary", cls: "var" };
-  const day = weekdayOf(now.date), t = now.minutes;
-  // Still open from last night counts too
-  const open = [...spans(h.week, day).map(([a, b]) => [a, b]), ...spans(h.week, day - 1).map(([a, b]) => [a - 1440, b - 1440])]
-    .find(([a, b]) => a <= t && t < b);
-  if (open) {
-    if (open[1] - open[0] >= 1440) return { label: "Open 24 hours", cls: "open" };
-    return open[1] - t <= 60 ? { label: `Closes soon · ${clock(open[1])}`, cls: "soon" } : { label: `Open · until ${clock(open[1])}`, cls: "open" };
-  }
-  for (let d = 0; d < 8; d++) {
-    const next = spans(h.week, day + d).map(([a]) => a).filter((a) => d > 0 || a > t).sort((x, y) => x - y)[0];
-    if (next != null) return { label: `Closed · opens ${d === 0 ? "" : d === 1 ? "tomorrow " : WEEK_NAME[WEEK[(day + d) % 7]] + " "}${clock(next)}`, cls: "shut" };
-  }
-  return { label: "Closed", cls: "shut" };
-}
-
-// One day's hours as text, for looking ahead to a trip day
-export function hoursOn(p, iso) {
-  const h = p.hours;
-  if (!h?.week) return null;
-  const s = spans(h.week, weekdayOf(iso));
-  return s.length ? s.map(([a, b]) => `${clock(a)}–${clock(b)}`).join(", ") : "Closed";
-}
-
-// The week as rows for the place page, starting Monday
-export function weekRows(p, today) {
-  if (!p.hours?.week) return [];
-  return [1, 2, 3, 4, 5, 6, 0].map((d) => ({
-    day: WEEK_NAME[WEEK[d]], today: weekdayOf(today) === d,
-    hours: spans(p.hours.week, d).map(([a, b]) => `${clock(a)}–${clock(b)}`).join(", ") || "Closed",
-  }));
-}
+export const openState = (p, now = japanNow()) => openAt(p, now);
 
 // The hours chip: open or closed now, or that day's hours when looking ahead to another trip day
 export function hoursBadge(p, date) {
@@ -97,12 +26,6 @@ export function hoursBadge(p, date) {
   const s = openState(p, now);
   return s ? `<span class="hrs ${s.cls}">${esc(s.label)}</span>` : "";
 }
-
-export const toMinutes = (hhmm) => {
-  if (!hhmm) return null;
-  const [h, m] = hhmm.split(":").map(Number);
-  return h * 60 + (m || 0);
-};
 
 const DAY = new Intl.DateTimeFormat("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
 const WEEKDAY = new Intl.DateTimeFormat("en-GB", { weekday: "short", timeZone: "UTC" });
@@ -146,11 +69,6 @@ export function decodePolyline(str) {
 }
 
 export const formatDrive = (r) => `${r.km} km · about ${Math.floor(r.minutes / 60)} h${r.minutes % 60 ? ` ${r.minutes % 60} min` : ""} at the wheel`;
-
-export const mapsUrl = (p) =>
-  p.lat != null ? `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}` : null;
-export const directionsUrl = (p) =>
-  p.lat != null ? `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=transit` : null;
 
 // Japan's national mapping agency (GSI) standard colour basemap: free, no key, detailed to the block
 export const TILES = "https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png";

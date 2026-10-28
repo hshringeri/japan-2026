@@ -1,16 +1,21 @@
 import { esc, japanNow, toMinutes, formatDay, daysBetween, directionsUrl, formatDrive, storage } from "./util.js";
-import { app, onApp, setDate } from "./state.js";
+import { app, onApp, setDate, refreshPlan } from "./state.js";
+import { KIND_LABEL, attachSortables, isDragging, editItem, removeItem, addItem } from "./planedit.js";
+import { apiReady } from "./api.js";
 
-const KIND_LABEL = {
-  flight: "Flight", train: "Train", transfer: "Getting there", checkin: "Check in", checkout: "Check out",
-  food: "Food", sight: "See", shop: "Shop", activity: "Do", golf: "Golf", night: "Night out", note: "Note",
-};
-
-let root, timer;
+let root, timer, editing = false;
 
 export function mountPlan(el) {
   root = el;
   root.addEventListener("click", (e) => {
+    if (e.target.closest("[data-edit-toggle]")) { editing = !editing; render(); return; }
+    const add = e.target.closest("[data-add]");
+    if (add) { addItem(add.dataset.add); return; }
+    const rm = e.target.closest("[data-remove]");
+    if (rm) { removeItem(rm.dataset.remove); return; }
+    // Editing: tapping an item (not its handle) opens it
+    const it = editing && !e.target.closest(".grip") && e.target.closest(".item[data-id]");
+    if (it) { editItem(it.dataset.id); return; }
     const b = e.target.closest("[data-look]");
     if (!b) return;
     if (b.dataset.route) storage.set("routeShown", true);
@@ -18,13 +23,15 @@ export function mountPlan(el) {
     location.hash = "#/map";
   });
   onApp("data", render);
+  onApp("plan", render);
 }
 
 export function showPlan() {
   render();
+  refreshPlan();
   clearInterval(timer);
-  // Keep Now / Next current while the tab is open
-  timer = setInterval(render, 60000);
+  // Keep Now / Next current and pick up the others' edits while the tab is open
+  timer = setInterval(() => { render(); refreshPlan(); }, 60000);
 }
 
 // During the trip, today and what's ahead come first; earlier days fold away
@@ -38,6 +45,8 @@ function days(trip, now) {
 export const hidePlan = () => clearInterval(timer);
 
 function render() {
+  // A re-render mid-drag would drop the item being dragged
+  if (isDragging()) return;
   const trip = app.data?.trip;
   if (!trip) {
     root.innerHTML = `<header class="viewhead"><h1>Plan</h1></header><p class="empty">The trip plan hasn't been added yet.</p>`;
@@ -50,11 +59,18 @@ function render() {
   else if (now.date > last) top = `<section class="card hero"><h2>That's a wrap</h2><p>The trip ended ${esc(formatDay(last))}. Everything is still below.</p></section>`;
   else top = during(trip, now);
 
+  const scroll = root.scrollTop;
   root.innerHTML = `
-    <header class="viewhead"><h1>Plan</h1><p class="who">${esc(trip.people.join(" · "))}</p></header>
-    ${top}
+    <header class="viewhead"><h1>Plan</h1>
+      <p class="who">${esc(trip.people.join(" · "))}</p>
+      ${apiReady() ? `<button type="button" class="iconbtn${editing ? " on" : ""}" data-edit-toggle aria-pressed="${editing}">${editing ? "Done" : "Edit"}</button>` : ""}
+    </header>
+    ${editing ? `<p class="edithint">Drag <span class="grip-ico" aria-hidden="true">⠿</span> to reorder or move to another day. Tap an item to change it. Everyone sees your changes.</p>` : top}
     ${days(trip, now)}
     ${trip.open?.length ? `<section class="card open"><h2>Still to sort out</h2><ul>${trip.open.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></section>` : ""}`;
+  root.classList.toggle("editing", editing);
+  root.scrollTop = scroll;
+  if (editing) attachSortables(root);
 }
 
 function before(trip, now) {
@@ -101,6 +117,7 @@ function during(trip, now) {
 const fmtUntil = (m) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h ${m % 60 ? `${m % 60} min` : ""}`.trim());
 
 function item(i, day, big = false) {
+  if (editing && !big) return editRow(i);
   const href = i.placeObj ? `#/place/${i.placeObj.id}` : i.url;
   const ext = !i.placeObj && i.url;
   const title = href ? `<a href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>${esc(i.title)}${ext ? " ↗" : ""}</a>` : esc(i.title);
@@ -112,6 +129,18 @@ function item(i, day, big = false) {
         ${i.notes ? `<span class="n">${esc(i.notes)}</span>` : ""}
         ${i.lat != null ? `<a class="dir" href="${esc(directionsUrl(i))}" target="_blank" rel="noopener">Directions ↗</a>` : ""}
       </span></div>`;
+}
+
+// An item while editing: a handle to drag, the item, and a remove button
+function editRow(i) {
+  return `<div class="item edit${i.status === "tbd" ? " tbd" : ""}" data-id="${esc(i.id)}">
+      <span class="grip" aria-label="Drag to move">⠿</span>
+      <span class="what">
+        <span class="k">${i.time ? `${esc(i.time)}${i.end ? `–${esc(i.end)}` : ""} · ` : ""}${esc(KIND_LABEL[i.kind] || "")}${i.status === "booked" ? " · booked" : i.status === "tbd" ? " · TBD" : ""}</span>
+        <span class="t">${esc(i.title)}</span>
+      </span>
+      <button type="button" class="rm" data-remove="${esc(i.id)}" aria-label="Remove ${esc(i.title)}">×</button>
+    </div>`;
 }
 
 // A driving day: the whole drive in one row, with the line on the map and the route in Google Maps
@@ -140,7 +169,8 @@ function dayCard(d, now) {
       <p class="where">${esc(d.cityLabel || d.city)}${d.stayObj ? ` · sleeping at ${esc(d.stayObj.name)}` : ""}</p>
       <button type="button" class="look" data-look="${d.date}">See this day on the map</button>
     </header>
-    ${d.routeObj ? route(d) : ""}
-    ${d.items.map((i) => item(i, d)).join("")}
+    ${d.routeObj && !editing ? route(d) : ""}
+    <div class="items" data-date="${d.date}">${d.items.map((i) => item(i, d)).join("")}</div>
+    ${editing ? `<button type="button" class="additem" data-add="${d.date}">+ Add to ${esc(formatDay(d.date))}</button>` : ""}
   </li>`;
 }
