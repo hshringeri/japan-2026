@@ -1,0 +1,6 @@
+# Copy to worker/.dev.vars for local testing (that file is gitignored).
+# Production uses `npx wrangler secret put <NAME>` instead of any file.
+ANTHROPIC_API_KEY=paste-your-key-here
+TRIP_PASSCODE=pick-a-passcode
+# Read the data from your local server instead of GitHub Pages
+DATA_BASE=http://localhost:8000/

@@ -4,6 +4,8 @@ import { addBasemap } from "./basemap.js";
 import { setFilter } from "./filter.js";
 import { app, hereInJapan, listReturn } from "./state.js";
 import { KIND_EMOJI, catEmoji, isInstagram } from "./data.js";
+import { apiReady } from "./api.js";
+import { addItem } from "./planedit.js";
 
 let mini;
 
@@ -58,6 +60,7 @@ export function renderPlace(root, id) {
         ${p.main.url ? `<a class="btn primary" href="${esc(p.main.url)}" target="_blank" rel="noopener">${isInstagram(p.main.url) ? "Instagram" : "Website"} ↗</a>` : `<a class="btn primary" href="${esc(p.main.mapUrl)}" target="_blank" rel="noopener">Maps ↗</a>`}
         <a class="btn" href="${esc(directionsUrl(p) || p.main.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
         ${p.lat != null ? `<a class="btn" href="#/map/${p.id}">Show on map</a>` : ""}
+        ${apiReady() ? `<button type="button" class="btn" data-addplan>Add to plan</button>` : ""}
       </div>
       ${tagLinks ? `<div class="taglist"><h3>Tags</h3>${tagLinks}</div>` : ""}
       ${p.lat != null ? `<div class="minimap" aria-hidden="true"></div>` : ""}
@@ -75,6 +78,7 @@ export function renderPlace(root, id) {
       setFilter({ city: p.city, area: null, kind: kind ? kind[1] : null, category: null, q: "", tags: [b.dataset.tag] });
       location.hash = "#/list";
     }
+    if (b.dataset.addplan != null) addItem(undefined, p.id);
     if (b.dataset.copy) navigator.clipboard?.writeText(b.dataset.copy).then(() => (b.textContent = "Copied"));
   });
 

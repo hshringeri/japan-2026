@@ -85,6 +85,7 @@ function build() {
 
   onFilter(() => drawPlaces(true));
   onApp("date", () => { drawDay(); frame(); });
+  onApp("plan", drawDay);
   onApp("here", drawHere);
   drawStays();
   drawPlaces(false);

@@ -1,0 +1,14 @@
+#!/bin/sh
+# Refuse any commit that would add an Anthropic key or a local secrets file.
+# Turn it on once per clone: git config core.hooksPath .githooks
+
+if git diff --cached --name-only --diff-filter=ACMR | grep -E '(^|/)(\.dev\.vars|\.env)(\..*)?$' | grep -vE '\.example$' >/dev/null; then
+  echo "pre-commit: a .dev.vars or .env file is staged. Unstage it; secrets stay out of the repo." >&2
+  exit 1
+fi
+
+if git diff --cached -U0 --diff-filter=ACMR | grep -E '^\+' | grep -E 'sk-ant-[A-Za-z0-9_-]{8,}' >/dev/null; then
+  echo "pre-commit: the staged changes contain something that looks like an Anthropic key (sk-ant-...)." >&2
+  echo "Remove it, and if it was a real key, revoke it in the Anthropic Console." >&2
+  exit 1
+fi

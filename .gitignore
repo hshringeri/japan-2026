@@ -1,3 +1,14 @@
 .work/
 __pycache__/
 .DS_Store
+
+# Secrets: the Anthropic key and trip passcode live only in Cloudflare secrets
+# and, for local testing, in worker/.dev.vars. Never commit either.
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+.wrangler/
+node_modules/

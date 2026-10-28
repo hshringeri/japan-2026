@@ -1,0 +1,26 @@
+# The trip app's backend: holds the Anthropic key, the shared plan and the chat limits.
+#
+# NEVER put the Anthropic key or the trip passcode in this file. Everything here is committed
+# to a public repo. Secrets go in with `npx wrangler secret put ANTHROPIC_API_KEY` and
+# `npx wrangler secret put TRIP_PASSCODE`, or in worker/.dev.vars (gitignored) for local testing.
+
+name = "japan-2026"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Where the app's data files are read from. .dev.vars overrides it with http://localhost:8000/ for testing.
+DATA_BASE = "https://hshringeri.github.io/japan-2026/"
+ALLOWED_ORIGINS = "https://hshringeri.github.io,http://localhost:8000,http://127.0.0.1:8000"
+
+[[durable_objects.bindings]]
+name = "TRIP"
+class_name = "Trip"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Trip"]
+
+[observability]
+enabled = true

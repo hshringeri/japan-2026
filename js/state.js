@@ -1,9 +1,12 @@
 import { distanceKm, storage } from "./util.js";
 import { setFilter } from "./filter.js";
 import { dayAnchor, dayAreas } from "./data.js";
+import { prepareTrip } from "./trip.js";
+import { API } from "./config.js";
+import { fetchPlan, apiReady } from "./api.js";
 
 // App-wide state outside the filter: loaded data, the look-ahead date and your location
-export const app = { data: null, date: null, here: null, locating: false, locationError: null };
+export const app = { data: null, date: null, here: null, locating: false, locationError: null, planVersion: null };
 
 const listeners = {};
 export const onApp = (event, fn) => (listeners[event] ||= new Set()).add(fn);
@@ -61,3 +64,24 @@ export const locationWasAllowed = () => storage.get("locationAllowed", false);
 
 // Where the list was when you left it, so the place view's close button can put you back there
 export const listReturn = { hash: null, top: 0 };
+
+// The shared plan lives in the Worker; trip.json is only the starting point. Its items replace
+// trip.json's day by day, and the last copy is kept so the plan still shows offline.
+const PLAN_KEY = `plan:${API}`;
+export function applyPlan(live, { force = false } = {}) {
+  const trip = app.data?.trip;
+  if (!trip || !live?.items) return;
+  if (!force && app.planVersion != null && live.version <= app.planVersion) return;
+  for (const d of trip.days) if (live.items[d.date]) d.items = structuredClone(live.items[d.date]);
+  prepareTrip(trip, app.data.byId, app.data.routes);
+  app.planVersion = live.version;
+  storage.set(PLAN_KEY, { version: live.version, items: live.items });
+  emit("plan");
+}
+
+export const applySavedPlan = () => applyPlan(storage.get(PLAN_KEY, null));
+
+export async function refreshPlan() {
+  if (!apiReady()) return;
+  try { applyPlan(await fetchPlan()); } catch { /* offline or the server is down: keep what we have */ }
+}
