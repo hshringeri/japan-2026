@@ -1,34 +1,96 @@
 import { esc, formatDay, distanceKm, formatDistance, walkMinutes, directionsUrl, hoursBadge, storage } from "./util.js";
 import { app, onApp, startLocation, hereInJapan, refreshPlan } from "./state.js";
 import { sendChat, apiReady, passcode } from "./api.js";
-import { askPasscode, ensurePasscode } from "./sheet.js";
+import { askPasscode, ensurePasscode, openSheet } from "./sheet.js";
 import { runOps, defaultDay } from "./planedit.js";
 
 // The Ask tab: a chat with Claude about the trip. The Worker holds the key, checks every limit
 // and runs the tools; this side sends one message at a time and draws the streamed reply.
 
-const MAX_CHARS = 500;     // the Worker enforces the same number
-const MAX_TURNS = 12;
-const KEY = "chat";
+const MAX_CHARS = 2000;    // the Worker enforces the same number
+const KEPT = 40;           // chats saved on this phone
+const KEY = "chats";
 const SUGGEST = ["I'm hungry", "What's near us tomorrow?", "Weather this week", "Fit in an onsen on the 19th"];
 const TOOL_STATUS = {
   nearby: "Looking for places nearby…", get_weather: "Checking the weather…", travel_estimate: "Working out travel time…",
-  edit_plan: "Updating the plan…", get_day: "Reading the plan…",
+  edit_plan: "Updating the plan…", get_day: "Reading the plan…", summarize: "Catching up on the chat so far…",
 };
 
 let root, thread, form, input, daySel, locBtn, counter, sendBtn;
-let state = storage.get(KEY, null) || fresh();
 let busy = false, frame = 0;
 
+// Chats are saved on this phone only: { current, list: [{ id, title, created, updated, messages }] }.
+// The Worker keeps its own copy of each thread for 45 days, so an old chat can carry on.
+let store = loadStore();
+let state = store.list.find((c) => c.id === store.current) || fresh();
+
 function fresh() {
-  return { id: crypto.randomUUID(), messages: [], turns: 0, full: false };
+  return { id: crypto.randomUUID(), title: "", created: Date.now(), updated: Date.now(), messages: [] };
 }
-const save = () => storage.set(KEY, state);
+function titleOf(messages) {
+  return (messages.find((m) => m.role === "user")?.text || "New chat").slice(0, 80);
+}
+
+function loadStore() {
+  const s = storage.get(KEY, null);
+  if (s?.list) return s;
+  // The one chat kept before chats were saved as a list
+  const old = storage.get("chat", null);
+  const list = old?.messages?.length ? [{ id: old.id, title: titleOf(old.messages), created: Date.now(), updated: Date.now(), messages: old.messages }] : [];
+  return { current: list[0]?.id || null, list };
+}
+
+// Empty chats aren't kept; past the cap the oldest go first
+function save() {
+  state.updated = Date.now();
+  state.title = titleOf(state.messages);
+  store.list = [state, ...store.list.filter((c) => c.id !== state.id)].filter((c) => c.messages.length)
+    .sort((a, b) => b.updated - a.updated).slice(0, KEPT);
+  store.current = state.id;
+  storage.set(KEY, store);
+}
+
+function openChat(chat) {
+  state = chat;
+  store.current = chat.id;
+  storage.set(KEY, store);
+  render();
+  thread.scrollTop = thread.scrollHeight;
+}
+
+const when = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+
+function chatsSheet() {
+  const s = openSheet(`
+    <h2>Saved chats</h2>
+    <p class="hint">Kept on this phone only, newest first. Up to ${KEPT}.</p>
+    <ol class="chatlist"></ol>
+    <div class="sheetacts"><button value="cancel" formnovalidate class="btn">Close</button></div>`);
+  const list = s.el.querySelector(".chatlist");
+  const draw = () => {
+    list.innerHTML = store.list.length ? store.list.map((c) => `
+      <li${c.id === state.id ? ' class="on"' : ""}>
+        <button type="button" data-open="${esc(c.id)}"><b>${esc(c.title)}</b><small>${esc(when.format(c.updated))} · ${c.messages.filter((m) => m.role === "user").length} sent</small></button>
+        <button type="button" class="rm" data-del="${esc(c.id)}" aria-label="Delete this chat">×</button>
+      </li>`).join("") : `<li class="none">No saved chats yet.</li>`;
+  };
+  list.addEventListener("click", (e) => {
+    const o = e.target.closest("[data-open]"), d = e.target.closest("[data-del]");
+    if (o && !busy) { openChat(store.list.find((c) => c.id === o.dataset.open)); s.close("open"); }
+    if (d) {
+      store.list = store.list.filter((c) => c.id !== d.dataset.del);
+      if (state.id === d.dataset.del && !busy) { state = fresh(); render(); }
+      storage.set(KEY, store);
+      draw();
+    }
+  });
+  draw();
+}
 
 export function mountChat(el) {
   root = el;
   root.innerHTML = `
-    <header class="viewhead"><h1>Ask</h1><p class="who turns"></p><button type="button" class="iconbtn" data-new>New chat</button></header>
+    <header class="viewhead"><h1>Ask</h1><span class="headacts"><button type="button" class="iconbtn" data-chats>Chats</button><button type="button" class="iconbtn" data-new>New</button></span></header>
     <div class="thread" aria-live="polite"></div>
     <form class="composer" autocomplete="off">
       <div class="ctxrow">
@@ -52,10 +114,10 @@ export function mountChat(el) {
   root.querySelector("[data-new]").addEventListener("click", () => {
     if (busy) return;
     state = fresh();
-    save();
     render();
     input.focus();
   });
+  root.querySelector("[data-chats]").addEventListener("click", chatsSheet);
   form.addEventListener("submit", (e) => { e.preventDefault(); send(input.value); });
   input.addEventListener("input", syncInput);
   // Enter sends on a keyboard; Shift+Enter is a new line
@@ -73,8 +135,6 @@ export function mountChat(el) {
     if (s) { send(s.dataset.suggest); return; }
     const u = e.target.closest("[data-undo]");
     if (u) undo(+u.dataset.msg, +u.dataset.undo);
-    const n = e.target.closest("[data-new]");
-    if (n) root.querySelector(".viewhead [data-new]").click();
   });
 
   // The keyboard covers the bottom of the screen; keep the composer above it
@@ -116,15 +176,16 @@ function syncLocation() {
 function syncInput() {
   input.style.height = "auto";
   input.style.height = `${Math.min(input.scrollHeight, 140)}px`;
+  // No running count; just a note if a message goes past the limit
   const n = [...input.value].length;
-  counter.textContent = n > MAX_CHARS - 100 ? `${n} / ${MAX_CHARS}` : "";
+  counter.textContent = n > MAX_CHARS ? `That's ${n.toLocaleString("en")} characters. Keep it under ${MAX_CHARS.toLocaleString("en")}.` : "";
   counter.classList.toggle("over", n > MAX_CHARS);
-  sendBtn.disabled = busy || !input.value.trim() || n > MAX_CHARS || state.full;
+  sendBtn.disabled = busy || !input.value.trim() || n > MAX_CHARS;
 }
 
 async function send(raw) {
   const text = String(raw || "").trim();
-  if (!text || busy || state.full || [...text].length > MAX_CHARS) return;
+  if (!text || busy || [...text].length > MAX_CHARS) return;
   if (!apiReady()) return;
   if (!(await ensurePasscode())) return;
   busy = true;
@@ -141,8 +202,9 @@ async function send(raw) {
       if (event === "text") { reply.text += d.t; reply.status = null; }
       else if (event === "tool") reply.status = d.names.map((n) => TOOL_STATUS[n]).find(Boolean) || "Working…";
       else if (event === "plan") { reply.plan.push({ changes: d.changes, inverse: d.inverse }); refreshPlan(); }
-      else if (event === "done") { state.turns = d.turns; state.full = d.full; if (d.offTopic) reply.offTopic = true; }
-      else if (event === "error") { reply.error = d.message; if (d.code === "chat_full") state.full = true; }
+      else if (event === "note") state.messages.splice(state.messages.indexOf(reply), 0, { role: "note", text: d.text });
+      else if (event === "done") { if (d.offTopic) reply.offTopic = true; }
+      else if (event === "error") reply.error = d.message;
       paint();
     });
   } catch (e) {
@@ -156,7 +218,6 @@ async function send(raw) {
       return;
     }
     reply.error = e.message;
-    if (e.code === "chat_full") state.full = true;
   } finally {
     busy = false;
     reply.status = null;
@@ -184,7 +245,6 @@ function paint() {
 function render() {
   if (!thread) return;
   const nearBottom = thread.scrollHeight - thread.scrollTop - thread.clientHeight < 80;
-  root.querySelector(".turns").textContent = state.turns ? `${state.turns} of ${MAX_TURNS} messages` : "";
   if (!apiReady()) {
     thread.innerHTML = `<div class="hello"><p>The Ask tab needs the trip server. Once it's deployed, its address goes in <code>js/config.js</code>.</p></div>`;
     form.hidden = true;
@@ -192,22 +252,22 @@ function render() {
   }
   thread.innerHTML = state.messages.length ? state.messages.map(bubble).join("") : `
     <div class="hello">
-      <p>Ask anything about the trip. Answers use our plan and our guide, your location if it's on, and the day picked below. It can also move things around in the plan.</p>
+      <p>Ask anything about the trip or about Japan. Answers use our plan and our guide, your location if it's on, and the day picked below. It can also move things around in the plan.</p>
       <div class="suggest">${SUGGEST.map((s) => `<button type="button" class="chip" data-suggest="${esc(s)}">${esc(s)}</button>`).join("")}</div>
-      <p class="fine">Up to ${MAX_TURNS} messages per chat and ${MAX_CHARS} characters per message. It only answers questions about the trip.</p>
+      <p class="fine">Chats are saved on this phone; Chats opens the old ones. Long chats keep going, with the older messages summarized. It won't answer questions that aren't about the trip or Japan.</p>
     </div>`;
-  if (state.full) thread.insertAdjacentHTML("beforeend", `<div class="full"><p>This chat is full.</p><button type="button" class="btn primary" data-new>Start a new chat</button></div>`);
-  form.hidden = state.full;
+  form.hidden = false;
   syncInput();
   if (nearBottom || busy) thread.scrollTop = thread.scrollHeight;
 }
 
 function bubble(m, i) {
   if (m.role === "user") return `<div class="msg me"><p>${esc(m.text)}</p><small>${esc(formatDay(m.date))}</small></div>`;
+  if (m.role === "note") return `<p class="note">${esc(m.text)}</p>`;
   const streaming = busy && i === state.messages.length - 1;
   // Hide a half-written [[place:…]] marker until it's complete
   const text = streaming ? m.text.replace(/\[\[[^\]]*\]?$/, "") : m.text;
-  const date = state.messages[i - 1]?.date;
+  const date = state.messages.slice(0, i).reverse().find((x) => x.role === "user")?.date;
   return `<div class="msg ai${m.offTopic ? " off" : ""}">
     ${text ? md(text, date) : ""}
     ${m.status ? `<p class="status">${esc(m.status)}</p>` : ""}

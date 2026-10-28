@@ -63,26 +63,29 @@ Reordering stops on a driving day doesn't redraw its road line; run `python3 too
 
 ## The Ask tab
 
-A chat with Claude Sonnet 5.5 that knows our plan and our guide. Every request carries the guide's text, the house rules and all the places (cached on Anthropic's side for an hour, so repeat questions are cheap), plus the current plan, the time in Japan, the day picked in the chat and your location if it's on. It has these tools, all run inside the Worker:
+A chat with Claude Haiku 5.5 that knows our plan and our guide. Every request carries the guide's text, the house rules and all the places (cached on Anthropic's side for an hour, so repeat questions are cheap), plus the time in Japan, the day picked in the chat and your location if it's on. The plan goes along whenever it has changed since the chat last saw it. It has these tools, all run inside the Worker:
 
 - `nearby` ranks guide places and plan items by distance from you (or that day's stops before you're in Japan), says what's open from `data/hours.json`, and puts places already on the plan first among equals. This is what "I'm hungry" uses.
 - `get_day` reads one day of the plan in full.
 - `travel_estimate` gives walking time from street distance, driving time from the public OSRM router, and a rough train time. Every place it mentions comes back as a card with a Google Maps Directions link for the real route.
 - `get_weather` reads the Open-Meteo forecast, which reaches about 16 days ahead.
 - `edit_plan` adds, moves, retimes and removes plan items, the same changes the Edit button makes, and the reply shows an Undo button.
-- Web search, limited to tourism sites (japan-guide.com, gotokyo.org, Tabelog and a few others), for what the data can't answer.
+- Web search, limited to tourism sites (japan-guide.com, gotokyo.org, Tabelog and a few others), for what the data can't answer. It uses the basic `web_search_20250305` version, once per message.
 
-Before Sonnet sees a message, Claude Haiku 5.5 checks it's about the trip; anything else gets a one-line refusal. The Worker enforces these limits whatever the app sends (they're in `worker/src/limits.js`):
+Before the chat answers, a separate quick call checks the message is about the trip or Japan; anything else gets a one-line refusal and never reaches the chat. The Worker enforces these limits whatever the app sends (they're in `worker/src/limits.js`):
 
 | Limit | Value |
 | --- | --- |
-| One message | 500 characters |
-| Whole request | 4 KB |
-| One chat | 12 messages, or about 60k tokens of context, then you start a new one |
+| One message | 2,000 characters |
+| Whole request | 16 KB |
 | Tool calls per message | 6 rounds, then it has to answer |
 | Reply length | 2,048 tokens |
-| Web searches | 2 per message |
-| The whole group, per Japan day | 200 messages and 3M input tokens |
+| Web searches | 1 per message |
+| The whole group, per Japan day | 500 messages and 10M input tokens |
+
+A chat never locks. After 20 messages, or once a request reads 90k tokens (Haiku costs five times as much past 100k), the Worker summarizes the chat so far and carries on from the summary in a fresh thread. The app shows a one-line note when that happens.
+
+Chats are saved on each phone, up to 40, and Chats in the Ask tab reopens them. The Worker keeps each chat's thread for 45 days after it was last used, so an old chat picks up where it left off.
 
 Chat and editing need the trip passcode, which each phone asks for once. Reading the plan doesn't, since the same data is in this public repo.
 

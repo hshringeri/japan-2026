@@ -3,7 +3,7 @@ import { applyOps, seedItems, PlanError } from "./plan.js";
 import { loadData } from "./context.js";
 import { japanTime } from "../../js/hours.js";
 
-const CHAT_DAYS = 7;       // chats older than this are deleted
+const CHAT_DAYS = 45;      // chats nobody has used for this long are deleted
 const HISTORY = 30;        // recent plan changes kept for the chat's context
 
 // One instance, named "trip", holds everything shared: the live plan, chat threads and the
@@ -60,7 +60,7 @@ export class Trip extends DurableObject {
   }
 
   async chatMeta(id) {
-    return (await this.ctx.storage.get(`chat:${id}`)) || { turns: 0, lastInputTokens: 0, count: 0, created: Date.now() };
+    return (await this.ctx.storage.get(`chat:${id}`)) || { turns: 0, lastInputTokens: 0, count: 0, created: Date.now(), summary: null, planVersion: null };
   }
 
   // A chat's stored messages, exactly as the API returned them
@@ -77,27 +77,44 @@ export class Trip extends DurableObject {
     await this.ctx.storage.put(`chat:${id}`, meta);
   }
 
-  // Appends one finished turn. Threads only ever grow; nothing earlier is rewritten.
-  async saveTurn(id, messages, lastInputTokens) {
+  // Appends one finished turn. Within a thread nothing earlier is ever rewritten.
+  // planVersion is the plan the model has now seen in full.
+  async saveTurn(id, messages, lastInputTokens, planVersion) {
     const meta = await this.chatMeta(id);
     const rows = {};
     messages.forEach((m, i) => (rows[`msg:${id}:${String(meta.count + i).padStart(4, "0")}`] = m));
     meta.count += messages.length;
     meta.turns += 1;
     meta.lastInputTokens = lastInputTokens;
+    meta.planVersion = planVersion;
+    meta.updated = Date.now();
     meta.busyUntil = 0;
     await this.ctx.storage.put({ ...rows, [`chat:${id}`]: meta });
     return meta;
+  }
+
+  // A long chat starts a fresh thread that opens with a summary of everything before it
+  async restart(id, summary) {
+    const meta = await this.chatMeta(id);
+    await this.#deleteRows(id);
+    const next = { ...meta, turns: 0, lastInputTokens: 0, count: 0, summary, planVersion: null, summaries: (meta.summaries || 0) + 1, updated: Date.now() };
+    await this.ctx.storage.put(`chat:${id}`, next);
+    return next;
+  }
+
+  async #deleteRows(id) {
+    const keys = [...(await this.ctx.storage.list({ prefix: `msg:${id}:` })).keys()];
+    // delete() takes at most 128 keys at a time
+    for (let i = 0; i < keys.length; i += 128) await this.ctx.storage.delete(keys.slice(i, i + 128));
   }
 
   async #prune() {
     const cutoff = Date.now() - CHAT_DAYS * 864e5;
     const metas = await this.ctx.storage.list({ prefix: "chat:" });
     for (const [key, meta] of metas) {
-      if (meta.created >= cutoff) continue;
-      const id = key.slice(5);
-      const rows = await this.ctx.storage.list({ prefix: `msg:${id}:` });
-      await this.ctx.storage.delete([key, ...rows.keys()]);
+      if ((meta.updated || meta.created) >= cutoff) continue;
+      await this.#deleteRows(key.slice(5));
+      await this.ctx.storage.delete(key);
     }
   }
 
