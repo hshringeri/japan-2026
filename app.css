@@ -388,7 +388,7 @@ button.btn { cursor: pointer; }
 /* The Ask tab */
 #view-chat:not([hidden]) { display: flex; flex-direction: column; overflow: hidden; padding-bottom: 0; }
 #view-chat .viewhead { flex: none; border-bottom: 1px solid var(--rule); padding-bottom: 10px; }
-#view-chat .viewhead .turns { flex: 1; }
+#view-chat .headacts { display: flex; gap: 8px; }
 .thread { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 12px 16px; display: flex; flex-direction: column; gap: 10px; overscroll-behavior: contain; }
 .hello { margin: auto 0; font: 15px/1.45 var(--serif); color: #3c4043; }
 .hello .suggest { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
@@ -415,8 +415,15 @@ button.btn { cursor: pointer; }
 .changes { margin-top: 8px; padding: 8px 10px; border-radius: 10px; background: var(--blue-soft); color: var(--blue-ink); font-size: 13.5px; }
 .changes ul { margin: 4px 0 6px; }
 .changes.undone { background: var(--card); color: var(--mute); text-decoration: line-through; }
-.full { align-self: center; text-align: center; font: 14px var(--sans); color: var(--mute); }
-.full p { margin: 0 0 8px; }
+.thread .note { align-self: center; max-width: 90%; margin: 0; text-align: center; font: 12.5px/1.4 var(--sans); color: var(--mute); }
+.chatlist { list-style: none; margin: 0; padding: 0; max-height: 60dvh; overflow-y: auto; }
+.chatlist li { display: flex; align-items: center; border-bottom: 1px solid var(--rule); }
+.chatlist li.on { background: var(--blue-soft); }
+.chatlist li.none { padding: 14px 4px; color: var(--mute); font: 14px var(--sans); }
+.chatlist [data-open] { flex: 1; min-width: 0; display: grid; gap: 2px; text-align: left; padding: 10px 4px; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.chatlist b { font: 600 15px/1.3 var(--sans); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chatlist small { color: var(--mute); font-size: 12px; }
+.chatlist .rm { flex: none; width: 40px; height: 40px; border: 0; border-radius: 50%; background: none; font: 300 24px/1 var(--sans); color: var(--mute); cursor: pointer; }
 .composer { flex: none; border-top: 1px solid var(--rule); background: var(--paper); padding: 8px 12px 10px; display: grid; gap: 6px; }
 .ctxrow { display: flex; gap: 8px; align-items: center; }
 .daypick select { font: 600 13px var(--sans); color: var(--blue-ink); background: var(--blue-soft); border: 0; border-radius: 14px; padding: 6px 10px; }

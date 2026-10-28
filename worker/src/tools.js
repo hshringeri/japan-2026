@@ -89,8 +89,9 @@ Kinds: flight, train, transfer, checkin, checkout, food, sight, shop, activity, 
       required: ["ops"],
     },
   },
+  // The basic version: the dynamic-filtering ones are documented for Claude 4.6 and later models
   {
-    type: "web_search_20260209",
+    type: "web_search_20250305",
     name: "web_search",
     max_uses: LIMITS.webSearches,
     allowed_domains: ["japan-guide.com", "gotokyo.org", "osaka-info.jp", "kyoto.travel", "jnto.go.jp", "timeout.com", "tabelog.com", "tokyocheapo.com", "japantravel.navitime.com"],

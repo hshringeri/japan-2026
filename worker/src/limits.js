@@ -1,15 +1,18 @@
 // Every cap on the chat in one place. The Worker enforces all of them; the app repeats the
 // message length only to say so before you hit send.
+//
+// A chat never locks. Once it gets long, its older messages are summarized and the chat carries
+// on from the summary, so what bounds spending is the per-message caps and the daily budget.
 export const LIMITS = {
-  bodyBytes: 4096,          // whole request
-  messageChars: 500,        // one message
-  threadTurns: 12,          // your messages per chat
-  threadTokens: 60000,      // input tokens the last reply used, roughly how big the chat has grown
-  toolRounds: 6,            // tool calls Sonnet may make for one message
+  bodyBytes: 16384,         // whole request
+  messageChars: 2000,       // one message
+  summarizeAfterTurns: 20,  // your messages before the older ones are summarized
+  summarizeAtTokens: 90000, // or once a request reads this much, guide included (Haiku costs 5x past 100K)
+  toolRounds: 6,            // tool calls the model may make for one message
   replyTokens: 2048,        // max_tokens per reply
-  webSearches: 2,           // per message
-  dayMessages: 200,         // across the group, per Japan day
-  dayTokens: 3_000_000,     // input tokens across the group, per Japan day (cache reads count a tenth)
+  webSearches: 1,           // per message; each one adds a lot of text to the chat
+  dayMessages: 500,         // across the group, per Japan day
+  dayTokens: 10_000_000,    // input tokens across the group, per Japan day (cache reads count a tenth)
 };
 
 export class LimitError extends Error {
@@ -43,11 +46,12 @@ export function parseChatRequest(raw) {
 }
 
 export function checkThread(meta) {
-  if (meta.turns >= LIMITS.threadTurns || meta.lastInputTokens >= LIMITS.threadTokens) {
-    throw new LimitError(409, "chat_full", "This chat is full. Start a new one to keep going.");
-  }
   if (meta.busyUntil && meta.busyUntil > Date.now()) throw new LimitError(409, "busy", "Still answering your last message.");
 }
+
+// Time to fold the older messages into a summary before adding another
+export const needsSummary = (meta) =>
+  meta.count > 0 && (meta.turns >= LIMITS.summarizeAfterTurns || meta.lastInputTokens >= LIMITS.summarizeAtTokens);
 
 export function checkBudget(day) {
   if (day.messages >= LIMITS.dayMessages || day.tokens >= LIMITS.dayTokens) {
@@ -59,6 +63,6 @@ export function checkBudget(day) {
 export const budgetTokens = (u) =>
   (u.input_tokens || 0) + (u.cache_creation_input_tokens || 0) + Math.ceil((u.cache_read_input_tokens || 0) / 10);
 
-// How big the chat is now: everything the last call read
+// Everything the last call read: the guide and places, the tools and the chat itself
 export const contextTokens = (u) =>
   (u.input_tokens || 0) + (u.cache_creation_input_tokens || 0) + (u.cache_read_input_tokens || 0);

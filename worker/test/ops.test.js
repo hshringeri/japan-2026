@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { applyOps, seedItems, PlanError } from "../src/plan.js";
-import { parseChatRequest, checkThread, checkBudget, LimitError, LIMITS } from "../src/limits.js";
+import { parseChatRequest, checkThread, checkBudget, needsSummary, LimitError, LIMITS } from "../src/limits.js";
 
 const trip = JSON.parse(readFileSync(new URL("../../data/trip.json", import.meta.url)));
 const places = JSON.parse(readFileSync(new URL("../../data/places.json", import.meta.url)));
@@ -113,11 +113,18 @@ test("chat requests: size, length and shape", () => {
   assert.equal(parseChatRequest(req({ date: "2027-01-01" })).date, null);
 });
 
-test("thread and daily caps", () => {
-  assert.equal(limitCode(() => checkThread({ turns: LIMITS.threadTurns - 1, lastInputTokens: 0 })), null);
-  assert.deepEqual(limitCode(() => checkThread({ turns: LIMITS.threadTurns, lastInputTokens: 0 })), [409, "chat_full"]);
-  assert.deepEqual(limitCode(() => checkThread({ turns: 1, lastInputTokens: LIMITS.threadTokens })), [409, "chat_full"]);
-  assert.deepEqual(limitCode(() => checkThread({ turns: 1, lastInputTokens: 0, busyUntil: Date.now() + 1000 })), [409, "busy"]);
+test("a long chat is summarized, never locked", () => {
+  const meta = (turns, lastInputTokens, count = 8) => ({ turns, lastInputTokens, count });
+  assert.equal(limitCode(() => checkThread(meta(500, 500000))), null);
+  assert.deepEqual(limitCode(() => checkThread({ ...meta(1, 0), busyUntil: Date.now() + 1000 })), [409, "busy"]);
+  assert.equal(needsSummary(meta(LIMITS.summarizeAfterTurns - 1, LIMITS.summarizeAtTokens - 1)), false);
+  assert.equal(needsSummary(meta(LIMITS.summarizeAfterTurns, 0)), true);
+  assert.equal(needsSummary(meta(1, LIMITS.summarizeAtTokens)), true);
+  // A thread that was just restarted from a summary has nothing to fold yet
+  assert.equal(needsSummary(meta(0, LIMITS.summarizeAtTokens, 0)), false);
+});
+
+test("daily caps", () => {
   assert.equal(limitCode(() => checkBudget({ messages: LIMITS.dayMessages - 1, tokens: 0 })), null);
   assert.deepEqual(limitCode(() => checkBudget({ messages: LIMITS.dayMessages, tokens: 0 })), [429, "budget"]);
   assert.deepEqual(limitCode(() => checkBudget({ messages: 0, tokens: LIMITS.dayTokens })), [429, "budget"]);
