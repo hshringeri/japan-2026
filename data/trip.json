@@ -429,11 +429,11 @@
     {
      "kind": "transfer",
      "title": "Pick up the rental car: JDM Rental Japan",
-     "notes": "Start of the sheet's driving route.",
-     "url": "https://maps.app.goo.gl/hPvb7HBui3L1Mg7u8",
+     "notes": "Start of the drive to Fuji. Hardhi and Raghav pick up the car.",
      "lat": 35.77832,
      "lng": 140.34963,
-     "address": "555-1 Kosuge, Narita, Chiba 286-0127"
+     "address": "555-1 Kosuge, Narita, Chiba 286-0127",
+     "place": "tokyo-jdm-rental-japan"
     },
     {
      "kind": "transfer",
@@ -488,7 +488,11 @@
      "lat": 35.42511,
      "lng": 138.62268
     }
-   ]
+   ],
+   "route": {
+    "title": "Drive to Fuji",
+    "url": "https://www.google.com/maps/dir/JDM+Rental+Japan+%7C+Tokyo+Branch,+555-1+Kosuge,+Narita,+Chiba+286-0127,+Japan/Lawson+Chiba+Muratacho,+893-540+Muratacho,+Chuo+Ward,+Chiba,+260-0825,+Japan/Umihotaru+West+Observation+Deck,+%E5%9C%B0%E5%85%88%E6%B5%B7%E3%81%BB%E3%81%9F%E3%82%8B+5F+Nakajima,+Kisarazu,+Chiba+292-0008,+Japan/Ohama+Park,+33-30+Takahamadai,+Hiratsuka,+Kanagawa+254-0803,+Japan/Mt.+Taikan+Observation+Deck,+955+Kajiya,+Yugawara,+Ashigarashimo+District,+Kanagawa+259-0313,+Japan/Idemitsu+Self+Gotenba,+2+Chome-22-18+Higashitanaka,+Gotemba,+Shizuoka+412-0026,+Japan/Oishi+Park,+Japan,+%E3%80%92401-0305+Yamanashi,+Minamitsuru+District,+Fujikawaguchiko,+Oishi,+2585-85+%EF%BC%92%EF%BC%95%EF%BC%92%EF%BC%95%E7%95%AA%E5%9C%B0%E3%81%AE%EF%BC%91%EF%BC%91%E5%85%88/Fuji+Classic+Hotel,+1306+Fujigane,+Fujikawaguchiko,+Minamitsuru+District,+Yamanashi+401-0338,+Japan/@35.5301349,138.6584411,72556m/data=!3m1!1e3!4m50!4m49!1m5!1m1!1s0x6022f5eec53d5e71:0x7316eb1a5e81e2f0!2m2!1d140.3496264!2d35.7783165!1m5!1m1!1s0x60229b69cfc20321:0x6c7635d5006555ce!2m2!1d140.1271604!2d35.5511864!1m5!1m1!1s0x6018712f933ce3ab:0xdd32e664f71f1736!2m2!1d139.8736754!2d35.4648639!1m5!1m1!1s0x6019adca1d079f15:0xa486ae4645aced5!2m2!1d139.3622049!2d35.3164439!1m5!1m1!1s0x6019a2a5873394df:0x49666cc863ae5172!2m2!1d139.048367!2d35.1847223!1m5!1m1!1s0x6019766be1cb6e9d:0x88b2e1d75f42d329!2m2!1d138.9443888!2d35.3020393!1m5!1m1!1s0x60195fa68c0b2b95:0xa22e530b3a652904!2m2!1d138.7457522!2d35.522904!1m5!1m1!1s0x601bddebf5d542c5:0xe74dfc7d6ce9869e!2m2!1d138.6226779!2d35.4251117!3e0"
+   }
   },
   {
    "date": "2026-11-25",
@@ -573,7 +577,8 @@
      "kind": "activity",
      "title": "Drift class (Rag + Hard)",
      "status": "tbd",
-     "notes": "Operator not identified yet."
+     "notes": "At Minami Chiba Circuit in Ichihara, Chiba. Operator not identified yet.",
+     "place": "tokyo-minami-chiba-circuit"
     }
    ]
   },

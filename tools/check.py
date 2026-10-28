@@ -29,7 +29,9 @@ def render_listing(name, l):
 
 def main():
     src = load_source()
-    places = {p["id"]: p for p in json.load(open(os.path.join(ROOT, "data/places.json"), encoding="utf-8"))}
+    # Places with a "source" were added after the guide (e.g. from the group's Google Maps list)
+    places = {p["id"]: p for p in json.load(open(os.path.join(ROOT, "data/places.json"), encoding="utf-8"))
+              if not p.get("source")}
     guide = json.load(open(os.path.join(ROOT, "data/guide.json"), encoding="utf-8"))
     errors = []
 

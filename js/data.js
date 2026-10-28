@@ -33,9 +33,9 @@ export function isInstagram(url) {
 }
 
 export async function loadData() {
-  const [places, guide, taxonomy, trip, thumbs, hours] = await Promise.all([
+  const [places, guide, taxonomy, trip, thumbs, hours, routes] = await Promise.all([
     json("data/places.json"), json("data/guide.json"), json("data/taxonomy.json"), json("data/trip.json", true),
-    json("data/thumbs.json", true), json("data/hours.json", true),
+    json("data/thumbs.json", true), json("data/hours.json", true), json("data/routes.json", true),
   ]);
 
   const kindName = Object.fromEntries(taxonomy.kinds.map((k) => [k.id, k.name]));
@@ -59,14 +59,16 @@ export async function loadData() {
   });
 
   const byId = Object.fromEntries(places.map((p) => [p.id, p]));
-  if (trip) prepareTrip(trip, byId);
+  if (trip) prepareTrip(trip, byId, routes || {});
   return { places, byId, guide, taxonomy, trip, thumbs: thumbs || {}, kindName, cityName, catOrder };
 }
 
-function prepareTrip(trip, byId) {
+function prepareTrip(trip, byId, routes) {
   const stays = Object.fromEntries(trip.stays.map((s) => [s.id, s]));
   for (const day of trip.days) {
     day.stayObj = stays[day.stay] || null;
+    // A driving day's road line, built by tools/route.py
+    day.routeObj = day.route && routes[day.date] ? { ...day.route, ...routes[day.date] } : null;
     for (const it of day.items) {
       // Items that point at a guide place take its coordinates and details
       if (it.place && byId[it.place]) {

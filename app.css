@@ -142,6 +142,11 @@ body.dates-off .datestrip { display: none; }
 .fab svg { width: 24px; height: 24px; fill: none; stroke: var(--mute); stroke-width: 2; }
 .fab.live svg { stroke: var(--blue); }
 .fab.busy svg { animation: spin 1.2s linear infinite; }
+.fab.route[aria-pressed="true"] { background: var(--accent); }
+.fab.route[aria-pressed="true"] svg { stroke: #fff; }
+/* The drive: a red road line on a white casing so it reads over any basemap colour */
+.route-casing { stroke: #fff; stroke-width: 9; stroke-opacity: .9; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.route-line { stroke: var(--accent); stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .maptoast { position: absolute; z-index: 600; left: 50%; transform: translateX(-50%); bottom: 90px; margin: 0; background: #323232; color: #fff; padding: 10px 16px; font: 500 14px var(--sans); border-radius: 8px; box-shadow: var(--lift-2); max-width: calc(100% - 32px); text-align: center; }
 
@@ -261,6 +266,9 @@ body.dates-off .datestrip { display: none; }
 .item .dir { font: 500 12.5px var(--sans); color: var(--blue-ink); }
 .item.tbd .t { color: var(--mute); }
 .item.big .t { font-size: 17px; }
+.item.drive { background: #fff5f3; }
+.item.drive .acts { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.item.drive .look { margin-top: 4px; }
 
 /* Guide view */
 .guide-close { position: sticky; top: 0; display: block; z-index: 2; background: var(--card); color: var(--blue-ink); box-shadow: var(--lift-1); padding: calc(12px + env(safe-area-inset-top)) 16px 12px; font: 500 14px var(--sans); text-decoration: none; }

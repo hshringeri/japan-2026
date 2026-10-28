@@ -11549,5 +11549,331 @@
   "neighbourhood": "Kitano Tenmangu",
   "ward": "Kamigyo",
   "area": "Kamigyo & Nishijin"
+ },
+ {
+  "id": "tokyo-sobahouse-konjiki-hototogisu",
+  "city": "tokyo",
+  "name": "Sobahouse Konjiki Hototogisu",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "Michelin-starred ramen across from Shinjuku Gyoen; the shoyu soba layers pork, wa-dashi and clam broths under truffle sauce and porcini oil.",
+    "address": "2-4-1 Shinjuku, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sobahouse%20Konjiki%20Hototogisu%202-4-1%20Shinjuku%2C%20Shinjuku%2C%20Tokyo",
+    "info": "¥ (~¥1,100 a bowl) · Mon–Fri 11:00–15:00 & 18:30–21:00, closed Sat & Sun · no reservations; numbered tickets handed out from 9:30 for lunch and 17:30 for dinner"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Ramen"
+   ],
+   "flags": [
+    "Walk-in",
+    "Michelin"
+   ]
+  },
+  "lat": 35.688667,
+  "lng": 139.708267,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿2-4-1",
+  "neighbourhood": "Shinjuku 2-chome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-the-pizza-bar-on-38th",
+  "city": "tokyo",
+  "name": "The Pizza Bar on 38th",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.mandarinoriental.com/en/tokyo/nihonbashi/dine/the-pizza-bar-on-38th",
+    "desc": "Eight counter seats on the 38th floor of the Mandarin Oriental, with a Michelin listing and an evening omakase course.",
+    "address": "38F Mandarin Oriental Tokyo, 2-1-1 Nihonbashi-Muromachi, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The%20Pizza%20Bar%20on%2038th%2038F%20Mandarin%20Oriental%20Tokyo%2C%202-1-1%20Nihonbashi-Muromachi%2C%20Chuo%2C%20Tokyo",
+    "info": "¥¥¥¥ (omakase from ¥17,600 plus 15% service) · lunch and dinner, hours vary by source · book ahead by email to motyo-fbres@mohg.com"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Pizza"
+   ],
+   "flags": [
+    "Book ahead",
+    "Michelin"
+   ]
+  },
+  "lat": 35.686001,
+  "lng": 139.772644,
+  "precision": "building",
+  "addressJa": "東京都中央区日本橋室町2-1-1",
+  "neighbourhood": "Nihonbashi-Muromachi",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-tonkatsu-marushichi-ginza",
+  "city": "tokyo",
+  "name": "Tonkatsu Marushichi Ginza",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A small tonkatsu counter at the Shimbashi end of Ginza where the sets often sell out, so go early.",
+    "address": "8-15-5 Ginza, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tonkatsu%20Marushichi%20Ginza%208-15-5%20Ginza%2C%20Chuo%2C%20Tokyo",
+    "info": "¥¥ · 11:00–14:00 & 17:00–20:00, closed Sun · cash only"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Tonkatsu"
+   ],
+   "flags": [
+    "Cash only"
+   ]
+  },
+  "lat": 35.666161,
+  "lng": 139.763672,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座8-15-5",
+  "neighbourhood": "Ginza 8-chome",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-cloud-club-matcha",
+  "city": "tokyo",
+  "name": "Cloud Club Matcha",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A matcha tea stand near Higashi-Ginza Station; its matcha ice cream made Tabelog's 2023 top 100 for ice cream and gelato.",
+    "address": "Higashi-Ginza Building 1F, 8-18-4 Ginza, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cloud%20Club%20Matcha%20Higashi-Ginza%20Building%201F%2C%208-18-4%20Ginza%2C%20Chuo%2C%20Tokyo",
+    "info": "¥ (~¥1,000–2,000) · cards accepted"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ]
+  },
+  "lat": 35.666161,
+  "lng": 139.765121,
+  "precision": "block",
+  "addressJa": "東京都中央区銀座8-18-4",
+  "neighbourhood": "Ginza 8-chome",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-menchirashi",
+  "city": "tokyo",
+  "name": "Menchirashi",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "House-made udon, tempura fried to order and onigiri in an alley off Cat Street; start with the kake udon.",
+    "address": "Grand Om 1F, 6-13-7 Jingumae, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Menchirashi%20Grand%20Om%201F%2C%206-13-7%20Jingumae%2C%20Shibuya%2C%20Tokyo",
+    "info": "¥ (most udon under ¥1,000) · 11:30–22:00 daily · expect a line at peak times"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Udon"
+   ]
+  },
+  "lat": 35.666534,
+  "lng": 139.705093,
+  "precision": "building",
+  "addressJa": "東京都渋谷区神宮前6-13-7",
+  "neighbourhood": "Jingumae",
+  "ward": "Shibuya",
+  "area": "Harajuku & Aoyama"
+ },
+ {
+  "id": "tokyo-ishii-sports-yodobashi-shinjuku-west",
+  "city": "tokyo",
+  "name": "Ishii Sports Yodobashi Shinjuku West Entrance",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Gorpcore & Snow",
+    "url": null,
+    "desc": "Two basement floors of mountaineering, outdoor and ski gear from Ishii Sports, the climbing and ski chain Yodobashi owns, in its building by Shinjuku Station's west exit.",
+    "address": "B1–B2, Yodobashi Camera Shinjuku West Exit, 1-11-1 Nishi-Shinjuku, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ishii%20Sports%20Yodobashi%20Shinjuku%20West%20Entrance%20B1%E2%80%93B2%2C%20Yodobashi%20Camera%20Shinjuku%20West%20Exit%2C%201-11-1%20Nishi-Shinjuku%2C%20Shinjuku%2C%20Tokyo",
+    "info": "9:30–22:00"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Gorpcore & Snow"
+  ],
+  "tags": {
+   "style": [
+    "Outdoor",
+    "Ski & snow"
+   ]
+  },
+  "lat": 35.689968,
+  "lng": 139.698013,
+  "precision": "block",
+  "addressJa": "東京都新宿区西新宿1-11-1",
+  "neighbourhood": "Nishi-Shinjuku",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Pinned to Yodobashi Camera's Shinjuku West Exit address; the shop is in the basement of its station-front building."
+ },
+ {
+  "id": "osaka-gyozaclub-rocklee",
+  "city": "osaka",
+  "name": "Gyozaclub Rocklee",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": null,
+    "desc": "A gyoza and Chinese spot near Temma Station known for all-you-can-eat gyoza at lunch for ¥888, plus spicy mapo tofu and fried rice.",
+    "address": "7-5 Ikedacho, Kita, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gyozaclub%20Rocklee%207-5%20Ikedacho%2C%20Kita%2C%20Osaka",
+    "info": "¥¥ (~¥2,000–3,000 at dinner) · book on Tabelog, it fills up"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Gyoza",
+    "Chinese"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  },
+  "lat": 34.707153,
+  "lng": 135.512695,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区池田町7-5",
+  "neighbourhood": "Tenma",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
+ },
+ {
+  "id": "tokyo-jdm-rental-japan",
+  "city": "tokyo",
+  "name": "JDM Rental Japan",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "JDM Culture",
+    "url": "https://www.jdmrentaljapan.com",
+    "desc": "JDM car rental whose Tokyo branch sits out by Narita Airport. We pick up the car here on 24 Nov and drive it to Fuji.",
+    "address": "555-1 Kosuge, Narita, Chiba 286-0127",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=JDM%20Rental%20Japan%20555-1%20Kosuge%2C%20Narita%2C%20Chiba%20286-0127",
+    "info": "Tokyo branch, near Narita Airport"
+   }
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {},
+  "lat": 35.7783165,
+  "lng": 140.3496264,
+  "precision": "building",
+  "addressJa": "千葉県成田市小菅555-1",
+  "neighbourhood": "Kosuge",
+  "ward": "Narita (Chiba)",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "tokyo-minami-chiba-circuit",
+  "city": "tokyo",
+  "name": "Minami Chiba Circuit",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "JDM Culture",
+    "url": null,
+    "desc": "A small circuit in the hills of Ichihara, Chiba, where several operators run drift lessons in rear-wheel-drive cars. Our drift class on 26 Nov is here, roughly 60–90 minutes' drive from central Tokyo.",
+    "address": "301 Kongoji, Ichihara, Chiba",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minami%20Chiba%20Circuit%20301%20Kongoji%2C%20Ichihara%2C%20Chiba",
+    "info": "track days and drift lessons, book through an operator"
+   }
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {},
+  "lat": 35.487759,
+  "lng": 140.248734,
+  "precision": "block",
+  "addressJa": "千葉県市原市金剛地301",
+  "neighbourhood": "Kongoji",
+  "ward": "Ichihara (Chiba)",
+  "area": "Outskirts & day trips",
+  "geoNote": "Pinned to the circuit's address as drift lesson listings give it."
  }
 ]

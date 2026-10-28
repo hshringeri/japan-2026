@@ -132,6 +132,21 @@ export function shortTags(p) {
   return [...(p.tags?.cuisine || []), ...(p.tags?.genre || []), ...(p.tags?.style || [])].slice(0, 3).concat(flags);
 }
 
+// A Google-encoded polyline (precision 5), as tools/route.py stores it, to [lat, lng] pairs
+export function decodePolyline(str) {
+  const pts = [];
+  let i = 0, lat = 0, lng = 0;
+  const next = () => {
+    let b, shift = 0, result = 0;
+    do { b = str.charCodeAt(i++) - 63; result |= (b & 31) << shift; shift += 5; } while (b >= 32);
+    return result & 1 ? ~(result >> 1) : result >> 1;
+  };
+  while (i < str.length) { lat += next(); lng += next(); pts.push([lat / 1e5, lng / 1e5]); }
+  return pts;
+}
+
+export const formatDrive = (r) => `${r.km} km · about ${Math.floor(r.minutes / 60)} h${r.minutes % 60 ? ` ${r.minutes % 60} min` : ""} at the wheel`;
+
 export const mapsUrl = (p) =>
   p.lat != null ? `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}` : null;
 export const directionsUrl = (p) =>
