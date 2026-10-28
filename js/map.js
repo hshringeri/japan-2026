@@ -1,5 +1,5 @@
 /* global L */
-import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, shortTags, hoursBadge } from "./util.js";
+import { esc, formatDistance, walkMinutes, distanceKm, formatDay, mapsUrl, directionsUrl, shortTags, hoursBadge, decodePolyline, formatDrive, storage } from "./util.js";
 import { addBasemap } from "./basemap.js";
 import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
@@ -25,6 +25,9 @@ export function mountMap(el) {
     <div id="map" aria-label="Map of places"></div>
     <div class="mapui top"><div class="ds"></div><div class="fb"></div></div>
     <div class="mapui side">
+      <button type="button" class="fab route" aria-label="Show the drive" aria-pressed="true" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H16a3.5 3.5 0 0 0 0-7H8a3.5 3.5 0 0 1 0-7h7.5"/></svg>
+      </button>
       <button type="button" class="fab locate" aria-label="Show my location">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5" fill="none"/></svg>
       </button>
@@ -35,13 +38,23 @@ export function mountMap(el) {
   mountFilterBar(root.querySelector(".fb"), { compact: true });
   sheet = root.querySelector(".sheet");
   root.querySelector(".locate").addEventListener("click", locate);
+  root.querySelector(".route").addEventListener("click", () => {
+    const on = !routeShown();
+    storage.set("routeShown", on);
+    drawDay();
+    const r = app.data.trip.dayByDate[app.date]?.routeObj;
+    if (on && r) toast(`${r.title}: ${formatDrive(r)}`);
+  });
   sheet.addEventListener("click", (e) => { if (e.target.closest(".close")) closeSheet(); });
 }
 
 // Leaflet needs a visible container, so the map is built the first time its tab shows
 export function showMap() {
   if (!started) build();
-  setTimeout(() => map.invalidateSize(), 0);
+  setTimeout(() => {
+    map.invalidateSize();
+    if (frameLater) { frameLater = false; frame(false); }
+  }, 0);
 }
 
 // The seam was dragged: cell sizes changed without a window resize
@@ -255,11 +268,23 @@ function drawStays() {
   }
 }
 
-// The chosen day's plan as numbered stops
+// A driving day's road line and its stops come and go together with the route button
+export const routeShown = () => storage.get("routeShown", true);
+
+// The chosen day's plan as numbered stops, joined by the road on a driving day
 function drawDay() {
   dayLayer.clearLayers();
   const day = app.date && app.data.trip?.dayByDate[app.date];
+  const btn = root.querySelector(".route");
+  btn.hidden = !day?.routeObj;
+  btn.setAttribute("aria-pressed", String(routeShown()));
   if (!day) return;
+  if (day.routeObj) {
+    if (!routeShown()) return;
+    const line = decodePolyline(day.routeObj.path);
+    L.polyline(line, { className: "route-casing", interactive: false }).addTo(dayLayer);
+    L.polyline(line, { className: "route-line", interactive: false }).addTo(dayLayer);
+  }
   let n = 0;
   for (const it of day.items) {
     if (it.lat == null) continue;
@@ -270,14 +295,25 @@ function drawDay() {
   }
 }
 
+// A hidden map has no size to fit a day into, so a day picked from the plan is framed on arrival
+let frameLater = false;
 function frame(animate = true) {
+  if (!map.getContainer().offsetHeight) { frameLater = true; return; }
   if (app.date) {
     const day = app.data.trip.dayByDate[app.date];
     const pts = day.items.filter((i) => i.lat != null).map((i) => [i.lat, i.lng]);
     const a = dayAnchor(app.data.trip, app.date);
     if (a) pts.push([a.lat, a.lng]);
-    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 15, animate });
-    toast(`Looking ahead to ${formatDay(app.date)}${a ? ` around ${a.label}` : ""}`);
+    if (day.routeObj && routeShown()) {
+      // A long drive fills the screen: fit the road itself, clear of the controls on top and side
+      const top = root.querySelector(".mapui.top").offsetHeight;
+      // Whole zoom steps would leave it at half the screen, so this one fit snaps to quarter steps
+      map.options.zoomSnap = 0.25;
+      map.fitBounds(L.latLngBounds(decodePolyline(day.routeObj.path)), { paddingTopLeft: [44, top + 8], paddingBottomRight: [64, 16], animate });
+      map.options.zoomSnap = 1;
+    } else if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 15, animate });
+    const r = day.routeObj && routeShown() ? day.routeObj : null;
+    toast(r ? `${formatDay(app.date)}: ${r.title}, ${formatDrive(r)}` : `Looking ahead to ${formatDay(app.date)}${a ? ` around ${a.label}` : ""}`);
   } else if (hereInJapan()) {
     map.setView([app.here.lat, app.here.lng], 15, { animate });
   } else {

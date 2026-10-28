@@ -11812,5 +11812,68 @@
   "neighbourhood": "Tenma",
   "ward": "Kita",
   "area": "Nakazakicho & Tenma"
+ },
+ {
+  "id": "tokyo-jdm-rental-japan",
+  "city": "tokyo",
+  "name": "JDM Rental Japan",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "JDM Culture",
+    "url": "https://www.jdmrentaljapan.com",
+    "desc": "JDM car rental whose Tokyo branch sits out by Narita Airport. We pick up the car here on 24 Nov and drive it to Fuji.",
+    "address": "555-1 Kosuge, Narita, Chiba 286-0127",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=JDM%20Rental%20Japan%20555-1%20Kosuge%2C%20Narita%2C%20Chiba%20286-0127",
+    "info": "Tokyo branch, near Narita Airport"
+   }
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {},
+  "lat": 35.7783165,
+  "lng": 140.3496264,
+  "precision": "building",
+  "addressJa": "千葉県成田市小菅555-1",
+  "neighbourhood": "Kosuge",
+  "ward": "Narita (Chiba)",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "tokyo-minami-chiba-circuit",
+  "city": "tokyo",
+  "name": "Minami Chiba Circuit",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "JDM Culture",
+    "url": null,
+    "desc": "A small circuit in the hills of Ichihara, Chiba, where several operators run drift lessons in rear-wheel-drive cars. Our drift class on 26 Nov is here, roughly 60–90 minutes' drive from central Tokyo.",
+    "address": "301 Kongoji, Ichihara, Chiba",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Minami%20Chiba%20Circuit%20301%20Kongoji%2C%20Ichihara%2C%20Chiba",
+    "info": "track days and drift lessons, book through an operator"
+   }
+  ],
+  "kinds": [
+   "cars"
+  ],
+  "categories": [
+   "JDM Culture"
+  ],
+  "tags": {},
+  "lat": 35.487759,
+  "lng": 140.248734,
+  "precision": "block",
+  "addressJa": "千葉県市原市金剛地301",
+  "neighbourhood": "Kongoji",
+  "ward": "Ichihara (Chiba)",
+  "area": "Outskirts & day trips",
+  "geoNote": "Pinned to the circuit's address as drift lesson listings give it."
  }
 ]

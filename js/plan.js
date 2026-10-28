@@ -1,4 +1,4 @@
-import { esc, japanNow, toMinutes, formatDay, daysBetween, directionsUrl } from "./util.js";
+import { esc, japanNow, toMinutes, formatDay, daysBetween, directionsUrl, formatDrive, storage } from "./util.js";
 import { app, onApp, setDate } from "./state.js";
 
 const KIND_LABEL = {
@@ -12,7 +12,10 @@ export function mountPlan(el) {
   root = el;
   root.addEventListener("click", (e) => {
     const b = e.target.closest("[data-look]");
-    if (b) { setDate(b.dataset.look); location.hash = "#/map"; }
+    if (!b) return;
+    if (b.dataset.route) storage.set("routeShown", true);
+    setDate(b.dataset.look);
+    location.hash = "#/map";
   });
   onApp("data", render);
 }
@@ -111,6 +114,23 @@ function item(i, day, big = false) {
       </span></div>`;
 }
 
+// A driving day: the whole drive in one row, with the line on the map and the route in Google Maps
+function route(d) {
+  const r = d.routeObj;
+  const stops = d.items.filter((i) => i.lat != null).length;
+  return `<div class="item drive">
+      <span class="time"></span>
+      <span class="what">
+        <span class="k">Drive · ${stops} stops</span>
+        <span class="t">${esc(r.title)}</span>
+        <span class="n">${esc(formatDrive(r))}, not counting the stops.</span>
+        <span class="acts">
+          <button type="button" class="look" data-look="${d.date}" data-route="1">Show the route on the map</button>
+          <a class="dir" href="${esc(r.url)}" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </span>
+      </span></div>`;
+}
+
 function dayCard(d, now) {
   const cls = d.date === now.date ? " today" : d.date < now.date ? " past" : "";
   return `<li class="day${cls}" id="day-${d.date}">
@@ -120,6 +140,7 @@ function dayCard(d, now) {
       <p class="where">${esc(d.cityLabel || d.city)}${d.stayObj ? ` · sleeping at ${esc(d.stayObj.name)}` : ""}</p>
       <button type="button" class="look" data-look="${d.date}">See this day on the map</button>
     </header>
+    ${d.routeObj ? route(d) : ""}
     ${d.items.map((i) => item(i, d)).join("")}
   </li>`;
 }

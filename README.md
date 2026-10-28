@@ -27,7 +27,7 @@ On a wide screen the list sits beside the map. The seam between them is draggabl
 
 To add an Airbnb address, find the stay in `data/trip.json` and fill in `address`, `lat` and `lng`, then delete its `precisionNote`. Google Maps gives you the coordinates when you long-press a spot.
 
-To change the plan, edit the `items` for that day in `data/trip.json`. An item with a `time` ("14:30") feeds the Now / Next card. `status` can be `"booked"` or `"tbd"`. Setting `"place": "<id>"` links an item to a guide place by its id from `data/places.json`.
+To change the plan, edit the `items` for that day in `data/trip.json`. A driving day can carry a `"route"` with a `title` and the Google Maps `url`; `python3 tools/route.py` then builds the road line through that day's stops into `data/routes.json`, which the map draws when that day is picked. An item with a `time` ("14:30") feeds the Now / Next card. `status` can be `"booked"` or `"tbd"`. Setting `"place": "<id>"` links an item to a guide place by its id from `data/places.json`.
 
 To add a guide place, add it to `data/places.json` with `lat` and `lng`, then run `python3 tools/tag.py`. A place that wasn't in the original guide also gets `"source": "maps"` (or wherever it came from), so `tools/check.py` leaves it out of the byte-for-byte rebuild. Its cuisine goes in the `CUISINE` table in `tools/tag.py`.
 
@@ -38,6 +38,7 @@ To add a guide place, add it to `data/places.json` with `lat` and `lng`, then ru
 - `tools/merge_geo.py` folds geocoding results into the places and assigns each one an area.
 - `tools/tag.py` assigns kinds, cuisine, genre, shop style and practical flags.
 - `tools/hours.py` builds `data/hours.json`, each place's opening hours, from the hours in its info line, with hand-checked entries in `tools/hours-manual.json` taking precedence. After editing either, run it with `--report` to see what didn't parse.
+- `tools/route.py` fetches the driving line for each day with a `route` from the public OSRM router and writes `data/routes.json`. Run it after changing that day's stops.
 - `tools/resize-images.sh` makes the app's copies of the photos.
 - `tools/thumbs.py` makes the map cards' 300×180 photos in `img/thumbs/` from the per-place photos in commit bc0fa73, and writes `data/thumbs.json` with each one's credit.
 
