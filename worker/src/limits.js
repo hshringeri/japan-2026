@@ -10,7 +10,9 @@ export const LIMITS = {
   summarizeAtTokens: 90000, // or once a request reads this much, guide included (Haiku costs 5x past 100K)
   toolRounds: 6,            // tool calls the model may make for one message
   replyTokens: 2048,        // max_tokens per reply
-  webSearches: 1,           // per message; each one adds a lot of text to the chat
+  webSearches: 2,           // per message; each one adds a lot of text to the chat. Two lets it check an address.
+  candidates: 3,            // places the chat can suggest at once
+  dayPlaces: 40,            // places added to the map across the group, per Japan day
   dayMessages: 500,         // across the group, per Japan day
   dayTokens: 10_000_000,    // input tokens across the group, per Japan day (cache reads count a tenth)
 };

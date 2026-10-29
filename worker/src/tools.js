@@ -4,11 +4,11 @@ import { dayAnchor } from "../../js/trip.js";
 import { fold } from "../../js/fold.js";
 import { formatDay } from "./format.js";
 import { LIMITS } from "./limits.js";
+import { CITY, CITY_IDS, checkCandidate, geocode, cityFor, findSame, buildPlace } from "./places.js";
 
 const KIND_IDS = ["shop", "music", "drink", "eat", "play", "unwind", "cars"];
 // Plan item kinds counted as each guide kind when nearby is filtered
 const ITEM_KINDS = { eat: ["food"], drink: ["night"], music: ["night"], shop: ["shop"], play: ["activity", "golf"], unwind: ["sight"], cars: ["activity"] };
-const CITY = { tokyo: { lat: 35.6812, lng: 139.7671 }, osaka: { lat: 34.6937, lng: 135.5023 }, kyoto: { lat: 35.0116, lng: 135.7681 } };
 const TOKYO = CITY.tokyo;
 const HHMM = /^([01]?\d|2[0-9]):[0-5]\d$/;
 
@@ -89,15 +89,78 @@ Kinds: flight, train, transfer, checkin, checkout, food, sight, shop, activity, 
       required: ["ops"],
     },
   },
-  // The basic version: the dynamic-filtering ones are documented for Claude 4.6 and later models
+  {
+    name: "add_place",
+    description: "Put a place you proposed with propose_places on everyone's map, once they've told you which one in a message after the proposal. Never in the same message as the proposal.",
+    strict: true,
+    input_schema: {
+      type: "object",
+      properties: { proposal: { type: "string", description: "The proposal id from propose_places" } },
+      required: ["proposal"],
+      additionalProperties: false,
+    },
+  },
+  // The basic version: the dynamic-filtering ones are documented for Claude 4.6 and later models.
+  // Any site, so small bars and shops with only a Tabelog or Instagram page can be found; a few
+  // content farms and pin boards are left out.
   {
     type: "web_search_20250305",
     name: "web_search",
     max_uses: LIMITS.webSearches,
-    allowed_domains: ["japan-guide.com", "gotokyo.org", "osaka-info.jp", "kyoto.travel", "jnto.go.jp", "timeout.com", "tabelog.com", "tokyocheapo.com", "japantravel.navitime.com"],
+    blocked_domains: ["pinterest.com", "quora.com", "medium.com"],
     user_location: { type: "approximate", country: "JP", timezone: "Asia/Tokyo" },
   },
 ];
+
+// propose_places lists the guide's categories, so it's built from the taxonomy (once per isolate:
+// the tools sit in front of the cached system prompt and must not change between calls)
+let built = null;
+export function tools(taxonomy) {
+  const key = JSON.stringify(taxonomy.kinds);
+  if (built?.key === key) return built.tools;
+  const cats = taxonomy.kinds.map((k) => `${k.id}: ${k.categories.join(", ")}`).join("\n");
+  const propose = {
+    name: "propose_places",
+    description: `Show up to ${LIMITS.candidates} places you found with web_search as cards on their phone, each with an Add button. Nothing is added to the map until someone taps Add or confirms in their next message (then use add_place). The pin is found from the address, and a candidate is skipped if its address can't be found, lands in a different city, or is already on the map.
+
+The guide's categories, by kind:
+${cats}`,
+    strict: true,
+    input_schema: {
+      type: "object",
+      properties: {
+        candidates: {
+          type: "array",
+          description: `1 to ${LIMITS.candidates} places`,
+          items: {
+            type: "object",
+            properties: {
+              name: { type: "string", description: "The name as the venue writes it in English or romaji" },
+              address: { type: "string", description: "Street address in English, as written on the page" },
+              address_ja: { type: "string", description: "The address in Japanese with prefecture, ward and block numbers, e.g. 東京都杉並区高円寺南3-55-2" },
+              city: { type: "string", enum: CITY_IDS, description: "elsewhere for anywhere outside Tokyo, Osaka and Kyoto" },
+              area: { type: "string", description: "The neighbourhood, e.g. Koenji. The guide's area name is used instead when the pin is near guide places." },
+              kind: { type: "string", enum: taxonomy.kinds.map((k) => k.id) },
+              category: { type: "string", description: "One of the guide's categories for that kind, or a short one of your own when none fits" },
+              emoji: { type: "string", description: "One emoji, only for a category of your own" },
+              desc: { type: "string", description: "One sentence on why it's worth going, from what you read" },
+              info: { type: "string", description: "Opening hours as the page writes them" },
+              url: { type: "string", description: "Its own site, Instagram or Tabelog page" },
+            },
+            required: ["name", "address", "address_ja", "city", "kind", "category", "desc"],
+            additionalProperties: false,
+          },
+        },
+      },
+      required: ["candidates"],
+      additionalProperties: false,
+    },
+  };
+  const all = [...TOOLS];
+  all.splice(all.findIndex((t) => t.name === "add_place"), 0, propose);
+  built = { key, tools: all };
+  return all;
+}
 
 const round = (n, d = 1) => Math.round(n * 10 ** d) / 10 ** d;
 const inJapan = (pt) => pt && distanceKm(pt, TOKYO) < 1600;
@@ -185,6 +248,7 @@ function nearby(input, ctx) {
       closed: open ? ["shut", "gone"].includes(open.cls) : p.hours?.kind === "closed",
       on_plan: planned.length ? planned.map((x) => `${formatDay(x.date)}${x.time ? ` ${x.time}` : ""}`).join(", ") : null,
       about: brief(p.main.desc),
+      ...(p.source === "chat" ? { added_by_chat: true } : {}),
       score: km - (planned.length ? 0.4 : 0) + (open && ["shut", "gone"].includes(open.cls) ? 3 : 0),
     });
   }
@@ -282,7 +346,49 @@ async function editPlan({ ops }, ctx) {
   return { ok: true, plan_version: r.plan.version, changes: r.changes.map((c) => c.text) };
 }
 
-const HANDLERS = { nearby, get_day: getDay, travel_estimate: travelEstimate, get_weather: getWeather, edit_plan: editPlan };
+// Checks and pins each candidate, keeps the good ones as proposals and sends them to the phone as cards
+async function proposePlaces({ candidates }, ctx) {
+  if (!Array.isArray(candidates) || !candidates.length) throw new Error("Give at least one candidate");
+  if (candidates.length > LIMITS.candidates) throw new Error(`${LIMITS.candidates} candidates at most`);
+  const report = [], found = [];
+  for (const raw of candidates) {
+    const name = typeof raw?.name === "string" ? raw.name : null;
+    let c;
+    try { c = checkCandidate(raw, ctx.data.taxonomy); } catch (e) { report.push({ name, skipped: e.message }); continue; }
+    const pt = await geocode(c);
+    if (!pt) { report.push({ name, skipped: "Couldn't find that address on a map. Check address_ja against the venue's own page." }); continue; }
+    const city = cityFor(pt);
+    if (city !== c.city) {
+      report.push({ name, skipped: `The address maps to ${city === "elsewhere" ? "somewhere outside Tokyo, Osaka and Kyoto" : CITY_LABEL[city]}, not ${CITY_LABEL[c.city] || c.city}. Check the address.` });
+      continue;
+    }
+    const same = findSame(c.name, pt, ctx.data.places);
+    if (same) { report.push({ name, already_on_map: `place:${same.id}` }); continue; }
+    found.push(buildPlace(c, pt, ctx.data.places));
+  }
+  const ids = found.length ? await ctx.stub.propose(found.map((place) => ({ place })), ctx.chatId) : [];
+  if (found.length) ctx.events.push({ type: "candidates", items: found.map((place, i) => ({ proposal: ids[i], place })) });
+  return {
+    shown_as_cards: found.map((p, i) => ({
+      proposal: ids[i], name: p.name, area: p.area, category: p.categories[0],
+      pin: p.precision === "area" ? "neighbourhood only (approximate)" : "on the block",
+    })),
+    not_shown: report,
+    next: found.length ? "Ask which one to add, or whether this is the one. Call add_place only after they answer, in a later message." : "Nothing to show. Tell them, or try again with a corrected address.",
+  };
+}
+
+const CITY_LABEL = { tokyo: "Tokyo", osaka: "Osaka", kyoto: "Kyoto" };
+
+async function addPlace({ proposal }, ctx) {
+  const r = await ctx.stub.addProposal(String(proposal || ""), { chatId: ctx.chatId, before: ctx.turnStart });
+  if (r.error) throw new Error(r.same ? `${r.error} Refer to it as [[place:${r.same.id}]].` : r.error);
+  ctx.addPlace(r.place);
+  ctx.events.push({ type: "places", proposal, id: r.place.id, name: r.place.name, version: r.version });
+  return { ok: true, ref: `place:${r.place.id}`, note: r.already ? "It was already added (someone tapped Add)." : "Added to everyone's map." };
+}
+
+const HANDLERS = { nearby, get_day: getDay, travel_estimate: travelEstimate, get_weather: getWeather, edit_plan: editPlan, propose_places: proposePlaces, add_place: addPlace };
 
 // Runs one tool call. Returns the tool_result block; failures go back to the model as is_error.
 export async function runTool(block, ctx) {

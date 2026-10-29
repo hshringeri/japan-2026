@@ -6,6 +6,7 @@ import { app, hereInJapan, listReturn } from "./state.js";
 import { KIND_EMOJI, catEmoji, isInstagram } from "./data.js";
 import { apiReady } from "./api.js";
 import { addItem } from "./planedit.js";
+import { removeChatPlace } from "./chatplaces.js";
 
 let mini;
 
@@ -42,6 +43,7 @@ export function renderPlace(root, id) {
         ${p.neighbourhood && p.neighbourhood !== p.area ? ` › <span>${esc(p.neighbourhood)}</span>` : ""}
       </p>
       <h1>${esc(p.name)}</h1>
+      ${p.source === "chat" ? `<p class="bychat">Added by chat${p.addedAt ? ` on ${esc(ADDED.format(p.addedAt))}` : ""}. Details are from a web search, so check them before you go.</p>` : ""}
       ${photo ? `<figure class="photo"><img src="${esc(photo.src)}" alt="" decoding="async" onerror="this.closest('figure').remove()">${photo.credit ? `<figcaption>Photo: ${esc(photo.credit)}</figcaption>` : ""}</figure>` : ""}
       <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${KIND_EMOJI[k] || ""} ${esc(kindName[k])}</button>`).join("")}</p>
       ${planned.map(({ d, i }) => `<p class="planned">On the plan: ${esc(formatDay(d.date))}${i.time ? ` at ${esc(i.time)}` : ""}${i.notes ? ` · ${esc(i.notes)}` : ""}</p>`).join("")}
@@ -61,6 +63,7 @@ export function renderPlace(root, id) {
         <a class="btn" href="${esc(directionsUrl(p) || p.main.mapUrl)}" target="_blank" rel="noopener">Directions ↗</a>
         ${p.lat != null ? `<a class="btn" href="#/map/${p.id}">Show on map</a>` : ""}
         ${apiReady() ? `<button type="button" class="btn" data-addplan>Add to plan</button>` : ""}
+        ${apiReady() && p.source === "chat" ? `<button type="button" class="btn" data-rmplace>Remove from map</button>` : ""}
       </div>
       ${tagLinks ? `<div class="taglist"><h3>Tags</h3>${tagLinks}</div>` : ""}
       ${p.lat != null ? `<div class="minimap" aria-hidden="true"></div>` : ""}
@@ -79,6 +82,7 @@ export function renderPlace(root, id) {
       location.hash = "#/list";
     }
     if (b.dataset.addplan != null) addItem(undefined, p.id);
+    if (b.dataset.rmplace != null) removeChatPlace(p.id).then((ok) => { if (ok) location.hash = "#/map"; });
     if (b.dataset.copy) navigator.clipboard?.writeText(b.dataset.copy).then(() => (b.textContent = "Copied"));
   });
 
@@ -95,6 +99,7 @@ export function renderPlace(root, id) {
 }
 
 const KIND_VAR = (k) => `var(--k-${k})`;
+const ADDED = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "Asia/Tokyo" });
 
 // Today's state, the hours as written, and the week with today picked out
 function hoursBlock(p) {

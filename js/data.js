@@ -30,7 +30,8 @@ export const CATEGORY_EMOJI = {
   "Onsen & Sento": "♨️", "Hidden Temples & Shrines": "⛩️",
   "JDM Culture": "🚗",
 };
-export const catEmoji = (p) => CATEGORY_EMOJI[p.categories[0]] || KIND_EMOJI[p.kind] || "•";
+// A place the chat added under a category of its own brings its own emoji
+export const catEmoji = (p) => p.emoji || CATEGORY_EMOJI[p.categories[0]] || KIND_EMOJI[p.kind] || "•";
 export function isInstagram(url) {
   try { return !!url && /(^|\.)instagram\.com$/.test(new URL(url).hostname); } catch { return false; }
 }
@@ -42,26 +43,31 @@ export async function loadData() {
   ]);
 
   const kindName = Object.fromEntries(taxonomy.kinds.map((k) => [k.id, k.name]));
-  const cityName = Object.fromEntries(taxonomy.cities.map((c) => [c.id, c.name]));
+  // The chat can add places outside the three cities
+  const cityName = { ...Object.fromEntries(taxonomy.cities.map((c) => [c.id, c.name])), elsewhere: "Elsewhere" };
   const catOrder = Object.fromEntries(taxonomy.kinds.flatMap((k) => k.categories).map((c, i) => [c, i]));
 
-  places.forEach((p, i) => {
-    p.order = i;
-    p.hours = hours?.[p.id] || null;
-    p.main = p.listings[0];
-    p.area = p.area || p.hood || cityName[p.city];
-    p.kind = p.kinds[0];
-    p.color = KIND_COLORS[p.kind];
-    p.cityName = cityName[p.city];
-    p.allTags = Object.values(p.tags || {}).flat();
-    p.search = fold([
-      p.name, p.area, p.neighbourhood, p.cityName, p.addressJa, ...p.categories, ...p.kinds.map((k) => kindName[k]),
-      ...p.allTags, ...p.listings.flatMap((l) => [l.desc, l.address, l.info]),
-    ].join(" "));
-    p.nameFold = fold(p.name);
-  });
+  const data = { places, guide, taxonomy, trip, thumbs: thumbs || {}, routes: routes || {}, kindName, cityName, catOrder };
+  places.forEach((p, i) => preparePlace(data, p, i, hours?.[p.id]));
+  data.byId = Object.fromEntries(places.map((p) => [p.id, p]));
+  if (trip) prepareTrip(trip, data.byId, data.routes);
+  return data;
+}
 
-  const byId = Object.fromEntries(places.map((p) => [p.id, p]));
-  if (trip) prepareTrip(trip, byId, routes || {});
-  return { places, byId, guide, taxonomy, trip, thumbs: thumbs || {}, routes: routes || {}, kindName, cityName, catOrder };
+// The fields the list, map and search read, worked out once per place
+export function preparePlace({ kindName, cityName }, p, order, hours = null) {
+  p.order = order;
+  p.hours = hours;
+  p.main = p.listings[0];
+  p.area = p.area || p.hood || cityName[p.city];
+  p.kind = p.kinds[0];
+  p.color = KIND_COLORS[p.kind];
+  p.cityName = cityName[p.city] || cityName.elsewhere;
+  p.allTags = Object.values(p.tags || {}).flat();
+  p.search = fold([
+    p.name, p.area, p.neighbourhood, p.cityName, p.addressJa, ...p.categories, ...p.kinds.map((k) => kindName[k]),
+    ...p.allTags, ...p.listings.flatMap((l) => [l.desc, l.address, l.info]),
+  ].join(" "));
+  p.nameFold = fold(p.name);
+  return p;
 }
