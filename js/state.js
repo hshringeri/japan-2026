@@ -1,12 +1,12 @@
 import { distanceKm, storage } from "./util.js";
 import { setFilter } from "./filter.js";
-import { dayAnchor, dayAreas } from "./data.js";
+import { dayAnchor, dayAreas, preparePlace } from "./data.js";
 import { prepareTrip } from "./trip.js";
 import { API } from "./config.js";
-import { fetchPlan, apiReady } from "./api.js";
+import { fetchPlan, fetchPlaces, apiReady } from "./api.js";
 
 // App-wide state outside the filter: loaded data, the look-ahead date and your location
-export const app = { data: null, date: null, here: null, locating: false, locationError: null, planVersion: null };
+export const app = { data: null, date: null, here: null, locating: false, locationError: null, planVersion: null, placesVersion: null };
 
 const listeners = {};
 export const onApp = (event, fn) => (listeners[event] ||= new Set()).add(fn);
@@ -84,4 +84,28 @@ export const applySavedPlan = () => applyPlan(storage.get(PLAN_KEY, null));
 export async function refreshPlan() {
   if (!apiReady()) return;
   try { applyPlan(await fetchPlan()); } catch { /* offline or the server is down: keep what we have */ }
+}
+
+// Places the chat added live in the Worker too. They join the guide's places (after them, so the
+// guide keeps its order) and the last copy is kept for offline, like the plan.
+const PLACES_KEY = `places:${API}`;
+export function applyPlaces(live, { force = false } = {}) {
+  const data = app.data;
+  if (!data || !Array.isArray(live?.items)) return;
+  if (!force && app.placesVersion != null && live.version <= app.placesVersion) return;
+  const guide = data.places.filter((p) => p.source !== "chat");
+  const added = live.items.map((p, i) => preparePlace(data, structuredClone(p), guide.length + i));
+  data.places = [...guide, ...added];
+  data.byId = Object.fromEntries(data.places.map((p) => [p.id, p]));
+  if (data.trip) prepareTrip(data.trip, data.byId, data.routes);
+  app.placesVersion = live.version;
+  storage.set(PLACES_KEY, { version: live.version, items: live.items });
+  emit("places");
+}
+
+export const applySavedPlaces = () => applyPlaces(storage.get(PLACES_KEY, null));
+
+export async function refreshPlaces() {
+  if (!apiReady()) return;
+  try { applyPlaces(await fetchPlaces()); } catch { /* offline: keep what we have */ }
 }

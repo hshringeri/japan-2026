@@ -24,6 +24,7 @@ export function mountPlan(el) {
   });
   onApp("data", render);
   onApp("plan", render);
+  onApp("places", render);
 }
 
 export function showPlan() {

@@ -61,16 +61,25 @@ That throws away every edit made in the app. To go the other way and save the li
 
 Reordering stops on a driving day doesn't redraw its road line; run `python3 tools/route.py` after copying the plan back if that matters.
 
+## Places the chat adds
+
+Ask the chat to put a place on the map ("add Bar Benfiddich", "a good ramen place in Ebisu") and it searches the web, then shows up to three candidates as cards in the reply. Nothing goes on the map until someone taps Add on a card or says which one in their next message. The Worker refuses an add in the same message as the proposal, so the chat can't skip that step.
+
+The Worker finds each candidate's pin from its Japanese address with GSI's address search (Japan's national mapping agency, the same source as the guide's pins), falling back to OpenStreetMap. It skips a candidate whose address can't be found, lands in a different city from the one the chat named, or has the same name as a guide or chat place within 200 m. A pin near guide places takes their area name, so the area filter works. The chat picks a category from `data/taxonomy.json`, which sets the emoji; for something the guide has no category for (a museum, a viewpoint) it names one and picks an emoji.
+
+These places live in the Worker next to the plan, never in the repo, so `tools/check.py` and `data/places.json` don't change. Every phone loads them on open and keeps the last copy for offline. They have no photo, and the list, map card and place page say "Added by chat". The place page has Remove from map, with Undo. `curl https://<worker>/places` returns them; to keep one for good, copy it into `data/places.json` (keeping `"source"`, which `tools/check.py` skips) and remove it from the map.
+
 ## The Ask tab
 
-A chat with Claude Haiku 5.5 that knows our plan and our guide. Every request carries the guide's text, the house rules and all the places (cached on Anthropic's side for an hour, so repeat questions are cheap), plus the time in Japan, the day picked in the chat and your location if it's on. The plan goes along whenever it has changed since the chat last saw it. It has these tools, all run inside the Worker:
+A chat with Claude Haiku 5.5 that knows our plan and our guide. Every request carries the guide's text, the house rules and all the places (cached on Anthropic's side for an hour, so repeat questions are cheap), plus the time in Japan, the day picked in the chat and your location if it's on. The plan goes along whenever it has changed since the chat last saw it. The places the chat has added go along the same way. It has these tools, all run inside the Worker:
 
 - `nearby` ranks guide places and plan items by distance from you (or that day's stops before you're in Japan), says what's open from `data/hours.json`, and puts places already on the plan first among equals. This is what "I'm hungry" uses.
 - `get_day` reads one day of the plan in full.
 - `travel_estimate` gives walking time from street distance, driving time from the public OSRM router, and a rough train time. Every place it mentions comes back as a card with a Google Maps Directions link for the real route.
 - `get_weather` reads the Open-Meteo forecast, which reaches about 16 days ahead.
 - `edit_plan` adds, moves, retimes and removes plan items, the same changes the Edit button makes, and the reply shows an Undo button.
-- Web search, limited to tourism sites (japan-guide.com, gotokyo.org, Tabelog and a few others), for what the data can't answer. It uses the basic `web_search_20250305` version, once per message.
+- `propose_places` and `add_place` put places on the map; see [Places the chat adds](#places-the-chat-adds).
+- Web search for what the data can't answer and for finding places to add. It can read any site except a few content farms (Pinterest, Quora, Medium), so small bars with only a Tabelog or Instagram page turn up. It uses the basic `web_search_20250305` version, up to twice per message.
 
 Before the chat answers, a separate quick call checks the message is about the trip or Japan; anything else gets a one-line refusal and never reaches the chat. The Worker enforces these limits whatever the app sends (they're in `worker/src/limits.js`):
 
@@ -80,8 +89,9 @@ Before the chat answers, a separate quick call checks the message is about the t
 | Whole request | 16 KB |
 | Tool calls per message | 6 rounds, then it has to answer |
 | Reply length | 2,048 tokens |
-| Web searches | 1 per message |
-| The whole group, per Japan day | 500 messages and 10M input tokens |
+| Web searches | 2 per message |
+| Places suggested at once | 3 |
+| The whole group, per Japan day | 500 messages, 10M input tokens and 40 places added to the map |
 
 A chat never locks. After 20 messages, or once a request reads 90k tokens (Haiku costs five times as much past 100k), the Worker summarizes the chat so far and carries on from the summary in a fresh thread. The app shows a one-line note when that happens.
 
@@ -123,5 +133,5 @@ cp worker/.dev.vars.example worker/.dev.vars    # then put the key and a passcod
 cd worker && npx wrangler dev                    # http://localhost:8787
 ```
 
-Run `python3 -m http.server` in the repo root as well. With `DATA_BASE=http://localhost:8000/` in `.dev.vars`, the Worker reads the data files from your local copy, so changes show up without deploying. `npm test` in `worker/` runs the tests for plan edits and limits.
+Run `python3 -m http.server` in the repo root as well. With `DATA_BASE=http://localhost:8000/` in `.dev.vars`, the Worker reads the data files from your local copy, so changes show up without deploying. `npm test` in `worker/` runs the tests for plan edits, limits and chat places.
 

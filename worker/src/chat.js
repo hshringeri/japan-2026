@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { TOOLS, runTool } from "./tools.js";
-import { loadData, liveTrip } from "./context.js";
+import { tools, runTool } from "./tools.js";
+import { loadData, liveTrip, withChatPlaces } from "./context.js";
 import { LIMITS, LimitError, checkThread, checkBudget, needsSummary, budgetTokens, contextTokens } from "./limits.js";
 import { japanTime } from "../../js/hours.js";
 import { distanceKm } from "../../js/geo.js";
@@ -87,8 +87,9 @@ function outline(trip) {
 }
 
 // What the model needs to know about this moment: the time, the day in question and where they
-// are. The plan outline comes along only when the model hasn't seen this version of it yet.
-function contextBlock({ trip, now, date, here, version, seenVersion, summary }) {
+// are. The plan outline and the chat's places come along only when the model hasn't seen that
+// version of them yet.
+function contextBlock({ trip, now, date, here, version, seenVersion, places, seenPlaces, summary }) {
   const first = trip.days[0].date, last = trip.days.at(-1).date;
   const lines = [`<context>`];
   if (summary) lines.push(`This chat is continuing from earlier. Summary of what came before:`, summary, "");
@@ -104,6 +105,12 @@ function contextBlock({ trip, now, date, here, version, seenVersion, summary }) 
   } else {
     lines.push(`Plan, version ${version}. Each item: id · time · kind · title, with [booked], [TBD] and [no location] flags.`, ...outline(trip));
   }
+  if (places.version && places.version === seenPlaces) {
+    lines.push(`Places added by chat: unchanged since version ${places.version}, earlier in this chat.`);
+  } else if (places.version) {
+    lines.push(`Places added by chat, version ${places.version}. They're on everyone's map like guide places:`,
+      ...(places.items.length ? places.items.map((p) => `- place:${p.id} · ${p.name} · ${p.area} · ${p.categories[0]}`) : ["- none right now"]));
+  }
   lines.push(`</context>`);
   return lines.join("\n");
 }
@@ -111,6 +118,8 @@ function contextBlock({ trip, now, date, here, version, seenVersion, summary }) 
 // One message in, a streamed reply out. send(event, data) writes a server-sent event.
 // A turn is stored only when it finishes cleanly, so a thread never holds half a turn.
 export async function chat({ env, stub, req, send }) {
+  // Proposals made from here on can't be added until the next message
+  const turnStart = Date.now();
   let thread = await stub.chat(req.chatId);
   checkThread(thread.meta);
   checkBudget(await stub.budget());
@@ -141,17 +150,27 @@ export async function chat({ env, stub, req, send }) {
 
     const data = await loadData(env);
     const plan = await stub.plan();
+    const places = await stub.livePlaces();
     const now = japanTime();
     const days = data.trip.days.map((d) => d.date);
     const date = days.includes(req.date) ? req.date : days.includes(now.date) ? now.date : days[0];
+    let chatPlaces = places.items;
     const ctx = {
-      data, trip: liveTrip(data, plan.items), here: req.here, date, now, stub, events: [],
-      applyPlan(items) { ctx.trip = liveTrip(data, items); },
+      data: withChatPlaces(data, chatPlaces), trip: null, planItems: null, here: req.here, date, now, stub, events: [],
+      chatId: req.chatId, turnStart,
+      applyPlan(items) { ctx.planItems = items; ctx.trip = liveTrip(ctx.data, items); },
+      addPlace(place) {
+        chatPlaces = [...chatPlaces.filter((p) => p.id !== place.id), place];
+        ctx.data = withChatPlaces(data, chatPlaces);
+        ctx.applyPlan(ctx.planItems);
+      },
     };
+    ctx.applyPlan(plan.items);
 
     const userMsg = { role: "user", content: [
       { type: "text", text: contextBlock({
         trip: ctx.trip, now, date, here: req.here, version: plan.version, seenVersion: thread.meta.planVersion,
+        places, seenPlaces: thread.meta.placesVersion,
         summary: thread.meta.count === 0 ? thread.meta.summary : null,
       }) },
       { type: "text", text: req.text },
@@ -167,7 +186,7 @@ export async function chat({ env, stub, req, send }) {
         output_config: { effort: "medium" },
         // The guide and places index: big, and the same for everyone, so cached for an hour
         system: [{ type: "text", text: data.system, cache_control: { type: "ephemeral", ttl: "1h" } }],
-        tools: TOOLS,
+        tools: tools(data.taxonomy),
         // Out of tool rounds: the model has to answer with what it has
         tool_choice: { type: round >= LIMITS.toolRounds ? "none" : "auto" },
         // Also cache the conversation so far
@@ -175,6 +194,10 @@ export async function chat({ env, stub, req, send }) {
         messages,
       });
       stream.on("text", (t) => send("text", { t }));
+      // Web searches run inside the call; say so while they do
+      stream.on("streamEvent", (e) => {
+        if (e.type === "content_block_start" && e.content_block.type === "server_tool_use") send("tool", { names: [e.content_block.name] });
+      });
       const msg = await stream.finalMessage();
       usage = msg.usage;
       await stub.spend({ tokens: budgetTokens(usage) });
@@ -192,13 +215,13 @@ export async function chat({ env, stub, req, send }) {
 
       send("tool", { names: uses.map((u) => u.name) });
       const results = await Promise.all(uses.map((u) => runTool(u, ctx)));
-      for (const ev of ctx.events.splice(0)) send("plan", ev);
+      for (const { type, ...ev } of ctx.events.splice(0)) send(type, ev);
       const toolMsg = { role: "user", content: results };
       messages.push(toolMsg);
       added.push(toolMsg);
     }
 
-    await stub.saveTurn(req.chatId, added, contextTokens(usage), plan.version);
+    await stub.saveTurn(req.chatId, added, contextTokens(usage), plan.version, places.version);
     saved = true;
     send("done", {});
   } finally {

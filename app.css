@@ -412,6 +412,20 @@ button.btn { cursor: pointer; }
 .pcard small { color: var(--mute); font-size: 12px; }
 .pcard .hrs { margin: 0 0 0 20px; }
 .pcard .dir { margin-left: 20px; font: 600 13px var(--sans); color: var(--blue-ink); text-decoration: none; }
+/* Places the chat found: a card each, added with a tap */
+.cands { display: grid; gap: 6px; margin-top: 8px; }
+.cand { display: grid; grid-template-columns: 30px 1fr; gap: 4px 10px; align-items: start; padding: 10px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); }
+.cand .em { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; border: 2.5px solid var(--c); font-size: 13px; line-height: 1; }
+.cand .body { display: grid; gap: 2px; min-width: 0; }
+.cand b { font: 700 15px/1.25 var(--sans); }
+.cand small, .cand .addr { color: var(--mute); font-size: 12px; }
+.cand .desc { font: 14px/1.4 var(--serif); }
+.cand .dir { font: 600 13px var(--sans); color: var(--blue-ink); text-decoration: none; }
+.cand .chip { grid-column: 2; justify-self: start; margin-top: 4px; text-decoration: none; color: inherit; }
+.cand .chip.on { color: var(--paper); }
+.cand .chip:disabled { opacity: .6; cursor: default; }
+.bychat { font: italic 12px/1.3 var(--sans); color: var(--mute); }
+.place .bychat { margin: -2px 0 10px; font-size: 13px; }
 .changes { margin-top: 8px; padding: 8px 10px; border-radius: 10px; background: var(--blue-soft); color: var(--blue-ink); font-size: 13.5px; }
 .changes ul { margin: 4px 0 6px; }
 .changes.undone { background: var(--card); color: var(--mute); text-decoration: line-through; }

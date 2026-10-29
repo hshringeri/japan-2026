@@ -9,7 +9,9 @@ export function prepareTrip(trip, byId, routes) {
     // A driving day's road line, built by tools/route.py
     day.routeObj = day.route && routes[day.date] ? { ...day.route, ...routes[day.date] } : null;
     for (const it of day.items) {
-      // Items that point at a guide place take its coordinates and details
+      // Items that point at a guide place take its coordinates and details. A place the chat
+      // added can be taken off the map again; the item keeps its pin but no longer links to it.
+      if (it.place && !byId[it.place]) delete it.placeObj;
       if (it.place && byId[it.place]) {
         const p = byId[it.place];
         it.placeObj = p;

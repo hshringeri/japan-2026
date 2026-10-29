@@ -1,6 +1,6 @@
 import { $, $$ } from "./util.js";
 import { loadData } from "./data.js";
-import { app, emit, startLocation, locationWasAllowed, setDate, listReturn, applySavedPlan, refreshPlan } from "./state.js";
+import { app, emit, startLocation, locationWasAllowed, setDate, listReturn, applySavedPlan, refreshPlan, applySavedPlaces, refreshPlaces } from "./state.js";
 import { mountList } from "./list.js";
 import { mountMap, showMap, focusPlace, revealPlace } from "./map.js";
 import { mountSplit, syncSplit } from "./split.js";
@@ -57,7 +57,9 @@ async function start() {
     $("#boot").innerHTML = `<p>Couldn't load the guide (${err.message}). Check your connection and reload.</p>`;
     return;
   }
-  // The shared plan as last seen on this phone, then the live one when it arrives
+  // The chat's places and the shared plan as last seen on this phone, then the live ones when
+  // they arrive. Places first, so plan items can link to them.
+  applySavedPlaces();
   applySavedPlan();
   $("#boot").remove();
   mountList($("#view-list"));
@@ -70,9 +72,10 @@ async function start() {
   const day = new URLSearchParams(location.search).get("day");
   if (day && app.data.trip?.dayByDate[day]) setDate(day);
   if (locationWasAllowed()) startLocation();
+  refreshPlaces();
   refreshPlan();
   // Coming back to the app picks up edits the others made meanwhile
-  document.addEventListener("visibilitychange", () => { if (!document.hidden) refreshPlan(); });
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) { refreshPlaces(); refreshPlan(); } });
   if (!location.hash) history.replaceState(null, "", wide.matches ? "#/list" : "#/map");
   addEventListener("hashchange", route);
   wide.addEventListener("change", route);

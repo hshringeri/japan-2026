@@ -42,6 +42,7 @@ export function mountList(root) {
 
   onFilter(render);
   onApp("date", render);
+  onApp("places", render);
   onApp("here", () => { if (!app.date) render(); });
   // Coming back from a place: put the list back where it was
   onApp("route", (name) => {
@@ -77,6 +78,7 @@ function row(p) {
     <span class="body">
       <span class="name">${esc(p.name)}</span>
       <span class="sub">${catEmoji(p)} ${esc(p.area)} · ${esc(p.categories.join(", "))}${p.precision === "area" ? " · approx. location" : ""}</span>
+      ${p.source === "chat" ? `<span class="bychat">Added by chat</span>` : ""}
       ${hoursBadge(p, app.date)}
       <span class="desc">${esc(p.main.desc)}</span>
       ${tags.length ? `<span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>` : ""}
@@ -107,5 +109,6 @@ function contextCards(results, guide) {
 function goneNotes(guide) {
   if (!filter.city) return "";
   const c = guide.cities.find((x) => x.id === filter.city);
+  if (!c) return "";
   return c.blocks.filter((b) => b.type === "gone").map((b) => `<aside class="card gone">${b.html}</aside>`).join("");
 }

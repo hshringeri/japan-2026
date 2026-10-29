@@ -1,8 +1,10 @@
 import { esc, formatDay, distanceKm, formatDistance, walkMinutes, directionsUrl, hoursBadge, storage } from "./util.js";
-import { app, onApp, startLocation, hereInJapan, refreshPlan } from "./state.js";
+import { app, onApp, startLocation, hereInJapan, refreshPlan, refreshPlaces } from "./state.js";
 import { sendChat, apiReady, passcode } from "./api.js";
 import { askPasscode, ensurePasscode, openSheet } from "./sheet.js";
 import { runOps, defaultDay } from "./planedit.js";
+import { addProposed } from "./chatplaces.js";
+import { catEmoji, KIND_COLORS } from "./data.js";
 
 // The Ask tab: a chat with Claude about the trip. The Worker holds the key, checks every limit
 // and runs the tools; this side sends one message at a time and draws the streamed reply.
@@ -14,6 +16,7 @@ const SUGGEST = ["I'm hungry", "What's near us tomorrow?", "Weather this week", 
 const TOOL_STATUS = {
   nearby: "Looking for places nearby…", get_weather: "Checking the weather…", travel_estimate: "Working out travel time…",
   edit_plan: "Updating the plan…", get_day: "Reading the plan…", summarize: "Catching up on the chat so far…",
+  web_search: "Searching the web…", propose_places: "Finding them on the map…", add_place: "Adding it to the map…",
 };
 
 let root, thread, form, input, daySel, locBtn, counter, sendBtn;
@@ -135,6 +138,8 @@ export function mountChat(el) {
     if (s) { send(s.dataset.suggest); return; }
     const u = e.target.closest("[data-undo]");
     if (u) undo(+u.dataset.msg, +u.dataset.undo);
+    const c = e.target.closest("[data-cand]");
+    if (c) addCandidate(+c.dataset.msg, +c.dataset.cand, c);
   });
 
   // The keyboard covers the bottom of the screen; keep the composer above it
@@ -146,6 +151,7 @@ export function mountChat(el) {
   onApp("here", syncLocation);
   onApp("date", () => { if (app.date) daySel.value = app.date; });
   onApp("plan", () => render());
+  onApp("places", () => render());
   render();
 }
 
@@ -193,7 +199,7 @@ async function send(raw) {
   syncInput();
   const date = daySel.value;
   state.messages.push({ role: "user", text, date });
-  const reply = { role: "assistant", text: "", plan: [], status: "Thinking…" };
+  const reply = { role: "assistant", text: "", plan: [], cands: [], status: "Thinking…" };
   state.messages.push(reply);
   render();
   const here = app.here ? { lat: app.here.lat, lng: app.here.lng, accuracy: app.here.accuracy } : null;
@@ -202,6 +208,8 @@ async function send(raw) {
       if (event === "text") { reply.text += d.t; reply.status = null; }
       else if (event === "tool") reply.status = d.names.map((n) => TOOL_STATUS[n]).find(Boolean) || "Working…";
       else if (event === "plan") { reply.plan.push({ changes: d.changes, inverse: d.inverse }); refreshPlan(); }
+      else if (event === "candidates") reply.cands.push(...d.items);
+      else if (event === "places") { markAdded(d.proposal, d.id); refreshPlaces(); }
       else if (event === "note") state.messages.splice(state.messages.indexOf(reply), 0, { role: "note", text: d.text });
       else if (event === "done") { if (d.offTopic) reply.offTopic = true; }
       else if (event === "error") reply.error = d.message;
@@ -236,6 +244,25 @@ async function undo(msgIndex, planIndex) {
   }
 }
 
+// A suggested place's Add button: on everyone's map once the Worker says so
+async function addCandidate(msgIndex, j, btn) {
+  const c = state.messages[msgIndex]?.cands?.[j];
+  if (!c || btn.disabled) return;
+  btn.disabled = true;
+  btn.textContent = "Adding…";
+  const place = await addProposed(c.proposal);
+  if (place) markAdded(c.proposal, place.id);
+  render();
+}
+
+// The same suggestion can sit in more than one saved reply; mark them all
+function markAdded(proposal, id) {
+  for (const chat of [state, ...store.list]) {
+    for (const m of chat.messages) for (const c of m.cands || []) if (c.proposal === proposal) c.added = id;
+  }
+  save();
+}
+
 // Draw at most once a frame while text streams in
 function paint() {
   if (frame) return;
@@ -252,7 +279,7 @@ function render() {
   }
   thread.innerHTML = state.messages.length ? state.messages.map(bubble).join("") : `
     <div class="hello">
-      <p>Ask anything about the trip or about Japan. Answers use our plan and our guide, your location if it's on, and the day picked below. It can also move things around in the plan.</p>
+      <p>Ask anything about the trip or about Japan. Answers use our plan and our guide, your location if it's on, and the day picked below. It can also move things around in the plan, and look up a place and add it to the map once you say which one.</p>
       <div class="suggest">${SUGGEST.map((s) => `<button type="button" class="chip" data-suggest="${esc(s)}">${esc(s)}</button>`).join("")}</div>
       <p class="fine">Chats are saved on this phone; Chats opens the old ones. Long chats keep going, with the older messages summarized. It won't answer questions that aren't about the trip or Japan.</p>
     </div>`;
@@ -270,6 +297,7 @@ function bubble(m, i) {
   const date = state.messages.slice(0, i).reverse().find((x) => x.role === "user")?.date;
   return `<div class="msg ai${m.offTopic ? " off" : ""}">
     ${text ? md(text, date) : ""}
+    ${m.cands?.length ? `<div class="cands">${m.cands.map((c, j) => candidate(c, i, j)).join("")}</div>` : ""}
     ${m.status ? `<p class="status">${esc(m.status)}</p>` : ""}
     ${m.plan.map((p, j) => `<div class="changes${p.undone ? " undone" : ""}">
         <b>${p.undone ? "Undone" : "Plan updated"}</b>
@@ -321,6 +349,23 @@ function placeCard(id, date) {
     ${hoursBadge(p, date)}
     ${p.lat != null ? `<a class="dir" href="${esc(directionsUrl(p))}" target="_blank" rel="noopener">Directions ↗</a>` : ""}
   </span>`;
+}
+
+// A place the chat found, before or after it's on the map. No photo: these come from a web search.
+function candidate(c, i, j) {
+  const p = c.place, l = p.listings[0];
+  const live = c.added && app.data.byId[c.added];
+  return `<div class="cand${live ? " added" : ""}">
+    <span class="em" style="--c:${KIND_COLORS[p.kinds[0]]}">${catEmoji({ ...p, kind: p.kinds[0] })}</span>
+    <span class="body">
+      <b>${esc(p.name)}</b>
+      <small>${esc(p.area)} · ${esc(p.categories[0])}${p.precision === "area" ? " · approx. pin" : ""}</small>
+      <span class="addr">${esc(l.address)}</span>
+      <span class="desc">${esc(l.desc)}</span>
+      ${l.url ? `<a class="dir" href="${esc(l.url)}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+    </span>
+    ${live ? `<a class="chip on" href="#/map/${esc(c.added)}">On the map</a>` : `<button type="button" class="chip" data-msg="${i}" data-cand="${j}">Add to map</button>`}
+  </div>`;
 }
 
 function itemCard(id) {

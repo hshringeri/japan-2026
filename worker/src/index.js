@@ -5,6 +5,9 @@ export { Trip } from "./trip.js";
 
 // Routes
 //   GET  /plan        the live plan (public; the same data is in the public repo)
+//   GET  /places      places the chat added to the map (public, like the guide)
+//   POST /places/add  { proposal } → put a place the chat suggested on the map  (passcode)
+//   POST /places/remove, /places/restore  { id } → take one off, or put it back  (passcode)
 //   POST /plan/ops    { ops: [...] } → apply edits                 (passcode)
 //   POST /plan/reset  reseed from data/trip.json                    (passcode)
 //   POST /chat        { chatId, text, date?, here? } → event stream (passcode)
@@ -78,6 +81,10 @@ export default {
         const p = await stub(env).plan();
         return json({ version: p.version, updatedAt: p.updatedAt, items: p.items, history: p.history.slice(0, 10) }, 200, { ...h, "cache-control": "no-store" });
       }
+      if (req.method === "GET" && url.pathname === "/places") {
+        const p = await stub(env).livePlaces();
+        return json(p, 200, { ...h, "cache-control": "no-store" });
+      }
       if (req.method === "GET" && url.pathname === "/limits") return json(LIMITS, 200, h);
 
       if (req.method !== "POST") return json({ error: "Not found" }, 404, h);
@@ -90,6 +97,16 @@ export default {
         const r = await stub(env).edit(body.ops, by);
         if (r.error) return json({ error: r.error }, 400, h);
         return json({ version: r.plan.version, items: r.plan.items, changes: r.changes, inverse: r.inverse }, 200, h);
+      }
+      if (["/places/add", "/places/remove", "/places/restore"].includes(url.pathname)) {
+        let body;
+        try { body = JSON.parse(await readBody(req, 1024)); } catch (e) { if (e instanceof LimitError) throw e; return json({ error: "The request wasn't valid JSON." }, 400, h); }
+        const s = stub(env);
+        const r = url.pathname === "/places/add"
+          ? await s.addProposal(String(body?.proposal || ""))
+          : await s.setRemoved(String(body?.id || ""), url.pathname === "/places/remove");
+        if (r.error) return json({ error: r.error, same: r.same || null }, 400, h);
+        return json({ ...(await s.livePlaces()), place: r.place, already: !!r.already }, 200, h);
       }
       if (url.pathname === "/plan/reset") {
         const p = await stub(env).reset("reset");

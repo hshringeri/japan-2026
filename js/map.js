@@ -86,6 +86,7 @@ function build() {
   onFilter(() => drawPlaces(true));
   onApp("date", () => { drawDay(); frame(); });
   onApp("plan", drawDay);
+  onApp("places", () => { drawPlaces(false); drawDay(); });
   onApp("here", drawHere);
   drawStays();
   drawPlaces(false);
@@ -223,7 +224,7 @@ function previewMarker(p, tier) {
     const item = focus && day?.items.find((i) => i.place === p.id);
     html = `<div class="pv${focus ? " on" : ""}" style="--c:${p.color}">
     ${photo ? `<img src="${esc(photo.src)}" alt="" onerror="this.remove()">` : ""}
-    ${focus ? `<p class="kicker">${esc(p.area)}</p>` : ""}
+    ${focus ? `<p class="kicker">${esc(p.area)}${p.source === "chat" ? " · added by chat" : ""}</p>` : ""}
     <b>${esc(p.name)}</b>
     ${item ? `<p class="planned">On the plan${item.time ? ` at ${esc(item.time)}` : ""}${item.notes ? ` · ${esc(item.notes)}` : ""}</p>` : ""}
     <span class="tags">${tags.map((t) => `<i>${esc(t)}</i>`).join("")}</span>

@@ -76,6 +76,7 @@ export function mountFilterBar(root, { compact = false } = {}) {
   }
   onFilter(render);
   onApp("data", render);
+  onApp("places", render);
   render();
   if (compact) root.classList.add("compact");
   return { render };
