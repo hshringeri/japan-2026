@@ -6761,10 +6761,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "cuisine": [
@@ -6800,10 +6802,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "flags": [
@@ -6835,10 +6839,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "cuisine": [
@@ -8246,7 +8252,8 @@
    "drink"
   ],
   "categories": [
-   "Cool Bars"
+   "Cool Bars",
+   "Senbero"
   ],
   "tags": {
    "cuisine": [
@@ -9953,10 +9960,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "flags": [
@@ -10023,10 +10032,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "flags": [
@@ -11875,5 +11886,414 @@
   "ward": "Ichihara (Chiba)",
   "area": "Outskirts & day trips",
   "geoNote": "Pinned to the circuit's address as drift lesson listings give it."
+ },
+ {
+  "id": "tokyo-yakiniku-jumbo-hanare",
+  "city": "tokyo",
+  "name": "Yakiniku Jumbo Hanare",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Yakiniku",
+    "url": "https://www.timeout.com/tokyo/restaurants/jambo-hanare",
+    "desc": "The Hongo outpost of Tokyo's cult wagyu yakiniku name, where staff grill the first pieces for you so you taste each cut at its best.",
+    "address": "3-27-9 Hongo, Bunkyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yakiniku%20Jumbo%20Hanare%203-27-9%20Hongo%2C%20Bunkyo%20Tokyo",
+    "info": "¥¥¥ · daily 17:00–23:00 · book ahead"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Yakiniku"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakiniku"
+   ]
+  },
+  "lat": 35.706654,
+  "lng": 139.762405,
+  "precision": "building",
+  "addressJa": "東京都文京区本郷3-27-9",
+  "neighbourhood": "Hongo",
+  "ward": "Bunkyo",
+  "area": "Ueno, Yanaka & Asakusa"
+ },
+ {
+  "id": "tokyo-horumonyaki-koei-honten",
+  "city": "tokyo",
+  "name": "Horumon-yaki Koei Honten",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Yakiniku",
+    "url": "https://r.gnavi.co.jp/gffm002/",
+    "desc": "A smoky, long-loved horumon grill a minute from Higashi-Shinjuku station that keeps going until 7am, for offal and cold beer after everything else shuts.",
+    "address": "1 min from Higashi-Shinjuku Stn, Shinjuku",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Horumon-yaki%20Koei%20Honten%201%20min%20from%20Higashi-Shinjuku%20Stn%2C%20Shinjuku%20Tokyo",
+    "info": "¥¥ · daily 11:30–07:00 · walk-in"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Yakiniku"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakiniku",
+    "Horumon"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.699642,
+  "lng": 139.704956,
+  "precision": "area",
+  "addressJa": "東京都新宿区大久保1丁目付近",
+  "neighbourhood": "Okubo",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "osaka-yakiniku-hakuundai-tsuruhashi",
+  "city": "osaka",
+  "name": "Yakiniku Hakuundai (Tsuruhashi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Yakiniku",
+    "url": "https://r.gnavi.co.jp/k156200/",
+    "desc": "Fifty years in Tsuruhashi's Koreatown, ten seconds from the station: A5 black wagyu, house-made sides and the neighbourhood's signature smoke.",
+    "address": "5-26 Shimoajiharacho, Tennoji",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yakiniku%20Hakuundai%20%28Tsuruhashi%29%205-26%20Shimoajiharacho%2C%20Tennoji%20Osaka",
+    "info": "¥¥–¥¥¥ · lunch 11:30–15:00, dinner 17:00–21:30 (Fri–Sat to 22:00) · closed Tue"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Yakiniku"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakiniku"
+   ]
+  },
+  "lat": 34.665497,
+  "lng": 135.53009,
+  "precision": "building",
+  "addressJa": "大阪府大阪市天王寺区下味原町5-26",
+  "neighbourhood": "Tsuruhashi",
+  "ward": "Tennoji",
+  "area": "Kyobashi & east"
+ },
+ {
+  "id": "kyoto-tendan-gion",
+  "city": "kyoto",
+  "name": "Tendan Gion Honten",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Yakiniku",
+    "url": "https://www.hotpepper.jp/strJ000796619/",
+    "desc": "Kyoto's old-guard yakiniku house since 1965, on the Kamo river in Gion, known for dipping the meat in a light dashi-style sauce instead of a heavy tare.",
+    "address": "1-225 Miyagawasuji, Higashiyama",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tendan%20Gion%20Honten%201-225%20Miyagawasuji%2C%20Higashiyama%20Kyoto",
+    "info": "¥¥¥ · weekdays 17:00–23:00, weekends from 11:30 · booking advised"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Yakiniku"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yakiniku"
+   ]
+  },
+  "lat": 35.002842,
+  "lng": 135.771957,
+  "precision": "building",
+  "addressJa": "京都府京都市東山区宮川筋1-225",
+  "neighbourhood": "Miyagawacho",
+  "ward": "Higashiyama",
+  "area": "Gion & Higashiyama"
+ },
+ {
+  "id": "tokyo-neo-shinjuku-atsushi",
+  "city": "tokyo",
+  "name": "NEO Shinjuku Atsushi",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cyberpunk Bars",
+    "url": "https://www.tablecheck.com/neo-shinjuku-atsushi",
+    "desc": "A Blade Runner-meets-Akira bar on a fourth floor in Shinjuku 3-chome: exposed pipes, neon, hydroponic racks and 'future food', turning into a late bar after 23:00.",
+    "address": "Sankei Bldg, 3-3-7 Shinjuku, Shinjuku",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=NEO%20Shinjuku%20Atsushi%20Sankei%20Bldg%2C%203-3-7%20Shinjuku%2C%20Shinjuku%20Tokyo",
+    "info": "dinner 18:00–23:00 · bar 23:00–06:00 · open daily"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cyberpunk Bars"
+  ],
+  "tags": {},
+  "lat": 35.690701,
+  "lng": 139.7061,
+  "precision": "building",
+  "addressJa": "東京都新宿区新宿3-3-7 三慶ビル",
+  "neighbourhood": "Shinjuku 3-chome",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-kujira-entertainment",
+  "city": "tokyo",
+  "name": "KUJIRA Entertainment",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cyberpunk Bars",
+    "url": "https://gurunavi.com/en/gezn900/rst",
+    "desc": "A basement dining bar in Kabukicho built as a cyberpunk Japanese street, with a giant LED wall, dance shows and DJs until five.",
+    "address": "Furinkaikan B2F, 2-23-1 Kabukicho, Shinjuku",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=KUJIRA%20Entertainment%20Furinkaikan%20B2F%2C%202-23-1%20Kabukicho%2C%20Shinjuku%20Tokyo",
+    "info": "Mon–Sat 21:00–05:00"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cyberpunk Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.695019,
+  "lng": 139.704147,
+  "precision": "building",
+  "addressJa": "東京都新宿区歌舞伎町2-23-1 風林会館B2F",
+  "neighbourhood": "Kabukicho",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-nanzuka-taken",
+  "city": "tokyo",
+  "name": "Nanzuka Taken",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cyberpunk Bars",
+    "url": "https://www.timeout.com/tokyo/bars-and-pubs/nanzuka-taken",
+    "desc": "A gallery-run cocktail bar in Shibuya where you drink around one of Hajime Sorayama's chrome sexy robots while his video art plays behind the bar.",
+    "address": "Shibuya Axsh 2F, 2-17-1 Shibuya, Shibuya",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nanzuka%20Taken%20Shibuya%20Axsh%202F%2C%202-17-1%20Shibuya%2C%20Shibuya%20Tokyo",
+    "info": "17:00–24:00 · closed Sun & hols"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cyberpunk Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.65947,
+  "lng": 139.705032,
+  "precision": "building",
+  "addressJa": "東京都渋谷区渋谷2-17-1 渋谷アクシュ2F",
+  "neighbourhood": "Shibuya 2-chome",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "osaka-neo-vector",
+  "city": "osaka",
+  "name": "NEO VECTOR",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cyberpunk Bars",
+    "url": "https://www.hotpepper.jp/strJ003473106/",
+    "desc": "A small Shinsaibashi bar built out like a cyberpunk hideout, with smoke effects, odd machinery and a shelf of unusual bottles.",
+    "address": "Nichiho Fine Plaza 4F, 2-3-5 Shinsaibashisuji, Chuo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=NEO%20VECTOR%20Nichiho%20Fine%20Plaza%204F%2C%202-3-5%20Shinsaibashisuji%2C%20Chuo%20Osaka",
+    "info": "evenings · hours on socials"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cyberpunk Bars"
+  ],
+  "tags": {},
+  "lat": 34.66991,
+  "lng": 135.502258,
+  "precision": "building",
+  "addressJa": "大阪府大阪市中央区心斎橋筋2-3-5 日宝ファインプラザ4F",
+  "neighbourhood": "Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
+ },
+ {
+  "id": "tokyo-tachinomi-ikoi-honten",
+  "city": "tokyo",
+  "name": "Tachinomi Ikoi Honten",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://tabelog.com/tokyo/A1323/A132305/13136693/",
+    "desc": "Akabane's benchmark standing bar: pay as each plate lands, ¥100–200 snacks and cheap highballs, the purest version of the thousand-yen drunk.",
+    "address": "1-23-2 Akabane, Kita",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tachinomi%20Ikoi%20Honten%201-23-2%20Akabane%2C%20Kita%20Tokyo",
+    "info": "Tue–Sat 11:00–22:00, Sun to 21:30 · closed Mon · cash"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.779705,
+  "lng": 139.721191,
+  "precision": "building",
+  "addressJa": "東京都北区赤羽1-23-2",
+  "neighbourhood": "Akabane",
+  "ward": "Kita",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "tokyo-marumasu-ya",
+  "city": "tokyo",
+  "name": "Marumasu-ya",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://ssl.tabelog.com/en/tokyo/A1323/A132305/13003778/dtlrvwlst/",
+    "desc": "Akabane's carp-and-eel daytime drinking hall, packed from late morning with locals on jumbo chuhai and koi-koku.",
+    "address": "1-17-7 Akabane, Kita",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Marumasu-ya%201-17-7%20Akabane%2C%20Kita%20Tokyo",
+    "info": "11:00–19:00 · closed Mon · cash"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {},
+  "lat": 35.779945,
+  "lng": 139.720535,
+  "precision": "building",
+  "addressJa": "東京都北区赤羽1-17-7",
+  "neighbourhood": "Akabane",
+  "ward": "Kita",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "tokyo-uchida-tateishi",
+  "city": "tokyo",
+  "name": "Uchida (Tateishi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://ssl.tabelog.com/en/tokyo/A1324/A132403/13003087/",
+    "desc": "The legendary Tateishi motsuyaki counter in the old Nakamise arcade: ordering in shorthand, shochu with umebo, and a queue before it opens.",
+    "address": "1-18-8 Tateishi, Katsushika",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Uchida%20%28Tateishi%29%201-18-8%20Tateishi%2C%20Katsushika%20Tokyo",
+    "info": "afternoons, sells out · closed Sun & hols · cash"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {},
+  "lat": 35.738014,
+  "lng": 139.848907,
+  "precision": "building",
+  "addressJa": "東京都葛飾区立石1-18-8",
+  "neighbourhood": "Tateishi",
+  "ward": "Katsushika",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "osaka-sakaba-matsui-kyobashi",
+  "city": "osaka",
+  "name": "Sakaba Matsui (Kyobashi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://gurunavi.com/en/kb67401/mp/rst",
+    "desc": "A Kyobashi standing bar a minute from the station, open from 8am, where oden and kushikatsu come in pairs and nothing costs much.",
+    "address": "3-5-1 Higashinoda-cho, Miyakojima",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sakaba%20Matsui%20%28Kyobashi%29%203-5-1%20Higashinoda-cho%2C%20Miyakojima%20Osaka",
+    "info": "daily 8:00–23:00 · cash"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing",
+    "Morning"
+   ]
+  },
+  "lat": 34.697643,
+  "lng": 135.533875,
+  "precision": "building",
+  "addressJa": "大阪府大阪市都島区東野田町3-5-1",
+  "neighbourhood": "Kyobashi",
+  "ward": "Miyakojima",
+  "area": "Kyobashi & east"
  }
 ]
