@@ -442,10 +442,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "cuisine": [
@@ -480,10 +482,12 @@
    }
   ],
   "kinds": [
-   "eat"
+   "eat",
+   "drink"
   ],
   "categories": [
-   "Izakaya"
+   "Izakaya",
+   "Senbero"
   ],
   "tags": {
    "cuisine": [
@@ -12295,5 +12299,247 @@
   "neighbourhood": "Kyobashi",
   "ward": "Miyakojima",
   "area": "Kyobashi & east"
+ },
+ {
+  "id": "tokyo-kidofuji",
+  "city": "tokyo",
+  "name": "Kidofuji",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://1000bero.net/restaurant-1523/",
+    "desc": "Koenji's go-to cash-on-delivery standing bar since 2012, a grown-up sweet shop of cheap sake, wine and little plates a few minutes off the north exit.",
+    "address": "1F, 3-3-9 Koenji-kita, Suginami",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kidofuji%201F%2C%203-3-9%20Koenji-kita%2C%20Suginami%20Tokyo",
+    "info": "cash on delivery · evenings"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.706268,
+  "lng": 139.647141,
+  "precision": "building",
+  "addressJa": "東京都杉並区高円寺北3-3-9 1F",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
+ },
+ {
+  "id": "tokyo-momoya-koenji",
+  "city": "tokyo",
+  "name": "Momoya (Shojikiya)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://1000bero.net/restaurant-1898/",
+    "desc": "A rock-bottom basement standing bar two minutes from Koenji's south exit, refitted and still about as cheap as Koenji drinking gets.",
+    "address": "B1, 4-26-16 Koenji-minami, Suginami",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Momoya%20%28Shojikiya%29%20B1%2C%204-26-16%20Koenji-minami%2C%20Suginami%20Tokyo",
+    "info": "evenings · cash"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.704582,
+  "lng": 139.649536,
+  "precision": "building",
+  "addressJa": "東京都杉並区高円寺南4-26-16 B1",
+  "neighbourhood": "Koenji",
+  "ward": "Suginami",
+  "area": "Koenji"
+ },
+ {
+  "id": "tokyo-ochiai-saketen",
+  "city": "tokyo",
+  "name": "Ochiai Saketen",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://1000bero.net/restaurant-2317/",
+    "desc": "A liquor shop open since 1975 that runs a kaku-uchi at the back: buy from the fridge, drink at the counter, with surprisingly French snacks.",
+    "address": "5-36-11 Daizawa, Setagaya",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ochiai%20Saketen%205-36-11%20Daizawa%2C%20Setagaya%20Tokyo",
+    "info": "kaku-uchi (drink in the shop) · from evening to 21:00"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {},
+  "lat": 35.659431,
+  "lng": 139.666931,
+  "precision": "building",
+  "addressJa": "東京都世田谷区代沢5-36-11",
+  "neighbourhood": "Daizawa",
+  "ward": "Setagaya",
+  "area": "Shimokitazawa & Sangenjaya"
+ },
+ {
+  "id": "tokyo-motsuyaki-ucchan-omoide-yokocho",
+  "city": "tokyo",
+  "name": "Motsuyaki Ucchan (Omoide Yokocho)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://www.timeout.com/tokyo/restaurants/motsu-yaki-utchan-shinjuku",
+    "desc": "The fast, cheap motsuyaki counter in Omoide Yokocho, loved for raw-fresh offal skewers and a quick turnover of shochu.",
+    "address": "Honami Bldg, 1-2-7 Nishi-Shinjuku, Shinjuku",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Motsuyaki%20Ucchan%20%28Omoide%20Yokocho%29%20Honami%20Bldg%2C%201-2-7%20Nishi-Shinjuku%2C%20Shinjuku%20Tokyo",
+    "info": "daily 16:00–23:00 · cash only"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only"
+   ]
+  },
+  "lat": 35.692661,
+  "lng": 139.699646,
+  "precision": "building",
+  "addressJa": "東京都新宿区西新宿1-2-7",
+  "neighbourhood": "Nishi-Shinjuku",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-tachinomi-fujiya-honten",
+  "city": "tokyo",
+  "name": "Tachinomi Fujiya Honten",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://san-tatsu.jp/collects/368072/",
+    "desc": "Shibuya's legendary Sakuragaoka standing bar, closed in 2018 and brought back in 2022 with the old favourites and a sharper menu.",
+    "address": "16-10 Sakuragaokacho, Shibuya",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tachinomi%20Fujiya%20Honten%2016-10%20Sakuragaokacho%2C%20Shibuya%20Tokyo",
+    "info": "17:00–22:30 · Sat 16:00–22:00 · Sun & hols 16:00–21:00"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.656651,
+  "lng": 139.700974,
+  "precision": "building",
+  "addressJa": "東京都渋谷区桜丘町16-10",
+  "neighbourhood": "Sakuragaokacho",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-uogashi-fukuchan",
+  "city": "tokyo",
+  "name": "Uogashi Fukuchan",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://www.ekiten.jp/shop_79989/",
+    "desc": "A Dogenzaka standing counter selling good fish at standing-bar prices, with a one-order-only house rule and the day's catch on the board.",
+    "address": "1-11-8 Dogenzaka, Shibuya",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Uogashi%20Fukuchan%201-11-8%20Dogenzaka%2C%20Shibuya%20Tokyo",
+    "info": "Mon–Fri 16:00–21:00 · closed Sat, Sun & hols · one order only"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.657871,
+  "lng": 139.698639,
+  "precision": "building",
+  "addressJa": "東京都渋谷区道玄坂1-11-8",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-koibumi-sakaba-kappa",
+  "city": "tokyo",
+  "name": "Koibumi Sakaba Kappa",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://gurunavi.com/en/g581403/mp/rst",
+    "desc": "A standing motsu bar in Shibuya's old Koibumi Yokocho lane that runs until three or four in the morning.",
+    "address": "Akutsu Bldg 1F, 2-25-15 Dogenzaka, Shibuya",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Koibumi%20Sakaba%20Kappa%20Akutsu%20Bldg%201F%2C%202-25-15%20Dogenzaka%2C%20Shibuya%20Tokyo",
+    "info": "Mon–Thu 17:00–03:00 · Fri–Sat 17:00–04:00 · Sun 17:00–23:00"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing",
+    "Open late"
+   ]
+  },
+  "lat": 35.659874,
+  "lng": 139.697708,
+  "precision": "building",
+  "addressJa": "東京都渋谷区道玄坂2-25-15 阿久津ビル1F",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  }
 ]

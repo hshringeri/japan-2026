@@ -28,6 +28,7 @@ KIND_OF = {cat: k for k, _, cats in KINDS for cat in cats}
 ALSO = {
     "osaka-fukumasa": ["Senbero"], "osaka-nonkiya": ["Senbero"], "osaka-izakaya-toyo": ["Senbero"],
     "osaka-tachinomi-shomin": ["Senbero"], "kyoto-tatsumi": ["Senbero"], "kyoto-tachinomi-shomin-shijo-omiya": ["Senbero"],
+    "tokyo-yakitori-taisho-honten": ["Senbero"], "tokyo-shimonya-koenji": ["Senbero"],
 }
 
 CUISINE = {
