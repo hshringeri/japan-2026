@@ -11271,5 +11271,204 @@
     ]
    ]
   }
+ },
+ "tokyo-kidofuji": {
+  "text": "Evenings; hours not published",
+  "kind": "irregular"
+ },
+ "tokyo-momoya-koenji": {
+  "text": "Evenings; hours not published",
+  "kind": "irregular"
+ },
+ "tokyo-ochiai-saketen": {
+  "text": "From evening until 21:00",
+  "kind": "irregular",
+  "source": "https://1000bero.net/restaurant-2317/"
+ },
+ "tokyo-motsuyaki-ucchan-omoide-yokocho": {
+  "text": "Daily 16:00–23:00 (LO 22:00)",
+  "kind": "regular",
+  "source": "https://www.timeout.com/tokyo/restaurants/motsu-yaki-utchan-shinjuku",
+  "week": {
+   "mon": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-tachinomi-fujiya-honten": {
+  "text": "17:00–22:30 · Sat 16:00–22:00 · Sun & hols 16:00–21:00",
+  "kind": "regular",
+  "source": "https://san-tatsu.jp/collects/368072/",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-uogashi-fukuchan": {
+  "text": "Mon–Fri 16:00–21:00 · closed Sat, Sun & hols",
+  "kind": "regular",
+  "source": "https://www.ekiten.jp/shop_79989/",
+  "week": {
+   "mon": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "21:00"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  }
+ },
+ "tokyo-koibumi-sakaba-kappa": {
+  "text": "Mon–Thu 17:00–03:00 · Fri–Sat 17:00–04:00 · Sun 17:00–23:00",
+  "kind": "regular",
+  "source": "https://gurunavi.com/en/g581403/mp/rst",
+  "week": {
+   "mon": [
+    [
+     "17:00",
+     "27:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "27:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "28:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "28:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  }
  }
 }
