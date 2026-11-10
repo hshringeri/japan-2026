@@ -1326,5 +1326,53 @@
  "kyoto-toyouke-chaya": {
   "src": "img/thumbs/kyoto-toyouke-chaya.jpg",
   "credit": "imgfp.hotp.jp"
+ },
+ "tokyo-yakiniku-jumbo-hanare": {
+  "src": "img/thumbs/tokyo-yakiniku-jumbo-hanare.jpg",
+  "credit": "timeout.com"
+ },
+ "tokyo-horumonyaki-koei-honten": {
+  "src": "img/thumbs/tokyo-horumonyaki-koei-honten.jpg",
+  "credit": "retty.me"
+ },
+ "osaka-yakiniku-hakuundai-tsuruhashi": {
+  "src": "img/thumbs/osaka-yakiniku-hakuundai-tsuruhashi.jpg",
+  "credit": "hotpepper.jp"
+ },
+ "kyoto-tendan-gion": {
+  "src": "img/thumbs/kyoto-tendan-gion.jpg",
+  "credit": "hotpepper.jp"
+ },
+ "tokyo-neo-shinjuku-atsushi": {
+  "src": "img/thumbs/tokyo-neo-shinjuku-atsushi.jpg",
+  "credit": "magical-trip.com"
+ },
+ "tokyo-kujira-entertainment": {
+  "src": "img/thumbs/tokyo-kujira-entertainment.jpg",
+  "credit": "livejapan.com"
+ },
+ "tokyo-nanzuka-taken": {
+  "src": "img/thumbs/tokyo-nanzuka-taken.jpg",
+  "credit": "timeout.com"
+ },
+ "osaka-neo-vector": {
+  "src": "img/thumbs/osaka-neo-vector.jpg",
+  "credit": "hotpepper.jp"
+ },
+ "tokyo-tachinomi-ikoi-honten": {
+  "src": "img/thumbs/tokyo-tachinomi-ikoi-honten.jpg",
+  "credit": "foodle.pro"
+ },
+ "tokyo-marumasu-ya": {
+  "src": "img/thumbs/tokyo-marumasu-ya.jpg",
+  "credit": "foodle.pro"
+ },
+ "tokyo-uchida-tateishi": {
+  "src": "img/thumbs/tokyo-uchida-tateishi.jpg",
+  "credit": "hamoni.jp"
+ },
+ "osaka-sakaba-matsui-kyobashi": {
+  "src": "img/thumbs/osaka-sakaba-matsui-kyobashi.jpg",
+  "credit": "hotpepper.jp"
  }
 }

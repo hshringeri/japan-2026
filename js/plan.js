@@ -81,7 +81,7 @@ function before(trip, now) {
   return `
     <section class="card hero">
       <p class="kicker">${n === 1 ? "Tomorrow" : `${n} days to go`}</p>
-      <h2>${esc(formatDay(d1.date))}: ${esc(d1.title)}</h2>
+      <h2>${esc(formatDay(d1.date))}</h2>
       ${d1.items.slice(0, 3).map((i) => `<p>${i.time ? `<b>${esc(i.time)}</b> ` : ""}${esc(i.title)}</p>`).join("")}
     </section>
     <section class="card checklist">
@@ -108,7 +108,6 @@ function during(trip, now) {
   return `
     <section class="card hero now">
       <p class="kicker">Day ${idx + 1} of ${trip.days.length} · ${esc(formatDay(today.date))} · ${esc(now.time)} in Japan</p>
-      <h2>${esc(today.title)}</h2>
       ${current ? `<div class="nowitem"><span class="tag">Now</span>${item(current, today, true)}</div>` : ""}
       ${next ? `<div class="nowitem next"><span class="tag">${nextDay === today ? (until != null ? `In ${fmtUntil(until)}` : "Next") : `Tomorrow`}</span>${item(next, nextDay, true)}</div>` : `<p>Nothing else planned. ${today.stayObj ? `Home tonight is ${esc(today.stayObj.name)}.` : ""}</p>`}
       ${today.stayObj ? `<p class="stayline">Tonight: <a href="${esc(directionsUrl(today.stayObj) || today.stayObj.url)}" target="_blank" rel="noopener">${esc(today.stayObj.name)} ↗</a></p>` : ""}
@@ -166,7 +165,6 @@ function dayCard(d, now) {
   return `<li class="day${cls}" id="day-${d.date}">
     <header>
       <p class="date">${esc(formatDay(d.date))}${d.date === now.date ? " · today" : ""}</p>
-      <h3>${esc(d.title)}</h3>
       <p class="where">${esc(d.cityLabel || d.city)}${d.stayObj ? ` · sleeping at ${esc(d.stayObj.name)}` : ""}</p>
       <button type="button" class="look" data-look="${d.date}">See this day on the map</button>
     </header>

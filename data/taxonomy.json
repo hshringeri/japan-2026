@@ -41,7 +41,9 @@
    "categories": [
     "Beer & Whisky",
     "Cool Bars",
-    "After Dark"
+    "After Dark",
+    "Senbero",
+    "Cyberpunk Bars"
    ]
   },
   {
@@ -49,6 +51,7 @@
    "name": "Eat",
    "categories": [
     "Izakaya",
+    "Yakiniku",
     "Omakase",
     "Indian",
     "Brunch",

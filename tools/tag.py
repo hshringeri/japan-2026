@@ -15,17 +15,24 @@ KINDS = [
     ("shop", "Shop", ["Streetwear & Vintage", "Archive & Designer Vintage", "Watches & Vintage Hobby",
                       "Gorpcore & Snow", "Vintage Nintendo"]),
     ("music", "Music", ["Underground Music", "Electronic & Clubs", "Jazz Bars", "Vinyl Bars"]),
-    ("drink", "Drink", ["Beer & Whisky", "Cool Bars", "After Dark"]),
-    ("eat", "Eat", ["Izakaya", "Omakase", "Indian", "Brunch", "Good Food"]),
+    ("drink", "Drink", ["Beer & Whisky", "Cool Bars", "After Dark", "Senbero", "Cyberpunk Bars"]),
+    ("eat", "Eat", ["Izakaya", "Yakiniku", "Omakase", "Indian", "Brunch", "Good Food"]),
     ("play", "Play", ["Board Game Bars", "Pool Bars", "Golf & Driving Range", "Bowling Alleys",
                       "Gaming Cafes", "Maid Cafes"]),
     ("unwind", "Baths & temples", ["Onsen & Sento", "Hidden Temples & Shrines"]),
     ("cars", "Car culture", ["JDM Culture"]),
 ]
 KIND_OF = {cat: k for k, _, cats in KINDS for cat in cats}
+# Categories a place also belongs to beyond its listings: cheap standing bars already in the guide
+# under other headings that are senbero spots too
+ALSO = {
+    "osaka-fukumasa": ["Senbero"], "osaka-nonkiya": ["Senbero"], "osaka-izakaya-toyo": ["Senbero"],
+    "osaka-tachinomi-shomin": ["Senbero"], "kyoto-tatsumi": ["Senbero"], "kyoto-tachinomi-shomin-shijo-omiya": ["Senbero"],
+}
 
 CUISINE = {
     "tokyo": {
+        "Yakiniku Jumbo Hanare": ["Yakiniku"], "Horumon-yaki Koei Honten": ["Yakiniku", "Horumon"],
         "Sobahouse Konjiki Hototogisu": ["Ramen"], "The Pizza Bar on 38th": ["Pizza"],
         "Tonkatsu Marushichi Ginza": ["Tonkatsu"], "Cloud Club Matcha": ["Matcha", "Cafe"], "Menchirashi": ["Udon"],
         "Yakitori Taisho (Honten)": ["Yakitori"], "Shimonya Koenji": ["Yakitori", "Motsu"],
@@ -41,6 +48,7 @@ CUISINE = {
         "Baird Beer Harajuku Taproom": ["Yakitori"],
     },
     "osaka": {
+        "Yakiniku Hakuundai (Tsuruhashi)": ["Yakiniku"],
         "Gyozaclub Rocklee": ["Gyoza", "Chinese"],
         "Izakaya Toyo": ["Seafood"], "Nonkiya": ["Oden"], "Tenma Sakagura": ["Doteyaki"],
         "Sushi Kirimon": ["Sushi"], "Sushiya Yohei": ["Sushi"], "Sawada (Osaka Fukushima)": ["Kappo"],
@@ -54,6 +62,7 @@ CUISINE = {
         "Tachinomi Shomin": ["Seafood"],
     },
     "kyoto": {
+        "Tendan Gion Honten": ["Yakiniku"],
         "Kyoto Mai Sushi": ["Sushi"], "Gion Sushi Tadayasu": ["Sushi"], "Sushi Rakumi": ["Sushi"],
         "TADKA (Tadka 1 / Tadka 2)": ["South Indian"], "Shinrin Shokudo": ["Spice curry"],
         "Kerala": ["South Indian", "Tandoor"], "cafe marble Bukkoji": ["Cafe"], "Kotoro Coffee": ["Cafe"],
@@ -146,7 +155,7 @@ def main():
                     sys.exit(f"tag table names an unknown place: {city} / {n}")
 
     for p in places:
-        cats = [l["category"] for l in p["listings"]]
+        cats = [l["category"] for l in p["listings"]] + ALSO.get(p["id"], [])
         kinds = list(dict.fromkeys(KIND_OF[c] for c in cats))
         desc = " ".join(l["desc"] for l in p["listings"])
         info = " ".join(l["info"] or "" for l in p["listings"])
