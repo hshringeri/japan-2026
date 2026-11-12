@@ -948,5 +948,56 @@
   "text": "Mon–Thu 17:00–03:00 · Fri–Sat 17:00–04:00 · Sun 17:00–23:00",
   "parse": "Mon–Thu 17:00–03:00, Fri–Sat 17:00–04:00, Sun 17:00–23:00",
   "source": "https://gurunavi.com/en/g581403/mp/rst"
- }
+ },
+ "tokyo-petit-mura": {
+  "text": "Courtyard Mon–Fri 11:00–20:00; Sat–Sun & holidays 10:00–20:00. Tenant hours vary.",
+  "parse": "Mon–Fri 11:00–20:00, Sat–Sun 10:00–20:00",
+  "source": "https://petitmura.com/"
+ },
+ "tokyo-hyakunen": {
+  "text": "12:00–20:00 · closed Tue",
+  "parse": "12:00–20:00, closed Tue",
+  "source": "http://www.100hyakunen.com/guide/access"
+ },
+ "tokyo-niji-garo": {
+  "kind": "irregular",
+  "text": "12:00–20:00 · closed Wed · exhibition final days close at 18:00 (including 17 Nov 2026)",
+  "source": "http://nijigaro.com/exhibition.htm"
+ },
+ "tokyo-outbound": {
+  "kind": "irregular",
+  "text": "Only announced exhibition or collection dates; opening hours and closed days vary by programme. Check the latest announcement.",
+  "source": "https://outbound.to/news/"
+ },
+ "tokyo-meat-eat-up-kichijoji": {
+  "kind": "irregular",
+  "text": "Lunch 11:30–15:00; dinner 17:00–23:30, with Tuesday dinner listed as closed. Listings conflict; confirm before going.",
+  "source": "https://tabelog.com/tokyo/A1320/A132001/13261438/"
+ },
+ "tokyo-hamonicatross": {
+  "text": "Mon–Thu 19:00–02:00 · Fri–Sun 17:00–02:00; check Instagram for changes",
+  "parse": "Mon–Thu 19:00–02:00, Fri–Sun 17:00–02:00",
+  "source": "https://www.instagram.com/albatross_kichijoji/"
+ },
+ "tokyo-tsukemono-bar-4328": {
+  "kind": "irregular",
+  "text": "From 18:00; irregular holidays and no confirmed closing time. Check on the night.",
+  "source": "https://kj-weekly.jp/2026/01/29/shimizuya/"
+ },
+ "tokyo-kopanda-harmonica": {
+  "text": "16:00–02:00; check for irregular closures",
+  "parse": "daily 16:00–02:00",
+  "source": "https://www.instagram.com/copanda_kichijoji/"
+ },
+ "tokyo-john-henrys-study": {"kind": "irregular", "text": "11:30–24:00; irregular holidays, confirm by phone on the day", "source": "https://www.instagram.com/johnhenrysstudy/"},
+ "tokyo-akihabara-radio-center": {"kind": "irregular", "text": "Tenants roughly 10:00–18:30; each shop keeps its own hours", "source": "http://www.radiocenter.jp/"},
+ "tokyo-retro-game-camp": {"kind": "irregular", "text": "11:00–19:55; irregular closures", "source": "https://www.retrogamecamp.com/shop.html"},
+ "tokyo-mogra": {"kind": "events", "text": "Event nights only; doors vary by bill, check the schedule", "source": "https://club-mogra.jp/"},
+ "tokyo-hikari-no-uma": {"kind": "irregular", "text": "19:00–24:00; irregular closures, check the monthly blog", "source": "https://hikarinouma2.blogspot.com/"},
+ "tokyo-unit-daikanyama": {"kind": "events", "text": "Event nights only; doors vary by bill", "source": "https://www.unit-tokyo.com/"},
+ "tokyo-cosmonite-alpha": {"kind": "irregular", "text": "13:00–20:00; closed Tue & Thu and may be away at events — call first", "source": "https://www.sofvi.com/"},
+ "osaka-arabiq": {"kind": "irregular", "text": "13:30–21:00 (Sun & hols to 20:00); closed Wed, and irregularly on Tue", "source": "https://arabiq.net/about"},
+ "osaka-itohen": {"kind": "irregular", "text": "12:00–18:00 only Sat–Mon while an exhibition runs; check SNS first", "source": "http://itohen.info/"},
+ "osaka-tone8-basement": {"kind": "events", "text": "Event door times vary by bill; bar 18:00–23:00 otherwise", "source": "https://tone8-basement.com/"},
+ "fuji-saiko-nenba": {"kind": "irregular", "text": "Mar–Nov 9:00–17:00 (last entry 16:30); Dec–Feb 9:30–16:30; occasional closures posted on the news feed", "source": "https://saikoiyashinosatonenba.jp/"}
 }

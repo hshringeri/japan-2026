@@ -12541,5 +12541,1265 @@
   "neighbourhood": "Dogenzaka",
   "ward": "Shibuya",
   "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-petit-mura",
+  "city": "tokyo",
+  "name": "Petit Mura",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Curious Spaces",
+    "url": "https://petitmura.com/",
+    "desc": "A tiny storybook village off Nakamichi-dori, with crooked little buildings, a courtyard, maker shops and a tea house. The courtyard is free; the cat cafe and other tenants charge separately. A whimsical detour rather than another chain-shopping stop.",
+    "address": "2-33-2 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Petit%20Mura%202-33-2%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "Courtyard Mon–Fri 11:00–20:00 · Sat–Sun & hols 10:00–20:00 · tenant hours vary"
+   }
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Curious Spaces"
+  ],
+  "tags": {},
+  "lat": 35.704613,
+  "lng": 139.57457,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町2-33-2",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin on Nakamichi-dori; courtyard access and tenant entrances are separate."
+ },
+ {
+  "id": "tokyo-hyakunen",
+  "city": "tokyo",
+  "name": "Hyakunen (百年)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "http://www.100hyakunen.com/",
+    "desc": "An upstairs independent old/new bookshop with little-press publications and exhibitions. Go for the small-publisher and art-book dig, not bestseller stacks; its sister shop Ichinichi is nearby. Closed Tuesdays.",
+    "address": "Murata Bldg 2F, 2-2-10 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hyakunen%20(%E7%99%BE%E5%B9%B4)%20Murata%20Bldg%202F%2C%202-2-10%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "12:00–20:00 · closed Tue"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.7045394,
+  "lng": 139.5774208,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町2-2-10 村田ビル2F",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-niji-garo",
+  "city": "tokyo",
+  "name": "Niji Garo (にじ画廊)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "http://nijigaro.com/about.htm",
+    "desc": "An illustration-led gallery and independent maker shop: original artist goods downstairs, small group and solo shows upstairs. A good art-and-zine detour west of Sunroad. The Musasabi 2 group exhibition runs 12–17 Nov 2026; its final day ends at 18:00.",
+    "address": "1F–2F, 2-2-10 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Niji%20Garo%20(%E3%81%AB%E3%81%98%E7%94%BB%E5%BB%8A)%201F%E2%80%932F%2C%202-2-10%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "12:00–20:00 · closed Wed · exhibitions finish at 18:00 on their last day"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.70459,
+  "lng": 139.577469,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町2-2-10",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin; the shop and galleries occupy the first and second floors."
+ },
+ {
+  "id": "tokyo-outbound",
+  "city": "tokyo",
+  "name": "OUTBOUND",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://outbound.to/news/",
+    "desc": "An exhibition-led craft and design shop for small-maker textiles, clothing and everyday objects, not branded souvenirs. Opens only on announced exhibition or collection dates; hours and closing days are programme-specific, so check before making the detour.",
+    "address": "Room 101, 2-7-4 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=OUTBOUND%20Room%20101%2C%202-7-4%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "Exhibition dates only · hours and closing days vary · check the programme"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.7070121,
+  "lng": 139.5784604,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町2-7-4-101",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-meat-eat-up-kichijoji",
+  "city": "tokyo",
+  "name": "Meat Eat UP",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13261438/",
+    "desc": "A basement steakhouse behind Yodobashi Camera. Kuroge wagyu steak and 100%-wagyu hamburg are the focus, including steak-and-hamburg combination plates. Tuesday dinner is listed as closed on its registered listing; confirm before going.",
+    "address": "Sawamura Bldg B1F, 1-23-7 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Meat%20Eat%20UP%20Sawamura%20Bldg%20B1F%2C%201-23-7%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "Lunch 11:30–15:00 · dinner 17:00–23:30 except Tue · hours vary; confirm"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Steak"
+   ]
+  },
+  "lat": 35.703918,
+  "lng": 139.58194,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-23-7 沢村ビルB1F",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin; look for the basement entrance."
+ },
+ {
+  "id": "tokyo-hamonicatross",
+  "city": "tokyo",
+  "name": "Hamonicatross (ALBATROSS Kichijoji)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://www.alba-s.com/shop/",
+    "desc": "A seven-seat gallery bar tucked into Harmonica Yokocho's dead-end Noren-koji lane, with chandeliers, eccentric objects and house-infused spirits. The art-and-design drinking stop, not a live-music venue. Too small to assume the whole group can walk straight in.",
+    "address": "Noren-koji, Harmonica Yokocho, 1-1-4 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hamonicatross%20(ALBATROSS%20Kichijoji)%20Noren-koji%2C%20Harmonica%20Yokocho%2C%201-1-4%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "Mon–Thu 19:00–02:00 · Fri–Sun 17:00–02:00 · 7 seats · check Instagram"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.703487,
+  "lng": 139.578857,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-1-4 ハモニカ横丁のれん小路",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin inside Harmonica Yokocho; find the Noren-koji lane, not the main-road frontage."
+ },
+ {
+  "id": "tokyo-tsukemono-bar-4328",
+  "city": "tokyo",
+  "name": "Tsukemono Bar 4328",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://www.instagram.com/4328_kichijoji/",
+    "desc": "The tiny evening pickle bar behind Shimizuya, the family's old Harmonica Yokocho pickle shop. Come for fermented nukazuke and quail-egg kimchi with a drink, not generic izakaya plates. The rear bar is a separate operation from both the daytime shop and the front standing counter.",
+    "address": "Behind Shimizuya, Harmonica Yokocho, 1-1-8 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tsukemono%20Bar%204328%20Behind%20Shimizuya%2C%20Harmonica%20Yokocho%2C%201-1-8%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "From 18:00 · irregular holidays · confirm on the night"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.703987,
+  "lng": 139.579132,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-1-8 清水屋裏",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin at Shimizuya; 4328 is behind the pickle shop. Retail opening hours do not apply to the bar."
+ },
+ {
+  "id": "tokyo-kopanda-harmonica",
+  "city": "tokyo",
+  "name": "Kopanda (コパンダ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Izakaya",
+    "url": "https://www.instagram.com/copanda_kichijoji/",
+    "desc": "An open-front, roughly 15-seat izakaya in Harmonica Yokocho's Noren-koji lane. A cramped local counter for small plates and a first or last drink, not a large-group restaurant. Bring cash and expect a smoky room; the neighbourhood reports smoking throughout.",
+    "address": "Noren-koji, Harmonica Yokocho, 1-1-4 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kopanda%20(%E3%82%B3%E3%83%91%E3%83%B3%E3%83%80)%20Noren-koji%2C%20Harmonica%20Yokocho%2C%201-1-4%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "16:00–02:00 · no reservations · cash only · smoking"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only",
+    "Walk-in",
+    "Open late"
+   ]
+  },
+  "lat": 35.703716,
+  "lng": 139.579085,
+  "precision": "building",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-1-4 ハモニカ横丁のれん小路",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-john-henrys-study",
+  "city": "tokyo",
+  "name": "John Henry's Study",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://www.instagram.com/johnhenrysstudy/",
+    "desc": "A third-floor jazz kissa styled as record producer and critic Yasukuni Terashima's book-lined study, with jazz over coffee by day and drinks at night. Not on Sunroad itself; it is just west on Petit Road. A vinyl-and-books stop, not a retail record dig.",
+    "address": "Sansui Bldg 3F, 1-8-14 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=John%20Henry's%20Study%20Sansui%20Bldg%203F%2C%201-8-14%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "11:30–24:00 · irregular holidays · confirm on the day"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Jazz"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.705181,
+  "lng": 139.578827,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-8-14 山水ビル3F",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin on Petit Road, immediately west of Sunroad, up a steep staircase to the third floor."
+ },
+ {
+  "id": "tokyo-sotoguchi-shoten",
+  "city": "tokyo",
+  "name": "Sotoguchi Shoten (外口書店)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://sun-road.or.jp/shop/外口書店/",
+    "desc": "One of the last old-style used bookshops actually inside chain-dominated Sunroad. Dig the inexpensive vintage manga, photo and design stock; it is closed on Tuesdays.",
+    "address": "1-14-1 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sotoguchi%20Shoten%201-14-1%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "10:00–20:15 · closed Tue"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.704407,
+  "lng": 139.580215,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-14-1",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-books-ruhe",
+  "city": "tokyo",
+  "name": "BOOKS Ruhe (BOOKSルーエ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://www.books-ruhe.co.jp/",
+    "desc": "An independent 1936 bookshop on Sunroad with regular exhibitions and a dedicated comic floor, not another chain bookstore. Also a useful fallback when the old used-book shop next door is closed on Tuesdays.",
+    "address": "Nagai Bldg 1F–3F, 1-14-3 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=BOOKS%20Ruhe%20Nagai%20Bldg%2C%201-14-3%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "10:00–21:30 · closed 1 Jan"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.704689,
+  "lng": 139.580368,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-14-3 永井ビル1–3F",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-mojo-cafe",
+  "city": "tokyo",
+  "name": "Mojo Cafe",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "http://mojocafe.info/",
+    "desc": "An upstairs Sunroad cafe-bar with an LP wall and a crate of records playing, plus occasional live sets. Included for a later Kichijoji evening: it is closed Mondays and Tuesdays, including both train days.",
+    "address": "2F, 1-12-4 Kichijoji-honcho, Musashino",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mojo%20Cafe%202F%2C%201-12-4%20Kichijoji-honcho%2C%20Musashino%20Tokyo",
+    "info": "17:30–24:00 · Sat–Sun lunch 12:00–15:30 · closed Mon & Tue"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Rock",
+    "Soul & funk",
+    "60s pop"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.705971,
+  "lng": 139.581039,
+  "precision": "block",
+  "addressJa": "東京都武蔵野市吉祥寺本町1-12-4 2F",
+  "neighbourhood": "Kichijoji-honcho",
+  "ward": "Musashino",
+  "area": "Kichijoji & Nishi-Ogikubo"
+ },
+ {
+  "id": "tokyo-akihabara-radio-center",
+  "city": "tokyo",
+  "name": "Akihabara Radio Center",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Electronics & Parts",
+    "url": "http://www.radiocenter.jp/",
+    "desc": "The surviving 1950s component warren: tiny counters for transformers, switches, vacuum tubes, ham radio, test meters and odd alloy stock across two floors. Tinkering, not souvenir shopping.",
+    "address": "1F–2F, 1-14-2 Sotokanda, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Akihabara%20Radio%20Center%201-14-2%20Sotokanda%2C%20Chiyoda%20Tokyo",
+    "info": "Tenants ~10:00–18:30 · individual shop hours vary"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Electronics & Parts"
+  ],
+  "tags": {},
+  "lat": 35.698509,
+  "lng": 139.771454,
+  "precision": "block",
+  "addressJa": "東京都千代田区外神田1-14-2",
+  "neighbourhood": "Sotokanda",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-shop-inverse-akihabara",
+  "city": "tokyo",
+  "name": "Shop Inverse Akihabara",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Retro Games & PCs",
+    "url": "https://www.shop-inverse.com/shop/akihabara.html",
+    "desc": "A no-frills junk-PC specialist: dead laptops, desktops, drives, memory, adapters and used monitors sold cheap for repair and parts. The anti-showroom counterpoint to collector-grade retro shops.",
+    "address": "Kanda-ji Bldg 1F-B, 3-4-10 Sotokanda, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shop%20Inverse%20Akihabara%203-4-10%20Sotokanda%2C%20Chiyoda%20Tokyo",
+    "info": "Weekdays 11:30–19:30 · Sat–Sun & hols 11:00–19:00 · open year-round except designated days"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Retro Games & PCs"
+  ],
+  "tags": {},
+  "lat": 35.701435,
+  "lng": 139.77034,
+  "precision": "block",
+  "addressJa": "東京都千代田区外神田3-4-10 神田寺ビル1-B",
+  "neighbourhood": "Sotokanda",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-retro-game-camp",
+  "city": "tokyo",
+  "name": "Retro Game Camp Akihabara",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Retro Games & PCs",
+    "url": "https://www.retrogamecamp.com/shop.html",
+    "desc": "A small two-floor retro-game shop: Famicom, Super Famicom, Game Boy, N64, Neo Geo, PC Engine, Mega Drive, Saturn and Dreamcast. Items are boot-checked and clone consoles stocked for modern TVs.",
+    "address": "1F–2F, Shin-Suehiro Bldg C, 3-14-7 Sotokanda, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Retro%20Game%20Camp%203-14-7%20Sotokanda%2C%20Chiyoda%20Tokyo",
+    "info": "11:00–19:55 · irregular closures"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Retro Games & PCs"
+  ],
+  "tags": {
+   "style": [
+    "Retro games"
+   ]
+  },
+  "lat": 35.701321,
+  "lng": 139.771362,
+  "precision": "block",
+  "addressJa": "東京都千代田区外神田3-14-7 新末広ビルC",
+  "neighbourhood": "Sotokanda",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-mandarake-cocoo",
+  "city": "tokyo",
+  "name": "Mandarake CoCoo",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Watches & Vintage Hobby",
+    "url": "https://www.mandarake.co.jp/dir/cco/",
+    "desc": "A whole Mandarake shop dedicated to sofubi and designer toys: vintage kaiju, indie Japanese vinyl and Godzilla/Ultraman releases, not general anime goods.",
+    "address": "SEEKBASE AKI-OKA MANUFACTURE, 13-1 Kanda-Neribeicho, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20CoCoo%20SEEKBASE%2013-1%20Kanda-Neribeicho%2C%20Chiyoda%20Tokyo",
+    "info": "12:00–20:00 · open daily"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Designer",
+    "Toys & figures"
+   ]
+  },
+  "lat": 35.7004781,
+  "lng": 139.7733815,
+  "precision": "building",
+  "addressJa": "東京都千代田区神田練塀町13-1 SEEKBASE AKI-OKA MANUFACTURE",
+  "neighbourhood": "Akihabara",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-mogra",
+  "city": "tokyo",
+  "name": "MOGRA Akihabara",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Electronic & Clubs",
+    "url": "https://club-mogra.jp/",
+    "desc": "Akihabara's anime/game-music club: DJ events built on game soundtracks, anime songs, doujin music and netlabel acts, plus label parties such as Akihabara Heavy Industry.",
+    "address": "Matsubishi Bldg 1F/B1F, 3-11 Akihabara, Taito, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=MOGRA%20Akihabara%203-11%20Akihabara%2C%20Taito%20Tokyo",
+    "info": "Event nights only · doors vary · check the schedule"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Anime & game music",
+    "Doujin"
+   ]
+  },
+  "lat": 35.70209873643422,
+  "lng": 139.77279191555525,
+  "precision": "building",
+  "addressJa": "東京都台東区秋葉原3-11 松菱ビル1F・B1F",
+  "neighbourhood": "Akihabara",
+  "ward": "Taito",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-yamashiroya-akihabara",
+  "city": "tokyo",
+  "name": "Taishu Sakaba Yamashiroya",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Izakaya",
+    "url": "https://akiba-yamashiroya.com/guide/",
+    "desc": "A 1958 old-style public tavern run by the founder's widow: sake-tasting sets, ham katsu and cheap snacks in a smoky basement room for local office workers. Weekday evenings only.",
+    "address": "B1F, 2 Kanda-Hirakawacho, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamashiroya%202%20Kanda-Hirakawacho%2C%20Chiyoda%20Tokyo",
+    "info": "Mon–Fri 17:00–23:00 · closed Sat, Sun & hols"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Izakaya"
+  ],
+  "tags": {},
+  "lat": 35.69783,
+  "lng": 139.775803,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田平河町2 B1F",
+  "neighbourhood": "Kanda",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "tokyo-hikari-no-uma",
+  "city": "tokyo",
+  "name": "Hikari No Uma (ひかりのうま)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Underground Music",
+    "url": "https://hikarinouma2.blogspot.com/",
+    "desc": "A tiny basement music bar and coffee counter by Okubo station whose month-by-month bill mixes avant-folk, improvisation, singer-songwriters and open-mic nights.",
+    "address": "B1, 1-23-17 Hyakunin-cho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hikari%20No%20Uma%201-23-17%20Hyakunin-cho%2C%20Shinjuku%20Tokyo",
+    "info": "19:00–24:00 · irregular closures · check the monthly blog"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Experimental",
+    "Folk",
+    "Improv"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.70013,
+  "lng": 139.69754,
+  "precision": "block",
+  "addressJa": "東京都新宿区百人町1-23-17 地下1階",
+  "neighbourhood": "Okubo",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-unit-daikanyama",
+  "city": "tokyo",
+  "name": "UNIT",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Electronic & Clubs",
+    "url": "https://www.unit-tokyo.com/",
+    "desc": "A Daikanyama basement club that trades spectacle for sound and intimacy, booking techno, house and experimental electronics from overseas acts and Japanese selectors.",
+    "address": "Za HOUSE Bldg (basement), 1-34-17 Ebisu-Nishi, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=UNIT%201-34-17%20Ebisu-Nishi%2C%20Shibuya%20Tokyo",
+    "info": "Event nights only · doors vary by bill · check the schedule"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Electronic & Clubs"
+  ],
+  "tags": {
+   "genre": [
+    "Techno",
+    "House",
+    "Experimental"
+   ]
+  },
+  "lat": 35.647064,
+  "lng": 139.702347,
+  "precision": "block",
+  "addressJa": "東京都渋谷区恵比寿西1-34-17 ザ・ハウスビル",
+  "neighbourhood": "Daikanyama",
+  "ward": "Shibuya",
+  "area": "Ebisu"
+ },
+ {
+  "id": "tokyo-spincoaster-kagurazaka",
+  "city": "tokyo",
+  "name": "Spincoaster Music Bar Kagurazaka",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://bar.spincoaster.com/kagurazaka",
+    "desc": "A fourteen-seat cassette-first listening bar in a Kagurazaka back alley, with a rotary mixer and studio monitors. Requests rather than a genre lane; cashless only.",
+    "address": "Arch Building 1F, 4-1 Tsukudo-cho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Spincoaster%20Music%20Bar%204-1%20Tsukudo-cho%2C%20Shinjuku%20Tokyo",
+    "info": "18:00–24:00 · Fri–Sat until 02:00 · ¥900 cover · cashless"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Cashless",
+    "Open late"
+   ]
+  },
+  "lat": 35.702793,
+  "lng": 139.740036,
+  "precision": "block",
+  "addressJa": "東京都新宿区津久戸町4-1 Arch Building 1F",
+  "neighbourhood": "Kagurazaka",
+  "ward": "Shinjuku",
+  "area": "Shinjuku"
+ },
+ {
+  "id": "tokyo-fukadaso",
+  "city": "tokyo",
+  "name": "fukadaso",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Curious Spaces",
+    "url": "https://fukadaso.com/",
+    "desc": "A 60-year-old apartment-and-warehouse kept rather than gutted, now a courtyard cafe with small design shops and a second-floor atelier in Kiyosumi-Shirakawa.",
+    "address": "1F, 1-9-7 Hirano, Koto, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=fukadaso%201-9-7%20Hirano%2C%20Koto%20Tokyo",
+    "info": "13:00–18:00 · Fri to 21:30 · closed Tue & Wed · occasional event closures"
+   }
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Curious Spaces"
+  ],
+  "tags": {},
+  "lat": 35.678734,
+  "lng": 139.800095,
+  "precision": "block",
+  "addressJa": "東京都江東区平野1-9-7",
+  "neighbourhood": "Kiyosumi-Shirakawa",
+  "ward": "Koto",
+  "area": "Sumida & Koto"
+ },
+ {
+  "id": "tokyo-misako-and-rosen",
+  "city": "tokyo",
+  "name": "MISAKO & ROSEN",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://misakoandrosen.jp/en",
+    "desc": "An independent contemporary gallery since 2006 showing Japanese and international artists in a plain residential building near Otsuka.",
+    "address": "1F, 3-27-6 Kita-Otsuka, Toshima, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=MISAKO%20%26%20ROSEN%203-27-6%20Kita-Otsuka%2C%20Toshima%20Tokyo",
+    "info": "Wed–Sat 12:00–18:00 · Sun 12:00–17:00 · closed Mon, Tue & hols"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.735504,
+  "lng": 139.724472,
+  "precision": "block",
+  "addressJa": "東京都豊島区北大塚3-27-6 1F",
+  "neighbourhood": "Kita-Otsuka",
+  "ward": "Toshima",
+  "area": "Ikebukuro"
+ },
+ {
+  "id": "tokyo-hantei-nezu",
+  "city": "tokyo",
+  "name": "Hantei Nezu (はん亭 根津本店)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.hantei.co.jp/nedu/nedu_access.html",
+    "desc": "Kushiage served skewer by skewer inside a 1917 registered tangible cultural property, a three-storey wooden house one minute from Nezu station.",
+    "address": "2-12-15 Nezu, Bunkyo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hantei%202-12-15%20Nezu%2C%20Bunkyo%20Tokyo",
+    "info": "Lunch 11:30–15:00 · dinner 17:00–22:00 · closed Mon (Tue if hol)"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Kushiage"
+   ]
+  },
+  "lat": 35.717266,
+  "lng": 139.766068,
+  "precision": "block",
+  "addressJa": "東京都文京区根津2-12-15",
+  "neighbourhood": "Nezu",
+  "ward": "Bunkyo",
+  "area": "Ueno, Yanaka & Asakusa"
+ },
+ {
+  "id": "tokyo-cosmonite-alpha",
+  "city": "tokyo",
+  "name": "Sofubi Cruiser Cosmonite α (コスモナイトα)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Watches & Vintage Hobby",
+    "url": "https://www.sofvi.com/",
+    "desc": "A single packed room of roughly a thousand vintage sofubi: Showa kaiju, Ultraman, Kamen Rider and Godzilla, with a buy/sell counter and a collector reputation abroad.",
+    "address": "1F, 25-17 Sakae-cho, Nerima, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cosmonite%2025-17%20Sakae-cho%2C%20Nerima%20Tokyo",
+    "info": "13:00–20:00 · closed Tue & Thu · may be away at events, call first"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {},
+  "lat": 35.739098,
+  "lng": 139.669983,
+  "precision": "block",
+  "addressJa": "東京都練馬区栄町25-17 1F",
+  "neighbourhood": "Ekoda",
+  "ward": "Nerima",
+  "area": "Nakano"
+ },
+ {
+  "id": "tokyo-komiyama-shoten",
+  "city": "tokyo",
+  "name": "KOMIYAMA TOKYO (小宮山書店)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://book-komiyama.co.jp/",
+    "desc": "A long-running Jimbocho art-book dealer, founded 1939, for modern art, photography, design and avant-garde books, with an in-store gallery program and print fairs.",
+    "address": "1-7 Kanda-Jimbocho, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=KOMIYAMA%20TOKYO%201-7%20Kanda-Jimbocho%2C%20Chiyoda%20Tokyo",
+    "info": "12:00–18:30 · Sun & hols to 17:30 · closed Tue & Wed"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.695789,
+  "lng": 139.759201,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田神保町1-7",
+  "neighbourhood": "Jimbocho",
+  "ward": "Chiyoda",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "osaka-time-bomb-records",
+  "city": "osaka",
+  "name": "Time Bomb Records (タイムボムレコード)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Record Shops",
+    "url": "https://timebomb.co.jp/en/pages/store-info",
+    "desc": "An R&B, soul, punk and Showa-pops basement archive open since 1990, with thousands of used and import records; it also booked Fugazi's and Mudhoney's first Japan shows.",
+    "address": "Sankyo Yotsubashi Bldg B1F, 1-11-1 Minamihorie, Nishi-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Time%20Bomb%20Records%201-11-1%20Minamihorie%2C%20Nishi-ku%2C%20Osaka",
+    "info": "12:00–20:00 daily · temporary closures announced on social media"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Record Shops"
+  ],
+  "tags": {
+   "genre": [
+    "R&B",
+    "Soul",
+    "Punk",
+    "Showa pops"
+   ]
+  },
+  "lat": 34.672333,
+  "lng": 135.496445,
+  "precision": "block",
+  "addressJa": "大阪府大阪市西区南堀江1-11-1 三共四ツ橋ビルB1F",
+  "neighbourhood": "Minamihorie",
+  "ward": "Nishi",
+  "area": "Horie"
+ },
+ {
+  "id": "osaka-arabiq",
+  "city": "osaka",
+  "name": "Arabiq (珈琲舎・書肆アラビク)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://arabiq.net/about",
+    "desc": "Part bookshop, part gallery, part kissaten: mystery and fantasy literature plus paintings and ball-jointed dolls by artists such as Kaneko Kuniyoshi, sold among exhibition walls in Nakazakicho.",
+    "address": "3-2-14 Nakazaki, Kita-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Arabiq%203-2-14%20Nakazaki%2C%20Kita-ku%2C%20Osaka",
+    "info": "13:30–21:00 · Sun & hols to 20:00 · closed Wed, Tue irregular"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 34.708466,
+  "lng": 135.504761,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中崎3-2-14",
+  "neighbourhood": "Nakazakicho",
+  "ward": "Kita",
+  "area": "Nakazakicho & Tenma"
+ },
+ {
+  "id": "osaka-hero-gangu",
+  "city": "osaka",
+  "name": "Hero Gangu (ヒーロー玩具研究所)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Watches & Vintage Hobby",
+    "url": "https://herogangu.com/shopinfo",
+    "desc": "An independent single-store dealer in old tokusatsu and kaiju sofubi and one-off vintage toys, not a figure chain — the counterpoint to Nipponbashi's glass-case anime shops.",
+    "address": "4-9-21 Nipponbashi, Naniwa-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hero%20Gangu%204-9-21%20Nipponbashi%2C%20Naniwa-ku%2C%20Osaka",
+    "info": "12:00–19:00 · closed Wed (open when Wed is a holiday) · irregular changes posted"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Watches & Vintage Hobby"
+  ],
+  "tags": {
+   "style": [
+    "Toys & figures"
+   ]
+  },
+  "lat": 34.660927,
+  "lng": 135.50621,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区日本橋4-9-21",
+  "neighbourhood": "Nipponbashi",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
+ },
+ {
+  "id": "osaka-graf-studio",
+  "city": "osaka",
+  "name": "graf studio",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://www.graf-d3.com/access/",
+    "desc": "An Osaka design collective's own Nakanoshima building: its made-in-house furniture and one-off pieces on the ground floor, exhibitions and product launches in the upstairs 'porch'.",
+    "address": "4-1-9 Nakanoshima, Kita-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=graf%20studio%204-1-9%20Nakanoshima%2C%20Kita-ku%2C%20Osaka",
+    "info": "Shop 10:30–18:00 · kitchen 8:30–18:00 · closed Mon (Tue if Mon hol) · porch irregular"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  },
+  "lat": 34.69051,
+  "lng": 135.491333,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区中之島4-1-9",
+  "neighbourhood": "Nakanoshima",
+  "ward": "Kita",
+  "area": "Kitahama & Honmachi"
+ },
+ {
+  "id": "osaka-itohen",
+  "city": "osaka",
+  "name": "iTohen (いとへん)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "http://itohen.info/",
+    "desc": "A residential-block gallery, bookshop and coffee room whose stock and exhibitions follow illustration, craft and small-press publishing rather than bestsellers. Opens limited days only.",
+    "address": "Fuji Bldg 1F, 2-14-18 Honjo-nishi, Kita-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=iTohen%202-14-18%20Honjo-nishi%2C%20Kita-ku%2C%20Osaka",
+    "info": "12:00–18:00 · only Sat–Mon while an exhibition runs · check SNS first"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 34.713184,
+  "lng": 135.505142,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区本庄西2-14-18 富士ビル1F",
+  "neighbourhood": "Honjo-nishi",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi"
+ },
+ {
+  "id": "osaka-tone8-basement",
+  "city": "osaka",
+  "name": "TONE8.0 & Basement Gallery",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Underground Music",
+    "url": "https://tone8-basement.com/",
+    "desc": "A sixty-cap basement gallery under a stand bar, used for improvised and experimental sessions, not touring rock.",
+    "address": "EXA Minamishinmachi Bldg 1F/B1F, 1-1-1 Minamishinmachi, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=TONE8%20Basement%201-1-1%20Minamishinmachi%2C%20Chuo-ku%2C%20Osaka",
+    "info": "Bar 18:00–23:00 · event door times vary · one-drink minimum"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Underground Music"
+  ],
+  "tags": {
+   "genre": [
+    "Improv",
+    "Experimental",
+    "Noise"
+   ]
+  },
+  "lat": 34.68462,
+  "lng": 135.516647,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区南新町1-1-1 EXA南新町ビル1F・B1F",
+  "neighbourhood": "Minamishinmachi",
+  "ward": "Chuo",
+  "area": "Downtown"
+ },
+ {
+  "id": "osaka-jiyuken-namba",
+  "city": "osaka",
+  "name": "Jiyuken Namba Honten (自由軒 難波本店)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.jiyuken.co.jp/shop/sennichimae.html",
+    "desc": "Osaka's 1910 yoshoku original and birthplace of 'meibutsu curry': rice and roux pre-mixed with a raw egg, the dish Oda Sakunosuke wrote about in 'Meoto Zenzai'.",
+    "address": "3-1-34 Namba, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jiyuken%20Namba%203-1-34%20Namba%2C%20Chuo-ku%2C%20Osaka",
+    "info": "11:00–20:00 (L.O. 19:45) · closed Mon (Tue if Mon hol) · no reservations"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Yoshoku",
+    "Japanese curry"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 34.666359,
+  "lng": 135.502441,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区難波3-1-34",
+  "neighbourhood": "Namba",
+  "ward": "Chuo",
+  "area": "Namba & Nipponbashi"
+ },
+ {
+  "id": "fuji-narusawa-ice-cave",
+  "city": "elsewhere",
+  "name": "Narusawa Ice Cave (鳴沢氷穴)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Curious Spaces",
+    "url": "https://www.mtfuji-cave.com/contents/ice_cave/",
+    "desc": "A 153 m loop through a national-monument lava tube under the Aokigahara forest, ringed by ice columns that thicken from December. Stone stairs, low ceilings and a 21 m return climb; small children refused.",
+    "address": "8533 Narusawa, Narusawa-mura, Minamitsuru-gun, Yamanashi",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Narusawa%20Ice%20Cave%208533%20Narusawa%2C%20Yamanashi",
+    "info": "From 16 Nov 9:00–16:30 · year-round · ¥350"
+   }
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Curious Spaces"
+  ],
+  "tags": {},
+  "lat": 35.4779916,
+  "lng": 138.6648899,
+  "precision": "building",
+  "addressJa": "山梨県南都留郡鳴沢村8533",
+  "neighbourhood": "Narusawa",
+  "ward": "Yamanashi",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "fuji-panorama-dai",
+  "city": "elsewhere",
+  "name": "Panorama-dai (パノラマ台)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Curious Spaces",
+    "url": "https://fujisan.ne.jp/sightseeing/1529/",
+    "desc": "A 1,300 m ridge viewpoint between Lakes Shoji and Motosu where the summit faces Fuji over the lake and the Aokigahara canopy. About an hour each way on a steep maintained path; no lighting or toilets, fog can blank the view.",
+    "address": "Shoji, Fujikawaguchiko-cho, Minamitsuru-gun, Yamanashi",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Panorama-dai%20Shoji%20Fujikawaguchiko%20Yamanashi",
+    "info": "Open ground · no hours · lakeside car park at the trailhead"
+   }
+  ],
+  "kinds": [
+   "play"
+  ],
+  "categories": [
+   "Curious Spaces"
+  ],
+  "tags": {},
+  "lat": 35.4824156,
+  "lng": 138.5975404,
+  "precision": "building",
+  "addressJa": "山梨県南都留郡富士河口湖町精進",
+  "neighbourhood": "Shoji",
+  "ward": "Yamanashi",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "fuji-honjin-tsukasa",
+  "city": "elsewhere",
+  "name": "Honjin Tsukasa (本陣つかさ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://motosuko-honjintsukasa.jp/",
+    "desc": "A fifty-year Motosu roadside house whose draw is noodles made in-house, dashi built on its own shiitake, wild-shot venison curry and boar houtou. Lunch only, closed Wednesdays.",
+    "address": "120-9 Motosu, Fujikawaguchiko-cho, Minamitsuru-gun, Yamanashi",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Honjin%20Tsukasa%20120-9%20Motosu%20Fujikawaguchiko%20Yamanashi",
+    "info": "11:00–16:00 · closed Wed"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Houtou",
+    "Soba",
+    "Venison"
+   ]
+  },
+  "lat": 35.4644937,
+  "lng": 138.6005334,
+  "precision": "building",
+  "addressJa": "山梨県南都留郡富士河口湖町本栖120-9",
+  "neighbourhood": "Motosu",
+  "ward": "Yamanashi",
+  "area": "Outskirts & day trips"
+ },
+ {
+  "id": "fuji-saiko-nenba",
+  "city": "elsewhere",
+  "name": "Saiko Iyashi-no-Sato Nenba (西湖いやしの里根場)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Art, Books & Design",
+    "url": "https://saikoiyashinosatonenba.jp/",
+    "desc": "Twenty thatched kabuto-roof houses rebuilt in 2006 on the slope where a 1966 debris flow buried the original hamlet, now craft workshops for needlework, pottery and incense plus a local-food kitchen.",
+    "address": "2710 Saiko-Nenba, Fujikawaguchiko-cho, Minamitsuru-gun, Yamanashi",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saiko%20Iyashi-no-Sato%20Nenba%20Yamanashi",
+    "info": "Mar–Nov 9:00–17:00 (last entry 16:30) · Dec–Feb 9:30–16:30 · ¥500 · occasional closures"
+   }
+  ],
+  "kinds": [
+   "shop"
+  ],
+  "categories": [
+   "Art, Books & Design"
+  ],
+  "tags": {},
+  "lat": 35.504987,
+  "lng": 138.661519,
+  "precision": "building",
+  "addressJa": "山梨県南都留郡富士河口湖町西湖根場2710",
+  "neighbourhood": "Saiko",
+  "ward": "Yamanashi",
+  "area": "Outskirts & day trips"
  }
 ]

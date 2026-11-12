@@ -13,12 +13,13 @@ from extract import ROOT, slug  # noqa: E402
 # Kind -> categories, in the guide's category order
 KINDS = [
     ("shop", "Shop", ["Streetwear & Vintage", "Archive & Designer Vintage", "Watches & Vintage Hobby",
-                      "Gorpcore & Snow", "Vintage Nintendo"]),
-    ("music", "Music", ["Underground Music", "Electronic & Clubs", "Jazz Bars", "Vinyl Bars"]),
+                      "Gorpcore & Snow", "Vintage Nintendo", "Art, Books & Design",
+                      "Electronics & Parts", "Retro Games & PCs"]),
+    ("music", "Music", ["Underground Music", "Electronic & Clubs", "Jazz Bars", "Vinyl Bars", "Record Shops"]),
     ("drink", "Drink", ["Beer & Whisky", "Cool Bars", "After Dark", "Senbero", "Cyberpunk Bars"]),
     ("eat", "Eat", ["Izakaya", "Yakiniku", "Omakase", "Indian", "Brunch", "Good Food"]),
     ("play", "Play", ["Board Game Bars", "Pool Bars", "Golf & Driving Range", "Bowling Alleys",
-                      "Gaming Cafes", "Maid Cafes"]),
+                      "Gaming Cafes", "Maid Cafes", "Curious Spaces"]),
     ("unwind", "Baths & temples", ["Onsen & Sento", "Hidden Temples & Shrines"]),
     ("cars", "Car culture", ["JDM Culture"]),
 ]
@@ -47,6 +48,11 @@ CUISINE = {
         "Andhra Dining": ["South Indian"], "Nirvanam Kamiyacho": ["South Indian"],
         "Tandoor Bar Kamalpur (Kiba)": ["Tandoor"], "Kameido Gyoza Honten": ["Gyoza"],
         "Baird Beer Harajuku Taproom": ["Yakitori"],
+        "Meat Eat UP": ["Steak"],
+        "Hantei Nezu (はん亭 根津本店)": ["Kushiage"],
+    },
+    "elsewhere": {
+        "Honjin Tsukasa (本陣つかさ)": ["Houtou", "Soba", "Venison"],
     },
     "osaka": {
         "Yakiniku Hakuundai (Tsuruhashi)": ["Yakiniku"],
@@ -61,6 +67,7 @@ CUISINE = {
         "Shinsekai Kushikatsu Ittoku Tsutenkaku-ten": ["Kushikatsu", "Doteyaki"],
         "Aizuya Honten": ["Takoyaki"], "Endo Sushi Central Market": ["Sushi"],
         "Tachinomi Shomin": ["Seafood"],
+        "Jiyuken Namba Honten (自由軒 難波本店)": ["Yoshoku", "Japanese curry"],
     },
     "kyoto": {
         "Tendan Gion Honten": ["Yakiniku"],
@@ -87,6 +94,11 @@ GENRE = {
         "DJ Bar Bridge": ["Disco", "House", "Soul & funk"], "Shinjuku PIT INN": ["Jazz", "Improv"],
         "DUG": ["Jazz"], "Eagle (Iiguru)": ["Jazz"], "Pit Bar": ["Hardcore"], "Silver Elephant": ["Prog"],
         "Ftarri": ["Improv"], "Shichoshitsu": ["Improv"], "Bar Isshee": ["Improv"],
+        "Hikari No Uma (ひかりのうま)": ["Experimental", "Folk", "Improv"],
+        "UNIT": ["Techno", "House", "Experimental"],
+        "MOGRA Akihabara": ["Anime & game music", "Doujin"],
+        "Mojo Cafe": ["Rock", "Soul & funk", "60s pop"],
+        "John Henry's Study": ["Jazz"],
     },
     "osaka": {
         "Environment 0g": ["Experimental"], "Hokage": ["Punk", "Metal"], "King Cobra": ["Punk"],
@@ -96,6 +108,8 @@ GENRE = {
         "Compufunk Records": ["House", "Disco"], "NOON + CAFE": ["House", "Hip-hop"],
         "CIRCUS Osaka": ["House", "Techno"], "PROUST": ["Jazz"], "Royal Horse": ["Jazz"],
         "Record Bar MOON SHINE": ["Rock", "Folk", "City pop"], "Bar,K": ["Jazz"],
+        "Time Bomb Records (タイムボムレコード)": ["R&B", "Soul", "Punk", "Showa pops"],
+        "TONE8.0 & Basement Gallery": ["Improv", "Experimental", "Noise"],
     },
     "kyoto": {
         "UrBANGUILD": ["Experimental", "Noise", "Improv", "Ambient"], "Takutaku": ["Blues", "Rock"],

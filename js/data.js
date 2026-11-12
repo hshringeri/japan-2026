@@ -21,7 +21,9 @@ export const KIND_COLORS = {
 export const KIND_EMOJI = { shop: "👕", music: "🎷", drink: "🍸", eat: "🍜", play: "🎮", unwind: "♨️", cars: "🚗" };
 export const CATEGORY_EMOJI = {
   "Streetwear & Vintage": "👕", "Archive & Designer Vintage": "👗", "Watches & Vintage Hobby": "⌚",
-  "Gorpcore & Snow": "🏔️", "Vintage Nintendo": "🍄",
+  "Gorpcore & Snow": "🏔️", "Vintage Nintendo": "🍄", "Art, Books & Design": "📚",
+  "Electronics & Parts": "⚡", "Retro Games & PCs": "🕹️",
+  "Record Shops": "💿", "Curious Spaces": "🏠",
   "Underground Music": "🎸", "Electronic & Clubs": "🎛️", "Jazz Bars": "🎷", "Vinyl Bars": "💿",
   "Beer & Whisky": "🥃", "Cool Bars": "🍸", "After Dark": "🌙", Senbero: "🍶", "Cyberpunk Bars": "🌃",
   Izakaya: "🍺", Yakiniku: "🥩", Omakase: "🍣", Indian: "🍛", Brunch: "🥞", "Good Food": "🍜",
