@@ -1,4 +1,4 @@
-import { esc, formatDay, directionsUrl } from "./util.js";
+import { esc, formatDay, directionsUrl, distanceKm, formatDistance } from "./util.js";
 import { app, onApp } from "./state.js";
 import { showTrainRoute, clearTrainRoute } from "./map.js";
 
@@ -93,6 +93,7 @@ function drawRoute() {
     points.push(station);
     if (!stations.includes(station)) stations.push(station);
   }
+  points.push(stay);
   showTrainRoute(points, stations);
 }
 
@@ -131,8 +132,26 @@ function stationFor(item) {
   return null;
 }
 
+// Rough door-to-door train time, same figure the worker's travel_estimate uses.
+const legMinutes = (km) => Math.round(12 + km * 2);
+const legText = (km) => `${legMinutes(km)} min · ${formatDistance(km)}`;
+
 function dayCard(day, on) {
   const stops = day.items.filter((item) => item.lat != null);
+  const stay = app.data?.trip?.stays?.find((s) => s.id === day.stay);
+  const home = nearestStation(stay);
+  let prev = home;
+  const legs = stops.map((stop) => {
+    const station = stationFor(stop);
+    const leg = prev && station && prev !== station ? legText(distanceKm(prev, station)) : "";
+    prev = station || prev;
+    return `<li>
+        <a href="${esc(directionsUrl(stop))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
+        ${leg ? `<em class="leg">${esc(leg)}</em>` : ""}
+        ${stop.notes ? `<small>${esc(stop.notes)}</small>` : ""}
+      </li>`;
+  });
+  const back = prev && home && prev !== home ? `<li class="back"><span>Back to ${esc(stay?.name || "the stay")}</span><em class="leg">${esc(legText(distanceKm(prev, home)))}</em></li>` : "";
   return `<section class="card train-day${on ? " on" : ""}" id="train-${day.date}" data-day="${day.date}" role="button" tabindex="0" aria-pressed="${on}">
     <header>
       <p class="date">${esc(formatDay(day.date))}</p>
@@ -140,10 +159,8 @@ function dayCard(day, on) {
       <p class="where">${esc(day.cityLabel || day.city)}</p>
     </header>
     <ol class="train-stops">
-      ${stops.map((stop) => `<li>
-        <a href="${esc(directionsUrl(stop))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
-        ${stop.notes ? `<small>${esc(stop.notes)}</small>` : ""}
-      </li>`).join("")}
+      ${legs.join("")}
+      ${back}
     </ol>
   </section>`;
 }

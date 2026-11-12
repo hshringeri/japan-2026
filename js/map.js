@@ -71,6 +71,18 @@ export function showTrainRoute(points, stations = []) {
   if (pts.length < 2) return;
   L.polyline(pts, { color: "#fff", weight: 9, opacity: 0.9, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
   L.polyline(pts, { color: "#d2381f", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
+  // A rough train time on each leg, matching the worker's travel_estimate figure.
+  for (let i = 1; i < pts.length; i++) {
+    const a = points[i - 1], b = points[i];
+    if (!a || !b || a.lat == null || b.lat == null) continue;
+    const km = distanceKm(a, b);
+    if (km < 0.35) continue;
+    const mid = [(a.lat + b.lat) / 2, (a.lng + b.lng) / 2];
+    L.tooltip({ permanent: true, direction: "center", className: "leg-label", interactive: false })
+      .setLatLng(mid)
+      .setContent(`${Math.round(12 + km * 2)} min`)
+      .addTo(trainLayer);
+  }
   for (const station of stations) {
     if (station.lat == null || station.lng == null) continue;
     L.circleMarker([station.lat, station.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#d2381f", fillOpacity: 1 }).addTo(trainLayer);
