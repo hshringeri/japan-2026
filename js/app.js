@@ -88,5 +88,9 @@ async function start() {
 
 if ("serviceWorker" in navigator && location.protocol === "https:") {
   navigator.serviceWorker.register("sw.js").catch(() => {});
+  // A new worker took over: reload so the page runs the fresh train/plan modules.
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (navigator.serviceWorker.controller) location.reload();
+  });
 }
 start();
