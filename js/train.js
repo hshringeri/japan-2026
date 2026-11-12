@@ -96,6 +96,7 @@ function drawRoute() {
 function stationFor(item) {
   const place = item.placeObj || (item.place && app.data.byId[item.place]) || (item.id && app.data.byId[item.id]);
   const text = `${item.title} ${item.address || ""} ${item.area || ""} ${place?.area || ""} ${place?.neighbourhood || ""}`.toLowerCase();
+  if (/nomen/.test(text)) return STATIONS.koenji;
   if (/koenji/.test(text)) return STATIONS.koenji;
   if (/ebisu/.test(text)) return STATIONS.ebisu;
   if (/nakano/.test(text)) return STATIONS.nakano;
