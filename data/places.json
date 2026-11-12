@@ -15147,8 +15147,8 @@
   ],
   "tags": {
    "cuisine": [
-    "Bakery",
-    "Patisserie"
+    "Patisserie",
+    "Bakery"
    ]
   },
   "lat": 35.015579,
@@ -15440,8 +15440,8 @@
   ],
   "tags": {
    "cuisine": [
-    "Bakery",
     "Patisserie",
+    "Bakery",
     "Cafe"
    ],
    "flags": [
@@ -15480,8 +15480,8 @@
   ],
   "tags": {
    "cuisine": [
-    "Bakery",
     "Patisserie",
+    "Bakery",
     "Cafe"
    ],
    "flags": [
@@ -15520,8 +15520,8 @@
   ],
   "tags": {
    "cuisine": [
-    "Bakery",
-    "Patisserie"
+    "Patisserie",
+    "Bakery"
    ],
    "flags": [
     "Book ahead"

@@ -28,12 +28,19 @@ export const CATEGORY_EMOJI = {
   "Beer & Whisky": "🥃", "Cool Bars": "🍸", "After Dark": "🌙", Senbero: "🍶", "Cyberpunk Bars": "🌃",
   Izakaya: "🍺", Yakiniku: "🥩", Omakase: "🍣", Indian: "🍛", Brunch: "🥞", "Good Food": "🍜",
   "Board Game Bars": "🎲", "Pool Bars": "🎱", "Golf & Driving Range": "⛳", "Bowling Alleys": "🎳",
-  "Gaming Cafes": "🎮", "Maid Cafes": "☕",
+  "Gaming Cafes": "🎮", "Maid Cafes": "☕", "Karaoke Bars": "🎤",
   "Onsen & Sento": "♨️", "Hidden Temples & Shrines": "⛩️",
   "JDM Culture": "🚗",
 };
+// Cuisine tags refine the mark for cafes, bakeries and tea rooms before the category fallback
+export const CUISINE_EMOJI = { Matcha: "🍵", Bakery: "🥐", Patisserie: "🍰", Cafe: "☕" };
 // A place the chat added under a category of its own brings its own emoji
-export const catEmoji = (p) => p.emoji || CATEGORY_EMOJI[p.categories[0]] || KIND_EMOJI[p.kind] || "•";
+export const catEmoji = (p) =>
+  p.emoji
+  || (p.tags?.cuisine || []).map((c) => CUISINE_EMOJI[c]).find(Boolean)
+  || CATEGORY_EMOJI[p.categories[0]]
+  || KIND_EMOJI[p.kind]
+  || "•";
 export function isInstagram(url) {
   try { return !!url && /(^|\.)instagram\.com$/.test(new URL(url).hostname); } catch { return false; }
 }
