@@ -1,5 +1,6 @@
 import { esc, formatDay, directionsUrl } from "./util.js";
 import { app, onApp } from "./state.js";
+import { showTrainRoute, clearTrainRoute } from "./map.js";
 
 const TRAIN_DAYS = ["2026-11-16", "2026-11-17"];
 
@@ -13,9 +14,12 @@ export function mountTrain(el) {
 
 export function showTrain() {
   render();
+  drawRoute();
 }
 
-export function hideTrain() {}
+export function hideTrain() {
+  clearTrainRoute();
+}
 
 function render() {
   const trip = app.data?.trip;
@@ -36,6 +40,15 @@ function render() {
     </section>
     ${days.map((day) => dayCard(day)).join("")}
   `;
+  if (document.body.dataset.view === "train") drawRoute();
+}
+
+function drawRoute() {
+  const trip = app.data?.trip;
+  const day = trip?.dayByDate?.[TRAIN_DAYS[0]];
+  const stay = trip?.stays.find((s) => s.id === "tokyo-1");
+  const points = [stay, ...(day?.items || []).filter((item) => item.lat != null)];
+  showTrainRoute(points);
 }
 
 function dayCard(day) {

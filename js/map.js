@@ -7,7 +7,7 @@ import { mountFilterBar, mountDateStrip } from "./filterbar.js";
 import { dayAnchor, catEmoji, isInstagram } from "./data.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
-let map, cluster, dayLayer, stayLayer, previewLayer, hereMarker, hereRing, sheet, root;
+let map, cluster, dayLayer, stayLayer, previewLayer, trainLayer, hereMarker, hereRing, sheet, root;
 let firstFix = true, started = false;
 const markers = new Map();
 let stickyPin = null;
@@ -62,6 +62,22 @@ export function resized() {
   if (started) map.invalidateSize();
 }
 
+// Draw an ordered route through the plan's stops and frame it. Used by the Train view.
+export function showTrainRoute(points) {
+  if (!started) showMap();
+  if (!trainLayer) return;
+  trainLayer.clearLayers();
+  const pts = points.filter((p) => p && p.lat != null && p.lng != null).map((p) => [p.lat, p.lng]);
+  if (pts.length < 2) return;
+  L.polyline(pts, { color: "#fff", weight: 9, opacity: 0.9, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
+  L.polyline(pts, { color: "#d2381f", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
+  map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, 20], paddingBottomRight: [20, 20] });
+}
+
+export function clearTrainRoute() {
+  trainLayer?.clearLayers();
+}
+
 function build() {
   started = true;
   map = L.map("map", { zoomControl: false, attributionControl: true, maxBounds: JAPAN.pad(1.5), minZoom: 5, maxZoom: 19, tap: true })
@@ -73,6 +89,7 @@ function build() {
   }).addTo(map);
   stayLayer = L.layerGroup().addTo(map);
   dayLayer = L.layerGroup().addTo(map);
+  trainLayer = L.layerGroup().addTo(map);
   // Cards sit under the pins so they never hide one; the tapped place's card sits over everything
   map.createPane("previews").style.zIndex = 590;
   map.createPane("focus").style.zIndex = 650;
