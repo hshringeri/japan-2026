@@ -63,7 +63,7 @@ export function resized() {
 }
 
 // Draw an ordered route through the plan's stops and frame it. Used by the Train view.
-export function showTrainRoute(points) {
+export function showTrainRoute(points, stations = []) {
   if (!started) showMap();
   if (!trainLayer) return;
   trainLayer.clearLayers();
@@ -71,6 +71,15 @@ export function showTrainRoute(points) {
   if (pts.length < 2) return;
   L.polyline(pts, { color: "#fff", weight: 9, opacity: 0.9, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
   L.polyline(pts, { color: "#d2381f", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
+  for (const station of stations) {
+    if (station.lat == null || station.lng == null) continue;
+    L.circleMarker([station.lat, station.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#d2381f", fillOpacity: 1 }).addTo(trainLayer);
+    L.circleMarker([station.lat, station.lng], { radius: 2.5, color: "#d2381f", weight: 0, fillColor: "#d2381f", fillOpacity: 1 }).addTo(trainLayer);
+    L.tooltip({ permanent: true, direction: "top", offset: [0, -8], className: "station-label" })
+      .setLatLng([station.lat, station.lng])
+      .setContent(station.name)
+      .addTo(trainLayer);
+  }
   map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, 20], paddingBottomRight: [20, 20] });
 }
 
