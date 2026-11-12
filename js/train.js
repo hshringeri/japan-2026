@@ -22,11 +22,6 @@ const STATIONS = {
   hamamatsucho: { name: "Hamamatsucho", lat: 35.65530, lng: 139.75670 },
 };
 
-// Day one is Kichijoji for NoMen, then Nakano, then Koenji. The other days follow plan order.
-const DAY_ROUTES = {
-  "2026-11-16": ["kichijoji", "nakano", "koenji"],
-};
-
 let root;
 let selectedDay = TRAIN_DAYS[0];
 
@@ -92,21 +87,11 @@ function drawRoute() {
   const start = nearestStation(stay) || STATIONS.shibuya;
   const stations = [start];
   const points = [stay, start];
-  const route = DAY_ROUTES[selectedDay];
-  if (route) {
-    for (const key of route) {
-      const station = STATIONS[key];
-      if (!station) continue;
-      points.push(station);
-      if (!stations.includes(station)) stations.push(station);
-    }
-  } else {
-    for (const item of day.items) {
-      const station = stationFor(item);
-      if (!station) continue;
-      points.push(station);
-      if (!stations.includes(station)) stations.push(station);
-    }
+  for (const item of day.items) {
+    const station = stationFor(item);
+    if (!station) continue;
+    points.push(station);
+    if (!stations.includes(station)) stations.push(station);
   }
   showTrainRoute(points, stations);
 }
@@ -124,6 +109,11 @@ function nearestStation(point) {
 
 function stationFor(item) {
   const place = item.placeObj || (item.place && app.data.byId[item.place]) || (item.id && app.data.byId[item.id]);
+  const point = item.lat != null ? item : place;
+  if (point && point.lat != null && point.lng != null) {
+    const nearest = nearestStation(point);
+    if (nearest) return nearest;
+  }
   const text = `${item.title} ${item.address || ""} ${item.area || ""} ${place?.area || ""} ${place?.neighbourhood || ""}`.toLowerCase();
   if (/nomen/.test(text)) return STATIONS.kichijoji;
   if (/koenji/.test(text)) return STATIONS.koenji;
