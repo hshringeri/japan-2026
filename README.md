@@ -27,6 +27,8 @@ The Train tab maps the 16–17 November Tokyo plan between stations, starting an
 
 Each timing link opens directions with explicit origin and destination **stations**; the day cards name the stations, lines and timetable sources. The source snapshot records its sample departures/arrivals, using [Ekitan](https://ekitan.com/) and [Yahoo! Japan Transit](https://transit.yahoo.co.jp/). Update the source record as well as the minutes when refreshing this data. On phones the route map stays above the scrollable day cards; on wide screens it sits beside them. The Ask tab's separate place-to-place `travel_estimate` remains explicitly rough; it is not used for these station labels.
 
+Timing badges show only `N min`; service details and source links stay in the day cards.
+
 On the main Map tab, selecting 16 or 17 November in the date strip shows that day's station-to-station train route too. Selecting another date or Now clears the train overlay.
 
 Pins say more the closer you zoom: the name from zoom 15, the name and tags from 17, and a card with a photo from 18. Where labels would overlap, a pin falls back to a smaller label or none. Tapping a pin zooms in and opens its card above it.

@@ -141,8 +141,5 @@ export function stationDirectionsUrl(from, to) {
 
 export function trainTimeText(journey) {
   if (!journey) return "Check timetable";
-  const transfers = journey.transfers;
-  const transferText =
-    transfers === 0 ? "" : ` · ${transfers} ${transfers === 1 ? "transfer" : "transfers"}`;
-  return `${journey.minutes} min on trains${transferText}`;
+  return `${journey.minutes} min`;
 }
