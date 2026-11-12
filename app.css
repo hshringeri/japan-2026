@@ -287,7 +287,7 @@ body.dates-off .datestrip { display: none; }
 .train-stops a { color: var(--blue-ink); text-decoration: none; font-weight: 500; }
 .train-stops small { display: block; margin-top: 2px; color: var(--mute); font-size: 12.5px; line-height: 1.35; }
 .train-stops .leg { display: block; margin-top: 2px; color: var(--mute); font-style: normal; font-size: 12.5px; }
-.train-stops .back { color: var(--mute); }
+.train-stops .train-return { color: var(--mute); }
 .leg-label { background: #fff; border: 1px solid var(--line); color: var(--ink); font: 600 10px var(--sans); padding: 0 4px; border-radius: 6px; box-shadow: 0 1px 2px rgba(0, 0, 0, .15); }
 .leg-label::before { display: none; }
 

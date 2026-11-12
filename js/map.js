@@ -5,6 +5,7 @@ import { matches, onFilter } from "./filter.js";
 import { app, onApp, emit, startLocation, hereInJapan, setDate } from "./state.js";
 import { mountFilterBar, mountDateStrip } from "./filterbar.js";
 import { dayAnchor, catEmoji, isInstagram } from "./data.js";
+import { trainJourney, trainTimeText, stationDirectionsUrl } from "./train-times.js";
 
 const JAPAN = L.latLngBounds([33.5, 129.5], [36.4, 141.2]);
 let map, cluster, dayLayer, stayLayer, previewLayer, trainLayer, hereMarker, hereRing, sheet, root;
@@ -71,16 +72,16 @@ export function showTrainRoute(points, stations = []) {
   if (pts.length < 2) return;
   L.polyline(pts, { color: "#fff", weight: 9, opacity: 0.9, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
   L.polyline(pts, { color: "#d2381f", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round", interactive: false }).addTo(trainLayer);
-  // A rough train time on each leg, matching the worker's travel_estimate figure.
-  for (let i = 1; i < pts.length; i++) {
+  // Published onboard running times only; venue walks and waiting are not timed.
+  for (let i = 1; i < points.length; i++) {
     const a = points[i - 1], b = points[i];
-    if (!a || !b || a.lat == null || b.lat == null) continue;
-    const km = distanceKm(a, b);
-    if (km < 0.35) continue;
+    if (!a || !b || a.name === b.name) continue;
+    const journey = trainJourney(a.name, b.name);
     const mid = [(a.lat + b.lat) / 2, (a.lng + b.lng) / 2];
-    L.tooltip({ permanent: true, direction: "center", className: "leg-label", interactive: false })
+    const title = `${a.name} → ${b.name}${journey ? ` · ${journey.legs.map((leg) => leg.line).join(" → ")}` : ""}`;
+    L.tooltip({ permanent: true, direction: "center", className: "leg-label", interactive: true })
       .setLatLng(mid)
-      .setContent(`${Math.round(12 + km * 2)} min`)
+      .setContent(`<a href="${esc(stationDirectionsUrl(a, b))}" target="_blank" rel="noopener" title="${esc(title)}">${esc(trainTimeText(journey))}</a>`)
       .addTo(trainLayer);
   }
   for (const station of stations) {

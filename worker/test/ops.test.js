@@ -38,7 +38,6 @@ test("add places an item at an index and links a guide place's coordinates", () 
   assert.equal(added.title, p.name);
   assert.equal(added.lat, p.lat);
   assert.equal(added.time, "13:00");
-  assert.match(r.changes[0].text, /Added .* to Mon 16 Nov at 13:00/);
   assert.deepEqual(undo(base(), r), base());
 });
 

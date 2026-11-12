@@ -1,6 +1,7 @@
-import { esc, formatDay, directionsUrl, distanceKm, formatDistance } from "./util.js";
+import { esc, formatDay, directionsUrl } from "./util.js";
 import { app, onApp } from "./state.js";
 import { showTrainRoute, clearTrainRoute } from "./map.js";
+import { trainJourney, trainTimeText, stationDirectionsUrl } from "./train-times.js";
 
 const TRAIN_DAYS = ["2026-11-16", "2026-11-17"];
 
@@ -82,7 +83,8 @@ function render() {
     <header class="viewhead"><h1>Train map</h1><p class="who">11/16–11/17</p></header>
     <section class="card train-intro">
       <h2>Tokyo by train</h2>
-      <p>Pick a day to draw its stations on the map. Open a stop in Google Maps for the lines and platforms.</p>
+      <p>Pick a day to draw its stations. Times are station-to-station minutes on trains; walks, waiting and transfer time are extra. Tap a time for directions.</p>
+      <details><summary>About the timetable times</summary><p>November 2026 ride-time samples, not live departures. Individual services vary. Routes use published direct services where available, otherwise fewer changes then shorter riding time. Local and express services are identified below each time.</p></details>
       ${stay ? `<p class="stayline">Starting from <a href="${esc(stay.url || directionsUrl(stay))}" target="_blank" rel="noopener">${esc(stay.name)} ↗</a></p>` : ""}
     </section>
     ${days.map((day) => dayCard(day, day.date === selectedDay)).join("")}
@@ -144,9 +146,13 @@ function stationFor(item) {
   return null;
 }
 
-// Rough station-to-station estimate; walking to and from venues is not included.
-const legMinutes = (km) => Math.round(12 + km * 2);
-const legText = (km) => `${legMinutes(km)} min · ${formatDistance(km)}`;
+function legMarkup(from, to) {
+  const journey = trainJourney(from.name, to.name);
+  const lines = journey?.legs.map((leg) => leg.line).join(" → ");
+  const sources = [...new Set(journey?.legs.flatMap((leg) => leg.sources) || [])];
+  return `<a class="leg" href="${esc(stationDirectionsUrl(from, to))}" target="_blank" rel="noopener">${esc(from.name)} → ${esc(to.name)} · ${esc(trainTimeText(journey))} ↗</a>
+    ${lines ? `<small>${esc(lines)} · ${sources.map((url, i) => `<a href="${esc(url)}" target="_blank" rel="noopener">Timetable${sources.length > 1 ? ` ${i + 1}` : ""} ↗</a>`).join(" · ")}</small>` : ""}`;
+}
 
 function dayCard(day, on) {
   const stops = day.items.filter((item) => item.lat != null);
@@ -155,15 +161,15 @@ function dayCard(day, on) {
   let prev = home;
   const legs = stops.map((stop) => {
     const station = stationFor(stop);
-    const leg = prev && station && prev !== station ? legText(distanceKm(prev, station)) : "";
+    const leg = prev && station && prev !== station ? legMarkup(prev, station) : "";
     prev = station || prev;
     return `<li>
         <a href="${esc(directionsUrl(stop))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
-        ${leg ? `<em class="leg">${esc(leg)}</em>` : ""}
+        ${leg}
         ${stop.notes ? `<small>${esc(stop.notes)}</small>` : ""}
       </li>`;
   });
-  const back = prev && home && prev !== home ? `<li class="back"><span>Back to ${esc(stay?.name || "the stay")}</span><em class="leg">${esc(legText(distanceKm(prev, home)))}</em></li>` : "";
+  const back = prev && home && prev !== home ? `<li class="train-return"><span>Back to ${esc(home.name)} station</span>${legMarkup(prev, home)}</li>` : "";
   return `<section class="card train-day${on ? " on" : ""}" id="train-${day.date}" data-day="${day.date}" role="button" tabindex="0" aria-pressed="${on}">
     <header>
       <p class="date">${esc(formatDay(day.date))}</p>
