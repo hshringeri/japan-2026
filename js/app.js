@@ -5,6 +5,7 @@ import { mountList } from "./list.js";
 import { mountMap, showMap, focusPlace, revealPlace } from "./map.js";
 import { mountSplit, syncSplit } from "./split.js";
 import { mountPlan, showPlan, hidePlan } from "./plan.js";
+import { mountTrain, showTrain, hideTrain } from "./train.js";
 import { renderPlace } from "./place.js";
 import { renderGuide } from "./guide.js";
 import { mountChat, showChat } from "./chat.js";
@@ -14,7 +15,7 @@ const wide = matchMedia("(min-width: 960px)");
 // Routes: #/list, #/map, #/map/<place>, #/plan, #/chat, #/place/<id>, #/guide, #/guide/<anchor>
 function route() {
   const [, view = "map", arg] = location.hash.match(/^#\/([^/]+)\/?(.*)$/) || [];
-  let name = ["list", "map", "plan", "chat", "place", "guide"].includes(view) ? view : "map";
+  let name = ["list", "map", "plan", "chat", "train", "place", "guide"].includes(view) ? view : "map";
   // Leaving the list: keep the hash and the scroll offset so a place can hand you back to it
   if (name !== "list" && document.body.dataset.view === "list") {
     listReturn.hash = prevHash || "#/list";
@@ -27,6 +28,7 @@ function route() {
   $$(".view").forEach((v) => (v.hidden = v.id !== `view-${name}`));
   $$(".tabbar a").forEach((a) => a.setAttribute("aria-current", a.dataset.tab === (name === "place" ? lastTab : name) ? "page" : "false"));
   if (name !== "plan") hidePlan();
+  if (name !== "train") hideTrain();
 
   // On wide screens the map stays beside every panel
   if (wide.matches && name !== "guide") $("#view-map").hidden = false;
@@ -38,13 +40,14 @@ function route() {
   }
   if (name === "plan") showPlan();
   if (name === "chat") showChat();
+  if (name === "train") showTrain();
   if (name === "place") {
     renderPlace($("#view-place"), arg);
     if (wide.matches && app.data.byId[arg]?.lat != null) revealPlace(app.data.byId[arg]);
   }
   if (name !== "place" && view !== "map") revealPlace(null);
   if (name === "guide") renderGuide($("#view-guide"), arg);
-  if (["list", "map", "plan", "chat"].includes(name)) lastTab = name;
+  if (["list", "map", "plan", "chat", "train"].includes(name)) lastTab = name;
   emit("route", name);
 }
 let lastTab = "map";
@@ -66,6 +69,7 @@ async function start() {
   mountMap($("#view-map"));
   mountPlan($("#view-plan"));
   mountChat($("#view-chat"));
+  mountTrain($("#view-train"));
   mountSplit();
   emit("data");
   // ?day=2026-11-24 opens straight onto that trip day

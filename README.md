@@ -1,6 +1,6 @@
 # Japan 2026
 
-The trip guide and planner at https://hshringeri.github.io/japan-2026/. On a phone it runs like an app with four tabs: List, Map, Plan and Ask. Add it to your home screen from the share menu and it opens full screen and keeps working with a weak signal.
+The trip guide and planner at https://hshringeri.github.io/japan-2026/. On a phone it runs like an app with five tabs: List, Map, Plan, Ask and Train. Add it to your home screen from the share menu and it opens full screen and keeps working with a weak signal.
 
 There's no build step. GitHub Pages serves the files as they are. A small Cloudflare Worker in `worker/` holds the shared plan and runs the Ask tab; it's the only part with a server, and the only place the Anthropic key exists.
 
@@ -20,6 +20,8 @@ There's no build step. GitHub Pages serves the files as they are. A small Cloudf
 | `guide.css` | The original magazine styles, used by the Guide view |
 
 The map is OpenFreeMap's colour Liberty style (OpenStreetMap data, no key) with labels switched to English and the style's own shop and food icons removed; `js/basemap.js` does both. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
+
+The Train tab maps the 16–17 November Tokyo plan from the Shibuya Airbnb using Google Maps transit routes. Each day embeds the route from the Airbnb to its first stop and links every stop to a live Google Maps journey for train times and platforms.
 
 Pins say more the closer you zoom: the name from zoom 15, the name and tags from 17, and a card with a photo from 18. Where labels would overlap, a pin falls back to a smaller label or none. Tapping a pin zooms in and opens its card above it.
 

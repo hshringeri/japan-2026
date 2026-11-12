@@ -47,7 +47,7 @@ button { font: inherit; color: inherit; }
 .back:hover { background: var(--line); }
 
 /* Tab bar along the bottom, like Google Maps: the current tab's icon sits in a tinted pill */
-.tabbar { position: fixed; left: 0; bottom: 0; width: var(--panel-w); height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom); background: var(--ink); display: grid; grid-template-columns: repeat(4, 1fr); z-index: 10; }
+.tabbar { position: fixed; left: 0; bottom: 0; width: var(--panel-w); height: var(--tab-h); padding-bottom: env(safe-area-inset-bottom); background: var(--ink); display: grid; grid-template-columns: repeat(5, 1fr); z-index: 10; }
 /* Standalone iOS can end the layout viewport above the home indicator, leaving the page
    canvas — not the page — under the bar. Carry the bar's ink past bottom: 0 to cover it. */
 .tabbar::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 80px; background: var(--ink); }
@@ -270,6 +270,18 @@ body.dates-off .datestrip { display: none; }
 .item.drive .acts { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .item.drive .look { margin-top: 4px; }
 
+/* Train */
+.train-intro { margin: 12px 16px; }
+.train-day { margin: 14px 16px; }
+.train-day header { padding: 12px 14px 10px; border-bottom: 1px solid var(--rule); }
+.train-day .date { margin: 0; font: 600 13px var(--sans); color: var(--accent); }
+.train-day h3 { margin: 2px 0; font: 600 18px/1.2 var(--sans); }
+.train-day .where { margin: 0; font-size: 13px; color: var(--mute); }
+.train-stops { margin: 10px 14px 14px; padding-left: 20px; font-family: var(--sans); }
+.train-stops li { margin: 7px 0; }
+.train-stops a { color: var(--blue-ink); text-decoration: none; font-weight: 500; }
+.train-stops small { display: block; margin-top: 2px; color: var(--mute); font-size: 12.5px; line-height: 1.35; }
+
 /* Guide view */
 .guide-close { position: sticky; top: 0; display: block; z-index: 2; background: var(--card); color: var(--blue-ink); box-shadow: var(--lift-1); padding: calc(12px + env(safe-area-inset-top)) 16px 12px; font: 500 14px var(--sans); text-decoration: none; }
 
@@ -295,7 +307,7 @@ body.dates-off .datestrip { display: none; }
   .tabbar a { flex-direction: row; gap: 8px; }
   .viewhead { padding-top: 12px; }
   .tabbar a[data-tab="map"] { display: none; }
-  .tabbar { grid-template-columns: repeat(3, 1fr); }
+  .tabbar { grid-template-columns: repeat(4, 1fr); }
   .panel { top: 52px; bottom: 0; border-right: 1px solid var(--line); }
   #view-map { left: var(--panel-w); bottom: 0; }
   #view-map .mapui.top { display: none; }
