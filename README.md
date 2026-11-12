@@ -46,7 +46,9 @@ Venue Directions buttons open the same named Google Maps listing as the address 
 
 Tokyo day-drinking picks are searchable as `day drinking` and grouped under Senbero. Price anchors are dated menu/visit reports, not current-price guarantees; entries preserve cash rules, standing/seating charges, crowd limits and weekday/monthly closure caveats.
 
-Karaoke choices are under Drink → Karaoke Bars and searchable as `karaoke`. New listings cover Tokyo, Osaka and Kyoto shared singing bars rather than private-room chains; the existing sharif amusement bar is cross-listed without duplicating it. Entries separate covers, drink packages, per-song and per-person/hour charges, and flag unpublished fees, smoking environments and irregular closures. Every new listing has a credited venue photo.
+Karaoke choices are under Drink → Karaoke Bars and searchable as `karaoke`. Listings cover Tokyo (7), Osaka (4) and Kyoto (4) shared singing bars rather than private-room chains, plus the cross-listed sharif amusement bar. Entries separate covers, drink packages, per-song and per-person/hour charges, and flag unpublished fees, smoking environments and irregular closures. Tokyo coverage skews broader by design: the picks favor distinct neighborhoods and formats, not an equal per-city quota.
+
+Fancy bakeries, patisseries, matcha and specialty coffee are tagged as `Bakery`, `Patisserie`, `Matcha` and `Cafe` cuisine tags across Tokyo, Osaka and Kyoto. Entries distinguish walk-in takeaway from reservation-only salons, and entries with approximate or relocated addresses say so. Every recent listing has a credited venue photo.
 
 ## Tools
 

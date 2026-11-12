@@ -74,7 +74,7 @@ GEO_NOTES = {
 
 def area_for(city, ward, hood):
     key = f"{ward or ''} | {hood or ''}"
-    for name, rx in AREAS[city]:
+    for name, rx in AREAS.get(city, []):
         if re.search(rx, key):
             return name
     return None
@@ -101,7 +101,7 @@ def main():
         p["addressJa"] = g.get("addressJa")
         p["neighbourhood"] = re.sub(r"\s*\(.*\)$", "", g.get("neighbourhood") or "") or None
         p["ward"] = g.get("ward")
-        p["area"] = area_for(p["city"], g.get("ward"), g.get("neighbourhood"))
+        p["area"] = g.get("area") or area_for(p["city"], g.get("ward"), g.get("neighbourhood")) or p.get("area")
         if g.get("extraPins"):
             p["extraPins"] = [{k: e[k] for k in ("label", "lat", "lng") if k in e} for e in g["extraPins"]]
         if p["id"] in GEO_NOTES:

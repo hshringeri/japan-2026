@@ -12613,5 +12613,628 @@
   "text": "Merchant listing: around 19:00–01:00, closed Monday; other listings open later. Confirm current hours, cover and karaoke fees.",
   "kind": "irregular",
   "source": "https://koenji-depart.com/shop_info/young-master/"
+ },
+ "tokyo-nearme-karaoke-bar": {
+  "text": "Published daily 20:00–05:00, but quiet nights may close 02:00–03:00. Check the operator before a late visit.",
+  "kind": "irregular",
+  "source": "https://karaokebar-nearme.com/"
+ },
+ "tokyo-vsing-shibuya": {
+  "text": "Mon–Fri 18:00–05:00; Sat/Sun/holidays 15:00–05:00. Published pricing is a temporary promotion with automatic extensions.",
+  "kind": "regular",
+  "source": "https://a664710.gorp.jp/",
+  "week": {
+   "mon": [
+    [
+     "18:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "29:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "29:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "29:00"
+    ]
+   ]
+  }
+ },
+ "osaka-the-drunken-clam": {
+  "text": "Karaoke 20:00–24:00 only. Bar Mon–Thu 20:00–03:00, Fri/Sat to 04:00, Sun to 02:00; last orders 30 minutes earlier.",
+  "kind": "regular",
+  "source": "https://www.theclamjp.com/",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "wed": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "thu": [
+    [
+     "20:00",
+     "27:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "28:00"
+    ]
+   ],
+   "sun": [
+    [
+     "20:00",
+     "26:00"
+    ]
+   ]
+  }
+ },
+ "osaka-kama-sutra-karaoke-bar": {
+  "text": "Late-evening opening around 21:00–22:00 to 05:00 reported. Confirm opening days, fees and current smoking arrangements.",
+  "kind": "irregular",
+  "source": "https://www.instagram.com/kama_sutra_karaoke_bar/"
+ },
+ "kyoto-bal-utao": {
+  "text": "Open 24 hours per operator. Ask reception for the shared BAL UTAO floor; rates vary by time/day and plan.",
+  "kind": "regular",
+  "source": "https://jankara.ne.jp/balutao/267/",
+  "week": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-barcode": {
+  "text": "Published 20:00–05:00; confirm current opening days, cover, drink minimum and singing charges.",
+  "kind": "irregular",
+  "source": "https://www.instagram.com/barcodekyoto/"
+ },
+ "tokyo-bricolage-bread": {
+  "text": "Published 07:00–19:00; opening time changes seasonally. Closed Monday except holidays; confirm the date. Walk-in seating; bread holds are separate.",
+  "kind": "irregular",
+  "source": "https://bricolagebread.com/"
+ },
+ "tokyo-prismic": {
+  "text": "Shop 11:00–19:00, Fridays to 20:00; seasonal changes and irregular closures. Takeaway shop is walk-in; salon seats require advance booking.",
+  "kind": "irregular",
+  "source": "https://prismic-t.jp/"
+ },
+ "tokyo-sakurai-tea": {
+  "text": "From 11:00. Weekday shop hours to 19:00 and tea/bar service to 23:00 (L.O. 21:30); weekends/holidays to 20:00 (L.O. 19:00). Confirm daytime course vs evening bar and reserve the counter.",
+  "kind": "irregular",
+  "source": "https://sakurai-tea.jp/access/"
+ },
+ "tokyo-glitch-coffee": {
+  "text": "Mon–Fri 08:00–19:00; Sat/Sun 09:00–19:00. Walk-in only, no reservations.",
+  "kind": "regular",
+  "source": "https://www.glitchcoffee.com/",
+  "week": {
+   "mon": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "19:00"
+    ]
+   ]
+  }
+ },
+ "osaka-masahiko-ozumi-paris-yodoyabashi": {
+  "text": "Takeaway weekdays 09:00–20:00; weekends/holidays to 18:00. Cafe closes earlier (last orders earlier again); confirm service and holiday dates. Eat-in requires cake + drink.",
+  "kind": "irregular",
+  "source": "https://masahiko-ozumi.com/"
+ },
+ "osaka-boulangerie-parigot": {
+  "text": "07:30–20:00; closed Mon/Tue. Holiday and irregular changes are posted by the operator.",
+  "kind": "regular",
+  "source": "https://parigot.net/",
+  "week": {
+   "mon": [],
+   "tue": [],
+   "wed": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ]
+  }
+ },
+ "osaka-chatei-jin": {
+  "text": "12:00–18:30 (L.O. 18:00); closed Tuesday.",
+  "kind": "regular",
+  "source": "https://chatei-jin.com/",
+  "week": {
+   "mon": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "18:30"
+    ]
+   ]
+  }
+ },
+ "osaka-lilo-coffee-roasters": {
+  "text": "Published daily 11:00–23:00. Limited seating, walk-in and takeaway.",
+  "kind": "regular",
+  "source": "https://coffee.liloinveve.com/pages/store-location",
+  "week": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-edegger-tax": {
+  "text": "10:00–18:00; closed Wednesday and Thursday.",
+  "kind": "regular",
+  "source": "https://edegger-tax.jp/access/",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "kyoto-assemblages-kakimoto": {
+  "text": "Takeaway 12:00–19:00; eat-in closing varies. Dinner by advance booking. Closed Tuesday, second/fourth Wednesday and additional irregular dates.",
+  "kind": "irregular",
+  "source": "http://www.assemblages.jp/"
+ },
+ "kyoto-ippodo-kaboku-tearoom": {
+  "text": "Store/tearoom 10:00–17:00; tearoom L.O. 16:30. Closed second Wednesday and New Year dates; check the calendar.",
+  "kind": "irregular",
+  "source": "https://www.ippodo-tea.co.jp/pages/store-kyoto?view=store-detail"
+ },
+ "kyoto-weekenders-coffee-shinmachi": {
+  "text": "Opening report: 07:30–17:00, closed Wednesday. Newly relocated to Shinmachi; operator defers current hours to Instagram.",
+  "kind": "irregular",
+  "source": "https://weekenderscoffee.com/"
+ },
+ "tokyo-ebisu-shot": {
+  "text": "Published 20:00–05:00; closed Wednesday and Sunday. Confirm the current drinks/karaoke plan.",
+  "kind": "regular",
+  "source": "https://www.ebisu-shot2021.jp/",
+  "week": {
+   "mon": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "20:00",
+     "29:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "tokyo-asoko-shibuya": {
+  "text": "Published 21:00–05:00; irregular holidays. Check availability for groups and private hire.",
+  "kind": "irregular",
+  "source": "https://bar-asoko.com/about-us/"
+ },
+ "tokyo-no-border-shimbashi": {
+  "text": "Reported 20:00–04:30, with some listings to 05:00. Current opening days and package fees need reconfirming.",
+  "kind": "irregular",
+  "source": "https://www.corner.inc/place/pSMWzA26NA2L"
+ },
+ "tokyo-boulangerie-django": {
+  "text": "08:30–18:00; closed Wednesday and Thursday. Takeaway only.",
+  "kind": "regular",
+  "source": "https://hamacho.jp/people/p=2487.html",
+  "week": {
+   "mon": [
+    [
+     "08:30",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:30",
+     "18:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "08:30",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:30",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:30",
+     "18:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-katane-bakery": {
+  "text": "Opens around 07:00; published closing times conflict (15:00 vs 18:00). Listed Monday and first/third/fifth Sunday closures require current confirmation.",
+  "kind": "irregular",
+  "source": "https://www.instagram.com/katanebakery/"
+ },
+ "tokyo-sadaharu-aoki-marunouchi": {
+  "text": "Boutique 11:00–20:00; salon weekdays 12:00–17:30, weekends/holidays from 11:00, L.O. 17:00. Irregular/building closures; salon walk-in only.",
+  "kind": "irregular",
+  "source": "https://www.sadaharuaoki.jp/marunouchi/"
+ },
+ "tokyo-au-bon-vieux-temps": {
+  "text": "10:00–17:00; salon L.O. 16:00. Closed Tuesday and Wednesday.",
+  "kind": "regular",
+  "source": "https://aubonvieuxtemps.jp/",
+  "week": {
+   "mon": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [],
+   "thu": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  }
+ },
+ "tokyo-patisserie-ryoco": {
+  "text": "Published 12:00–17:00, reservation-only; opening dates and pickup slots follow the official TableCheck calendar. Do not make an unbooked walk-in trip.",
+  "kind": "irregular",
+  "source": "https://www.ryoco.jp/boutique/"
+ },
+ "tokyo-yamamotoyama-fujie-sabo": {
+  "text": "Tea room 11:00–17:30 (L.O. 17:00); retail 10:30–18:00. Confirm holiday dates; booking recommended, 90-minute seating, cashless only.",
+  "kind": "irregular",
+  "source": "https://fujie.yamamotoyama.co.jp/access/"
+ },
+ "tokyo-savor-the-matcha": {
+  "text": "Published Tue–Sun 10:00–17:00, closed Monday; some listings open at 11:00. Check current operator announcements and booking policy.",
+  "kind": "irregular",
+  "source": "https://shopblog.dmdepart.jp/ueno/uenogasuki/article/detail/?cd=001095"
+ },
+ "tokyo-onibus-coffee-nakameguro": {
+  "text": "Published daily 09:00–18:00 with irregular holidays. Walk-in, no reservations. Use the Ekimae branch at 2-14-1 Kamimeguro.",
+  "kind": "irregular",
+  "source": "https://onibuscoffee.com/pages/locations/nakameguro"
+ },
+ "tokyo-fuglen-tokyo": {
+  "text": "Mon/Tue 07:00–23:00; Wed–Sun 07:00–01:00. Coffee menu ends 21:30; holiday hours may differ.",
+  "kind": "regular",
+  "source": "https://fuglencoffee.jp/en/pages/fuglen-tokyo",
+  "week": {
+   "mon": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "25:00"
+    ]
+   ]
+  }
  }
 }

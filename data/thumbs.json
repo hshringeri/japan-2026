@@ -1750,5 +1750,185 @@
   "credit": "KARAOKE & BAR 宴家 聚々 (official site)",
   "sourceUrl": "https://shushu.office-sand.com/",
   "imageUrl": "https://shushu.office-sand.com/wp-content/themes/shushu/assets/images/floor1.jpg"
+ },
+ "tokyo-nearme-karaoke-bar": {
+  "src": "img/thumbs/tokyo-nearme-karaoke-bar.jpg",
+  "credit": "NearMe Karaoke Bar, official site",
+  "sourceUrl": "https://karaokebar-nearme.com/",
+  "imageUrl": "https://karaokebar-nearme.com/nearme/hero-duet-at-table.jpg"
+ },
+ "tokyo-vsing-shibuya": {
+  "src": "img/thumbs/tokyo-vsing-shibuya.jpg",
+  "credit": "Shin Corporation / VSING Shibuya, official opening press release via PR TIMES",
+  "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000007.000166479.html",
+  "imageUrl": "https://prcdn.freetls.fastly.net/release_image/166479/7/166479-7-16ea38ebc791b9972d555dc34124134f-3900x2882.jpg"
+ },
+ "osaka-the-drunken-clam": {
+  "src": "img/thumbs/osaka-the-drunken-clam.jpg",
+  "credit": "The Drunken Clam (official site)",
+  "sourceUrl": "https://www.theclamjp.com/",
+  "imageUrl": "https://www.theclamjp.com/assets/bar.jpeg"
+ },
+ "osaka-kama-sutra-karaoke-bar": {
+  "src": "img/thumbs/osaka-kama-sutra-karaoke-bar.jpg",
+  "credit": "Maido / Osaka Bob (editorial feature, 2023)",
+  "sourceUrl": "https://maido-bob.osaka/2023/08/25/kama-sutra-karaoke-bar",
+  "imageUrl": "https://maido-storage.oss-cn-hongkong.aliyuncs.com/maido/uploads/2023/08/kama-sutra-karaoke-bar-img04.jpg"
+ },
+ "kyoto-bal-utao": {
+  "src": "img/thumbs/kyoto-bal-utao.jpg",
+  "credit": "BAL UTAO / Jankara Night Out Kiyamachi (official site)",
+  "sourceUrl": "https://jankara.ne.jp/balutao/267/",
+  "imageUrl": "https://jankara.ne.jp/balutao/img/room_267.jpg"
+ },
+ "kyoto-barcode": {
+  "src": "img/thumbs/kyoto-barcode.jpg",
+  "credit": "BARCODE Kyoto (Trip.com listing photo)",
+  "sourceUrl": "https://us.trip.com/restaurant/japan/kyoto/detail/barcode-19895723",
+  "imageUrl": "https://ak-d.tripcdn.com/images/0106h12000e41luz6DEB2_D_1200_675_R5_Q70.jpg?proc=autoorient"
+ },
+ "tokyo-bricolage-bread": {
+  "src": "img/thumbs/tokyo-bricolage-bread.jpg",
+  "credit": "bricolage bread & co. (official site)",
+  "sourceUrl": "https://bricolagebread.com/",
+  "imageUrl": "https://bricolagebread.com/assets/images/NAN_7482.jpg"
+ },
+ "tokyo-prismic": {
+  "src": "img/thumbs/tokyo-prismic.jpg",
+  "credit": "PRISMIC TOKYO (official site)",
+  "sourceUrl": "https://prismic-t.jp/",
+  "imageUrl": "https://prismic-t.jp/cdn/shop/files/Prismic2026_21.jpg"
+ },
+ "tokyo-sakurai-tea": {
+  "src": "img/thumbs/tokyo-sakurai-tea.jpg",
+  "credit": "櫻井焙茶研究所 Sakurai Japanese Tea Experience (official site)",
+  "sourceUrl": "https://sakurai-tea.jp/experience-daytime/",
+  "imageUrl": "https://sakurai-tea.jp/common/imgs/experience/daytime01.jpg"
+ },
+ "tokyo-glitch-coffee": {
+  "src": "img/thumbs/tokyo-glitch-coffee.jpg",
+  "credit": "GLITCH COFFEE & ROASTERS (official site)",
+  "sourceUrl": "https://www.glitchcoffee.com/",
+  "imageUrl": "http://www.glitchcoffee.com/img/shop-img02.png"
+ },
+ "osaka-masahiko-ozumi-paris-yodoyabashi": {
+  "src": "img/thumbs/osaka-masahiko-ozumi-paris-yodoyabashi.jpg",
+  "credit": "Photo: Yurina Nakata / Rurubu & more",
+  "sourceUrl": "https://rurubu.jp/andmore/article/24390",
+  "imageUrl": "https://img.rurubu.jp/img_srw/andmore/images/0000728570/sj0EGflJZq0WpJFWCxaUJz8Bjx9R25uKVeu09zHu.jpg"
+ },
+ "osaka-boulangerie-parigot": {
+  "src": "img/thumbs/osaka-boulangerie-parigot.jpg",
+  "credit": "Photo: Boulangerie Parigot",
+  "sourceUrl": "https://parigot.net/shop/",
+  "imageUrl": "https://parigot.net/wp-content/uploads/2021/08/P1016993-1450.jpg"
+ },
+ "osaka-chatei-jin": {
+  "src": "img/thumbs/osaka-chatei-jin.jpg",
+  "credit": "Photo: Keiko Kimura / Rurubu & more",
+  "sourceUrl": "https://rurubu.jp/andmore/article/24741",
+  "imageUrl": "https://img.rurubu.jp/img_srw/andmore/images/0000736041/2saLyuEZpc9yawv4kDML6AEF0SnFXlK2Ip8DN2eW.jpg"
+ },
+ "osaka-lilo-coffee-roasters": {
+  "src": "img/thumbs/osaka-lilo-coffee-roasters.jpg",
+  "credit": "Photo: Taste of Kansai",
+  "sourceUrl": "https://tasteofkansai.com/en/cafe/lilo-coffee-roasters",
+  "imageUrl": "https://tasteofkansai.com/img/lilocoffeeroasters02-1280.webp"
+ },
+ "kyoto-edegger-tax": {
+  "src": "img/thumbs/kyoto-edegger-tax.jpg",
+  "credit": "Leaf KYOTO (storefront photo)",
+  "sourceUrl": "https://www.leafkyoto.net/store/210811_edeggertaxs",
+  "imageUrl": "https://www.leafkyoto.net/leaf/wp-content/uploads/2021/08/210805_edegger-taxs_4-1024x682.jpg"
+ },
+ "kyoto-assemblages-kakimoto": {
+  "src": "img/thumbs/kyoto-assemblages-kakimoto.jpg",
+  "credit": "Leaf KYOTO (patisserie counter photo)",
+  "sourceUrl": "https://www.leafkyoto.net/store/240430-kyoto-kakimoto",
+  "imageUrl": "https://www.leafkyoto.net/leaf/wp-content/uploads/2024/04/240415-kakimoto1-e1713164668354-1024x682.jpg"
+ },
+ "kyoto-ippodo-kaboku-tearoom": {
+  "src": "img/thumbs/kyoto-ippodo-kaboku-tearoom.jpg",
+  "credit": "Ippodo Tea (official site, Kaboku Tearoom matcha and wagashi)",
+  "sourceUrl": "https://www.ippodo-tea.co.jp/pages/store-kyoto?view=store-detail",
+  "imageUrl": "https://www.ippodo-tea.co.jp/cdn/shop/files/img-kyoto-08.jpg?v=1738035495"
+ },
+ "kyoto-weekenders-coffee-shinmachi": {
+  "src": "img/thumbs/kyoto-weekenders-coffee-shinmachi.jpg",
+  "credit": "京都速報 / Kyoto Sokuho (Shinmachi storefront photo)",
+  "sourceUrl": "https://kyo-soku.com/2026/10/29/weekenders-coffee-shinmachi",
+  "imageUrl": "https://kyo-soku.com/ks-wp/wp-content/uploads/2026/10/img_8725-1024x683.jpg"
+ },
+ "tokyo-ebisu-shot": {
+  "src": "img/thumbs/tokyo-ebisu-shot.jpg",
+  "credit": "EBISU SHOT. official",
+  "sourceUrl": "https://www.ebisu-shot2021.jp/",
+  "imageUrl": "https://www.ebisu-shot2021.jp/images/top/mv_bg.jpg"
+ },
+ "tokyo-asoko-shibuya": {
+  "src": "img/thumbs/tokyo-asoko-shibuya.jpg",
+  "credit": "Karaoke Bar asoko official",
+  "sourceUrl": "https://bar-asoko.com/gallery/",
+  "imageUrl": "https://bar-asoko.com/wp-content/uploads/2023/02/DSC4411.webp"
+ },
+ "tokyo-no-border-shimbashi": {
+  "src": "img/thumbs/tokyo-no-border-shimbashi.jpg",
+  "credit": "Ando via Google Maps / Corner",
+  "sourceUrl": "https://www.corner.inc/place/pSMWzA26NA2L",
+  "imageUrl": "https://cdn.corner.inc/resize/place-photo/720/d09dc68e2b0c02468375b66294574413.jpeg"
+ },
+ "tokyo-boulangerie-django": {
+  "src": "img/thumbs/tokyo-boulangerie-django.jpg",
+  "credit": "Boulangerie Django owners in front of the Nihonbashi-Hamacho shop; photo via HAMACHO.JP (Hamacho community site)",
+  "sourceUrl": "https://hamacho.jp/people/p=2487.html",
+  "imageUrl": "https://hamacho.jp/wp-content/uploads/django-01.jpg"
+ },
+ "tokyo-katane-bakery": {
+  "src": "img/thumbs/tokyo-katane-bakery.jpg",
+  "credit": "Katane Bakery bread counter interior; photo via Yoyogi-Uehara Gourmet (local shop guide)",
+  "sourceUrl": "https://uehara-gourmet.jp/shop/katane-bakery",
+  "imageUrl": "https://uehara-gourmet.jp/wp-content/themes/uehara_gourmet/images/shop/katane-bakery/R003.jpg"
+ },
+ "tokyo-sadaharu-aoki-marunouchi": {
+  "src": "img/thumbs/tokyo-sadaharu-aoki-marunouchi.jpg",
+  "credit": "Pâtisserie Sadaharu AOKI paris official site — matcha dessert from the Marunouchi boutique",
+  "sourceUrl": "https://www.sadaharuaoki.jp/marunouchi/",
+  "imageUrl": "https://www.sadaharuaoki.jp/wp-content/uploads/2019/04/Glacemacha.jpg"
+ },
+ "tokyo-au-bon-vieux-temps": {
+  "src": "img/thumbs/tokyo-au-bon-vieux-temps.jpg",
+  "credit": "Au Bon Vieux Temps shopfront, Todoroki (official site)",
+  "sourceUrl": "https://aubonvieuxtemps.jp/",
+  "imageUrl": "https://aubonvieuxtemps.jp/wp-content/uploads/2020/12/window21.jpg"
+ },
+ "tokyo-patisserie-ryoco": {
+  "src": "img/thumbs/tokyo-patisserie-ryoco.jpg",
+  "credit": "PATISSERIE RYOCO chou à la crème, Takanawa (official site)",
+  "sourceUrl": "https://www.ryoco.jp/boutique/",
+  "imageUrl": "https://www.ryoco.jp/img/chou-a-la-creme/bg.jpg"
+ },
+ "tokyo-yamamotoyama-fujie-sabo": {
+  "src": "img/thumbs/tokyo-yamamotoyama-fujie-sabo.jpg",
+  "credit": "山本山 ふじヱ茶房 (official site)",
+  "sourceUrl": "https://fujie.yamamotoyama.co.jp/",
+  "imageUrl": "https://fujie.yamamotoyama.co.jp/assets/img/shop_image.jpg"
+ },
+ "tokyo-savor-the-matcha": {
+  "src": "img/thumbs/tokyo-savor-the-matcha.jpg",
+  "credit": "Photo: Ueno ga suki / DMDEPART",
+  "sourceUrl": "https://shopblog.dmdepart.jp/ueno/uenogasuki/article/detail/?cd=001095",
+  "imageUrl": "https://shopblog-dmdepart-1100.pictona.jp/scc-admin/asset/ueno/000322/000322/w600/22ce99a3.png"
+ },
+ "tokyo-onibus-coffee-nakameguro": {
+  "src": "img/thumbs/tokyo-onibus-coffee-nakameguro.jpg",
+  "credit": "ONIBUS COFFEE (official site)",
+  "sourceUrl": "https://onibuscoffee.com/pages/locations/nakameguro",
+  "imageUrl": "https://onibuscoffee.com/cdn/shop/files/locations_nakameguro.jpg?v=1724035392"
+ },
+ "tokyo-fuglen-tokyo": {
+  "src": "img/thumbs/tokyo-fuglen-tokyo.jpg",
+  "credit": "FUGLEN COFFEE ROASTERS TOKYO (official site)",
+  "sourceUrl": "https://fuglencoffee.jp/en/pages/fuglen-tokyo",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0062/9895/9990/files/MG_4456-2_480x480.jpg?v=1708152046"
  }
 }

@@ -14560,5 +14560,1133 @@
   "ward": "Suginami",
   "area": "Koenji",
   "geoNote": "Address-level pin. The merchant page supplies the first-floor address; confirm current opening time and charges with the bar."
+ },
+ {
+  "id": "tokyo-nearme-karaoke-bar",
+  "city": "tokyo",
+  "name": "NearMe Karaoke Bar",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://karaokebar-nearme.com/",
+    "desc": "A social, visitor-friendly Kabukicho karaoke bar where guests and staff sing together in one shared room, not private boxes or a locals-only counter. The operator lists unlimited karaoke with a ¥1,500/person cover, one-drink minimum and alcohol from ¥1,000, plus 10% tax. Smoking is allowed; quiet nights may close early.",
+    "address": "The Caterina 5F, 1-3-15 Kabukicho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=NearMe+KARAOKE+BAR+1-3-15+Kabukicho+Shinjuku+Tokyo",
+    "info": "Published 20:00–05:00, sometimes closes 02:00–03:00 · cover ¥1,500 + minimum one drink · 10% tax extra · smoking"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.694481,
+  "lng": 139.703995,
+  "precision": "block",
+  "addressJa": "東京都新宿区歌舞伎町1-3-15 ザ・カテリーナ5F",
+  "neighbourhood": "Kabukicho",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Address-level pin; fifth floor. Check the operator's Instagram before arriving late."
+ },
+ {
+  "id": "tokyo-vsing-shibuya",
+  "city": "tokyo",
+  "name": "VSING Shibuya (open-stage karaoke)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://a664710.gorp.jp/",
+    "desc": "A larger open-stage karaoke party venue in Center Gai, with singer/supporter roles, LED effects and paid Cheer gifts. A global stage-karaoke brand, not a hidden local bar or private box. Its listing advertises a temporary ¥1,100 first half-hour, automatic ¥660 half-hour extensions and a ¥3,500 stay cap; confirm the promotion and optional extras.",
+    "address": "udanowa 2F, 32-15 Udagawacho, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=VSING+Shibuya+32-15+Udagawacho+Tokyo",
+    "info": "Mon–Fri 18:00–05:00 · Sat–Sun & hols 15:00–05:00 · promotional timed drink/entry plan; auto-extensions · Cheer gifts extra"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.661003,
+  "lng": 139.697861,
+  "precision": "block",
+  "addressJa": "東京都渋谷区宇田川町32-15 udanowa2F",
+  "neighbourhood": "Udagawacho / Center Gai",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "geoNote": "Address-level pin; second floor. Confirm the current promotion rather than treating the published stay cap as permanent."
+ },
+ {
+  "id": "osaka-the-drunken-clam",
+  "city": "osaka",
+  "name": "The Drunken Clam",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.theclamjp.com/",
+    "desc": "A social open-mic pub near Dotonbori where locals and travellers share one singing room. Karaoke is free with a drink from 20:00 to midnight only; after midnight it switches to music and drinks. The operator lists no cover, draft beer ¥700 and cocktails ¥800. Non-smoking indoors, 20+ with ID; walk-in rather than reserved seating.",
+    "address": "Kiku Building 3F, 6-26 Soemoncho, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Drunken+Clam+6-26+Souemoncho+Osaka",
+    "info": "Karaoke 20:00–24:00 only · bar Mon–Thu to 03:00, Fri–Sat 04:00, Sun 02:00 · no cover · minimum a drink · 20+ ID"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 34.67028,
+  "lng": 135.502335,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区宗右衛門町6-26 菊ビル3F",
+  "neighbourhood": "Soemoncho / Dotonbori",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi",
+  "geoNote": "Address-level pin; stair access to the third floor. The late bar hours do not mean karaoke continues after midnight."
+ },
+ {
+  "id": "osaka-kama-sutra-karaoke-bar",
+  "city": "osaka",
+  "name": "Kama Sutra Karaoke Bar",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.instagram.com/kama_sutra_karaoke_bar/",
+    "desc": "A late-night international singalong bar in Higashi-Shinsaibashi, with one counter/sofa room and microphones shared among guests. A social party-bar format rather than a quiet listening room. Guides report no cover, free karaoke and drinks from ¥500, but the price evidence is older; confirm current charges. Smoking is reported.",
+    "address": "Osaka-ya Jumbo Building 5F, 2-1-13 Higashi-Shinsaibashi, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kama+Sutra+Karaoke+Bar+2-1-13+Higashi-Shinsaibashi+Osaka",
+    "info": "Late evenings to 05:00 reported · opening time varies by source/day · cover, song charges and current drink prices need confirmation"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 34.671143,
+  "lng": 135.5056,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区東心斎橋2-1-13 大阪屋ジャンボビル5F",
+  "neighbourhood": "Higashi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi",
+  "geoNote": "Address-level pin; fifth floor. Older low-price reports are not current-price guarantees."
+ },
+ {
+  "id": "kyoto-bal-utao",
+  "city": "kyoto",
+  "name": "BAL UTAO / Night Out Kiyamachi",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://jankara.ne.jp/balutao/267/",
+    "desc": "Jankara's 65-seat shared BAL floor with open karaoke, darts, games and a DJ booth: a larger party format, not an independent hidden bar. Tell reception you want BAL UTAO, since the same building also has private karaoke rooms. General rates are ¥1,000–1,100 per half-hour including drinks; night free-time plans differ. Check event dates rather than assuming a live band every night.",
+    "address": "BAL floor, Kiyamachi Amuseum Bldg, 267-3 Kitakurumayacho, Nakagyo, Kyoto; reception 1F",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=BAL+UTAO+Night+Out+Kiyamachi+267-3+Kitakurumayacho+Kyoto",
+    "info": "Open 24 hours per operator · general timed rate ¥1,000–1,100/30 min · night free-time plans ¥5,000–5,500; confirm plan"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {},
+  "lat": 35.007229,
+  "lng": 135.77005,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区北車屋町267-3 木屋町アミュージアムビル1〜4F 受付1F",
+  "neighbourhood": "Kiyamachi / Sanjo-Kawaramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "Parcel-level pin. Choose the shared BAL UTAO floor at reception, not a private Jankara box."
+ },
+ {
+  "id": "kyoto-barcode",
+  "city": "kyoto",
+  "name": "BARCODE Kyoto",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.instagram.com/barcodekyoto/",
+    "desc": "An international shared-stage karaoke and darts bar in Nishi-Kiyamachi, with a social late-night format rather than private boxes. Local guides describe staff-led singalongs and a mixed local/visitor crowd, but liveliness depends on the night. Current cover, drink minimum and per-song charges are not verified; ask first.",
+    "address": "Reiho Kaikan 3F, 366 Kamiyacho, Nakagyo, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=BARCODE+Kyoto+366+Kamiyacho+Reiho+Kaikan+3F",
+    "info": "Published 20:00–05:00 · confirm opening days, cover and singing charges on Instagram"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.004982,
+  "lng": 135.770187,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区西木屋町通四条上ル紙屋町366 玲宝会館3F",
+  "neighbourhood": "Nishi-Kiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "Parcel-level pin. BARCODE is on the third floor; existing Siesta 8bit Cafe in this building is a different business on the first floor."
+ },
+ {
+  "id": "tokyo-bricolage-bread",
+  "city": "tokyo",
+  "name": "bricolage bread & co.",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://bricolagebread.com/",
+    "desc": "A refined Roppongi bakery-dining-cafe built around whole-grain breads, long-fermented loaves and bread-led plates, with Fuglen coffee. A real bread stop rather than a cake-only salon. Takeaway is available; seating is walk-in, while bread holds can be arranged separately by phone.",
+    "address": "Keyakizaka Terrace 1F, 6-15-1 Roppongi, Minato, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=bricolage+bread+co+6-15-1+Roppongi+Tokyo",
+    "info": "Published 07:00–19:00; seasonal opening changes · closed Mon except holidays · walk-in seating"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  },
+  "lat": 35.658722,
+  "lng": 139.727936,
+  "precision": "block",
+  "addressJa": "東京都港区六本木6-15-1 けやき坂テラス1F",
+  "neighbourhood": "Roppongi",
+  "ward": "Minato",
+  "area": "Minato",
+  "geoNote": "Block-level Roppongi Hills pin; use the named listing for the Keyakizaka Terrace entrance."
+ },
+ {
+  "id": "tokyo-prismic",
+  "city": "tokyo",
+  "name": "PRISMIC TOKYO",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://prismic-t.jp/",
+    "desc": "An upscale Shibuya patisserie and plated-dessert salon from the PRISM team, with caneles, caramel-sable sandwiches and yuzu baked sweets. This is pastry and dessert craft, not a bread bakery. The takeaway shop is walk-in; salon seats must be booked in advance.",
+    "address": "VORT Shibuya east II 1F, 1-7-2 Shibuya, Shibuya-ku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=PRISMIC+TOKYO+1-7-2+Shibuya+Tokyo",
+    "info": "11:00–19:00, Fri to 20:00; seasonal changes · takeaway walk-in · salon by appointment"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.6609,
+  "lng": 139.706528,
+  "precision": "block",
+  "addressJa": "東京都渋谷区渋谷1-7-2 VORT渋谷eastⅡ1F",
+  "neighbourhood": "Shibuya / Aoyama edge",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "geoNote": "Address-level pin. Buying takeaway pastries and booking the limited-seat dessert salon are different services."
+ },
+ {
+  "id": "tokyo-sakurai-tea",
+  "city": "tokyo",
+  "name": "Sakurai Japanese Tea Experience (櫻井焙茶研究所)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://sakurai-tea.jp/experience-daytime/",
+    "desc": "A small Aoyama Japanese-tea counter for tea courses, roasted and blended leaves, wagashi and usucha matcha—not a quick takeaway latte stand. The counter has limited seats, so book via TableCheck. Weekday evenings use a separate tea/bar menu; confirm the service you want.",
+    "address": "Spiral 5F, 5-6-23 Minami-Aoyama, Minato, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sakurai+Japanese+Tea+Experience+5-6-23+Minami-Aoyama+Tokyo",
+    "info": "From 11:00 · weekday tea/bar services differ · weekends to 20:00 · book via TableCheck"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  },
+  "lat": 35.663567,
+  "lng": 139.711945,
+  "precision": "block",
+  "addressJa": "東京都港区南青山5-6-23 スパイラル5F",
+  "neighbourhood": "Minami-Aoyama",
+  "ward": "Minato",
+  "area": "Harajuku & Aoyama",
+  "geoNote": "Block-level pin; the tea counter is on Spiral's fifth floor."
+ },
+ {
+  "id": "tokyo-glitch-coffee",
+  "city": "tokyo",
+  "name": "GLITCH COFFEE & ROASTERS (Jimbocho)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.glitchcoffee.com/",
+    "desc": "The Jimbocho original of the light-roast specialty roaster, brewing rotating single-origin lots as pour-over and espresso, with beans to take home. Premium-lot coffee rather than a bakery coffee counter. A small walk-in shop; queues are possible, and this is not the Ginza or Osaka branch.",
+    "address": "Koumura Bldg 1F, 3-16 Kanda-Nishikicho, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=GLITCH+COFFEE+ROASTERS+3-16+Kanda-Nishikicho+Tokyo",
+    "info": "Mon–Fri 08:00–19:00 · Sat–Sun 09:00–19:00 · walk-in only; no reservations"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  },
+  "lat": 35.693691,
+  "lng": 139.761383,
+  "precision": "block",
+  "addressJa": "東京都千代田区神田錦町3-16 香村ビル1F",
+  "neighbourhood": "Jimbocho / Kanda-Nishikicho",
+  "ward": "Chiyoda",
+  "area": "Akihabara & Kanda"
+ },
+ {
+  "id": "osaka-masahiko-ozumi-paris-yodoyabashi",
+  "city": "osaka",
+  "name": "Masahiko Ozumi Paris (Yodoyabashi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://masahiko-ozumi.com/",
+    "desc": "A sculptural French patisserie for the knit-like Zabuton Mont Blanc and other composed cakes, with a small Yodoyabashi cafe overlooking the Central Public Hall. Patisserie rather than a bread bakery. Takeaway is available; eat-in requires one cake and one drink and does not take seat reservations.",
+    "address": "Shima Bldg 1F, 3-1-18 Kitahama, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Masahiko+Ozumi+Paris+Yodoyabashi+3-1-18+Kitahama+Osaka",
+    "info": "Takeaway weekdays 09:00–20:00, weekends/hols to 18:00 · cafe closes earlier · cake + drink for eat-in"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie",
+    "Cafe"
+   ]
+  },
+  "lat": 34.692486,
+  "lng": 135.501938,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区北浜3-1-18 島ビル1F",
+  "neighbourhood": "Yodoyabashi / Kitahama",
+  "ward": "Chuo",
+  "area": "Kitahama & Honmachi"
+ },
+ {
+  "id": "osaka-boulangerie-parigot",
+  "city": "osaka",
+  "name": "Boulangerie Parigot (Uehonmachi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://parigot.net/",
+    "desc": "An artisan Uehonmachi boulangerie for long-fermented baguettes, butter croissants and shokupan: a bread-focused counter rather than a sit-down brunch room. Buy-and-go, with queues possible. Closed Mondays and Tuesdays; check the operator for holiday or irregular changes.",
+    "address": "9-3-4 Uehonmachi, Tennoji-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Boulangerie+Parigot+9-3-4+Uehonmachi+Osaka",
+    "info": "07:30–20:00 · closed Mon & Tue · takeaway bakery · check irregular closures"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery"
+   ],
+   "flags": [
+    "Morning"
+   ]
+  },
+  "lat": 34.657913,
+  "lng": 135.5177,
+  "precision": "block",
+  "addressJa": "大阪府大阪市天王寺区上本町9-3-4",
+  "neighbourhood": "Uehonmachi / Shitennoji",
+  "ward": "Tennoji",
+  "area": "Tennoji & Uehonmachi"
+ },
+ {
+  "id": "osaka-chatei-jin",
+  "city": "osaka",
+  "name": "Chatei Jin (茶庭 仁)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://chatei-jin.com/",
+    "desc": "A second-floor Japanese-tea house near Nipponbashi's hobby shops, focused on Yame matcha and gyokuro rather than green-coloured desserts. Tea is served across multiple steeps in a garden-like room; matcha warabimochi is made to order. A proper sit-down tea break, with stairs to the entrance.",
+    "address": "2F, 5-7-20 Nipponbashi, Naniwa-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chatei+Jin+5-7-20+Nipponbashi+Osaka",
+    "info": "12:00–18:30, L.O. 18:00 · closed Tue · walk-in · second-floor stairs"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 34.657043,
+  "lng": 135.505814,
+  "precision": "block",
+  "addressJa": "大阪府大阪市浪速区日本橋5-7-20 2F",
+  "neighbourhood": "Nipponbashi / Ebisucho",
+  "ward": "Naniwa",
+  "area": "Namba & Nipponbashi"
+ },
+ {
+  "id": "osaka-lilo-coffee-roasters",
+  "city": "osaka",
+  "name": "LiLo Coffee Roasters (Amemura)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://coffee.liloinveve.com/pages/store-location",
+    "desc": "A tiny Amemura specialty-coffee bar for rotating single origins, pour-over and syphon brewing, rather than generic shopping-mall coffee. Buy beans or take a drink away; seating is limited and it can be a squeeze at peak. This is the original roasters counter, not another LiLo branch.",
+    "address": "1F, 1-10-28 Nishi-Shinsaibashi, Chuo-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=LiLo+Coffee+Roasters+1-10-28+Nishi-Shinsaibashi+Osaka",
+    "info": "Published daily 11:00–23:00 · walk-in only · limited seating and takeaway"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 34.674141,
+  "lng": 135.497971,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区西心斎橋1-10-28 1F",
+  "neighbourhood": "Amemura / Nishi-Shinsaibashi",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi"
+ },
+ {
+  "id": "kyoto-edegger-tax",
+  "city": "kyoto",
+  "name": "Hofbäckerei Edegger-Tax Kyoto",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://edegger-tax.jp/access/",
+    "desc": "The Kyoto shop of Graz's historic Austrian court bakery, for hand-formed kaiser rolls, Austrian baked sweets and Sachertorte. Takeaway plus a small eat-in/terrace space in Okazaki. Closed Wednesdays and Thursdays, so check the day rather than assuming it is a daily breakfast option.",
+    "address": "3-2 Okazaki Seishojicho, Sakyo-ku, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hofbackerei+Edegger+Tax+Kyoto+3-2+Okazaki+Seishojicho",
+    "info": "10:00–18:00 · closed Wed & Thu · bread holds by phone are separate from seating"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie",
+    "Cafe"
+   ]
+  },
+  "lat": 35.012745,
+  "lng": 135.782059,
+  "precision": "area",
+  "addressJa": "京都府京都市左京区岡崎成勝寺町3-2",
+  "neighbourhood": "Okazaki",
+  "ward": "Sakyo",
+  "area": "Demachiyanagi & Sakyo",
+  "geoNote": "Approximate neighbourhood pin: GSI did not resolve lot 3-2. Use the named Maps listing and exact street address for the entrance."
+ },
+ {
+  "id": "kyoto-assemblages-kakimoto",
+  "city": "kyoto",
+  "name": "ASSEMBLAGES KAKIMOTO",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "http://www.assemblages.jp/",
+    "desc": "A chef-patissier's atelier near the Imperial Palace, with composed cakes, chocolates and plated desserts rather than a casual bread counter. Daytime takeaway is walk-in; the dessert-led dinner must be booked in advance. Closed Tuesdays and the second/fourth Wednesday, with additional irregular holidays.",
+    "address": "587-5 Matsumotocho, Takeyamachi-dori Teramachi Nishi-iru, Nakagyo, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ASSEMBLAGES+KAKIMOTO+587-5+Matsumotocho+Kyoto",
+    "info": "Takeaway 12:00–19:00 · eat-in closing varies · dinner by advance booking · Tue and 2nd/4th Wed closed"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie"
+   ]
+  },
+  "lat": 35.015579,
+  "lng": 135.766678,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区竹屋町通寺町西入ル松本町587-5",
+  "neighbourhood": "Teramachi / Marutamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
+ },
+ {
+  "id": "kyoto-ippodo-kaboku-tearoom",
+  "city": "kyoto",
+  "name": "Ippodo Tea Kyoto Main Store / Kaboku Tearoom",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.ippodo-tea.co.jp/pages/store-kyoto?view=store-detail",
+    "desc": "The Kyoto tea house's flagship and Kaboku tearoom for proper usucha, koicha, gyokuro and wagashi, with staff explaining preparation. A well-known tea institution rather than a hidden cafe or matcha-dessert chain. Walk-in service; queues are possible and the second Wednesday is a regular closing day.",
+    "address": "52 Tokiwagicho, Teramachi-dori Nijo-agaru, Nakagyo, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ippodo+Kyoto+Main+Store+Kaboku+52+Tokiwagicho+Kyoto",
+    "info": "10:00–17:00, tearoom L.O. 16:30 · closed second Wed and New Year period · walk-in"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.014042,
+  "lng": 135.767441,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区寺町通二条上ル常盤木町52",
+  "neighbourhood": "Teramachi",
+  "ward": "Nakagyo",
+  "area": "Downtown"
+ },
+ {
+  "id": "kyoto-weekenders-coffee-shinmachi",
+  "city": "kyoto",
+  "name": "WEEKENDERS COFFEE SHINMACHI",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://weekenderscoffee.com/",
+    "desc": "The specialty roaster's new Shinmachi shop in a restored nagaya with a rear garden, for single-origin filter, espresso and beans. It moved from Tominokoji and opened here in September 2026: use this address, not old courtyard guides. Drinks-first, walk-in service; confirm live hours on the operator's Instagram.",
+    "address": "189 Ubayanagicho, Takoyakushi-dori Muromachi Nishi-iru, Nakagyo, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=WEEKENDERS+COFFEE+SHINMACHI+189+Ubayanagicho+Kyoto",
+    "info": "Opening report: 07:30–17:00, closed Wed · newly relocated · confirm current hours"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Morning"
+   ]
+  },
+  "lat": 35.005974,
+  "lng": 135.757339,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区蛸薬師通室町西入姥柳町189",
+  "neighbourhood": "Shinmachi / Muromachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "Address-level pin at the new Shinmachi location. Old Tominokoji guides and photos refer to a different site."
+ },
+ {
+  "id": "tokyo-ebisu-shot",
+  "city": "tokyo",
+  "name": "EBISU SHOT.",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.ebisu-shot2021.jp/",
+    "desc": "An Ebisu shared karaoke bar with counter and terrace seating, where singing is the main activity rather than private-box rental. A more local counter-style option alongside the larger party stages elsewhere. A listing quotes ¥2,000 per hour for drinks plus a ¥600 charge; confirm the current plan. Electronic smoking indoors is reported.",
+    "address": "Ebisu Terrace Building 5A, 1-3-2 Ebisu-Nishi, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=EBISU+SHOT+1-3-2+Ebisu-Nishi+Tokyo",
+    "info": "Published 20:00–05:00 · closed Wed & Sun · listed ¥2,000/hour drinks plan + ¥600 charge; confirm"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.648994,
+  "lng": 139.708618,
+  "precision": "block",
+  "addressJa": "東京都渋谷区恵比寿西1-3-2 恵比寿テラスビル5A",
+  "neighbourhood": "Ebisu-Nishi",
+  "ward": "Shibuya",
+  "area": "Ebisu"
+ },
+ {
+  "id": "tokyo-asoko-shibuya",
+  "city": "tokyo",
+  "name": "Karaoke Bar asoko (渋谷店)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://bar-asoko.com/about-us/",
+    "desc": "A Showa-retro snack-style karaoke bar in Dogenzaka whose operator describes neighbouring guests singing together. A shared social room, not an isolated karaoke box. The published ¥4,000/100-minute plan includes drinks and karaoke without an extra cover; larger groups should discuss room hire rather than assume walk-in space.",
+    "address": "Tsuji Building 103, 2-16-19 Dogenzaka, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Karaoke+Bar+asoko+2-16-19+Dogenzaka+Tokyo",
+    "info": "21:00–05:00 · irregular holidays · published ¥4,000/100 min drinks + karaoke plan; confirm"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.658932,
+  "lng": 139.696808,
+  "precision": "block",
+  "addressJa": "東京都渋谷区道玄坂2-16-19 都路ビル103",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-no-border-shimbashi",
+  "city": "tokyo",
+  "name": "No Border (Shimbashi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.corner.inc/place/pSMWzA26NA2L",
+    "desc": "An inclusive mixed-crowd Shimbashi karaoke dive described in social-karaoke guides as a room where everyone joins the song. Another shared singing pocket rather than a private rental box. Listings quote ¥2,500 for an hour of drinks and singing, then ¥1,000 per half-hour extension; reconfirm fees and opening days.",
+    "address": "Dai-2 Daiko Building 3F, 4-10-6 Shinbashi, Minato, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=No+Border+4-10-6+Shinbashi+Tokyo",
+    "info": "Reported 20:00–04:30 · opening days unverified · listed ¥2,500/hour + ¥1,000/30 min extension; confirm"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.664818,
+  "lng": 139.756195,
+  "precision": "block",
+  "addressJa": "東京都港区新橋4-10-6 第2大興ビル3F",
+  "neighbourhood": "Shimbashi",
+  "ward": "Minato",
+  "area": "Minato"
+ },
+ {
+  "id": "tokyo-boulangerie-django",
+  "city": "tokyo",
+  "name": "Boulangerie Django",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://hamacho.jp/people/p=2487.html",
+    "desc": "A natural-leaven bakery on the Hamacho side of Nihonbashi, for levain loaves, croissants, apple-cider doughnuts and substantial sandwiches. An east-Tokyo bread stop rather than another Shibuya cafe. Takeaway only, with a small shop and queues possible; closed Wednesdays and Thursdays.",
+    "address": "3-19-4 Nihonbashi-Hamacho, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Boulangerie+Django+3-19-4+Nihonbashi-Hamacho+Tokyo",
+    "info": "08:30–18:00 · closed Wed & Thu · takeaway bakery · walk-in"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery"
+   ],
+   "flags": [
+    "Walk-in",
+    "Morning"
+   ]
+  },
+  "lat": 35.684299,
+  "lng": 139.789505,
+  "precision": "block",
+  "addressJa": "東京都中央区日本橋浜町3-19-4",
+  "neighbourhood": "Nihonbashi-Hamacho",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-katane-bakery",
+  "city": "tokyo",
+  "name": "Katane Bakery (カタネベーカリー)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.instagram.com/katanebakery/",
+    "desc": "A residential-lane artisan bakery between Hatagaya and Yoyogi-Uehara, for everyday levain loaves, croissants, danishes and sandwiches. An early west-Tokyo bread stop, not a large brunch hall. Published closing times conflict, and listings give Monday plus first/third/fifth Sunday closures; check the current feed before going.",
+    "address": "1-7-5 Nishihara, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Katane+Bakery+1-7-5+Nishihara+Tokyo",
+    "info": "From around 07:00 · closing time varies by source · listed Mon and 1st/3rd/5th Sun closed; confirm"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery"
+   ]
+  },
+  "lat": 35.673546,
+  "lng": 139.681976,
+  "precision": "block",
+  "addressJa": "東京都渋谷区西原1-7-5",
+  "neighbourhood": "Nishihara / Hatagaya",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-sadaharu-aoki-marunouchi",
+  "city": "tokyo",
+  "name": "Pâtisserie Sadaharu AOKI paris (Marunouchi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.sadaharuaoki.jp/marunouchi/",
+    "desc": "The Marunouchi boutique and salon for French-Japanese patisserie, including matcha eclairs, macarons and chocolate compositions. A central sit-down pastry option rather than a bread bakery; this is an established multi-outlet patissier, not a hidden neighbourhood shop. Salon seating is walk-in and closes earlier than the boutique.",
+    "address": "Shin-Kokusai Building 1F, 3-4-1 Marunouchi, Chiyoda, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sadaharu+Aoki+Marunouchi+3-4-1+Tokyo",
+    "info": "Boutique 11:00–20:00 · salon to 17:30, L.O. 17:00 · irregular holidays · salon walk-in"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.676491,
+  "lng": 139.762299,
+  "precision": "block",
+  "addressJa": "東京都千代田区丸の内3-4-1 新国際ビル1F",
+  "neighbourhood": "Marunouchi / Yurakucho",
+  "ward": "Chiyoda",
+  "area": "Ginza & Marunouchi"
+ },
+ {
+  "id": "tokyo-au-bon-vieux-temps",
+  "city": "tokyo",
+  "name": "Au Bon Vieux Temps (オーボンヴュータン)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://aubonvieuxtemps.jp/",
+    "desc": "A classic French patisserie near Oyamadai, with cakes, petits fours, travel cakes, pate en croute and jambon-beurre rather than modern cafe styling. The deeper-west pastry-and-savoury detour, with a salon de the as well as takeaway. Closed Tuesdays and Wednesdays; allow for the separate trip to Todoroki/Oyamadai.",
+    "address": "2-1-3 Todoroki, Setagaya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Au+Bon+Vieux+Temps+2-1-3+Todoroki+Tokyo",
+    "info": "10:00–17:00 · salon L.O. 16:00 · closed Tue & Wed · walk-in; no reservations"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie",
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.604115,
+  "lng": 139.651688,
+  "precision": "block",
+  "addressJa": "東京都世田谷区等々力2-1-3",
+  "neighbourhood": "Todoroki / Oyamadai",
+  "ward": "Setagaya",
+  "area": "Todoroki & Oyamadai"
+ },
+ {
+  "id": "tokyo-patisserie-ryoco",
+  "city": "tokyo",
+  "name": "PATISSERIE RYOCO (パティスリー リョーコ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://www.ryoco.jp/boutique/",
+    "desc": "A small Takanawa patisserie for chou a la creme, seasonal fruit tarts and composed cakes. This is the plan-ahead fancy option: purchases are reservation-only through the shop's booking system, not a reliable spontaneous walk-in pastry stop. Check the release calendar and book before travelling to collect.",
+    "address": "3-2-8 Takanawa, Minato, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=PATISSERIE+RYOCO+3-2-8+Takanawa+Tokyo",
+    "info": "Published 12:00–17:00 · reservation-only · book via official TableCheck link · opening days follow booking calendar"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery",
+    "Patisserie"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  },
+  "lat": 35.635319,
+  "lng": 139.732651,
+  "precision": "block",
+  "addressJa": "東京都港区高輪3-2-8",
+  "neighbourhood": "Takanawa",
+  "ward": "Minato",
+  "area": "Minato"
+ },
+ {
+  "id": "tokyo-yamamotoyama-fujie-sabo",
+  "city": "tokyo",
+  "name": "Yamamotoyama Fujie Sabo (山本山 ふじヱ茶房)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://fujie.yamamotoyama.co.jp/access/",
+    "desc": "A sit-down Nihonbashi room from Tokyo's historic tea-and-nori house, for regional sencha comparisons, gyokuro, matcha and wagashi rather than a takeaway green latte. Book with the operator or TableCheck; the shop says it does not accept AutoReserve. Cashless only, with a published 90-minute seating limit.",
+    "address": "Nihonbashi Takashimaya Mitsui Building 1F, 2-5-1 Nihonbashi, Chuo, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamamotoyama+Fujie+Sabo+2-5-1+Nihonbashi+Tokyo",
+    "info": "Tea room 11:00–17:30, L.O. 17:00 · retail 10:30–18:00 · cashless only · reservations recommended"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ],
+   "flags": [
+    "Cashless",
+    "Book ahead"
+   ]
+  },
+  "lat": 35.681751,
+  "lng": 139.773468,
+  "precision": "block",
+  "addressJa": "東京都中央区日本橋2-5-1 日本橋髙島屋三井ビルディング1F",
+  "neighbourhood": "Nihonbashi",
+  "ward": "Chuo",
+  "area": "Ginza & Marunouchi",
+  "geoNote": "Address-level pin; the tea room has its own street entrance rather than being a department-store-floor cafe."
+ },
+ {
+  "id": "tokyo-savor-the-matcha",
+  "city": "tokyo",
+  "name": "Savor the Matcha",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://shopblog.dmdepart.jp/ueno/uenogasuki/article/detail/?cd=001095",
+    "desc": "A Ueno Park matcha experience where you choose tea and wagashi, select a chawan and whisk your own bowl. A hands-on alternative to Sakurai's formal counter, not a hidden local secret. A published set is ¥3,000; opening time and booking arrangements differ between listings, so confirm before relying on a slot.",
+    "address": "16-25 Uenokoen, Taito, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Savor+the+Matcha+16-25+Uenokoen+Tokyo",
+    "info": "Published Tue–Sun 10:00–17:00, some sources open 11:00 · closed Mon · confirm booking and current hours"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Matcha",
+    "Cafe"
+   ]
+  },
+  "lat": 35.717865,
+  "lng": 139.778732,
+  "precision": "block",
+  "addressJa": "東京都台東区上野公園16-25",
+  "neighbourhood": "Ueno Park",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa"
+ },
+ {
+  "id": "tokyo-onibus-coffee-nakameguro",
+  "city": "tokyo",
+  "name": "Onibus Coffee Nakameguro (Ekimae)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://onibuscoffee.com/pages/locations/nakameguro",
+    "desc": "The local specialty roaster's station-side Nakameguro stand, with single-origin filter, espresso, beans and small upstairs seating. Good for a coffee detour or takeaway rather than a large brunch booking. Use the Ekimae address at 2-14-1 Kamimeguro, not the separate 3-chome branch.",
+    "address": "2-14-1 Kamimeguro, Meguro, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Onibus+Coffee+Nakameguro+Ekimae+2-14-1+Kamimeguro+Tokyo",
+    "info": "Published daily 09:00–18:00 · irregular holidays · walk-in, no reservations · takeaway"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Walk-in"
+   ]
+  },
+  "lat": 35.643398,
+  "lng": 139.698242,
+  "precision": "block",
+  "addressJa": "東京都目黒区上目黒2-14-1",
+  "neighbourhood": "Nakameguro",
+  "ward": "Meguro",
+  "area": "Nakameguro & Meguro"
+ },
+ {
+  "id": "tokyo-fuglen-tokyo",
+  "city": "tokyo",
+  "name": "Fuglen Tokyo (Tomigaya)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://fuglencoffee.jp/en/pages/fuglen-tokyo",
+    "desc": "A popular Tomigaya crossover: Norwegian-style light-roast coffee by day and cocktails by night in a vintage-furniture room. A social coffee/bar stop rather than a quiet tea counter or a hidden locals-only place. The coffee menu ends before the late bar closes, so check the service you want.",
+    "address": "1-16-11 Tomigaya, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fuglen+Tokyo+1-16-11+Tomigaya+Tokyo",
+    "info": "Mon–Tue 07:00–23:00 · Wed–Sun 07:00–01:00 · coffee menu to 21:30 · holiday hours may differ"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Cafe"
+   ],
+   "flags": [
+    "Open late",
+    "Morning"
+   ]
+  },
+  "lat": 35.666702,
+  "lng": 139.692444,
+  "precision": "block",
+  "addressJa": "東京都渋谷区富ヶ谷1-16-11",
+  "neighbourhood": "Tomigaya / Okushibu",
+  "ward": "Shibuya",
+  "area": "Shibuya"
  }
 ]
