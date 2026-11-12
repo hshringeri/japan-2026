@@ -16,7 +16,7 @@ KINDS = [
                       "Gorpcore & Snow", "Vintage Nintendo", "Art, Books & Design",
                       "Electronics & Parts", "Retro Games & PCs"]),
     ("music", "Music", ["Underground Music", "Electronic & Clubs", "Jazz Bars", "Vinyl Bars", "Record Shops"]),
-    ("drink", "Drink", ["Beer & Whisky", "Cool Bars", "After Dark", "Senbero", "Cyberpunk Bars"]),
+    ("drink", "Drink", ["Beer & Whisky", "Cool Bars", "After Dark", "Senbero", "Cyberpunk Bars", "Karaoke Bars"]),
     ("eat", "Eat", ["Izakaya", "Yakiniku", "Omakase", "Indian", "Brunch", "Good Food"]),
     ("play", "Play", ["Board Game Bars", "Pool Bars", "Golf & Driving Range", "Bowling Alleys",
                       "Gaming Cafes", "Maid Cafes", "Curious Spaces"]),
@@ -24,12 +24,12 @@ KINDS = [
     ("cars", "Car culture", ["JDM Culture"]),
 ]
 KIND_OF = {cat: k for k, _, cats in KINDS for cat in cats}
-# Categories a place also belongs to beyond its listings: cheap standing bars already in the guide
-# under other headings that are senbero spots too
+# Extra categories for existing places, without changing their original guide listings.
 ALSO = {
     "osaka-fukumasa": ["Senbero"], "osaka-nonkiya": ["Senbero"], "osaka-izakaya-toyo": ["Senbero"],
     "osaka-tachinomi-shomin": ["Senbero"], "kyoto-tatsumi": ["Senbero"], "kyoto-tachinomi-shomin-shijo-omiya": ["Senbero"],
     "tokyo-yakitori-taisho-honten": ["Senbero"], "tokyo-shimonya-koenji": ["Senbero"],
+    "kyoto-sharif": ["Karaoke Bars"],
 }
 
 CUISINE = {

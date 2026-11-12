@@ -9240,52 +9240,9 @@
   "kind": "irregular"
  },
  "kyoto-sharif": {
-  "text": "20–05",
-  "kind": "regular",
-  "week": {
-   "mon": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "tue": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "wed": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "thu": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "fri": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "sat": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ],
-   "sun": [
-    [
-     "20:00",
-     "29:00"
-    ]
-   ]
-  }
+  "text": "Published 20:00–05:00. Karaoke shares the amusement-bar floor. The operator's old free-entry text and current timed drink plans differ; confirm hourly charges, cover and tax before entering.",
+  "kind": "irregular",
+  "source": "https://sharif-kyoto.com/"
  },
  "kyoto-shozan-golf-club": {
   "text": "north bays weekdays 6:30–23:00, weekends 5:50–23:00; south bays until sunset",
@@ -12587,5 +12544,74 @@
    "sat": [],
    "sun": []
   }
+ },
+ "osaka-karaoke-bar-solo-solo": {
+  "text": "From 20:00 until late; irregular closures posted on the operator's calendar. Confirm the current karaoke/drink plan.",
+  "kind": "irregular",
+  "source": "https://solosolobar.com/"
+ },
+ "osaka-bar-base-shinsaibashi": {
+  "text": "Mon–Sat 21:00–05:00 · closed Sun",
+  "kind": "regular",
+  "source": "https://bar-base-shisha.com/",
+  "week": {
+   "mon": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "tue": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "wed": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "thu": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "fri": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "sat": [
+    [
+     "21:00",
+     "29:00"
+    ]
+   ],
+   "sun": []
+  }
+ },
+ "kyoto-karaoke-bar-tree-gion": {
+  "text": "Published 18:00–03:00; no fixed weekly closing day, but irregular closures. Confirm the cover and singing/drink charges.",
+  "kind": "irregular",
+  "source": "https://kepc300.gorp.jp/"
+ },
+ "kyoto-karaoke-bar-shu-shu": {
+  "text": "20:00–03:00; irregular closing days announced weekly through official LINE.",
+  "kind": "irregular",
+  "source": "https://shushu.office-sand.com/"
+ },
+ "tokyo-champion-bar": {
+  "text": "From 18:00; closed Mondays per operator posts. Closing time unverified. Confirm current drink and per-song prices on the operator's Instagram.",
+  "kind": "irregular",
+  "source": "https://www.instagram.com/champi0nbar/"
+ },
+ "tokyo-young-master": {
+  "text": "Merchant listing: around 19:00–01:00, closed Monday; other listings open later. Confirm current hours, cover and karaoke fees.",
+  "kind": "irregular",
+  "source": "https://koenji-depart.com/shop_info/young-master/"
  }
 }

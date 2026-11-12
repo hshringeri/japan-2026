@@ -46,6 +46,8 @@ Venue Directions buttons open the same named Google Maps listing as the address 
 
 Tokyo day-drinking picks are searchable as `day drinking` and grouped under Senbero. Price anchors are dated menu/visit reports, not current-price guarantees; entries preserve cash rules, standing/seating charges, crowd limits and weekday/monthly closure caveats.
 
+Karaoke choices are under Drink → Karaoke Bars and searchable as `karaoke`. New listings cover Tokyo, Osaka and Kyoto shared singing bars rather than private-room chains; the existing sharif amusement bar is cross-listed without duplicating it. Entries separate covers, drink packages, per-song and per-person/hour charges, and flag unpublished fees, smoking environments and irregular closures. Every new listing has a credited venue photo.
+
 ## Tools
 
 - `tools/check.py` proves no content from the original single-page guide was lost. It rebuilds every original entry byte for byte from the data. Run it before merging.

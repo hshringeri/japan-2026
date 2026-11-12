@@ -1014,5 +1014,12 @@
  "tokyo-kadokura-ueno": {"kind": "irregular", "text": "Opens 11:00. Operator lists weekdays to 22:00 and Fri/Sat/pre-holidays to 23:00; confirm Sunday/holiday closing. Drink prices are dated menu reports.", "source": "https://taishoen.co.jp/kadokura/"},
  "tokyo-uokusa-ueno": {"kind": "irregular", "text": "Published 12:00–19:30, closed the second Wednesday. Confirm hours and crowd limits; no weekly open badge for monthly closures.", "source": "https://san-tatsu.jp/spots/9469"},
  "tokyo-hinoue-koenji": {"kind": "irregular", "text": "Reported 07:00–17:00; irregular holidays. Check the operator's latest posts before going.", "source": "https://www.instagram.com/asakara_hinoue/"},
- "tokyo-misawa-shinsen": {"text": "Mon–Fri 08:00–22:00 · closed Sat, Sun & public holidays", "parse": "Mon–Fri 08:00–22:00, closed Sat–Sun", "source": "https://rawjpn.com/ja/spots/misawa-shinsen"}
+ "tokyo-misawa-shinsen": {"text": "Mon–Fri 08:00–22:00 · closed Sat, Sun & public holidays", "parse": "Mon–Fri 08:00–22:00, closed Sat–Sun", "source": "https://rawjpn.com/ja/spots/misawa-shinsen"},
+ "osaka-karaoke-bar-solo-solo": {"kind": "irregular", "text": "From 20:00 until late; irregular closures posted on the operator's calendar. Confirm the current karaoke/drink plan.", "source": "https://solosolobar.com/"},
+ "osaka-bar-base-shinsaibashi": {"text": "Mon–Sat 21:00–05:00 · closed Sun", "parse": "Mon–Sat 21:00–05:00, closed Sun", "source": "https://bar-base-shisha.com/"},
+ "kyoto-karaoke-bar-tree-gion": {"kind": "irregular", "text": "Published 18:00–03:00; no fixed weekly closing day, but irregular closures. Confirm the cover and singing/drink charges.", "source": "https://kepc300.gorp.jp/"},
+ "kyoto-karaoke-bar-shu-shu": {"kind": "irregular", "text": "20:00–03:00; irregular closing days announced weekly through official LINE.", "source": "https://shushu.office-sand.com/"},
+ "tokyo-champion-bar": {"kind": "irregular", "text": "From 18:00; closed Mondays per operator posts. Closing time unverified. Confirm current drink and per-song prices on the operator's Instagram.", "source": "https://www.instagram.com/champi0nbar/"},
+ "tokyo-young-master": {"kind": "irregular", "text": "Merchant listing: around 19:00–01:00, closed Monday; other listings open later. Confirm current hours, cover and karaoke fees.", "source": "https://koenji-depart.com/shop_info/young-master/"},
+ "kyoto-sharif": {"kind": "irregular", "text": "Published 20:00–05:00. Karaoke shares the amusement-bar floor. The operator's old free-entry text and current timed drink plans differ; confirm hourly charges, cover and tax before entering.", "source": "https://sharif-kyoto.com/"}
 }

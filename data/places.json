@@ -10392,10 +10392,12 @@
    }
   ],
   "kinds": [
-   "play"
+   "play",
+   "drink"
   ],
   "categories": [
-   "Pool Bars"
+   "Pool Bars",
+   "Karaoke Bars"
   ],
   "tags": {
    "flags": [
@@ -14350,5 +14352,213 @@
   "ward": "Shibuya",
   "area": "Shibuya",
   "geoNote": "Address-level shop pin. This is a shop-and-standing-counter operation, not a seated cocktail bar."
+ },
+ {
+  "id": "osaka-karaoke-bar-solo-solo",
+  "city": "osaka",
+  "name": "Karaoke Bar Solo-Solo",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://solosolobar.com/",
+    "desc": "An Ohatsutenjin karaoke bar with a small stage, stand microphone, counter and tables in one shared room, not private rental boxes. The operator's published plan is ¥4,500 for men or ¥3,800 for women, including three drinks, karaoke and snacks with no time limit; confirm the current plan when booking.",
+    "address": "Daiichi Kawai Bldg 4F, 2-10-19 Sonezaki, Kita-ku, Osaka",
+    "mapUrl": "https://www.google.com/maps?q=Karaoke+Bar+Solo+Solo+2-10-19+Sonezaki+Osaka&ftid=0x6000e7941e6a00bf:0x8dcd8f72f4a7116b",
+    "info": "From 20:00 · irregular closures · published 3-drink/karaoke plan ¥4,500 men / ¥3,800 women; confirm"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {},
+  "lat": 34.700832,
+  "lng": 135.500885,
+  "precision": "block",
+  "addressJa": "大阪府大阪市北区曽根崎2-10-19 第一河合ビル4F",
+  "neighbourhood": "Ohatsutenjin / Sonezaki",
+  "ward": "Kita",
+  "area": "Umeda & Kitashinchi",
+  "geoNote": "Address-level pin; fourth-floor venue. Check the operator's monthly calendar for closures."
+ },
+ {
+  "id": "osaka-bar-base-shinsaibashi",
+  "city": "osaka",
+  "name": "Bar BASE (Shinsaibashi)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://bar-base-shisha.com/",
+    "desc": "Shared-room karaoke in a Shinsaibashi basement shisha bar, with counter and booth seating rather than private rental rooms. The operator lists no per-song karaoke fee, but a ¥500 cover and alcoholic drinks from ¥800, both before tax. This is a smoking/shisha environment and admission is 20+; it is not a no-cost karaoke stop.",
+    "address": "Nippo Fine Plaza B1F, unit BF26, 2-3-5 Shinsaibashi-suji, Chuo-ku, Osaka",
+    "mapUrl": "https://maps.google.com/?cid=13895054460921773639",
+    "info": "Mon–Sat 21:00–05:00 · closed Sun · cover ¥500 + alcohol from ¥800, tax extra · karaoke included · 20+"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 34.66991,
+  "lng": 135.502258,
+  "precision": "block",
+  "addressJa": "大阪府大阪市中央区心斎橋筋2-3-5 日宝ファインプラザBF26",
+  "neighbourhood": "Shinsaibashi-suji",
+  "ward": "Chuo",
+  "area": "Amemura & Shinsaibashi",
+  "geoNote": "Address-level pin. Find unit BF26 in the basement; the venue is shared and serves shisha."
+ },
+ {
+  "id": "kyoto-karaoke-bar-tree-gion",
+  "city": "kyoto",
+  "name": "Karaoke BAR TREE Kyoto Gion",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://kepc300.gorp.jp/",
+    "desc": "A Gion karaoke bar with counter and sofa seating in a shared room, rather than a private karaoke-box chain. The operator lists an English menu and group private hire. A listing reports a ¥1,100 cover; confirm current karaoke, drink and minimum-order charges before sitting down.",
+    "address": "Gion Courreges Building Part 2, 3F, 347-10 Gionmachi Kitagawa, Higashiyama, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Karaoke+BAR+TREE+Kyoto+Gion+347-10+Gionmachi+Kitagawa+Kyoto",
+    "info": "Published 18:00–03:00 · irregular closures · reported ¥1,100 cover; confirm karaoke/drink charges"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.0049243,
+  "lng": 135.776864,
+  "precision": "building",
+  "addressJa": "京都府京都市東山区祇園町北側347-10 祇園クレージュビルパート2 3F",
+  "neighbourhood": "Gion",
+  "ward": "Higashiyama",
+  "area": "Gion & Higashiyama",
+  "geoNote": "The operator's named map link supplies the place pin; third-floor venue. Group private hire does not mean ordinary visits get a private room."
+ },
+ {
+  "id": "kyoto-karaoke-bar-shu-shu",
+  "city": "kyoto",
+  "name": "KARAOKE & BAR Shu Shu (宴家 聚々)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://shushu.office-sand.com/",
+    "desc": "A cafe-like shared karaoke bar in Nishikiyamachi, with a small counter and table seating for a quieter singing-and-conversation night. The operator lists a ¥1,000 table charge per person plus ¥500 per person per hour for karaoke; drinks and food are extra. This is not private-room hire.",
+    "address": "2F, 364-1 Kamiyacho, Nakagyo, Kyoto",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=KARAOKE+BAR+Shu+Shu+364-1+Kamiyacho+Nakagyo+Kyoto",
+    "info": "20:00–03:00 · irregular holidays · cover ¥1,000/person + karaoke ¥500/person/hour · drinks extra"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.004982,
+  "lng": 135.770187,
+  "precision": "block",
+  "addressJa": "京都府京都市中京区紙屋町364-1 2F",
+  "neighbourhood": "Nishikiyamachi",
+  "ward": "Nakagyo",
+  "area": "Downtown",
+  "geoNote": "Address-level parcel pin; second floor. Opening days are announced weekly through the operator's LINE account."
+ },
+ {
+  "id": "tokyo-champion-bar",
+  "city": "tokyo",
+  "name": "Champion Bar (Golden Gai)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://www.instagram.com/champi0nbar/",
+    "desc": "A Golden Gai counter bar with shared karaoke screens and a microphone passed around the room, not private boxes. The operator currently advertises no cover, drinks at ¥1,000 and karaoke at ¥200 per song. Ignore older one-coin/¥500 descriptions and confirm current prices at the bar; closed Mondays.",
+    "address": "G2 street, 1F–2F, 1-1-10 Kabukicho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Champion+Bar+Golden+Gai+1-1-10+Kabukicho+Shinjuku+Tokyo",
+    "info": "From 18:00 · closed Mon · operator posts no cover, drinks ¥1,000 + karaoke ¥200/song; confirm"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {},
+  "lat": 35.693569,
+  "lng": 139.704849,
+  "precision": "block",
+  "addressJa": "東京都新宿区歌舞伎町1-1-10 ゴールデン街G2通り1F・2F",
+  "neighbourhood": "Golden Gai",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Address-level Golden Gai block pin. Use the operator's Instagram for current information; the old onecoinbarchampion.com domain is not used."
+ },
+ {
+  "id": "tokyo-young-master",
+  "city": "tokyo",
+  "name": "Young Master (ヤングマスター)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Karaoke Bars",
+    "url": "https://koenji-depart.com/shop_info/young-master/",
+    "desc": "A small shared Koenji counter bar for Showa-era popular songs and folk, with karaoke and a set of instruments guests can play. A local singing-and-playing room rather than private karaoke-box hire. The merchant listing says closed Mondays; cover, drink and per-song charges are unverified, so ask before ordering.",
+    "address": "Asahi Bldg 1F, 3-1-1 Koenji-kita, Suginami, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Young+Master+3-1-1+Koenji-kita+Suginami+Tokyo",
+    "info": "Listed around 19:00–01:00 · closed Mon · hours vary; confirm cover and singing fees"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Karaoke Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.705372,
+  "lng": 139.647171,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-1-1 アサヒビル1F",
+  "neighbourhood": "Koenji-kita",
+  "ward": "Suginami",
+  "area": "Koenji",
+  "geoNote": "Address-level pin. The merchant page supplies the first-floor address; confirm current opening time and charges with the bar."
  }
 ]

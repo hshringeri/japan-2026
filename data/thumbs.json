@@ -1714,5 +1714,41 @@
   "credit": "RAW JAPAN",
   "sourceUrl": "https://rawjpn.com/ja/spots/misawa-shinsen",
   "imageUrl": "https://rawjpn.storager.download/xlarge/126/misawa_shinsen_cover_5e868fb842.jpg"
+ },
+ "tokyo-champion-bar": {
+  "src": "img/thumbs/tokyo-champion-bar.jpg",
+  "credit": "Champion Bar (@champi0nbar), operator Instagram",
+  "sourceUrl": "https://www.instagram.com/champi0nbar/",
+  "imageUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/882184630_18019175735954714_4746426114808479608_n.jpg?stp=dst-jpg_e35_s640x640_tt6"
+ },
+ "tokyo-young-master": {
+  "src": "img/thumbs/tokyo-young-master.jpg",
+  "credit": "Koenji Depart (高円寺百貨店), venue-supplied photo",
+  "sourceUrl": "https://koenji-depart.com/shop_info/young-master/",
+  "imageUrl": "https://koenji-depart.com/wp/wp-content/uploads/2023/08/youngmaster-3.jpg"
+ },
+ "osaka-karaoke-bar-solo-solo": {
+  "src": "img/thumbs/osaka-karaoke-bar-solo-solo.jpg",
+  "credit": "Karaoke Bar Solo-Solo (official site)",
+  "sourceUrl": "https://solosolobar.com/about",
+  "imageUrl": "https://solosolobar.com/images/img/8f7474e2627587fa96587de616f05547.jpg"
+ },
+ "osaka-bar-base-shinsaibashi": {
+  "src": "img/thumbs/osaka-bar-base-shinsaibashi.jpg",
+  "credit": "Bar BASE (official site)",
+  "sourceUrl": "https://bar-base-shisha.com/",
+  "imageUrl": "https://bar-base-shisha.com/wp-content/themes/bar-base-2026/assets/img/new/floor.jpg"
+ },
+ "kyoto-karaoke-bar-tree-gion": {
+  "src": "img/thumbs/kyoto-karaoke-bar-tree-gion.jpg",
+  "credit": "Karaoke BAR TREE Kyoto Gion (official Gurunavi page)",
+  "sourceUrl": "https://kepc300.gorp.jp/",
+  "imageUrl": "https://rimage.gnst.jp/rest/img/fmvz0cu30000/s_0n5o.jpg"
+ },
+ "kyoto-karaoke-bar-shu-shu": {
+  "src": "img/thumbs/kyoto-karaoke-bar-shu-shu.jpg",
+  "credit": "KARAOKE & BAR 宴家 聚々 (official site)",
+  "sourceUrl": "https://shushu.office-sand.com/",
+  "imageUrl": "https://shushu.office-sand.com/wp-content/themes/shushu/assets/images/floor1.jpg"
  }
 }
