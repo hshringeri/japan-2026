@@ -44,7 +44,7 @@ export function renderPlace(root, id) {
       </p>
       <h1>${esc(p.name)}</h1>
       ${p.source === "chat" ? `<p class="bychat">Added by chat${p.addedAt ? ` on ${esc(ADDED.format(p.addedAt))}` : ""}. Details are from a web search, so check them before you go.</p>` : ""}
-      ${photo ? `<figure class="photo"><img src="${esc(photo.src)}" alt="" decoding="async" onerror="this.closest('figure').remove()">${photo.credit ? `<figcaption>Photo: ${esc(photo.credit)}</figcaption>` : ""}</figure>` : ""}
+      ${photo ? `<figure class="photo"><img src="${esc(photo.src)}" alt="" decoding="async" onerror="this.closest('figure').remove()">${photo.credit ? `<figcaption>Photo: ${photo.sourceUrl ? `<a href="${esc(photo.sourceUrl)}" target="_blank" rel="noopener">${esc(photo.credit)}</a>` : esc(photo.credit)}${photo.licenseUrl ? ` · <a href="${esc(photo.licenseUrl)}" target="_blank" rel="noopener">License</a> (cropped/resized)` : ""}</figcaption>` : ""}</figure>` : ""}
       <p class="kinds">${p.kinds.map((k) => `<button type="button" class="kind" style="--c:${esc(KIND_VAR(k))}" data-set='{"city":"${p.city}","kind":"${k}"}'>${KIND_EMOJI[k] || ""} ${esc(kindName[k])}</button>`).join("")}</p>
       ${planned.map(({ d, i }) => `<p class="planned">On the plan: ${esc(formatDay(d.date))}${i.time ? ` at ${esc(i.time)}` : ""}${i.notes ? ` · ${esc(i.notes)}` : ""}</p>`).join("")}
       ${p.listings.map((l) => `

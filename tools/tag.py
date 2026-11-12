@@ -50,6 +50,7 @@ CUISINE = {
         "Baird Beer Harajuku Taproom": ["Yakitori"],
         "Meat Eat UP": ["Steak"],
         "Hantei Nezu (はん亭 根津本店)": ["Kushiage"],
+        "Toho Bakery (トーホーベーカリー)": ["Bakery"],
     },
     "elsewhere": {
         "Honjin Tsukasa (本陣つかさ)": ["Houtou", "Soba", "Venison"],
@@ -99,6 +100,11 @@ GENRE = {
         "MOGRA Akihabara": ["Anime & game music", "Doujin"],
         "Mojo Cafe": ["Rock", "Soul & funk", "60s pop"],
         "John Henry's Study": ["Jazz"],
+        "KATA_BAR": ["Punk", "Rock"],
+        "Deathmatch in HELL": ["Metal"],
+        "BAR Choshu Chikara (長州ちから)": ["Indie", "Hip-hop"],
+        "RECORD BAR analog": ["City pop", "Hip-hop", "R&B"],
+        "Bar Blen blen blen": ["Brazilian"],
     },
     "osaka": {
         "Environment 0g": ["Experimental"], "Hokage": ["Punk", "Metal"], "King Cobra": ["Punk"],

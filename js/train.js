@@ -1,7 +1,5 @@
-import { esc, formatDay, directionsUrl } from "./util.js";
 import { app, onApp } from "./state.js";
 import { showTrainRoute, clearTrainRoute } from "./map.js";
-import { trainJourney, trainTimeText, stationDirectionsUrl } from "./train-times.js";
 
 const TRAIN_DAYS = ["2026-11-16", "2026-11-17"];
 
@@ -23,76 +21,34 @@ const STATIONS = {
   hamamatsucho: { name: "Hamamatsucho", lat: 35.65530, lng: 139.75670 },
 };
 
-let root;
-let selectedDay = TRAIN_DAYS[0];
-
-export function mountTrain(el) {
-  root = el;
-  root.addEventListener("click", (event) => {
-    const card = event.target.closest("[data-day]");
-    if (!card) return;
-    selectedDay = card.dataset.day;
-    render();
-    drawRoute();
-  });
-  root.addEventListener("keydown", (event) => {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    const card = event.target.closest("[data-day]");
-    if (!card) return;
-    event.preventDefault();
-    selectedDay = card.dataset.day;
-    render();
-    drawRoute();
-  });
-  onApp("data", render);
-  onApp("plan", () => { render(); drawMapDay(); });
-  onApp("date", drawMapDay);
-  onApp("route", drawMapDay);
+// The train overlay belongs to the main map: picking 16 or 17 November draws that day's
+// station-to-station route there. Any other date, or leaving the map, takes it away again.
+export function mountTrainRoutes() {
+  onApp("data", sync);
+  onApp("plan", sync);
+  onApp("places", sync);
+  onApp("date", sync);
+  onApp("route", sync);
+  sync();
 }
 
-export function showTrain() {
-  selectedDay = TRAIN_DAYS[0];
-  render();
-  drawRoute();
-}
+const mapOnScreen = () => !document.getElementById("view-map").hidden;
 
-export function hideTrain() {
-  clearTrainRoute();
-}
+function sync() {
+  const date = app.date;
 
-function drawMapDay() {
-  // Frame after the map's date/filter handlers, which also fit the day's places.
-  requestAnimationFrame(() => {
-    if (document.body.dataset.view !== "map") return;
-    if (TRAIN_DAYS.includes(app.date)) drawRoute(app.date);
-    else clearTrainRoute();
-  });
-}
-
-function render() {
-  const trip = app.data?.trip;
-  if (!trip) {
-    root.innerHTML = `<header class="viewhead"><h1>Train map</h1></header><p class="empty">The trip plan hasn't been added yet.</p>`;
+  if (!mapOnScreen() || !TRAIN_DAYS.includes(date)) {
+    clearTrainRoute();
     return;
   }
-
-  const stay = trip.stays.find((s) => s.id === "tokyo-1");
-  const days = TRAIN_DAYS.map((date) => trip.dayByDate?.[date]).filter(Boolean);
-
-  root.innerHTML = `
-    <header class="viewhead"><h1>Train map</h1><p class="who">11/16–11/17</p></header>
-    <section class="card train-intro">
-      <h2>Tokyo by train</h2>
-      <p>Pick a day to draw its stations. Times are station-to-station minutes on trains; walks, waiting and transfer time are extra. Tap a time for directions.</p>
-      <details><summary>About the timetable times</summary><p>November 2026 ride-time samples, not live departures. Individual services vary. Routes use published direct services where available, otherwise fewer changes then shorter riding time. Local and express services are identified below each time.</p></details>
-      ${stay ? `<p class="stayline">Starting from <a href="${esc(stay.url || directionsUrl(stay))}" target="_blank" rel="noopener">${esc(stay.name)} ↗</a></p>` : ""}
-    </section>
-    ${days.map((day) => dayCard(day, day.date === selectedDay)).join("")}
-  `;
-  if (document.body.dataset.view === "train") drawRoute();
+  // Frame after the map's own date handlers, which also fit the day's places.
+  requestAnimationFrame(() => {
+    if (!mapOnScreen() || app.date !== date) return;
+    drawRoute(date);
+  });
 }
 
-function drawRoute(date = selectedDay) {
+function drawRoute(date) {
   const trip = app.data?.trip;
   const day = trip?.dayByDate?.[date];
   if (!day) return;
@@ -144,41 +100,4 @@ function stationFor(item) {
   if (/ginza/.test(text)) return STATIONS.ginza;
   if (/tokyo tower|shiba/.test(text)) return STATIONS.hamamatsucho;
   return null;
-}
-
-function legMarkup(from, to) {
-  const journey = trainJourney(from.name, to.name);
-  const lines = journey?.legs.map((leg) => leg.line).join(" → ");
-  const sources = [...new Set(journey?.legs.flatMap((leg) => leg.sources) || [])];
-  return `<a class="leg" href="${esc(stationDirectionsUrl(from, to))}" target="_blank" rel="noopener">${esc(from.name)} → ${esc(to.name)} · ${esc(trainTimeText(journey))} ↗</a>
-    ${lines ? `<small>${esc(lines)} · ${sources.map((url, i) => `<a href="${esc(url)}" target="_blank" rel="noopener">Timetable${sources.length > 1 ? ` ${i + 1}` : ""} ↗</a>`).join(" · ")}</small>` : ""}`;
-}
-
-function dayCard(day, on) {
-  const stay = app.data?.trip?.stays?.find((s) => s.id === day.stay);
-  const home = nearestStation(stay) || STATIONS.shibuya;
-  let prev = home;
-  const legs = day.items.map((stop) => {
-    const station = stationFor(stop);
-    if (!station) return "";
-    const leg = prev && station && prev !== station ? legMarkup(prev, station) : "";
-    prev = station || prev;
-    return `<li>
-        <a href="${esc(directionsUrl(stop.lat != null ? stop : station))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
-        ${leg}
-        ${stop.notes ? `<small>${esc(stop.notes)}</small>` : ""}
-      </li>`;
-  });
-  const back = prev && home && prev !== home ? `<li class="train-return"><span>Back to ${esc(home.name)} station</span>${legMarkup(prev, home)}</li>` : "";
-  return `<section class="card train-day${on ? " on" : ""}" id="train-${day.date}" data-day="${day.date}" role="button" tabindex="0" aria-pressed="${on}">
-    <header>
-      <p class="date">${esc(formatDay(day.date))}</p>
-      <h3>${esc(day.title)}</h3>
-      <p class="where">${esc(day.cityLabel || day.city)}</p>
-    </header>
-    <ol class="train-stops">
-      ${legs.join("")}
-      ${back}
-    </ol>
-  </section>`;
 }

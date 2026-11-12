@@ -63,7 +63,7 @@ export function resized() {
   if (started) map.invalidateSize();
 }
 
-// Draw an ordered route through the plan's stops and frame it. Used by the Train view.
+// Draw an ordered train route through a day's stops and frame it.
 export function showTrainRoute(points, stations = []) {
   if (!started) showMap();
   if (!trainLayer) return;
@@ -93,7 +93,7 @@ export function showTrainRoute(points, stations = []) {
       .setContent(`<a href="${esc(mapsUrl(station))}" target="_blank" rel="noopener">${esc(station.name)}</a>`)
       .addTo(trainLayer);
   }
-  // The train view can unhide the map a frame ago on a phone: take its real size before framing
+  // The route handler can unhide the map a frame ago on a phone: take its real size before framing
   map.invalidateSize();
   const top = root.querySelector(".mapui.top").offsetHeight;
   map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, top + 20], paddingBottomRight: [20, 20] });

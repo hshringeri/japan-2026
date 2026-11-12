@@ -1,8 +1,8 @@
 # Japan 2026
 
-The trip guide and planner at https://hshringeri.github.io/japan-2026/. On a phone it runs like an app with five tabs: List, Map, Plan, Ask and Train. Add it to your home screen from the share menu and it opens full screen and keeps working with a weak signal.
+The trip guide and planner at https://hshringeri.github.io/japan-2026/. On a phone it runs like an app with three tabs: List, Map and Plan. Add it to your home screen from the share menu and it opens full screen and keeps working with a weak signal.
 
-There's no build step. GitHub Pages serves the files as they are. A small Cloudflare Worker in `worker/` holds the shared plan and runs the Ask tab; it's the only part with a server, and the only place the Anthropic key exists.
+There's no build step. GitHub Pages serves the files as they are. A small Cloudflare Worker in `worker/` holds the shared plan and the backend chat API; it's the only part with a server, and the only place the Anthropic key exists. The app no longer has a chat interface.
 
 When publishing app-shell changes, bump `APP` in `sw.js` too. The updated service worker takes control and the existing `controllerchange` handler reloads open clients onto the new modules; network-first fetches alone do not replace modules already running in an open app.
 
@@ -18,18 +18,15 @@ When publishing app-shell changes, bump `APP` in `sw.js` too. The updated servic
 | `data/taxonomy.json` | Kinds (Shop, Eat, Music…) and which categories sit under each |
 | `js/` | The app. `geo.js`, `hours.js`, `fold.js` and `trip.js` have no browser code, so the Worker uses them too |
 | `js/config.js` | The Worker's address (not a secret) |
-| `worker/` | The Cloudflare Worker: the shared plan, the Ask tab's chat with Claude, and every limit on it |
+| `worker/` | The Cloudflare Worker: the shared plan, the backend chat API, and its limits |
 | `guide.css` | The original magazine styles, used by the Guide view |
 
 The map is OpenFreeMap's colour Liberty style (OpenStreetMap data, no key) with labels switched to English and the style's own shop and food icons removed; `js/basemap.js` does both. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
 
-The Train tab maps the 16–17 November Tokyo plan between stations, starting and returning at the station nearest the stay. Map labels and day cards share published November 2026 timetable ride-time samples from `js/train-timetable.js`, calculated by `js/train-times.js`. Times are minutes **on trains**, not door-to-door journey times: initial waiting, transfer walks/waits and venue walks are extra. Directional times and local/express services stay separate. Individual departures vary; these are not live predictions. A published direct pair takes precedence over summed samples; other routes prefer fewer changes, then shorter riding time. Chuo rapid samples through Koenji apply to weekdays, as both train days are weekdays.
+On the Map tab, selecting 16 or 17 November draws the current Tokyo plan between stations, starting and returning at the station nearest the stay. Stop reorders, coordinate edits and linked-place updates redraw the overlay. Timing badges show only `N min`, from November 2026 timetable ride-time samples in `js/train-timetable.js`, calculated by `js/train-times.js`; waiting, transfer walks/waits and venue walks are extra. Individual departures vary: these are not live predictions. Published direct pairs take precedence over summed samples; other routes prefer fewer changes, then shorter riding time. Chuo rapid samples through Koenji apply to weekdays, as both train days are weekdays. Other dates or Now clear the overlay.
 
-Each timing link opens directions with explicit origin and destination **stations**; the day cards name the stations, lines and timetable sources. The source snapshot records its sample departures/arrivals, using [Ekitan](https://ekitan.com/) and [Yahoo! Japan Transit](https://transit.yahoo.co.jp/). Update the source record as well as the minutes when refreshing this data. On phones the route map stays above the scrollable day cards; on wide screens it sits beside them. The Ask tab's separate place-to-place `travel_estimate` remains explicitly rough; it is not used for these station labels.
+Each timing link opens directions with explicit origin and destination stations. The source snapshot records its sample departures/arrivals from [Ekitan](https://ekitan.com/) and [Yahoo! Japan Transit](https://transit.yahoo.co.jp/). Update the source record as well as the minutes when refreshing this data. `js/train.js` owns only the map overlay, not a separate view. The backend chat API's separate place-to-place `travel_estimate` remains explicitly rough and is not used for these labels.
 
-Timing badges show only `N min`; service details and source links stay in the day cards.
-
-On the main Map tab, selecting 16 or 17 November in the date strip shows that day's station-to-station train route too. Selecting another date or Now clears the train overlay.
 
 Pins say more the closer you zoom: the name from zoom 15, the name and tags from 17, and a card with a photo from 18. Where labels would overlap, a pin falls back to a smaller label or none. Tapping a pin zooms in and opens its card above it.
 
@@ -39,9 +36,11 @@ On a wide screen the list sits beside the map. The seam between them is draggabl
 
 To add an Airbnb address, find the stay in `data/trip.json` and fill in `address`, `lat` and `lng`, then delete its `precisionNote`. Google Maps gives you the coordinates when you long-press a spot.
 
-To change the plan, use Edit on the Plan tab or ask in the Ask tab; see [The shared plan](#the-shared-plan) for what `data/trip.json` still controls. To change a day's title, city, stay or route, edit that day in `data/trip.json`. A driving day can carry a `"route"` with a `title` and the Google Maps `url`; `python3 tools/route.py` then builds the road line through that day's stops into `data/routes.json`, which the map draws when that day is picked. An item with a `time` ("14:30") feeds the Now / Next card. `status` can be `"booked"` or `"tbd"`. Setting `"place": "<id>"` links an item to a guide place by its id from `data/places.json`.
+To change the plan, use Edit on the Plan tab; see [The shared plan](#the-shared-plan) for what `data/trip.json` still controls. To change a day's title, city, stay or route, edit that day in `data/trip.json`. A driving day can carry a `"route"` with a `title` and the Google Maps `url`; `python3 tools/route.py` then builds the road line through that day's stops into `data/routes.json`, which the map draws when that day is picked. An item with a `time` ("14:30") feeds the Now / Next card. `status` can be `"booked"` or `"tbd"`. Setting `"place": "<id>"` links an item to a guide place by its id from `data/places.json`.
 
 To add a guide place, add it to `data/places.json` with `lat` and `lng`, then run `python3 tools/tag.py`. A place that wasn't in the original guide also gets `"source": "maps"` (or wherever it came from), so `tools/check.py` leaves it out of the byte-for-byte rebuild. Its cuisine goes in the `CUISINE` table in `tools/tag.py`.
+
+Bar-hopping additions cover Golden Gai, south Koenji and Shibuya's Nonbei Yokocho/Dogenzaka lanes. Entries retain floor/entrance notes and distinguish operator-confirmed covers from unverified reports. They are map/list choices, not automatically added itinerary stops.
 
 ## Tools
 
@@ -53,13 +52,13 @@ To add a guide place, add it to `data/places.json` with `lat` and `lng`, then ru
 - `tools/route.py` fetches the driving line for each day with a `route` from the public OSRM router and writes `data/routes.json`. Run it after changing that day's stops.
 - `tools/resize-images.sh` makes the app's copies of the photos.
 - `tools/item_ids.py` gives every plan item in `data/trip.json` a stable `id`. Run it after adding items by hand.
-- `tools/thumbs.py` makes the map cards' 300×180 photos in `img/thumbs/` from the per-place photos in commit bc0fa73, and writes `data/thumbs.json` with each one's credit.
+- `tools/thumbs.py` fills missing historical 300×180 photos from commit bc0fa73 while preserving existing images and credits. New venue photos go in `img/thumbs/<id>.jpg` and `data/thumbs.json` with `src`, `credit`, `sourceUrl` and original `imageUrl`; an observed Creative Commons license also has `licenseUrl`, shown with the crop/resize notice on the place page.
 
-To test locally, run `python3 -m http.server` in this folder and open http://localhost:8000. For the Plan's Edit button and the Ask tab, also run the Worker (see [Running the Worker locally](#running-the-worker-locally)); on localhost the app talks to it at port 8787. Adding `?now=2026-11-20T22:30` to the URL makes the app act as if it's that moment in Japan, and `?day=2026-11-24` opens on that trip day.
+To test locally, run `python3 -m http.server` in this folder and open http://localhost:8000. For the Plan's Edit button, also run the Worker (see [Running the Worker locally](#running-the-worker-locally)); on localhost the app talks to it at port 8787. Adding `?now=2026-11-20T22:30` to the URL makes the app act as if it's that moment in Japan, and `?day=2026-11-24` opens on that trip day.
 
 ## The shared plan
 
-Everyone edits one plan, and every phone sees the same thing. It lives in the Worker (a Cloudflare Durable Object), which copies the items from `data/trip.json` the first time anyone opens the app. From then on the Worker's copy is the real plan: Edit on the Plan tab, the Ask tab, and every phone read and write it. Each phone also keeps the last copy it saw, so the plan still shows offline. Editing needs a connection.
+Everyone edits one plan, and every phone sees the same thing. It lives in the Worker (a Cloudflare Durable Object), which copies the items from `data/trip.json` the first time anyone opens the app. From then on the Worker's copy is the real plan: Edit on the Plan tab and every phone read and write it. Each phone also keeps the last copy it saw, so the plan still shows offline. Editing needs a connection.
 
 `data/trip.json` still supplies everything else about a day (title, city, stay, driving route), and those edits show up as before. Changing an item in `trip.json` after the Worker has its copy does nothing until you reset:
 
@@ -73,15 +72,15 @@ Reordering stops on a driving day doesn't redraw its road line; run `python3 too
 
 ## Places the chat adds
 
-Ask the chat to put a place on the map ("add Bar Benfiddich", "a good ramen place in Ebisu") and it searches the web, then shows up to three candidates as cards in the reply. Nothing goes on the map until someone taps Add on a card or says which one in their next message. The Worker refuses an add in the same message as the proposal, so the chat can't skip that step.
+The backend chat API retains proposal and confirmation tools for adding places. It searches the web and proposes up to three candidates, but refuses to add a place in the same message as the proposal. The app has no chat or proposal-card interface; repository additions are maintained in `data/places.json`.
 
 The Worker finds each candidate's pin from its Japanese address with GSI's address search (Japan's national mapping agency, the same source as the guide's pins), falling back to OpenStreetMap. It skips a candidate whose address can't be found, lands in a different city from the one the chat named, or has the same name as a guide or chat place within 200 m. A pin near guide places takes their area name, so the area filter works. The chat picks a category from `data/taxonomy.json`, which sets the emoji; for something the guide has no category for (a museum, a viewpoint) it names one and picks an emoji.
 
 These places live in the Worker next to the plan, never in the repo, so `tools/check.py` and `data/places.json` don't change. Every phone loads them on open and keeps the last copy for offline. They have no photo, and the list, map card and place page say "Added by chat". The place page has Remove from map, with Undo. `curl https://<worker>/places` returns them; to keep one for good, copy it into `data/places.json` (keeping `"source"`, which `tools/check.py` skips) and remove it from the map.
 
-## The Ask tab
+## Backend chat API
 
-A chat with Claude Haiku 5.5 that knows our plan and our guide. Every request carries the guide's text, the house rules and all the places (cached on Anthropic's side for an hour, so repeat questions are cheap), plus the time in Japan, the day picked in the chat and your location if it's on. The plan goes along whenever it has changed since the chat last saw it. The places the chat has added go along the same way. It has these tools, all run inside the Worker:
+The Worker still hosts a Claude Haiku 5.5 chat service for API clients, although there is no chat tab in the app. Requests carry the guide, house rules and places, plus supplied trip context. The plan and added places are refreshed when changed. Its tools run inside the Worker:
 
 - `nearby` ranks guide places and plan items by distance from you (or that day's stops before you're in Japan), says what's open from `data/hours.json`, and puts places already on the plan first among equals. This is what "I'm hungry" uses.
 - `get_day` reads one day of the plan in full.
@@ -91,7 +90,7 @@ A chat with Claude Haiku 5.5 that knows our plan and our guide. Every request ca
 - `propose_places` and `add_place` put places on the map; see [Places the chat adds](#places-the-chat-adds).
 - Web search for what the data can't answer and for finding places to add. It can read any site except a few content farms (Pinterest, Quora, Medium), so small bars with only a Tabelog or Instagram page turn up. It uses the basic `web_search_20250305` version, up to twice per message.
 
-Before the chat answers, a separate quick call checks the message is about the trip or Japan; anything else gets a one-line refusal and never reaches the chat. The Worker enforces these limits whatever the app sends (they're in `worker/src/limits.js`):
+Before the chat answers, a separate quick call checks the message is about the trip or Japan; anything else gets a one-line refusal and never reaches the chat. The Worker enforces these limits whatever a client sends (they're in `worker/src/limits.js`):
 
 | Limit | Value |
 | --- | --- |
@@ -103,11 +102,11 @@ Before the chat answers, a separate quick call checks the message is about the t
 | Places suggested at once | 3 |
 | The whole group, per Japan day | 500 messages, 10M input tokens and 40 places added to the map |
 
-A chat never locks. After 20 messages, or once a request reads 90k tokens (Haiku costs five times as much past 100k), the Worker summarizes the chat so far and carries on from the summary in a fresh thread. The app shows a one-line note when that happens.
+A backend chat never locks. After 20 messages, or once a request reads 90k tokens (Haiku costs five times as much past 100k), the Worker summarizes it and carries on from the summary in a fresh thread.
 
-Chats are saved on each phone, up to 40, and Chats in the Ask tab reopens them. The Worker keeps each chat's thread for 45 days after it was last used, so an old chat picks up where it left off.
+The Worker keeps each chat thread for 45 days after it was last used. There is no saved-chat frontend in the app.
 
-Chat and editing need the trip passcode, which each phone asks for once. Reading the plan doesn't, since the same data is in this public repo.
+The backend chat API and plan editing need the trip passcode; the Plan tab asks for it when editing. Reading the plan doesn't, since the same data is in this public repo.
 
 ## Keeping the Anthropic key out of this repo
 

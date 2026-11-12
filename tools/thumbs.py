@@ -1,9 +1,9 @@
-"""Make the map cards' small photos from the per-place photos in commit bc0fa73.
+"""Fill missing historical thumbnails while preserving current venue photos.
 
-That commit added a photo for 317 places (img/places/<id>.jpg, with a credit in places.json)
-and was reverted from main, but the files are still in git history. This crops each one to a
-300x180 JPEG in img/thumbs/<id>.jpg with macOS `sips` and writes data/thumbs.json mapping place
-id to the thumb's path and its credit. Places no longer in data/places.json are skipped.
+Commit bc0fa73 holds the original place photos. Missing thumbnails are cropped to
+300x180 JPEGs with macOS `sips`. Existing images and credits in data/thumbs.json,
+including later venue additions, are retained rather than deleted or overwritten.
+Places no longer in data/places.json are omitted from the manifest.
 
 Usage: python3 tools/thumbs.py
 """
@@ -36,13 +36,16 @@ def main():
     current = {p["id"] for p in json.load(open(os.path.join(ROOT, "data/places.json"), encoding="utf-8"))}
     old = json.loads(git("show", f"{SOURCE}:data/places.json"))
     os.makedirs(OUT, exist_ok=True)
-    for f in os.listdir(OUT):
-        os.remove(os.path.join(OUT, f))
-    thumbs = {}
+    manifest = os.path.join(ROOT, "data/thumbs.json")
+    with open(manifest, encoding="utf-8") as f:
+        thumbs = {pid: photo for pid, photo in json.load(f).items() if pid in current}
     with tempfile.TemporaryDirectory() as tmp:
         for p in old:
             photo = p.get("photo")
             if not photo or p["id"] not in current:
+                continue
+            existing = thumbs.get(p["id"])
+            if existing and os.path.isfile(os.path.join(ROOT, existing["src"])):
                 continue
             raw = os.path.join(tmp, "src.jpg")
             with open(raw, "wb") as f:

@@ -999,5 +999,15 @@
  "osaka-arabiq": {"kind": "irregular", "text": "13:30–21:00 (Sun & hols to 20:00); closed Wed, and irregularly on Tue", "source": "https://arabiq.net/about"},
  "osaka-itohen": {"kind": "irregular", "text": "12:00–18:00 only Sat–Mon while an exhibition runs; check SNS first", "source": "http://itohen.info/"},
  "osaka-tone8-basement": {"kind": "events", "text": "Event door times vary by bill; bar 18:00–23:00 otherwise", "source": "https://tone8-basement.com/"},
- "fuji-saiko-nenba": {"kind": "irregular", "text": "Mar–Nov 9:00–17:00 (last entry 16:30); Dec–Feb 9:30–16:30; occasional closures posted on the news feed", "source": "https://saikoiyashinosatonenba.jp/"}
+ "fuji-saiko-nenba": {"kind": "irregular", "text": "Mar–Nov 9:00–17:00 (last entry 16:30); Dec–Feb 9:30–16:30; occasional closures posted on the news feed", "source": "https://saikoiyashinosatonenba.jp/"},
+ "tokyo-la-jetee": {"kind": "irregular", "text": "Thu–Sat from 19:00 per operator; closing time and cover not published", "source": "https://www.lajetee.org/"},
+ "tokyo-deathmatch-in-hell": {"kind": "irregular", "text": "Current hours, cover and closure days unverified; check at the door", "source": "https://tabelog.com/en/tokyo/A1304/A130401/13198988/"},
+ "tokyo-bar-asyl": {"kind": "irregular", "text": "Evenings; opening times differ between sources. Operator reports no cover; confirm on arrival.", "source": "https://asyl.exblog.jp/24464601/"},
+ "tokyo-kuronekodo": {"kind": "irregular", "text": "Evenings; opening days posted monthly on Instagram (@kuronekodo_kej). Operator reports no cover.", "source": "https://note.com/kronekodo_kej/n/nb4734f671074"},
+ "tokyo-kata-bar": {"kind": "irregular", "text": "From 20:00 per operator; no cover. Confirm closing time and occasional closures.", "source": "https://katabar.shopinfo.jp/"},
+ "tokyo-bar-choshu-chikara": {"kind": "irregular", "text": "Reported 20:00–05:00 and no cover; reconfirm late opening with the operator", "source": "https://www.tumblr.com/choshuchikara"},
+ "tokyo-tight-nonbei-yokocho": {"text": "Mon–Sat 19:00–02:00 · closed Sun · no cover", "parse": "Mon–Sat 19:00–02:00, closed Sun", "source": "https://www.2004-tight.com/english.html"},
+ "tokyo-record-bar-analog": {"kind": "irregular", "text": "20:00–03:00 per operator; irregular holidays. Cover and time-limit reports need reconfirming.", "source": "https://analog-recordbar.com/"},
+ "tokyo-bar-blen-blen-blen": {"kind": "irregular", "text": "Listed Tue–Sat 17:00–24:00, closed Sun/Mon; older listings differ. Reconfirm hours and reported cover.", "source": "https://tabelog.com/tokyo/A1303/A130301/13026218/"},
+ "tokyo-toho-bakery": {"kind": "irregular", "text": "Mon–Fri 08:00–18:00; Sat 07:00–18:00. Closed Sun, public holidays and the third Monday (16 Nov 2026). Check the official calendar; no weekly open badge because of monthly closures.", "source": "https://toho-bakery.co.jp/"}
 }

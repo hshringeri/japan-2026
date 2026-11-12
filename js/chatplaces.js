@@ -1,8 +1,8 @@
 import { applyPlaces } from "./state.js";
-import { addPlace, removePlace, passcode, apiReady, ApiError } from "./api.js";
+import { removePlace, passcode, apiReady, ApiError } from "./api.js";
 import { toast, askPasscode, ensurePasscode } from "./sheet.js";
 
-// Putting a place the chat suggested on everyone's map, and taking one off again. Both go through
+// Taking a place the trip API added off everyone's map, or putting it back. Both go through
 // the Worker, which keeps the list all the phones share.
 
 async function send(call, retried = false) {
@@ -20,15 +20,6 @@ async function send(call, retried = false) {
     toast(e.message);
     return null;
   }
-}
-
-// Resolves to the added place, or null
-export async function addProposed(proposal) {
-  const r = await send(() => addPlace(proposal));
-  if (!r) return null;
-  toast(r.already ? `${r.place.name} is already on the map` : `Added ${r.place.name} to the map`,
-    { label: "Show", run: () => (location.hash = `#/map/${r.place.id}`) });
-  return r.place;
 }
 
 export async function removeChatPlace(id, { undo = true } = {}) {

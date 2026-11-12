@@ -13801,5 +13801,368 @@
   "neighbourhood": "Saiko",
   "ward": "Yamanashi",
   "area": "Outskirts & day trips"
+ },
+ {
+  "id": "tokyo-la-jetee",
+  "city": "tokyo",
+  "name": "La Jetee (La Jetée)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://www.lajetee.org/",
+    "desc": "Golden Gai's tiny upstairs cinema bar, named after Chris Marker's film, with movie posters and customer-decorated whisky bottles. A cinephile stop on Hanazono 3-bangai, not a big-group room. The operator currently lists Thursday–Saturday only.",
+    "address": "2F, Hanazono 3-bangai, Golden Gai, 1-1-8 Kabukicho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=La+Jetee+Golden+Gai+1-1-8+Kabukicho+Tokyo",
+    "info": "Thu–Sat from 19:00 · closing time and cover unlisted · ask before ordering"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {},
+  "lat": 35.693829,
+  "lng": 139.704956,
+  "precision": "block",
+  "addressJa": "東京都新宿区歌舞伎町1-1-8 花園三番街2F",
+  "neighbourhood": "Golden Gai",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Address-level Golden Gai block pin shared by several bars. Find Hanazono 3-bangai and the upstairs entrance; use the operator's map for the door."
+ },
+ {
+  "id": "tokyo-deathmatch-in-hell",
+  "city": "tokyo",
+  "name": "Deathmatch in HELL",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13198988/",
+    "desc": "A Golden Gai horror-and-metal microbar with cult-film memorabilia and horror films behind the counter. A themed alternative to a generic cocktail stop on the same third-alley hop as Asyl. Older reports describe no cover, but current hours, prices and entry rules need checking at the door.",
+    "address": "1F, Golden Gai 3-bangai, 1-1-8 Kabukicho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Deathmatch+in+HELL+Golden+Gai+1-1-8+Kabukicho+Tokyo",
+    "info": "Hours and current cover unverified · check the door before ordering"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Metal"
+   ]
+  },
+  "lat": 35.693829,
+  "lng": 139.704956,
+  "precision": "block",
+  "addressJa": "東京都新宿区歌舞伎町1-1-8 ゴールデン街3番街1F",
+  "neighbourhood": "Golden Gai",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Address-level block pin, not the exact door. Ground-floor bar on Golden Gai 3-bangai; several venues share this postal address."
+ },
+ {
+  "id": "tokyo-bar-asyl",
+  "city": "tokyo",
+  "name": "Bar Asyl (アジール)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://asyl.exblog.jp/24464601/",
+    "desc": "An unsigned upstairs hideout in Golden Gai, with a Korean-hip-hop-minded proprietor, Japanese whisky and craft gin. The operator describes no cover and free popcorn. A conversation stop near Deathmatch, but check current opening hours rather than assuming every door is open.",
+    "address": "2F, Golden Gai 3-bangai, 1-1-8 Kabukicho, Shinjuku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Asyl+Golden+Gai+1-1-8+Kabukicho+Tokyo",
+    "info": "Evenings · operator reports no cover · current opening time needs confirmation"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {},
+  "lat": 35.693829,
+  "lng": 139.704956,
+  "precision": "block",
+  "addressJa": "東京都新宿区歌舞伎町1-1-8 ゴールデン街3番街2F",
+  "neighbourhood": "Golden Gai",
+  "ward": "Shinjuku",
+  "area": "Shinjuku",
+  "geoNote": "Shared block pin. The operator describes an unsigned second-floor entrance on the shrine side of 3-bangai; follow its directions."
+ },
+ {
+  "id": "tokyo-kuronekodo",
+  "city": "tokyo",
+  "name": "Kuronekodo (黒猫堂)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://note.com/kronekodo_kej/n/nb4734f671074",
+    "desc": "A seven-seat upstairs Koenji cafe-bar and record shop run by a couple, including a long-time record-store worker. Browse unsorted used vinyl with a drink, or just browse records. The operator states no cover; a good early stop in the south-exit bar-hopping grid.",
+    "address": "Gorinkan Bldg 2F, 3-59-11 Koenji-minami, Suginami, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kuronekodo+3-59-11+Koenji-minami+Tokyo",
+    "info": "7 seats · no cover per operator · opening days posted monthly on Instagram"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {},
+  "lat": 35.705112,
+  "lng": 139.647888,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-59-11 五麟館ビル2F",
+  "neighbourhood": "Koenji-minami",
+  "ward": "Suginami",
+  "area": "Koenji",
+  "geoNote": "Address-level pin; take the stairs on the left of the building to the second floor."
+ },
+ {
+  "id": "tokyo-kata-bar",
+  "city": "tokyo",
+  "name": "KATA_BAR",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://katabar.shopinfo.jp/",
+    "desc": "A south-Koenji basement bar run by the frontman of punk band DONT TURN AWAY, with a DJ booth, rock/punk selections and occasional live events. The operator advertises no cover and homemade food; a small-room alternative to a chain club.",
+    "address": "Dai-3 Anabuki Bldg B1F, 4-29-9 Koenji-minami, Suginami, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=KATA_BAR+4-29-9+Koenji-minami+Tokyo",
+    "info": "From 20:00 · no cover per operator · closing time and occasional closures need checking"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Punk",
+    "Rock"
+   ]
+  },
+  "lat": 35.704418,
+  "lng": 139.651016,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南4-29-9 第3穴吹ビルB1F",
+  "neighbourhood": "Koenji-minami",
+  "ward": "Suginami",
+  "area": "Koenji",
+  "geoNote": "Address-level pin. The operator says the basement entrance is on the building's left side."
+ },
+ {
+  "id": "tokyo-bar-choshu-chikara",
+  "city": "tokyo",
+  "name": "BAR Choshu Chikara (長州ちから)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://www.tumblr.com/choshuchikara",
+    "desc": "A tiny south-Koenji music bar run by a Guitar Wolf roadie and indie-label/event organiser, moving between indie rock and hip-hop on vinyl and streaming. Roughly ten people fit; use it as a later stop after Kuronekodo, not a large-group booking.",
+    "address": "3-54-14 Koenji-minami, Suginami, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=BAR+Choshu+Chikara+3-54-14+Koenji-minami+Tokyo",
+    "info": "Reported 20:00–05:00 · no cover reported · reconfirm late opening on the night"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Indie",
+    "Hip-hop"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.704193,
+  "lng": 139.646774,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺南3-54-14",
+  "neighbourhood": "Koenji-minami",
+  "ward": "Suginami",
+  "area": "Koenji",
+  "geoNote": "Address-level pin; the floor is not published. Confirm the bar entrance locally."
+ },
+ {
+  "id": "tokyo-tight-nonbei-yokocho",
+  "city": "tokyo",
+  "name": "TIGHT (Nonbei Yokocho)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Cool Bars",
+    "url": "https://www.2004-tight.com/english.html",
+    "desc": "Five seats and a mirrored glass wall in an upstairs Nonbei Yokocho shot bar. The operator explicitly charges no cover and accepts cards. A station-side start to a Shibuya bar hop, but far too small to assume a whole group can sit together.",
+    "address": "Upstairs, Nonbei Yokocho, 1-25-10 Shibuya, Shibuya-ku, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=TIGHT+Nonbei+Yokocho+1-25-10+Shibuya+Tokyo",
+    "info": "Mon–Sat 19:00–02:00 · closed Sun · no cover · cards accepted · 5 seats"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Cool Bars"
+  ],
+  "tags": {
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.660076,
+  "lng": 139.70137,
+  "precision": "block",
+  "addressJa": "東京都渋谷区渋谷1-25-10 のんべい横丁",
+  "neighbourhood": "Nonbei Yokocho",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "geoNote": "Address-level alley pin; the bar is upstairs. The operator does not publish a floor number."
+ },
+ {
+  "id": "tokyo-record-bar-analog",
+  "city": "tokyo",
+  "name": "RECORD BAR analog",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://analog-recordbar.com/",
+    "desc": "A small third-floor listening bar in Shibuya's Hyakkendana backstreets, with vintage speakers and records to browse. A slower vinyl stop near Koibumi Sakaba Kappa; reports list a cover and a 90-minute group limit, so confirm the current rules before settling in.",
+    "address": "Ryuko Bldg 3F, 2-20-9 Dogenzaka, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=RECORD+BAR+analog+2-20-9+Dogenzaka+Tokyo",
+    "info": "20:00–03:00 · irregular holidays · reported ¥900 cover / 90-min limit; confirm"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "City pop",
+    "Hip-hop",
+    "R&B"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.659523,
+  "lng": 139.695938,
+  "precision": "block",
+  "addressJa": "東京都渋谷区道玄坂2-20-9 柳光ビル3階",
+  "neighbourhood": "Dogenzaka (Hyakkendana)",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "geoNote": "Address-level pin; follow the operator's third-floor address. Some directories use a different building name."
+ },
+ {
+  "id": "tokyo-bar-blen-blen-blen",
+  "city": "tokyo",
+  "name": "Bar Blen blen blen",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Vinyl Bars",
+    "url": "https://tabelog.com/tokyo/A1303/A130301/13026218/",
+    "desc": "A second-floor Brazilian-music record bar with cachaca, caipirinhas and Brazilian bar food. It is in the building next to JBS on Dogenzaka, making an easy two-stop music-bar hop rather than a cross-city detour.",
+    "address": "Nono Bldg 2F, 1-17-12 Dogenzaka, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Blen+blen+blen+1-17-12+Dogenzaka+Tokyo",
+    "info": "Listed Tue–Sat 17:00–24:00 · closed Sun & Mon · reported ¥500 cover; confirm"
+   }
+  ],
+  "kinds": [
+   "music"
+  ],
+  "categories": [
+   "Vinyl Bars"
+  ],
+  "tags": {
+   "genre": [
+    "Brazilian"
+   ],
+   "flags": [
+    "Open late"
+   ]
+  },
+  "lat": 35.657261,
+  "lng": 139.696899,
+  "precision": "block",
+  "addressJa": "東京都渋谷区道玄坂1-17-12 野々ビル2F",
+  "neighbourhood": "Dogenzaka",
+  "ward": "Shibuya",
+  "area": "Shibuya"
+ },
+ {
+  "id": "tokyo-toho-bakery",
+  "city": "tokyo",
+  "name": "Toho Bakery (トーホーベーカリー)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Good Food",
+    "url": "https://toho-bakery.co.jp/",
+    "desc": "A long-running neighbourhood bakery in Mitaka's Shimorenjaku, south of Inokashira Park rather than on Kichijoji's shopping arcades. Go for GOLD salt-butter rolls, homemade curry bread and mentaiko French bread. Closed on the third Monday: that includes 16 Nov 2026; Tuesday 17 Nov has normal published hours.",
+    "address": "Domir TOHO 1F, 1-9-19 Shimorenjaku, Mitaka, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toho+Bakery+1-9-19+Shimorenjaku+Mitaka+Tokyo",
+    "info": "Mon–Fri 08:00–18:00 · Sat 07:00–18:00 · closed Sun, hols & third Mon (16 Nov 2026)"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Good Food"
+  ],
+  "tags": {
+   "cuisine": [
+    "Bakery"
+   ],
+   "flags": [
+    "Morning"
+   ]
+  },
+  "lat": 35.691853,
+  "lng": 139.569489,
+  "precision": "block",
+  "addressJa": "東京都三鷹市下連雀1-9-19 ドミールTOHO1F",
+  "neighbourhood": "Shimorenjaku",
+  "ward": "Mitaka",
+  "area": "Kichijoji & Nishi-Ogikubo",
+  "geoNote": "Address-level pin in Mitaka, not central Kichijoji. The monthly third-Monday closure is not represented by a weekly open/closed badge."
  }
 ]

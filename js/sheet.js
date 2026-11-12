@@ -36,7 +36,7 @@ export function toast(text, action) {
 export async function askPasscode(wrong = false) {
   const s = openSheet(`
     <h2>Trip passcode</h2>
-    <p class="hint">${wrong ? "That passcode didn't work. " : ""}Editing the plan and the Ask tab need the passcode the group shares. It's saved on this phone only.</p>
+    <p class="hint">${wrong ? "That passcode didn't work. " : ""}Editing the plan needs the passcode the group shares. It's saved on this phone only.</p>
     <input name="pass" type="password" autocomplete="current-password" required placeholder="Passcode" value="">
     <div class="sheetacts"><button value="cancel" formnovalidate class="btn">Cancel</button><button value="ok" class="btn primary">Save</button></div>`);
   const input = s.el.querySelector("input");

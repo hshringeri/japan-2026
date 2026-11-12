@@ -1398,5 +1398,291 @@
  "tokyo-koibumi-sakaba-kappa": {
   "src": "img/thumbs/tokyo-koibumi-sakaba-kappa.jpg",
   "credit": "retty.me"
+ },
+ "tokyo-petit-mura": {
+  "src": "img/thumbs/tokyo-petit-mura.jpg",
+  "credit": "じゃらんニュース (Jalan News)",
+  "sourceUrl": "https://www.jalan.net/news/article/739665/",
+  "imageUrl": "https://img01.jalannews.jp/img/2023/06/20230615_kichijoji-petitmura_2.jpg"
+ },
+ "tokyo-hyakunen": {
+  "src": "img/thumbs/tokyo-hyakunen.jpg",
+  "credit": "とくしまコトモノ",
+  "sourceUrl": "https://www.tokushimakotomono.com/kichijoji-furuhon-matome/",
+  "imageUrl": "https://www.tokushimakotomono.com/wp-content/uploads/2021/08/IMG_1918.jpg"
+ },
+ "tokyo-niji-garo": {
+  "src": "img/thumbs/tokyo-niji-garo.jpg",
+  "credit": "にじ画廊 (Niji Garo)",
+  "sourceUrl": "http://nijigaro.com/",
+  "imageUrl": "http://nijigaro.com/nijitop.jpg"
+ },
+ "tokyo-outbound": {
+  "src": "img/thumbs/tokyo-outbound.jpg",
+  "credit": "Time Out Tokyo（画像提供：OUTBOUND）",
+  "sourceUrl": "https://www.timeout.jp/tokyo/ja/shopping/the-best-shops-in-kichijoji",
+  "imageUrl": "https://media.timeout.com/images/105967030/1024/576/image.jpg"
+ },
+ "tokyo-meat-eat-up-kichijoji": {
+  "src": "img/thumbs/tokyo-meat-eat-up-kichijoji.jpg",
+  "credit": "吉祥寺ファンページ (kichifan.com)",
+  "sourceUrl": "https://kichifan.com/2024/08/24/meateatup-don/",
+  "imageUrl": "https://kichifan.com/wp-content/uploads/2024/08/meateatup-report1-720x540.jpg"
+ },
+ "tokyo-hamonicatross": {
+  "src": "img/thumbs/tokyo-hamonicatross.jpg",
+  "credit": "ALBATROSS (alba-s.com)",
+  "sourceUrl": "https://www.alba-s.com/shop/",
+  "imageUrl": "https://www.alba-s.com/wp-content/uploads/2023/06/ハモニカ_内装2.jpg"
+ },
+ "tokyo-tsukemono-bar-4328": {
+  "src": "img/thumbs/tokyo-tsukemono-bar-4328.jpg",
+  "credit": "at home VOX",
+  "sourceUrl": "https://www.athome.co.jp/vox/life/60133/",
+  "imageUrl": "https://www.athome.co.jp/vox/wp-content/uploads/0037.jpg"
+ },
+ "tokyo-kopanda-harmonica": {
+  "src": "img/thumbs/tokyo-kopanda-harmonica.jpg",
+  "credit": "kaga_gram のブログ",
+  "sourceUrl": "https://kaga-gram.hatenablog.com/entry/2023/02/10/%E5%90%89%E7%A5%A5%E5%AF%BA_%E3%82%B3%E3%83%91%E3%83%B3%E3%83%80",
+  "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kaga_gram/20210825/20210825121649.jpg"
+ },
+ "tokyo-john-henrys-study": {
+  "src": "img/thumbs/tokyo-john-henrys-study.jpg",
+  "credit": "吉祥寺ファンページ (Kichifan)",
+  "sourceUrl": "https://kichifan.com/2022/08/12/johnhenrysstudy",
+  "imageUrl": "https://kichifan.com/wp-content/uploads/2022/08/JohnHenrysStudy5-720x540.jpg"
+ },
+ "tokyo-sotoguchi-shoten": {
+  "src": "img/thumbs/tokyo-sotoguchi-shoten.jpg",
+  "credit": "サンロード商店街振興組合",
+  "sourceUrl": "https://sun-road.or.jp/shop/外口書店/",
+  "imageUrl": "https://sun-road.or.jp/wp-content/uploads/2019/09/ee119a53de909162a8c8fc2bd3622ced-1.jpg"
+ },
+ "tokyo-books-ruhe": {
+  "src": "img/thumbs/tokyo-books-ruhe.jpg",
+  "credit": "BOOKS Ruhe (BOOKSルーエ)",
+  "sourceUrl": "https://www.books-ruhe.co.jp/event/floor.htm",
+  "imageUrl": "https://www.books-ruhe.co.jp/event/img/top_01.jpg"
+ },
+ "tokyo-mojo-cafe": {
+  "src": "img/thumbs/tokyo-mojo-cafe.jpg",
+  "credit": "Mojo Cafe",
+  "sourceUrl": "http://mojocafe-tokyo.blogspot.com/2018/11/rock-barmojo-cafe.html",
+  "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJmzRnCRdOerb7C1VkWTr2WFPKToZ87V4lLyyw9Acv0aqBEz6rHqkHiVtRYlhQeUyUM5PUWKTA8KrRJb5PQQii7tjcYho2v64YM_dkSfJGzyiX7mnjA5mSO94xDwmbCY0nH0N6uY1HVuY/s1600/%E5%BA%97%E5%86%85.jpg"
+ },
+ "tokyo-kuronekodo": {
+  "src": "img/thumbs/tokyo-kuronekodo.jpg",
+  "credit": "黒猫堂",
+  "sourceUrl": "https://note.com/kronekodo_kej/n/nb4734f671074",
+  "imageUrl": "https://assets.st-note.com/img/1766762931-3bc7u9Q50woRmzX2DiTqUMBC.jpg?width=1200"
+ },
+ "tokyo-kata-bar": {
+  "src": "img/thumbs/tokyo-kata-bar.jpg",
+  "credit": "KATA_BAR",
+  "sourceUrl": "https://katabar.shopinfo.jp/",
+  "imageUrl": "https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/544689/0ccb1447bf591607e31068c92e988c0a_3dc8158524d9275edf3b2a2b17eb44f0.jpg"
+ },
+ "tokyo-bar-choshu-chikara": {
+  "src": "img/thumbs/tokyo-bar-choshu-chikara.jpg",
+  "credit": "ツブサ・スギナミ web",
+  "sourceUrl": "https://shige-gourmet.jp/choshuchikara/",
+  "imageUrl": "https://shige-gourmet.jp/wp-content/uploads/2020/11/IMG_20201108_220455-1024x1024.jpg"
+ },
+ "tokyo-akihabara-radio-center": {
+  "src": "img/thumbs/tokyo-akihabara-radio-center.jpg",
+  "credit": "Keiichi Yasu / Wikimedia Commons (CC BY-SA 2.0)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Center_-_2013-06-15_15.34.28_(by_Keiichi_Yasu).jpg",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Akihabara_Radio_Center_-_2013-06-15_15.34.28_%28by_Keiichi_Yasu%29.jpg",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+ },
+ "tokyo-shop-inverse-akihabara": {
+  "src": "img/thumbs/tokyo-shop-inverse-akihabara.jpg",
+  "credit": "Shop Inverse (official site)",
+  "sourceUrl": "https://www.shop-inverse.com/shop/akihabara.html",
+  "imageUrl": "https://www.shop-inverse.com/imgs/akihabara/akiba.jpg"
+ },
+ "tokyo-retro-game-camp": {
+  "src": "img/thumbs/tokyo-retro-game-camp.jpg",
+  "credit": "Retro Game Camp (official site)",
+  "sourceUrl": "https://www.retrogamecamp.com/shop.html",
+  "imageUrl": "https://www.retrogamecamp.com/img/shop_01.jpg"
+ },
+ "tokyo-mandarake-cocoo": {
+  "src": "img/thumbs/tokyo-mandarake-cocoo.jpg",
+  "credit": "Mandarake (official site)",
+  "sourceUrl": "https://www.mandarake.co.jp/dir/cco/",
+  "imageUrl": "https://www.mandarake.co.jp/dir/cco/img/shop/cco02.jpg"
+ },
+ "tokyo-mogra": {
+  "src": "img/thumbs/tokyo-mogra.jpg",
+  "credit": "Avenafatua / Wikimedia Commons (CC BY-SA 4.0)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_MOGRA.jpg",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Akihabara_MOGRA.jpg",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "tokyo-yamashiroya-akihabara": {
+  "src": "img/thumbs/tokyo-yamashiroya-akihabara.jpg",
+  "credit": "Taishu Sakaba Yamashiroya (official site)",
+  "sourceUrl": "https://akiba-yamashiroya.com/guide/",
+  "imageUrl": "https://akiba-yamashiroya.com/wp-content/uploads/2022/08/yamashiro032.jpg"
+ },
+ "tokyo-hikari-no-uma": {
+  "src": "img/thumbs/tokyo-hikari-no-uma.jpg",
+  "credit": "Time Out Tokyo",
+  "sourceUrl": "https://www.timeout.jp/tokyo/ja/%E9%9F%B3%E6%A5%BD/%E9%9F%B3%E6%A5%BD%E3%81%A8%E7%8F%88%E7%90%B2-%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%86%E3%81%BE",
+  "imageUrl": "https://media.timeout.com/images/105597549/1920/1080/image.jpg"
+ },
+ "tokyo-unit-daikanyama": {
+  "src": "img/thumbs/tokyo-unit-daikanyama.jpg",
+  "credit": "UNIT",
+  "sourceUrl": "https://www.unit-tokyo.com/about/",
+  "imageUrl": "https://www.unit-tokyo.com/wp/wp-content/themes/unit-tokyo/assets/images/about/unit-07.jpg"
+ },
+ "tokyo-spincoaster-kagurazaka": {
+  "src": "img/thumbs/tokyo-spincoaster-kagurazaka.jpg",
+  "credit": "Spincoaster Music Bar",
+  "sourceUrl": "https://bar.spincoaster.com/kagurazaka",
+  "imageUrl": "https://bar.spincoaster.com/assets/kagurazaka/main-1920.jpg"
+ },
+ "tokyo-fukadaso": {
+  "src": "img/thumbs/tokyo-fukadaso.jpg",
+  "credit": "fukadaso",
+  "sourceUrl": "https://fukadaso.com/",
+  "imageUrl": "https://fukadaso.com/wp-content/uploads/mainvisual.jpg"
+ },
+ "tokyo-misako-and-rosen": {
+  "src": "img/thumbs/tokyo-misako-and-rosen.jpg",
+  "credit": "Kisa Toyoshima / Time Out Tokyo",
+  "sourceUrl": "https://www.timeout.com/tokyo/art/misako-rosen",
+  "imageUrl": "https://media.timeout.com/images/105601445/1920/1080/image.jpg"
+ },
+ "tokyo-hantei-nezu": {
+  "src": "img/thumbs/tokyo-hantei-nezu.jpg",
+  "credit": "皓月旗 (Wikimedia Commons, CC BY-SA 4.0)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hantei_20240629.jpg",
+  "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hantei_20240629.jpg",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "tokyo-cosmonite-alpha": {
+  "src": "img/thumbs/tokyo-cosmonite-alpha.jpg",
+  "credit": "練馬・桜台情報局 (s-nerima.jp)",
+  "sourceUrl": "https://s-nerima.jp/wp/3180",
+  "imageUrl": "https://live.staticflickr.com/7233/7393025524_4f3f28b703_c.jpg"
+ },
+ "tokyo-komiyama-shoten": {
+  "src": "img/thumbs/tokyo-komiyama-shoten.jpg",
+  "credit": "KOMIYAMA TOKYO",
+  "sourceUrl": "https://book-komiyama.co.jp/about/shop.php",
+  "imageUrl": "https://book-komiyama.co.jp/about/i/shop_gaikan.jpg"
+ },
+ "osaka-time-bomb-records": {
+  "src": "img/thumbs/osaka-time-bomb-records.jpg",
+  "credit": "Time Bomb Records",
+  "sourceUrl": "https://timebomb.co.jp/en/pages/store-info",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0269/8667/6269/files/timebomb_065.jpg?v=1646390998"
+ },
+ "osaka-arabiq": {
+  "src": "img/thumbs/osaka-arabiq.jpg",
+  "credit": "Arabiq（珈琲舎・書肆アラビク）",
+  "sourceUrl": "https://arabiq.net/",
+  "imageUrl": "https://cdn.goope.jp/67136/180308180841f3dp_l.jpg"
+ },
+ "osaka-hero-gangu": {
+  "src": "img/thumbs/osaka-hero-gangu.jpg",
+  "credit": "オオサカマニア（Osaka Metro）",
+  "sourceUrl": "https://osakamania.jp/shop/figure-shop_08/",
+  "imageUrl": "https://osakamania.jp/assets_mt/shop/figure-shop_08/main.jpg"
+ },
+ "osaka-graf-studio": {
+  "src": "img/thumbs/osaka-graf-studio.jpg",
+  "credit": "graf",
+  "sourceUrl": "https://www.graf-d3.com/access/",
+  "imageUrl": "https://www.graf-d3.com/cms/wp-content/uploads/2023/02/access01.jpg"
+ },
+ "osaka-itohen": {
+  "src": "img/thumbs/osaka-itohen.jpg",
+  "credit": "iTohen（いとへん）",
+  "sourceUrl": "http://itohen.info/",
+  "imageUrl": "http://itohen.info/material/images/common/img_about-itohen.jpg"
+ },
+ "osaka-tone8-basement": {
+  "src": "img/thumbs/osaka-tone8-basement.jpg",
+  "credit": "TONE8.0 & Basement Gallery",
+  "sourceUrl": "https://tone8-basement.com/",
+  "imageUrl": "https://tone8-basement.com/wp-content/themes/tone80/img/home--img-01.jpg"
+ },
+ "osaka-jiyuken-namba": {
+  "src": "img/thumbs/osaka-jiyuken-namba.jpg",
+  "credit": "akakumo / Wikimedia Commons (CC BY 2.0)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiyuken_curry_rice_by_akakumo_in_Osaka.jpg",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Jiyuken_curry_rice_by_akakumo_in_Osaka.jpg",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+ },
+ "fuji-narusawa-ice-cave": {
+  "src": "img/thumbs/fuji-narusawa-ice-cave.jpg",
+  "credit": "Aokigahara Jukai no Dokutsu — Fugaku Wind Cave & Narusawa Ice Cave (official site)",
+  "sourceUrl": "https://www.mtfuji-cave.com/contents/ice_cave/",
+  "imageUrl": "https://www.mtfuji-cave.com/contents/common/images/ice_cave/p_ice05l.jpg"
+ },
+ "fuji-panorama-dai": {
+  "src": "img/thumbs/fuji-panorama-dai.jpg",
+  "credit": "Fujikawaguchiko Town Tourism Association (一般社団法人富士河口湖町観光連盟)",
+  "sourceUrl": "https://fujisan.ne.jp/sightseeing/1529/",
+  "imageUrl": "https://fujisan.ne.jp/wp/wp-content/uploads/2026/02/k-017_kv.jpg"
+ },
+ "fuji-honjin-tsukasa": {
+  "src": "img/thumbs/fuji-honjin-tsukasa.jpg",
+  "credit": "Motosuko Honjin Tsukasa (もとすこBASE株式会社)",
+  "sourceUrl": "https://motosuko-honjintsukasa.jp/",
+  "imageUrl": "https://motosuko-honjintsukasa.jp/system_panel/uploads/images/20260226093602831453.jpg"
+ },
+ "fuji-saiko-nenba": {
+  "src": "img/thumbs/fuji-saiko-nenba.jpg",
+  "credit": "Saiko Iyashi-no-Sato Nenba, Town of Fujikawaguchiko (official site)",
+  "sourceUrl": "https://saikoiyashinosatonenba.jp/",
+  "imageUrl": "https://saikoiyashinosatonenba.jp/wp-content/uploads/2020/12/いやしの里根場170604m.jpg"
+ },
+ "tokyo-la-jetee": {
+  "src": "img/thumbs/tokyo-la-jetee.jpg",
+  "credit": "Aaron Kidd / Stars and Stripes",
+  "sourceUrl": "https://www.stripes.com/theaters/asia_pacific/a-celebrity-favorite-tiny-tokyo-bar-offers-stiff-drinks-tasty-bites-1.391146",
+  "imageUrl": "https://www.stripes.com/theaters/asia_pacific/391153.jpg/alternates/LANDSCAPE_910/La%20Jetee%20hasnt%20changed%20much%20since%20Tomoyo%20Kawai%20ope"
+ },
+ "tokyo-deathmatch-in-hell": {
+  "src": "img/thumbs/tokyo-deathmatch-in-hell.jpg",
+  "credit": "Keisuke Tanigawa / Time Out Tokyo",
+  "sourceUrl": "https://www.timeout.com/tokyo/bars-and-pubs/deathmatch-in-hell",
+  "imageUrl": "https://media.timeout.com/images/105502736/image.jpg"
+ },
+ "tokyo-bar-asyl": {
+  "src": "img/thumbs/tokyo-bar-asyl.jpg",
+  "credit": "23mix.TOKYO",
+  "sourceUrl": "https://23mix.tokyo/lain/2024/01/11/bar-asyl-23mix-tokyo/",
+  "imageUrl": "https://23mix.tokyo/lain/wp-content/uploads/2024/01/53b977e88a71dc1b86425be05227ea80.jpg"
+ },
+ "tokyo-tight-nonbei-yokocho": {
+  "src": "img/thumbs/tokyo-tight-nonbei-yokocho.jpg",
+  "credit": "TIGHT (Nonbei Yokocho) official site",
+  "sourceUrl": "https://www.2004-tight.com/english.html",
+  "imageUrl": "https://www.2004-tight.com/shared/img/english/sec1_pt.jpg"
+ },
+ "tokyo-record-bar-analog": {
+  "src": "img/thumbs/tokyo-record-bar-analog.jpg",
+  "credit": "RECORD BAR analog official site",
+  "sourceUrl": "https://analog-recordbar.com/",
+  "imageUrl": "https://analog-recordbar.com/img/bg001.jpg"
+ },
+ "tokyo-bar-blen-blen-blen": {
+  "src": "img/thumbs/tokyo-bar-blen-blen-blen.jpg",
+  "credit": "Tatsuya Takase / ARBAN",
+  "sourceUrl": "https://www.arban-mag.com/article/71520",
+  "imageUrl": "https://www.arban-mag.com/wp-content/uploads/2021/07/Joren60_m210714_046.jpg"
+ },
+ "tokyo-toho-bakery": {
+  "src": "img/thumbs/tokyo-toho-bakery.jpg",
+  "credit": "toho-bakery.co.jp",
+  "sourceUrl": "https://toho-bakery.co.jp/",
+  "imageUrl": "https://toho-bakery.co.jp/wp-content/uploads/2025/10/iten_shop-scaled.jpg"
  }
 }
