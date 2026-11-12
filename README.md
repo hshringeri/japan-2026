@@ -42,6 +42,10 @@ To add a guide place, add it to `data/places.json` with `lat` and `lng`, then ru
 
 Bar-hopping additions cover Golden Gai, south Koenji and Shibuya's Nonbei Yokocho/Dogenzaka lanes. Entries retain floor/entrance notes and distinguish operator-confirmed covers from unverified reports. They are map/list choices, not automatically added itinerary stops.
 
+Venue Directions buttons open the same named Google Maps listing as the address link (`listings[].mapUrl`), including a saved place identifier when present. Linked plan items use their venue's listing. Stays and unlinked stops search by name/address; only unnamed points fall back to coordinate navigation. Internal map pins still use coordinates, and station-to-station train links retain both station endpoints.
+
+Tokyo day-drinking picks are searchable as `day drinking` and grouped under Senbero. Price anchors are dated menu/visit reports, not current-price guarantees; entries preserve cash rules, standing/seating charges, crowd limits and weekday/monthly closure caveats.
+
 ## Tools
 
 - `tools/check.py` proves no content from the original single-page guide was lost. It rebuilds every original entry byte for byte from the data. Run it before merging.

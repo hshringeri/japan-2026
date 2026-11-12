@@ -1684,5 +1684,35 @@
   "credit": "toho-bakery.co.jp",
   "sourceUrl": "https://toho-bakery.co.jp/",
   "imageUrl": "https://toho-bakery.co.jp/wp-content/uploads/2025/10/iten_shop-scaled.jpg"
+ },
+ "kyoto-gion-omakase-sushi-faro": {
+  "src": "img/thumbs/kyoto-gion-omakase-sushi-faro.jpg",
+  "credit": "Gion Sushi FARO (official TableCheck listing)",
+  "sourceUrl": "https://www.tablecheck.com/en/gion-sushi-faro",
+  "imageUrl": "https://cdn2.tablecheck.com/images/694501444b29ccfc5fe0b5dd/images/original/20b88a3f.jpg"
+ },
+ "tokyo-kadokura-ueno": {
+  "src": "img/thumbs/tokyo-kadokura-ueno.jpg",
+  "credit": "Taishoen (official site)",
+  "sourceUrl": "https://taishoen.co.jp/kadokura/",
+  "imageUrl": "https://taishoen.co.jp/uenoyakiniku/wp-content/uploads/kadokuragaikan.jpg"
+ },
+ "tokyo-uokusa-ueno": {
+  "src": "img/thumbs/tokyo-uokusa-ueno.jpg",
+  "credit": "1000bero.net (せんべろnet)",
+  "sourceUrl": "https://1000bero.net/restaurant-638/",
+  "imageUrl": "https://1000bero.net/wp-content/uploads/2022/02/IMG_2993-1-1360x1209.jpg"
+ },
+ "tokyo-hinoue-koenji": {
+  "src": "img/thumbs/tokyo-hinoue-koenji.jpg",
+  "credit": "1000bero.net (せんべろnet)",
+  "sourceUrl": "https://1000bero.net/restaurant-2365/",
+  "imageUrl": "https://1000bero.net/wp-content/uploads/2025/10/IMG_2941-680x641.jpg"
+ },
+ "tokyo-misawa-shinsen": {
+  "src": "img/thumbs/tokyo-misawa-shinsen.jpg",
+  "credit": "RAW JAPAN",
+  "sourceUrl": "https://rawjpn.com/ja/spots/misawa-shinsen",
+  "imageUrl": "https://rawjpn.storager.download/xlarge/126/misawa_shinsen_cover_5e868fb842.jpg"
  }
 }

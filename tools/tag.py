@@ -73,6 +73,7 @@ CUISINE = {
     "kyoto": {
         "Tendan Gion Honten": ["Yakiniku"],
         "Kyoto Mai Sushi": ["Sushi"], "Gion Sushi Tadayasu": ["Sushi"], "Sushi Rakumi": ["Sushi"],
+        "Gion OMAKASE SUSHI FARO (祇園鮨FARO)": ["Sushi", "Tempura"],
         "TADKA (Tadka 1 / Tadka 2)": ["South Indian"], "Shinrin Shokudo": ["Spice curry"],
         "Kerala": ["South Indian", "Tandoor"], "cafe marble Bukkoji": ["Cafe"], "Kotoro Coffee": ["Cafe"],
         "Kyosaimi Nomura (Karasuma Honten)": ["Obanzai"], "Teuchi Soba Kanei": ["Soba"],

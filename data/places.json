@@ -14164,5 +14164,191 @@
   "ward": "Mitaka",
   "area": "Kichijoji & Nishi-Ogikubo",
   "geoNote": "Address-level pin in Mitaka, not central Kichijoji. The monthly third-Monday closure is not represented by a weekly open/closed badge."
+ },
+ {
+  "id": "kyoto-gion-omakase-sushi-faro",
+  "city": "kyoto",
+  "name": "Gion OMAKASE SUSHI FARO (祇園鮨FARO)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Omakase",
+    "url": "https://www.tablecheck.com/en/gion-sushi-faro",
+    "desc": "A brothers-run Gion sushi and tempura counter offering omakase courses. The restaurant-managed booking page describes English- and Spanish-speaking chef explanations. Book directly through TableCheck and confirm the service date and course; published closing days differ between listings.",
+    "address": "Prime Building 2F (Google listing: 2B), 347-153 Gionmachi Kitagawa, Higashiyama, Kyoto",
+    "mapUrl": "https://www.google.com/maps?q=Gion+OMAKASE+SUSHI+FARO,+Prime+Building+2B,+347-153+Gionmachi+Kitagawa,+Higashiyama+Ward,+Kyoto,+605-0073,+Japan&ftid=0x600109f13716e0d9:0x92237145cf4db80c",
+    "info": "Course dining · book via TableCheck · confirm available dates and seating times"
+   }
+  ],
+  "kinds": [
+   "eat"
+  ],
+  "categories": [
+   "Omakase"
+  ],
+  "tags": {
+   "cuisine": [
+    "Sushi",
+    "Tempura"
+   ],
+   "flags": [
+    "Book ahead"
+   ]
+  },
+  "lat": 35.0051032,
+  "lng": 135.776565,
+  "precision": "building",
+  "addressJa": "京都府京都市東山区祇園町北側347-153 プライムビル2F",
+  "neighbourhood": "Gion",
+  "ward": "Higashiyama",
+  "area": "Gion & Higashiyama",
+  "geoNote": "TableCheck supplies this place pin and lists floor 2F; the supplied Google listing says Prime Building 2B. Address and Directions links retain the named Google place identity."
+ },
+ {
+  "id": "tokyo-kadokura-ueno",
+  "city": "tokyo",
+  "name": "Kadokura (立飲みカドクラ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://taishoen.co.jp/kadokura/",
+    "desc": "An Ueno standing counter for cheap day drinking and teppan/meat snacks, opening at 11:00 on weekdays. An October 2025 menu report lists chuhai at ¥250 and large-bottle beer at ¥550; check the current menu. No cover was reported for the standing counter; the separately charged seated VIP room is not the budget option.",
+    "address": "Forum Aji Bldg 1F, 6-13-1 Ueno, Taito, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kadokura+6-13-1+Ueno+Taito+Tokyo",
+    "info": "From 11:00 · standing · chuhai ¥250 / large beer ¥550 reported Oct 2025, recheck · cards accepted"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing"
+   ]
+  },
+  "lat": 35.710331,
+  "lng": 139.775436,
+  "precision": "block",
+  "addressJa": "東京都台東区上野6-13-1 フォーラム味ビル1F",
+  "neighbourhood": "Ueno / Ameyoko",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa",
+  "geoNote": "Address-level pin. Published drink prices are dated reports, not guaranteed current prices; ask about any charge before choosing seated service."
+ },
+ {
+  "id": "tokyo-uokusa-ueno",
+  "city": "tokyo",
+  "name": "Uokusa (呑める魚屋 魚草)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://www.uokusa.jp/",
+    "desc": "A fish-shop standing counter in Ameyoko for noon day drinking with sake, bottled beer and seafood. Published 2024–25 reports put drinks around ¥500–600 with no cover. Cash-on service; when crowded, the reported guideline is roughly 30 minutes and up to two drinks, not a long seated session.",
+    "address": "Ameyoko Plaza A #29, 6-10-7 Ueno, Taito, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Uokusa+6-10-7+Ueno+Ameyoko+Tokyo",
+    "info": "Published 12:00–19:30 · closed second Wed · standing · cash only · drinks ¥500–600 reported 2024–25, recheck"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Cash only",
+    "Standing"
+   ]
+  },
+  "lat": 35.709587,
+  "lng": 139.774704,
+  "precision": "block",
+  "addressJa": "東京都台東区上野6-10-7 アメ横プラザA棟29号",
+  "neighbourhood": "Ueno / Ameyoko",
+  "ward": "Taito",
+  "area": "Ueno, Yanaka & Asakusa",
+  "geoNote": "Address-level Ameyoko Plaza pin; find the fish counter, unit A-29. Opening days, prices and crowd limits should be confirmed locally."
+ },
+ {
+  "id": "tokyo-hinoue-koenji",
+  "city": "tokyo",
+  "name": "Asakara Izakaya Hinoue (朝から居酒屋 陽のうえ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://www.instagram.com/asakara_hinoue/",
+    "desc": "A north-Koenji izakaya for morning and day drinking, reported open 07:00–17:00 rather than late at night. A 2025 visit found most drinks ¥500 and a ¥700 yakkan set with three shochu measures, mixer and ice; no seat charge or otoshi was reported. Smoking allowed in that report; check the current menu and opening days.",
+    "address": "Dairoku Towa Bldg 3F, 3-22-12 Koenji-kita, Suginami, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Asakara+Izakaya+Hinoue+3-22-12+Koenji-kita+Tokyo",
+    "info": "Reported 07:00–17:00 · irregular holidays · drinks ¥500 / yakkan set ¥700 reported 2025, recheck"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Morning"
+   ]
+  },
+  "lat": 35.706245,
+  "lng": 139.649368,
+  "precision": "block",
+  "addressJa": "東京都杉並区高円寺北3-22-12 第六東和ビル3F",
+  "neighbourhood": "Koenji-kita",
+  "ward": "Suginami",
+  "area": "Koenji",
+  "geoNote": "Address-level pin; upstairs on the third floor. The yakkan set is measured shochu plus mixer, not unlimited drinks."
+ },
+ {
+  "id": "tokyo-misawa-shinsen",
+  "city": "tokyo",
+  "name": "Misawa (そば・うどん・立ち飲み処 みさわ)",
+  "hood": null,
+  "source": "maps",
+  "listings": [
+   {
+    "category": "Senbero",
+    "url": "https://rawjpn.com/ja/spots/misawa-shinsen",
+    "desc": "A liquor-shop kakuuchi and standing soba counter near Shinsen for cheap weekday day drinking: buy beer, sake or shochu from the shop and drink at the standing tables. A 2025 report lists canned beer ¥280 and one-cup sake ¥240; current shelf labels win. Closed weekends and public holidays.",
+    "address": "9-7 Shinsen-cho, Shibuya, Tokyo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Misawa+9-7+Shinsen-cho+Shibuya+Tokyo",
+    "info": "Mon–Fri 08:00–22:00 · closed Sat–Sun & hols · standing · canned beer ¥280 / sake ¥240 reported 2025, recheck"
+   }
+  ],
+  "kinds": [
+   "drink"
+  ],
+  "categories": [
+   "Senbero"
+  ],
+  "tags": {
+   "flags": [
+    "Standing",
+    "Morning"
+   ]
+  },
+  "lat": 35.654671,
+  "lng": 139.692993,
+  "precision": "block",
+  "addressJa": "東京都渋谷区神泉町9-7",
+  "neighbourhood": "Shinsen",
+  "ward": "Shibuya",
+  "area": "Shibuya",
+  "geoNote": "Address-level shop pin. This is a shop-and-standing-counter operation, not a seated cocktail bar."
  }
 ]

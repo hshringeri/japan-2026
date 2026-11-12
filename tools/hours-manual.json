@@ -1009,5 +1009,10 @@
  "tokyo-tight-nonbei-yokocho": {"text": "Mon–Sat 19:00–02:00 · closed Sun · no cover", "parse": "Mon–Sat 19:00–02:00, closed Sun", "source": "https://www.2004-tight.com/english.html"},
  "tokyo-record-bar-analog": {"kind": "irregular", "text": "20:00–03:00 per operator; irregular holidays. Cover and time-limit reports need reconfirming.", "source": "https://analog-recordbar.com/"},
  "tokyo-bar-blen-blen-blen": {"kind": "irregular", "text": "Listed Tue–Sat 17:00–24:00, closed Sun/Mon; older listings differ. Reconfirm hours and reported cover.", "source": "https://tabelog.com/tokyo/A1303/A130301/13026218/"},
- "tokyo-toho-bakery": {"kind": "irregular", "text": "Mon–Fri 08:00–18:00; Sat 07:00–18:00. Closed Sun, public holidays and the third Monday (16 Nov 2026). Check the official calendar; no weekly open badge because of monthly closures.", "source": "https://toho-bakery.co.jp/"}
+ "tokyo-toho-bakery": {"kind": "irregular", "text": "Mon–Fri 08:00–18:00; Sat 07:00–18:00. Closed Sun, public holidays and the third Monday (16 Nov 2026). Check the official calendar; no weekly open badge because of monthly closures.", "source": "https://toho-bakery.co.jp/"},
+ "kyoto-gion-omakase-sushi-faro": {"kind": "irregular", "text": "Dinner service; confirm bookable dates, course and seating time in TableCheck. Directory closing days conflict with booking listings.", "source": "https://www.tablecheck.com/en/gion-sushi-faro"},
+ "tokyo-kadokura-ueno": {"kind": "irregular", "text": "Opens 11:00. Operator lists weekdays to 22:00 and Fri/Sat/pre-holidays to 23:00; confirm Sunday/holiday closing. Drink prices are dated menu reports.", "source": "https://taishoen.co.jp/kadokura/"},
+ "tokyo-uokusa-ueno": {"kind": "irregular", "text": "Published 12:00–19:30, closed the second Wednesday. Confirm hours and crowd limits; no weekly open badge for monthly closures.", "source": "https://san-tatsu.jp/spots/9469"},
+ "tokyo-hinoue-koenji": {"kind": "irregular", "text": "Reported 07:00–17:00; irregular holidays. Check the operator's latest posts before going.", "source": "https://www.instagram.com/asakara_hinoue/"},
+ "tokyo-misawa-shinsen": {"text": "Mon–Fri 08:00–22:00 · closed Sat, Sun & public holidays", "parse": "Mon–Fri 08:00–22:00, closed Sat–Sun", "source": "https://rawjpn.com/ja/spots/misawa-shinsen"}
 }

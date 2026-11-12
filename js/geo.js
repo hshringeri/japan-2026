@@ -24,5 +24,18 @@ export const walkMinutes = (km) => Math.round((km * 1.3) / 4.5 * 60);
 
 export const mapsUrl = (p) =>
   p.lat != null ? `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}` : null;
-export const directionsUrl = (p) =>
-  p.lat != null ? `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=transit` : null;
+export function directionsUrl(p) {
+  if (!p) return null;
+  const place = p.placeObj || p;
+  const listing = place.main || place.listings?.[0];
+  const namedLink = p.mapUrl || listing?.mapUrl || place.mapUrl;
+  if (namedLink) return namedLink;
+  const name = place.name || place.title;
+  const address = place.addressJa || place.address;
+  if (name || address) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([name, address].filter(Boolean).join(" "))}`;
+  }
+  return p.lat != null && p.lng != null
+    ? `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}&travelmode=transit`
+    : null;
+}
