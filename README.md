@@ -4,6 +4,8 @@ The trip guide and planner at https://hshringeri.github.io/japan-2026/. On a pho
 
 There's no build step. GitHub Pages serves the files as they are. A small Cloudflare Worker in `worker/` holds the shared plan and runs the Ask tab; it's the only part with a server, and the only place the Anthropic key exists.
 
+When publishing app-shell changes, bump `APP` in `sw.js` too. The updated service worker takes control and the existing `controllerchange` handler reloads open clients onto the new modules; network-first fetches alone do not replace modules already running in an open app.
+
 ## Where things live
 
 | File | What it holds |
