@@ -306,6 +306,9 @@ body.dates-off .datestrip { display: none; }
   .datestrip button { padding: 3px 8px; border-radius: 12px; }
   .datestrip b { font-size: 16px; }
   .mapui.top { padding-top: calc(8px + env(safe-area-inset-top)); }
+  body[data-view="train"] #view-map { bottom: auto; height: 42%; }
+  body[data-view="train"] #view-train { top: 42%; border-top: 1px solid var(--line); }
+  body[data-view="train"] #view-map .mapui { display: none; }
 }
 
 /* Wide screens: list or plan on the left, map always on the right */

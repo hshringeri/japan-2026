@@ -44,7 +44,9 @@ export function mountTrain(el) {
     drawRoute();
   });
   onApp("data", render);
-  onApp("plan", render);
+  onApp("plan", () => { render(); drawMapDay(); });
+  onApp("date", drawMapDay);
+  onApp("route", drawMapDay);
 }
 
 export function showTrain() {
@@ -55,6 +57,15 @@ export function showTrain() {
 
 export function hideTrain() {
   clearTrainRoute();
+}
+
+function drawMapDay() {
+  // Frame after the map's date/filter handlers, which also fit the day's places.
+  requestAnimationFrame(() => {
+    if (document.body.dataset.view !== "map") return;
+    if (TRAIN_DAYS.includes(app.date)) drawRoute(app.date);
+    else clearTrainRoute();
+  });
 }
 
 function render() {
@@ -79,21 +90,22 @@ function render() {
   if (document.body.dataset.view === "train") drawRoute();
 }
 
-function drawRoute() {
+function drawRoute(date = selectedDay) {
   const trip = app.data?.trip;
-  const day = trip?.dayByDate?.[selectedDay];
+  const day = trip?.dayByDate?.[date];
   if (!day) return;
   const stay = trip.stays.find((s) => s.id === day.stay);
   const start = nearestStation(stay) || STATIONS.shibuya;
   const stations = [start];
-  const points = [stay, start];
+  // Times are station to station: the line runs from the home station, not the stay's door.
+  const points = [start];
   for (const item of day.items) {
     const station = stationFor(item);
     if (!station) continue;
     points.push(station);
     if (!stations.includes(station)) stations.push(station);
   }
-  points.push(stay);
+  points.push(start);
   showTrainRoute(points, stations);
 }
 
@@ -132,7 +144,7 @@ function stationFor(item) {
   return null;
 }
 
-// Rough door-to-door train time, same figure the worker's travel_estimate uses.
+// Rough station-to-station estimate; walking to and from venues is not included.
 const legMinutes = (km) => Math.round(12 + km * 2);
 const legText = (km) => `${legMinutes(km)} min · ${formatDistance(km)}`;
 

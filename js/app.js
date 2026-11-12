@@ -30,9 +30,10 @@ function route() {
   if (name !== "plan") hidePlan();
   if (name !== "train") hideTrain();
 
-  // On wide screens the map stays beside every panel
-  if (wide.matches && name !== "guide") $("#view-map").hidden = false;
-  if (name === "map" || (wide.matches && name !== "guide")) showMap();
+  // On phones the Train view stacks the map above its day cards.
+  const showRouteMap = name === "train" || (wide.matches && name !== "guide");
+  if (showRouteMap) $("#view-map").hidden = false;
+  if (name === "map" || showRouteMap) showMap();
   syncSplit(name);
   if (view === "map" && arg && app.data.byId[arg]) {
     if (wide.matches) { $("#view-place").hidden = false; renderPlace($("#view-place"), arg); }

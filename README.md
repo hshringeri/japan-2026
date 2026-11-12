@@ -21,7 +21,9 @@ There's no build step. GitHub Pages serves the files as they are. A small Cloudf
 
 The map is OpenFreeMap's colour Liberty style (OpenStreetMap data, no key) with labels switched to English and the style's own shop and food icons removed; `js/basemap.js` does both. Stays get their own badge on the map: pink for Airbnbs, black for hotels.
 
-The Train tab maps the 16–17 November Tokyo plan from the Shibuya Airbnb using Google Maps transit routes. Each day embeds the route from the Airbnb to its first stop and links every stop to a live Google Maps journey for train times and platforms.
+The Train tab maps the 16–17 November Tokyo plan between stations, starting and returning at the station nearest the stay. Map labels and day cards show the same rough station-to-station time estimates, not walking time to or from places. On phones the route map stays above the scrollable day cards; on wide screens it sits beside them. Station labels and stops link to Google Maps for live routes, train times and platforms.
+
+On the main Map tab, selecting 16 or 17 November in the date strip shows that day's station-to-station train route too. Selecting another date or Now clears the train overlay.
 
 Pins say more the closer you zoom: the name from zoom 15, the name and tags from 17, and a card with a photo from 18. Where labels would overlap, a pin falls back to a smaller label or none. Tapping a pin zooms in and opens its card above it.
 

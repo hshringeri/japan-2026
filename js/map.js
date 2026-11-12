@@ -92,7 +92,10 @@ export function showTrainRoute(points, stations = []) {
       .setContent(`<a href="${esc(mapsUrl(station))}" target="_blank" rel="noopener">${esc(station.name)}</a>`)
       .addTo(trainLayer);
   }
-  map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, 20], paddingBottomRight: [20, 20] });
+  // The train view can unhide the map a frame ago on a phone: take its real size before framing
+  map.invalidateSize();
+  const top = root.querySelector(".mapui.top").offsetHeight;
+  map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, top + 20], paddingBottomRight: [20, 20] });
 }
 
 export function clearTrainRoute() {
