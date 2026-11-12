@@ -155,16 +155,16 @@ function legMarkup(from, to) {
 }
 
 function dayCard(day, on) {
-  const stops = day.items.filter((item) => item.lat != null);
   const stay = app.data?.trip?.stays?.find((s) => s.id === day.stay);
-  const home = nearestStation(stay);
+  const home = nearestStation(stay) || STATIONS.shibuya;
   let prev = home;
-  const legs = stops.map((stop) => {
+  const legs = day.items.map((stop) => {
     const station = stationFor(stop);
+    if (!station) return "";
     const leg = prev && station && prev !== station ? legMarkup(prev, station) : "";
     prev = station || prev;
     return `<li>
-        <a href="${esc(directionsUrl(stop))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
+        <a href="${esc(directionsUrl(stop.lat != null ? stop : station))}" target="_blank" rel="noopener">${esc(stop.title)} ↗</a>
         ${leg}
         ${stop.notes ? `<small>${esc(stop.notes)}</small>` : ""}
       </li>`;
