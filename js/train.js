@@ -12,12 +12,19 @@ const STATIONS = {
   koenji: { name: "Koenji", lat: 35.70528, lng: 139.64972 },
   nakano: { name: "Nakano", lat: 35.70565, lng: 139.66570 },
   ebisu: { name: "Ebisu", lat: 35.64669, lng: 139.71000 },
+  yoyogihachiman: { name: "Yoyogi-Hachiman", lat: 35.66900, lng: 139.68600 },
+  kichijoji: { name: "Kichijoji", lat: 35.70300, lng: 139.58000 },
   shimokitazawa: { name: "Shimokitazawa", lat: 35.66163, lng: 139.66804 },
   ueno: { name: "Ueno", lat: 35.71377, lng: 139.77725 },
   asakusa: { name: "Asakusa", lat: 35.71186, lng: 139.79667 },
   akihabara: { name: "Akihabara", lat: 35.69835, lng: 139.77309 },
   ginza: { name: "Ginza", lat: 35.67170, lng: 139.76500 },
   hamamatsucho: { name: "Hamamatsucho", lat: 35.65530, lng: 139.75670 },
+};
+
+// Day one is Kichijoji for NoMen, then Nakano, then Koenji. The other days follow plan order.
+const DAY_ROUTES = {
+  "2026-11-16": ["kichijoji", "nakano", "koenji"],
 };
 
 let root;
@@ -78,25 +85,47 @@ function render() {
 }
 
 function drawRoute() {
-  const day = app.data?.trip?.dayByDate?.[selectedDay];
+  const trip = app.data?.trip;
+  const day = trip?.dayByDate?.[selectedDay];
   if (!day) return;
-  const trip = app.data.trip;
   const stay = trip.stays.find((s) => s.id === day.stay);
-  const stations = [STATIONS.shibuya];
-  const points = [stay, STATIONS.shibuya];
-  for (const item of day.items) {
-    const station = stationFor(item);
-    if (!station) continue;
-    points.push(station);
-    if (!stations.includes(station)) stations.push(station);
+  const start = nearestStation(stay) || STATIONS.shibuya;
+  const stations = [start];
+  const points = [stay, start];
+  const route = DAY_ROUTES[selectedDay];
+  if (route) {
+    for (const key of route) {
+      const station = STATIONS[key];
+      if (!station) continue;
+      points.push(station);
+      if (!stations.includes(station)) stations.push(station);
+    }
+  } else {
+    for (const item of day.items) {
+      const station = stationFor(item);
+      if (!station) continue;
+      points.push(station);
+      if (!stations.includes(station)) stations.push(station);
+    }
   }
   showTrainRoute(points, stations);
+}
+
+function nearestStation(point) {
+  if (!point || point.lat == null || point.lng == null) return null;
+  let best = null;
+  let bestD = Infinity;
+  for (const station of Object.values(STATIONS)) {
+    const d = (station.lat - point.lat) ** 2 + (station.lng - point.lng) ** 2;
+    if (d < bestD) { bestD = d; best = station; }
+  }
+  return best;
 }
 
 function stationFor(item) {
   const place = item.placeObj || (item.place && app.data.byId[item.place]) || (item.id && app.data.byId[item.id]);
   const text = `${item.title} ${item.address || ""} ${item.area || ""} ${place?.area || ""} ${place?.neighbourhood || ""}`.toLowerCase();
-  if (/nomen/.test(text)) return STATIONS.koenji;
+  if (/nomen/.test(text)) return STATIONS.kichijoji;
   if (/koenji/.test(text)) return STATIONS.koenji;
   if (/ebisu/.test(text)) return STATIONS.ebisu;
   if (/nakano/.test(text)) return STATIONS.nakano;
