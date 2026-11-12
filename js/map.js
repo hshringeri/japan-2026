@@ -75,9 +75,9 @@ export function showTrainRoute(points, stations = []) {
     if (station.lat == null || station.lng == null) continue;
     L.circleMarker([station.lat, station.lng], { radius: 6, color: "#fff", weight: 2, fillColor: "#d2381f", fillOpacity: 1 }).addTo(trainLayer);
     L.circleMarker([station.lat, station.lng], { radius: 2.5, color: "#d2381f", weight: 0, fillColor: "#d2381f", fillOpacity: 1 }).addTo(trainLayer);
-    L.tooltip({ permanent: true, direction: "top", offset: [0, -8], className: "station-label" })
+    L.tooltip({ permanent: true, direction: "top", offset: [0, -8], className: "station-label", interactive: true })
       .setLatLng([station.lat, station.lng])
-      .setContent(station.name)
+      .setContent(`<a href="${esc(mapsUrl(station))}" target="_blank" rel="noopener">${esc(station.name)}</a>`)
       .addTo(trainLayer);
   }
   map.fitBounds(L.latLngBounds(pts).pad(0.2), { paddingTopLeft: [20, 20], paddingBottomRight: [20, 20] });
